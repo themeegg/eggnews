@@ -1,0 +1,50 @@
+/*--------------------------------------------------------------
+TOP HEADER CSS
+--------------------------------------------------------------*/
+
+.top-header-section {
+  background: rgba(0, 0, 0, 0.07) none repeat scroll 0 0;
+  font-size: 12px;
+  padding: 8px 0;
+  .date-section {
+    float: left;
+    margin-right: 15px;
+    color: #666363;
+    &::before {
+      content: "\f017";
+      display: inline-block;
+      font-family: FontAwesome;
+      margin-right: 8px;
+    }
+  }
+}
+
+.top-menu ul, #footer-navigation ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+
+.top-menu ul li, #footer-navigation ul li {
+  border-left: 2px solid rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  line-height: 12px;
+  margin-right: 10px;
+  padding: 0 0 0 10px;
+}
+
+.top-menu ul li a, #footer-navigation ul li a {
+  color: #333;
+}
+
+.top-menu ul li a:hover, #footer-navigation ul li a:hover {
+  color: $prime_color;
+}
+
+#top-header-navigation {
+  float: left;
+}
+
+#footer-navigation ul li ul {
+  display: none;
+}

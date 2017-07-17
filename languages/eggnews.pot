@@ -1,0 +1,734 @@
+# Copyright (C) 2017 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: themeeggofficial@gmail.com\n"
+"POT-Creation-Date: 2017-07-17 01:42:20+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
+
+#: 404.php:21
+msgid "404"
+msgstr ""
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:21
+msgid "error"
+msgstr ""
+
+#: 404.php:23
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the "
+"links below or a search?"
+msgstr ""
+
+#: comments.php:42 comments.php:63
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:45 comments.php:66
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:46 comments.php:67
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:80
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:23 inc/admin/assets/panels/design-panel.php:313
+msgid "2017 eggnews"
+msgstr ""
+
+#: footer.php:27
+msgid "Eggnews by %1$s."
+msgstr ""
+
+#: functions.php:66
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:67
+msgid "Top Header Menu"
+msgstr ""
+
+#: functions.php:68
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/admin/assets/eggnews-custom-classes.php:23
+msgid "&mdash; Select Category &mdash;"
+msgstr ""
+
+#: inc/admin/assets/eggnews-sanitize.php:33
+msgid "Fullwidth Layout"
+msgstr ""
+
+#: inc/admin/assets/eggnews-sanitize.php:34
+#: inc/admin/assets/panels/general-panel.php:88
+msgid "Boxed Layout"
+msgstr ""
+
+#: inc/admin/assets/eggnews-sanitize.php:46
+#: inc/admin/assets/panels/design-panel.php:179
+#: inc/admin/assets/panels/header-panel.php:59
+#: inc/admin/assets/panels/header-panel.php:86
+#: inc/admin/assets/panels/header-panel.php:124
+#: inc/admin/assets/panels/header-panel.php:164
+msgid "Enable"
+msgstr ""
+
+#: inc/admin/assets/eggnews-sanitize.php:47
+#: inc/admin/assets/panels/design-panel.php:180
+#: inc/admin/assets/panels/header-panel.php:60
+#: inc/admin/assets/panels/header-panel.php:87
+#: inc/admin/assets/panels/header-panel.php:125
+#: inc/admin/assets/panels/header-panel.php:165
+msgid "Disable"
+msgstr ""
+
+#: inc/admin/assets/eggnews-sanitize.php:59
+#: inc/admin/assets/panels/design-panel.php:153
+msgid "Show"
+msgstr ""
+
+#: inc/admin/assets/eggnews-sanitize.php:60
+#: inc/admin/assets/panels/design-panel.php:154
+msgid "Hide"
+msgstr ""
+
+#: inc/admin/assets/eggnews-sanitize.php:72
+#: inc/admin/assets/panels/design-panel.php:85
+msgid "Classic Layout"
+msgstr ""
+
+#: inc/admin/assets/eggnews-sanitize.php:73
+#: inc/admin/assets/panels/design-panel.php:86
+msgid "Columns Layout"
+msgstr ""
+
+#: inc/admin/assets/eggnews-sanitize.php:100
+#: inc/admin/assets/panels/design-panel.php:301
+msgid "One Column"
+msgstr ""
+
+#: inc/admin/assets/eggnews-sanitize.php:101
+#: inc/admin/assets/panels/design-panel.php:302
+msgid "Two Columns"
+msgstr ""
+
+#: inc/admin/assets/eggnews-sanitize.php:102
+#: inc/admin/assets/panels/design-panel.php:303
+msgid "Three Columns"
+msgstr ""
+
+#: inc/admin/assets/eggnews-sanitize.php:103
+#: inc/admin/assets/panels/design-panel.php:304
+msgid "Four Columns"
+msgstr ""
+
+#: inc/admin/assets/eggnews-sanitize.php:115
+#: inc/admin/assets/panels/design-panel.php:223
+msgid "by Category"
+msgstr ""
+
+#: inc/admin/assets/eggnews-sanitize.php:116
+#: inc/admin/assets/panels/design-panel.php:224
+msgid "by Tags"
+msgstr ""
+
+#: inc/admin/assets/metaboxes/eggnews-post-metabox.php:14
+#: inc/admin/assets/metaboxes/eggnews-post-metabox.php:22
+msgid "Sidebar Position"
+msgstr ""
+
+#: inc/admin/assets/metaboxes/eggnews-post-metabox.php:37
+msgid "Default Layout"
+msgstr ""
+
+#: inc/admin/assets/metaboxes/eggnews-post-metabox.php:42
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/admin/assets/metaboxes/eggnews-post-metabox.php:47
+#: inc/widgets/eggnews-widgets-area.php:23
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/admin/assets/metaboxes/eggnews-post-metabox.php:52
+msgid "No Sidebar Full Width"
+msgstr ""
+
+#: inc/admin/assets/metaboxes/eggnews-post-metabox.php:57
+msgid "No Sidebar Content Centered"
+msgstr ""
+
+#: inc/admin/assets/panels/additional-panel.php:23
+msgid "Additional Settings"
+msgstr ""
+
+#: inc/admin/assets/panels/additional-panel.php:31
+msgid "Categories Color"
+msgstr ""
+
+#: inc/admin/assets/panels/additional-panel.php:57
+msgid " %s"
+msgstr ""
+
+#: inc/admin/assets/panels/additional-panel.php:70
+msgid "Social Media"
+msgstr ""
+
+#: inc/admin/assets/panels/additional-panel.php:91
+msgid "Facebook"
+msgstr ""
+
+#: inc/admin/assets/panels/additional-panel.php:92
+msgid "Your Facebook Account URL"
+msgstr ""
+
+#: inc/admin/assets/panels/additional-panel.php:112
+msgid "Twitter"
+msgstr ""
+
+#: inc/admin/assets/panels/additional-panel.php:113
+msgid "Your Twitter Account URL"
+msgstr ""
+
+#: inc/admin/assets/panels/additional-panel.php:133
+msgid "Google Plus"
+msgstr ""
+
+#: inc/admin/assets/panels/additional-panel.php:134
+msgid "Your Google Plus Account URL"
+msgstr ""
+
+#: inc/admin/assets/panels/additional-panel.php:154
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/admin/assets/panels/additional-panel.php:155
+msgid "Your LinkedIn Account URL"
+msgstr ""
+
+#: inc/admin/assets/panels/additional-panel.php:175
+msgid "YouTube"
+msgstr ""
+
+#: inc/admin/assets/panels/additional-panel.php:176
+msgid "Your YouTube Account URL"
+msgstr ""
+
+#: inc/admin/assets/panels/additional-panel.php:196
+msgid "Vimeo"
+msgstr ""
+
+#: inc/admin/assets/panels/additional-panel.php:197
+msgid "Your Vimeo Account URL"
+msgstr ""
+
+#: inc/admin/assets/panels/additional-panel.php:217
+msgid "Pinterest"
+msgstr ""
+
+#: inc/admin/assets/panels/additional-panel.php:218
+msgid "Your Pinterest Account URL"
+msgstr ""
+
+#: inc/admin/assets/panels/additional-panel.php:238
+msgid "Instagram"
+msgstr ""
+
+#: inc/admin/assets/panels/additional-panel.php:239
+msgid "Your Instagram Account URL"
+msgstr ""
+
+#: inc/admin/assets/panels/design-panel.php:23
+msgid "Design Settings"
+msgstr ""
+
+#: inc/admin/assets/panels/design-panel.php:34
+msgid "Archive Settings"
+msgstr ""
+
+#: inc/admin/assets/panels/design-panel.php:55
+#: inc/admin/assets/panels/design-panel.php:120
+#: inc/admin/assets/panels/design-panel.php:258
+msgid "Available Sidebars"
+msgstr ""
+
+#: inc/admin/assets/panels/design-panel.php:56
+msgid "Select sidebar for whole site archives, categories, search page etc."
+msgstr ""
+
+#: inc/admin/assets/panels/design-panel.php:81
+msgid "Archive Page Layout"
+msgstr ""
+
+#: inc/admin/assets/panels/design-panel.php:82
+msgid "Choose available layout for all archive pages."
+msgstr ""
+
+#: inc/admin/assets/panels/design-panel.php:99
+msgid "Post Settings"
+msgstr ""
+
+#: inc/admin/assets/panels/design-panel.php:121
+msgid "Select sidebar for whole single post page."
+msgstr ""
+
+#: inc/admin/assets/panels/design-panel.php:148
+msgid "Author Option"
+msgstr ""
+
+#: inc/admin/assets/panels/design-panel.php:149
+msgid "Enable/disable author information at single post page."
+msgstr ""
+
+#: inc/admin/assets/panels/design-panel.php:174
+msgid "Related Articles Option"
+msgstr ""
+
+#: inc/admin/assets/panels/design-panel.php:175
+msgid "Enable/disable related articles section at single post page."
+msgstr ""
+
+#: inc/admin/assets/panels/design-panel.php:190 inc/eggnews-functions.php:488
+msgid "Related Articles"
+msgstr ""
+
+#: inc/admin/assets/panels/design-panel.php:200
+msgid "Section Title"
+msgstr ""
+
+#: inc/admin/assets/panels/design-panel.php:219
+msgid "Types of Related Articles"
+msgstr ""
+
+#: inc/admin/assets/panels/design-panel.php:220
+msgid "Option to display related articles from category/tags."
+msgstr ""
+
+#: inc/admin/assets/panels/design-panel.php:237
+msgid "Page Settings"
+msgstr ""
+
+#: inc/admin/assets/panels/design-panel.php:259
+msgid "Select sidebar for whole single page."
+msgstr ""
+
+#: inc/admin/assets/panels/design-panel.php:279
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/admin/assets/panels/design-panel.php:297
+msgid "Footer Widget Area"
+msgstr ""
+
+#: inc/admin/assets/panels/design-panel.php:298
+msgid "Choose option to display number of columns in footer area."
+msgstr ""
+
+#: inc/admin/assets/panels/design-panel.php:323
+msgid "Copyright Info"
+msgstr ""
+
+#: inc/admin/assets/panels/general-panel.php:32
+msgid "General Settings"
+msgstr ""
+
+#: inc/admin/assets/panels/general-panel.php:50
+msgid "Theme color"
+msgstr ""
+
+#: inc/admin/assets/panels/general-panel.php:65
+msgid "Website Layout"
+msgstr ""
+
+#: inc/admin/assets/panels/general-panel.php:66
+msgid "Choose a site to display your website more effectively."
+msgstr ""
+
+#: inc/admin/assets/panels/general-panel.php:84
+msgid "Site Layout"
+msgstr ""
+
+#: inc/admin/assets/panels/general-panel.php:87
+msgid "FullWidth Layout"
+msgstr ""
+
+#: inc/admin/assets/panels/header-panel.php:23
+msgid "Header Settings"
+msgstr ""
+
+#: inc/admin/assets/panels/header-panel.php:33
+msgid "Top Header Section"
+msgstr ""
+
+#: inc/admin/assets/panels/header-panel.php:54
+msgid "Current Date Option"
+msgstr ""
+
+#: inc/admin/assets/panels/header-panel.php:55
+msgid "Enable/disable current date from top header."
+msgstr ""
+
+#: inc/admin/assets/panels/header-panel.php:81
+msgid "Social Icon Option"
+msgstr ""
+
+#: inc/admin/assets/panels/header-panel.php:82
+msgid "Enable/disable social icons from top header (right)."
+msgstr ""
+
+#: inc/admin/assets/panels/header-panel.php:99
+msgid "Sticky Menu"
+msgstr ""
+
+#: inc/admin/assets/panels/header-panel.php:119
+msgid "Menu Sticky"
+msgstr ""
+
+#: inc/admin/assets/panels/header-panel.php:120
+msgid "Enable/disable option for Menu Sticky"
+msgstr ""
+
+#: inc/admin/assets/panels/header-panel.php:138
+msgid "News Ticker Section"
+msgstr ""
+
+#: inc/admin/assets/panels/header-panel.php:159
+msgid "News Ticker Option"
+msgstr ""
+
+#: inc/admin/assets/panels/header-panel.php:160
+msgid "Enable/disable news ticker at header."
+msgstr ""
+
+#: inc/admin/assets/panels/header-panel.php:175 inc/eggnews-functions.php:103
+msgid "Latest"
+msgstr ""
+
+#: inc/admin/assets/panels/header-panel.php:185
+msgid "News Ticker Caption"
+msgstr ""
+
+#: inc/eggnews-functions.php:28 inc/widgets/eggnews-widget-fields.php:168
+msgid "Upload"
+msgstr ""
+
+#: inc/eggnews-functions.php:29 inc/widgets/eggnews-widget-fields.php:170
+#: inc/widgets/eggnews-widget-fields.php:179
+msgid "Remove"
+msgstr ""
+
+#: inc/eggnews-functions.php:155
+msgid "Select Category"
+msgstr ""
+
+#: inc/eggnews-functions.php:166
+msgid "Select No. of Columns"
+msgstr ""
+
+#: inc/eggnews-functions.php:167
+msgid "2 Columns"
+msgstr ""
+
+#: inc/eggnews-functions.php:168
+msgid "3 Columns"
+msgstr ""
+
+#: inc/eggnews-functions.php:169
+msgid "4 Columns"
+msgstr ""
+
+#: inc/template-tags.php:51
+msgid "Comment(0)"
+msgstr ""
+
+#: inc/template-tags.php:51
+msgid "Comment(1)"
+msgstr ""
+
+#: inc/template-tags.php:51
+msgid "Comments(%)"
+msgstr ""
+
+#: inc/template-tags.php:65
+#. translators: used between list items, there is a space after the comma
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:67
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:74 template-parts/content-page.php:35
+#. translators: %s: Name of current post
+msgid "Edit %s"
+msgstr ""
+
+#: inc/widgets/eggnews-ads-banner.php:26
+msgid "You can place banner as advertisement with links."
+msgstr ""
+
+#: inc/widgets/eggnews-ads-banner.php:28
+msgid "Eggnews: Ads Banner"
+msgstr ""
+
+#: inc/widgets/eggnews-ads-banner.php:38
+msgid "Leaderboard (728x90)"
+msgstr ""
+
+#: inc/widgets/eggnews-ads-banner.php:39
+msgid "Large (300x250)"
+msgstr ""
+
+#: inc/widgets/eggnews-ads-banner.php:45
+msgid "Title"
+msgstr ""
+
+#: inc/widgets/eggnews-ads-banner.php:51
+msgid "Ads Size"
+msgstr ""
+
+#: inc/widgets/eggnews-ads-banner.php:59
+msgid "Add Image"
+msgstr ""
+
+#: inc/widgets/eggnews-ads-banner.php:65
+msgid "Add Url"
+msgstr ""
+
+#: inc/widgets/eggnews-ads-banner.php:71
+msgid "Open in new tab"
+msgstr ""
+
+#: inc/widgets/eggnews-ads-banner.php:77
+msgid "Rel Attribute for URL Link"
+msgstr ""
+
+#: inc/widgets/eggnews-block-column.php:26
+msgid "Display block posts as Column layout."
+msgstr ""
+
+#: inc/widgets/eggnews-block-column.php:28
+msgid "Eggnews: Block Posts (Column)"
+msgstr ""
+
+#: inc/widgets/eggnews-block-column.php:43
+#: inc/widgets/eggnews-block-grid.php:44
+#: inc/widgets/eggnews-block-layout.php:42
+#: inc/widgets/eggnews-block-list.php:42
+msgid "Block Title"
+msgstr ""
+
+#: inc/widgets/eggnews-block-column.php:49
+#: inc/widgets/eggnews-block-grid.php:50
+msgid "Category for Block Post"
+msgstr ""
+
+#: inc/widgets/eggnews-block-column.php:57
+#: inc/widgets/eggnews-block-grid.php:66
+#: inc/widgets/eggnews-block-layout.php:57
+#: inc/widgets/eggnews-block-list.php:56 inc/widgets/eggnews-posts-list.php:52
+msgid "No. of Posts"
+msgstr ""
+
+#: inc/widgets/eggnews-block-grid.php:26
+msgid "Display block posts in grid layout."
+msgstr ""
+
+#: inc/widgets/eggnews-block-grid.php:28
+msgid "Eggnews: Block Posts (Grid)"
+msgstr ""
+
+#: inc/widgets/eggnews-block-grid.php:58
+msgid "No. of Columns"
+msgstr ""
+
+#: inc/widgets/eggnews-block-layout.php:26
+msgid "Display posts in block layout"
+msgstr ""
+
+#: inc/widgets/eggnews-block-layout.php:28
+msgid "Eggnews: Block Layout"
+msgstr ""
+
+#: inc/widgets/eggnews-block-layout.php:48
+#: inc/widgets/eggnews-block-list.php:48
+msgid "Category for Block Layout"
+msgstr ""
+
+#: inc/widgets/eggnews-block-list.php:26
+msgid "Display posts in block list layout"
+msgstr ""
+
+#: inc/widgets/eggnews-block-list.php:28
+msgid "Eggnews: Block Posts (List)"
+msgstr ""
+
+#: inc/widgets/eggnews-featured-slider.php:26
+msgid "Display slider with featured posts."
+msgstr ""
+
+#: inc/widgets/eggnews-featured-slider.php:28
+msgid "Eggnews: Featured Slider"
+msgstr ""
+
+#: inc/widgets/eggnews-featured-slider.php:43
+msgid "Slider Section"
+msgstr ""
+
+#: inc/widgets/eggnews-featured-slider.php:49
+msgid "Category for Slider"
+msgstr ""
+
+#: inc/widgets/eggnews-featured-slider.php:57
+msgid "No. of slides"
+msgstr ""
+
+#: inc/widgets/eggnews-featured-slider.php:64
+msgid "Featured Posts Section"
+msgstr ""
+
+#: inc/widgets/eggnews-featured-slider.php:70
+msgid "Category for Featured Posts"
+msgstr ""
+
+#: inc/widgets/eggnews-posts-list.php:26
+msgid "Display latest or random posts in list view."
+msgstr ""
+
+#: inc/widgets/eggnews-posts-list.php:28
+msgid "Eggnews: Posts Lists"
+msgstr ""
+
+#: inc/widgets/eggnews-posts-list.php:38
+msgid "Latest Posts"
+msgstr ""
+
+#: inc/widgets/eggnews-posts-list.php:39
+msgid "Random Posts"
+msgstr ""
+
+#: inc/widgets/eggnews-posts-list.php:46
+msgid "Widget Title"
+msgstr ""
+
+#: inc/widgets/eggnews-posts-list.php:59
+msgid "Posts Type"
+msgstr ""
+
+#: inc/widgets/eggnews-widget-fields.php:165
+msgid "No file chosen"
+msgstr ""
+
+#: inc/widgets/eggnews-widget-fields.php:173
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: inc/widgets/eggnews-widget-fields.php:182
+msgid "Upload image"
+msgstr ""
+
+#: inc/widgets/eggnews-widget-fields.php:193
+msgid "View File"
+msgstr ""
+
+#: inc/widgets/eggnews-widgets-area.php:13
+msgid "Sidebar"
+msgstr ""
+
+#: inc/widgets/eggnews-widgets-area.php:33
+msgid "Header Ads"
+msgstr ""
+
+#: inc/widgets/eggnews-widgets-area.php:43
+msgid "HomePage Slider Area"
+msgstr ""
+
+#: inc/widgets/eggnews-widgets-area.php:53
+msgid "HomePage Content Area"
+msgstr ""
+
+#: inc/widgets/eggnews-widgets-area.php:63
+msgid "HomePage Sidebar"
+msgstr ""
+
+#: inc/widgets/eggnews-widgets-area.php:73
+msgid "Footer 1st Column"
+msgstr ""
+
+#: inc/widgets/eggnews-widgets-area.php:83
+msgid "Footer 2nd Column"
+msgstr ""
+
+#: inc/widgets/eggnews-widgets-area.php:93
+msgid "Footer 3rd Column"
+msgstr ""
+
+#: inc/widgets/eggnews-widgets-area.php:103
+msgid "Footer 4th Column"
+msgstr ""
+
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:16
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:27
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:33
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:24 template-parts/content-single.php:37
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-single.php:32
+#. translators: %s: Name of current post.
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: comments.php:33
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template-tags.php:30
+msgctxt "post date"
+msgid "%s"
+msgstr ""
+
+#: inc/template-tags.php:35
+msgctxt "post author"
+msgid "%s"
+msgstr ""

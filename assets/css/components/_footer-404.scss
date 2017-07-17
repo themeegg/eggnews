@@ -1,0 +1,33 @@
+/*--------------------------------------------------------------
+Error 404 css
+--------------------------------------------------------------*/
+
+.error-404.not-found {
+  border: 1px solid #e1e1e1;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.error404 .page-title {
+  background: $prime_color none repeat scroll 0 0;
+  color: #fff;
+  font-size: 20px;
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.error-num {
+  font-size: 114px;
+  font-weight: 700;
+  text-align: center;
+  > span {
+    font-size: 34px;
+    text-transform: uppercase;
+  }
+}
+
+.error404 .page-content {
+  font-size: 14px;
+  text-align: center;
+}
