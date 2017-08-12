@@ -291,4 +291,7 @@ module.exports = function (grunt) {
         'dev',
         'compress'
     ]);
+    grunt.registerTask('watch', [
+        'watch',
+    ]);
 };
