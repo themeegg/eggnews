@@ -19,10 +19,10 @@ get_header(); ?>
 
 			get_template_part( 'template-parts/content', 'single' );
 
-			//post author box
+			// post author box.
 			do_action( 'eggnews_author_box' );
 
-			//related articles
+			// related articles.
 			do_action( 'eggnews_related_articles' );
 
 
