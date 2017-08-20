@@ -1169,7 +1169,7 @@ TICKER CSS
   padding: 0; }
 
 .ticker-caption {
-  background: #3f3f3f none repeat scroll 0 0;
+  background: #408c40;
   color: #fff;
   display: inline-block;
   float: left;
@@ -1181,7 +1181,7 @@ TICKER CSS
   position: relative; }
   .ticker-caption::after {
     border-bottom: 18px solid transparent;
-    border-left: 12px solid #3f3f3f;
+    border-left: 12px solid #408c40;
     border-top: 18px solid transparent;
     content: "";
     position: absolute;
@@ -1242,10 +1242,12 @@ SLIDER CSS
 .teg-slider-section .slide-title a, .featured-post-wrapper .featured-title a, .eggnews_block_grid .post-title a {
   color: #fff;
   font-size: 24px;
-  text-transform: uppercase; }
+  text-shadow: 1px 1px black; }
 
 .teg-slider-section .slide-title a:hover, .featured-post-wrapper .featured-title a:hover, .eggnews_block_grid .post-title a:hover {
-  color: #408c40; }
+  /*color: $primary_color;*/
+  color: #408c40;
+  text-shadow: 1px 1px black; }
 
 .slider-meta-wrapper .post-meta-wrapper > span, .slider-meta-wrapper .post-meta-wrapper > a {
   color: #878787;
@@ -1299,13 +1301,14 @@ SLIDER CSS
   color: #408c40; }
 
 .category-button a {
-  background: #235223 none repeat scroll 0 0;
+  background: #235223;
   color: #fff;
   display: inline-block;
-  margin: 0 10px 2px 0;
-  text-transform: uppercase;
+  margin: 0 5px 2px 0;
+  text-transform: capitalize;
   font-size: 12px;
-  padding: 0 10px; }
+  padding: 0 10px;
+  border-radius: 3px; }
   .category-button a:hover {
     color: #ffffff !important; }
 
@@ -1429,8 +1432,7 @@ Eggnews Grid Block
 
 .grid-posts-block .post-title a, .column-posts-block .post-title a {
   color: #333333;
-  font-size: 18px;
-  text-transform: uppercase; }
+  font-size: 18px; }
 
 .single-post-wrapper .post-meta-wrapper > span, .single-post-wrapper .post-meta-wrapper span > a {
   font-style: normal; }
@@ -1457,8 +1459,7 @@ Eggnews Grid Block
 
 .list-posts-block .single-post-wrapper .post-content-wrapper .post-title a, .column-posts-block .single-post-wrapper.secondary-post .post-content-wrapper .post-title a {
   color: #333;
-  font-size: 15px;
-  text-transform: uppercase; }
+  font-size: 15px; }
 
 .list-posts-block .single-post-wrapper .post-content-wrapper .post-title, .column-posts-block .single-post-wrapper.secondary-post .post-content-wrapper .post-title {
   margin: 0;
@@ -1762,7 +1763,8 @@ footer#colophon {
   width: 23%; }
 
 #top-footer .block-header, #top-footer .widget .widget-title-wrapper, #top-footer .block-header .block-title, #top-footer .widget .widget-title {
-  background: none; }
+  background: none;
+  border-bottom: none; }
 
 #bottom-footer {
   background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;

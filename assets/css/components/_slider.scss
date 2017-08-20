@@ -31,13 +31,15 @@ SLIDER CSS
 }
 
 .teg-slider-section .slide-title a, .featured-post-wrapper .featured-title a, .eggnews_block_grid .post-title a {
-  color: #fff;
+  color: $white_color;
   font-size: 24px;
-  text-transform: uppercase;
+  text-shadow: 1px 1px darken($primary_color, 50);
 }
 
 .teg-slider-section .slide-title a:hover, .featured-post-wrapper .featured-title a:hover, .eggnews_block_grid .post-title a:hover {
-  color: $primary_color;
+  /*color: $primary_color;*/
+  color:$primary_color;
+  text-shadow: 1px 1px darken($primary_color, 50);
 }
 
 .slider-meta-wrapper .post-meta-wrapper > {
@@ -116,13 +118,15 @@ SLIDER CSS
 }
 
 .category-button a {
-  background: $secondary_color none repeat scroll 0 0;
+  background: $secondary_color;
   color: #fff;
   display: inline-block;
-  margin: 0 10px 2px 0;
-  text-transform: uppercase;
+  margin: 0 5px 2px 0;
+  text-transform: capitalize;
   font-size: 12px;
   padding: 0 10px;
+  border-radius: 3px;
+
   &:hover {
     color: #ffffff !important;
   }
