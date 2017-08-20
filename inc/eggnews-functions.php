@@ -103,8 +103,7 @@ if( ! function_exists( 'eggnews_news_ticker_hook' ) ):
 			$eggnews_ticker_caption = get_theme_mod( 'eggnews_ticker_caption', __( 'Latest', 'eggnews' ) );
 ?>
 			<div class="eggnews-ticker-wrapper">
-				<div class="teg-container">
-					<span class="ticker-caption"><?php echo esc_html( $eggnews_ticker_caption ); ?></span>
+					<span class="ticker-captionss"><?php echo esc_html( $eggnews_ticker_caption ); ?></span>
 					<div class="ticker-content-wrapper">
 						<?php
 							$ticker_args = eggnews_query_args( $cat_id = null, 5 );
@@ -121,7 +120,6 @@ if( ! function_exists( 'eggnews_news_ticker_hook' ) ):
 							}
 						?>
 					</div><!-- .ticker-content-wrapper -->
-				</div><!-- .teg-container -->
 			</div><!-- .eggnews-ticker-wrapper-->
 <?php
 		}

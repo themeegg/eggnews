@@ -32,6 +32,7 @@
 				<div class="teg-container">
 					<div class="top-left-header">
 						<?php do_action( 'eggnews_current_date' ); ?>
+						<?php do_action( 'eggnews_news_ticker' ); ?>
 						<nav id="top-header-navigation" class="top-navigation" role="navigation">
 							<?php wp_nav_menu( array( 'theme_location' => 'top-header', 'container_class' => 'top-menu', 'fallback_cb' => false, 'items_wrap' => '<ul>%3$s</ul>' ) ); ?>
 						</nav>
@@ -97,8 +98,6 @@
 					</div><!-- .header-search-wrapper -->
 				</div><!-- .teg-container -->
 			</div><!-- #teg-menu-wrap -->
-
-			<?php do_action( 'eggnews_news_ticker' ); ?>
 			
 	</header><!-- #masthead -->
 	<?php do_action( 'eggnews_after_header' ); ?>
