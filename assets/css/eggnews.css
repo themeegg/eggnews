@@ -236,7 +236,7 @@ button, input, select, textarea {
 .navigation.pagination {
   padding: 0 0 30px; }
 
-.navigation .nav-links a, .navigation .nav-links span.current, .bttn, button {
+.navigation .nav-links a, .navigation .nav-links span.current, .navigation .nav-links span.dots, .bttn, button {
   background: #408c40;
   color: #ffffff;
   cursor: pointer;
@@ -251,7 +251,8 @@ button, input, select, textarea {
   text-shadow: none;
   border: 1px solid #408c40; }
 
-.navigation .nav-links span.current {
+.navigation .nav-links span.current,
+.navigation .nav-links span.dots {
   color: inherit;
   background: inherit;
   padding: 10px 12px; }
