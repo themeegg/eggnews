@@ -57,7 +57,7 @@ BOTTOM HEADER CSS
         color: $primary_color;
       }
     }
-    &.sub-menu, &.children {
+    &.sub-menu, &.children {;
       background:$nav_background_color;
       left: 0;
       min-width: 200px;
@@ -81,6 +81,7 @@ BOTTOM HEADER CSS
       }
     }
     &.sub-menu li, &.children li {
+      text-transform: capitalize;
       float: none;
       display: block;
       border-bottom: 1px solid #e1e1e1;

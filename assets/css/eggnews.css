@@ -1069,6 +1069,7 @@ BOTTOM HEADER CSS
     visibility: visible;
     top: 100%; }
   #site-navigation ul.sub-menu li, #site-navigation ul.children li {
+    text-transform: capitalize;
     float: none;
     display: block;
     border-bottom: 1px solid #e1e1e1; }
