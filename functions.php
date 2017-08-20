@@ -97,6 +97,12 @@ function eggnews_setup() {
 		'default-color' => 'ffffff',
 		'default-image' => '',
 	) ) );
+
+	/*
+	 * This theme styles the visual editor to resemble the theme style,
+	 * specifically font, colors, and column width.
+ 	 */
+	add_editor_style( get_template_directory_uri() .'/assets/css/editor-style.css');
 }
 endif;
 add_action( 'after_setup_theme', 'eggnews_setup' );
