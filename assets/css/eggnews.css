@@ -236,7 +236,7 @@ button, input, select, textarea {
 .navigation.pagination {
   padding: 0 0 30px; }
 
-.navigation .nav-links a, .bttn, button {
+.navigation .nav-links a, .navigation .nav-links span.current, .bttn, button {
   background: #408c40;
   color: #ffffff;
   cursor: pointer;
