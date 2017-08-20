@@ -99,7 +99,7 @@ add_action( 'eggnews_news_ticker', 'eggnews_news_ticker_hook' );
 if( ! function_exists( 'eggnews_news_ticker_hook' ) ):
 	function eggnews_news_ticker_hook() {
 		$eggnews_ticker_option = get_theme_mod( 'eggnews_ticker_option', 'enable' );
-		if( $eggnews_ticker_option != 'disable' && is_front_page() ) {
+		if( $eggnews_ticker_option != 'disable') {
 			$eggnews_ticker_caption = get_theme_mod( 'eggnews_ticker_caption', __( 'Latest', 'eggnews' ) );
 ?>
 			<div class="eggnews-ticker-wrapper">
