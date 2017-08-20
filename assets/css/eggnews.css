@@ -251,6 +251,10 @@ button, input, select, textarea {
   text-shadow: none;
   border: 1px solid #408c40; }
 
+.navigation .nav-links span.current {
+  color: inherit;
+  background: inherit; }
+
 input[type="button"], input[type="reset"], input[type="submit"] {
   background: #408c40;
   color: #ffffff;
