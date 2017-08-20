@@ -14,7 +14,10 @@ button, input, select, textarea {
   padding:0 0 30px;
 }
 
-.navigation .nav-links a, .navigation .nav-links span.current,.navigation .nav-links span.dots, .bttn, button {
+.navigation .nav-links a,
+.navigation .nav-links span.current,
+.navigation .nav-links span.dots,
+.bttn, button {
   background: $primary_color;
   color: #ffffff;
   cursor: pointer;
