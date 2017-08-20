@@ -7,11 +7,12 @@ BOTTOM HEADER CSS
 }
 
 .bottom-header-wrapper {
-  background: rgba(0, 0, 0, 0.05) none repeat scroll 0 0;
+  background: $nav_background_color;
+
 }
 
 .is-sticky .bottom-header-wrapper {
-  background: #f1f1f1 none repeat scroll 0 0;
+  background: $nav_sticky_background_color;
   z-index: 999;
 }
 
@@ -45,7 +46,7 @@ BOTTOM HEADER CSS
       a {
         margin: 0 1px;
         padding: 0 15px;
-        color: #5d5c5c;
+        color: $nav_menu_color;
         font-weight: 600;
         display: block;
         &:hover {
