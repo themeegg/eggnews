@@ -123,15 +123,16 @@ module.exports = function (grunt) {
                     '<%= dirs.css %>/**/*.scss'
 
                 ],
-                tasks: ['sass', 'rtlcss', 'cssmin', 'concat']
+                // tasks: ['sass', 'rtlcss', 'cssmin', 'concat']
+                tasks: ['sass']
             },
-            js: {
+            /*js: {
                 files: [
-                    '<%= dirs.js %>/*js',
-                    '!<%= dirs.js %>/*.min.js'
+                    '<%= dirs.js %>/!*js',
+                    '!<%= dirs.js %>/!*.min.js'
                 ],
                 tasks: ['jshint', 'uglify']
-            }
+            }*/
         },
 
         // Generate POT files.

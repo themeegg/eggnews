@@ -15,6 +15,7 @@
 		</div><!--.teg-container-->
 	</div><!-- #content -->
 
+</div><!-- #page -->
 	<footer id="colophon" class="site-footer" role="contentinfo">
 			<?php get_sidebar( 'footer' ); ?>
 			<div id="bottom-footer" class="sub-footer-wrapper clearfix">
@@ -34,7 +35,7 @@
 			</div><!-- .sub-footer-wrapper -->
 	</footer><!-- #colophon -->
 	<div id="teg-scrollup" class="animated arrow-hide"><i class="fa fa-chevron-up"></i></div>
-</div><!-- #page -->
+
 
 <?php wp_footer(); ?>
 
