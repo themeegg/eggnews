@@ -125,7 +125,7 @@ module.exports = function (grunt) {
                 ],
                 // tasks: ['sass', 'rtlcss', 'cssmin', 'concat']
                 tasks: ['sass']
-            },
+            }
             /*js: {
                 files: [
                     '<%= dirs.js %>/!*js',
