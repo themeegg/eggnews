@@ -1039,12 +1039,11 @@ BOTTOM HEADER CSS
     line-height: 38px;
     margin: 0 1px;
     position: relative;
-    text-transform: capitalize; }
+    text-transform: uppercase; }
     #site-navigation ul li a {
       margin: 0 1px;
       padding: 0 15px;
       color: #eee;
-      font-weight: 600;
       display: block; }
       #site-navigation ul li a:hover {
         color: #408c40; }
@@ -1064,7 +1063,8 @@ BOTTOM HEADER CSS
     -moz-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
-    transition: all 0.5s ease; }
+    transition: all 0.5s ease;
+    text-transform: capitalize; }
   #site-navigation ul li:hover > ul.sub-menu, #site-navigation ul li:hover > ul.children {
     opacity: 1;
     visibility: visible;
