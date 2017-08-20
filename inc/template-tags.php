@@ -27,12 +27,14 @@ function eggnews_posted_on() {
 	);
 
 	$posted_on = sprintf(
-		esc_html_x( '%s', 'post date', 'eggnews' ),
+	/* translators: %s: post date */
+		__( '<span class="screen-reader-text">Posted on</span> %s', 'eggnews' ),
 		'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
 	);
 
 	$byline = sprintf(
-		esc_html_x( '%s', 'post author', 'eggnews' ),
+	/* translators: %s: post author */
+		__( '<span class="screen-reader-text">Author</span> %s', 'eggnews' ),
 		'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
 	);
 
