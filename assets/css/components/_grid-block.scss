@@ -50,6 +50,7 @@ Eggnews Grid Block
 .block-header, .widget .widget-title-wrapper, .related-articles-wrapper .widget-title-wrapper {
   background: #f1f1f1 none repeat scroll 0 0;
   border-left: 2px solid $primary_color;
+  border-bottom: 2px solid $primary_color;
   line-height: 18px;
   margin-bottom: 20px;
   min-height: 23px;
@@ -57,7 +58,9 @@ Eggnews Grid Block
 }
 
 .block-header .block-title, .widget .widget-title, .related-articles-wrapper .related-title {
-  background: #fff none repeat scroll 0 0;
+  background:$primary_color;
+  color:#fff;
+  line-height:1.8em;
   display: inline-block;
   font-size: 18px;
   margin: 0;
@@ -66,11 +69,11 @@ Eggnews Grid Block
 }
 
 .block-header .block-title a, .widget .widget-title a, .related-articles-wrapper .related-title a {
-  color: #333;
+  color: #fff;
 }
 
 .block-header .block-title a:hover, .widget .widget-title a:hover, .related-articles-wrapper .related-title a:hover {
-  color: $primary_color;
+  color: #eee;
 }
 
 .grid-posts-block .post-content-wrapper, .column-posts-block .post-content-wrapper {
