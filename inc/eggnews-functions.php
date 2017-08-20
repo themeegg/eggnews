@@ -53,7 +53,7 @@ function eggnews_scripts() {
 	wp_enqueue_style( 'eggnews-style-1', get_template_directory_uri().'/assets/css/eggnews.css', array(), esc_attr( $eggnews_version ) );
 
 	wp_enqueue_style( 'eggnews-style', get_stylesheet_uri(), array(), esc_attr( $eggnews_version ) );
-    
+
     wp_enqueue_style( 'eggnews-responsive', get_template_directory_uri().'/assets/css/eggnews-responsive.css', array(), esc_attr( $eggnews_version ) );
 
 	wp_enqueue_script( 'jquery-bxslider', get_template_directory_uri() . '/assets/lib/bxslider/jquery.bxslider.min.js', array( 'jquery' ), '4.1.2', true );
@@ -61,7 +61,7 @@ function eggnews_scripts() {
 	$menu_sticky_option = get_theme_mod( 'eggnews_sticky_option', 'enable' );
 	if ( $menu_sticky_option != 'disable' ) {
           wp_enqueue_script( 'jquery-sticky', get_template_directory_uri(). '/assets/lib/sticky/jquery.sticky.js', array( 'jquery' ), '20150416', true );
-    
+
           wp_enqueue_script( 'eggnews-sticky-menu-setting', get_template_directory_uri(). '/assets/lib/sticky/sticky-setting.js', array( 'jquery-sticky' ), '20150309', true );
     }
 
@@ -113,7 +113,7 @@ if( ! function_exists( 'eggnews_news_ticker_hook' ) ):
 								echo '<ul id="teg-newsTicker" class="cS-hidden">';
 								while( $ticker_query->have_posts() ) {
 									$ticker_query->the_post();
-						?>			
+						?>
 									<li><div class="news-post"><a href="<?php the_permalink(); ?>"><?php the_title();?></a></div></li>
 						<?php
 								}
@@ -131,7 +131,7 @@ endif;
 /*------------------------------------------------------------------------------------------------*/
 /**
  * Define categories lists in array
- * 
+ *
  * @since 1.2.3
  */
 if( ! function_exists( 'eggnews_category_array' ) ) :
@@ -171,7 +171,7 @@ $eggnews_grid_columns = array(
 
 /*------------------------------------------------------------------------------------------------*/
 /**
- * Custom function for wp_query args 
+ * Custom function for wp_query args
  */
 if( ! function_exists( 'eggnews_query_args' ) ):
 	function eggnews_query_args( $cat_id, $post_count = null ) {
@@ -214,7 +214,7 @@ if( ! function_exists( 'eggnews_block_title' ) ):
 ?>
 		<div class="block-header <?php echo esc_attr( $cat_id_class ); ?>">
 			<h3 class="block-title">
-				<?php 
+				<?php
 					if( !empty( $block_cat_id ) ) {
 				?>
 						<a href="<?php echo esc_url( $cat_link ); ?>"><?php echo esc_html( $teg_widget_title ); ?></a>
@@ -242,14 +242,14 @@ if( ! function_exists( 'eggnews_post_categories_hook' ) ):
 		if( !empty( $categories_list ) ) {
 ?>
 		<div class="post-cat-list">
-			<?php 
+			<?php
 				foreach ( $categories_list as $cat_data ) {
 					$cat_name = $cat_data->name;
 					$cat_id = $cat_data->term_id;
 					$cat_link = get_category_link( $cat_id );
 			?>
 				<span class="category-button teg-cat-<?php echo esc_attr( $cat_id ); ?>"><a href="<?php echo esc_url( $cat_link ); ?>"><?php echo esc_html( $cat_name ); ?></a></span>
-			<?php 
+			<?php
 				}
 			?>
 		</div>
@@ -266,7 +266,7 @@ if( ! function_exists( 'eggnews_post_excerpt' ) ):
     function eggnews_post_excerpt( $content, $word_limit ) {
         $get_content = strip_tags( $content );
         $strip_content = strip_shortcodes( $get_content );
-        $excerpt_words = explode( ' ', $strip_content );    
+        $excerpt_words = explode( ' ', $strip_content );
         return implode( ' ', array_slice( $excerpt_words, 0, $word_limit ) );
     }
 endif;
@@ -288,7 +288,7 @@ if( ! function_exists( 'eggnews_social_icons' ) ):
 
         $social_fb_icon	= 'fa-facebook';
         $social_fb_icon	= apply_filters( 'social_fb_icon', $social_fb_icon );
-        
+
         $social_tw_icon	= 'fa-twitter';
         $social_tw_icon	= apply_filters( 'social_tw_icon', $social_tw_icon );
 
@@ -408,20 +408,20 @@ if( ! function_exists( 'eggnews_sidebar' ) ):
 	    if( is_single() || is_page() ) {
 	        $sidebar_meta_option = get_post_meta( $post->ID, 'eggnews_sidebar_location', true );
 	    }
-	     
+
 	    if( is_home() ) {
 	        $set_id = get_option( 'page_for_posts' );
 			$sidebar_meta_option = get_post_meta( $set_id, 'eggnews_sidebar_location', true );
 	    }
-	    
+
 	    if( empty( $sidebar_meta_option ) || is_archive() || is_search() ) {
 	        $sidebar_meta_option = 'default_sidebar';
 	    }
-	    
+
 	    $eggnews_archive_sidebar = get_theme_mod( 'eggnews_archive_sidebar', 'right_sidebar' );
 	    $eggnews_post_default_sidebar = get_theme_mod( 'eggnews_default_post_sidebar', 'right_sidebar' );
 	    $eggnews_page_default_sidebar = get_theme_mod( 'eggnews_default_page_sidebar', 'right_sidebar' );
-	    
+
 	    if( $sidebar_meta_option == 'default_sidebar' ) {
 	        if( is_single() ) {
 	            if( $eggnews_post_default_sidebar == 'right_sidebar' ) {
@@ -513,7 +513,7 @@ if( ! function_exists( 'eggnews_related_articles_hook' ) ):
 	                    'posts_per_page'           => $related_post_count
 	                );
 
-	                
+
 	                if ( $eggnews_related_type == 'tag' ) {
 	                    $tags = wp_get_post_tags( $post_id );
 	                    if ( $tags ) {
@@ -571,9 +571,14 @@ endif;
 /**
  * Filter the category title
  */
-add_filter( 'get_the_archive_title', function ( $title ) {
-    if( is_category() ) {
-        $title = single_cat_title( '', false );
+if(!function_exists('themeegg_get_the_archive_title')){
+
+	add_filter( 'get_the_archive_title' , 'themeegg_get_the_archive_title', 10 , 1);
+	function  themeegg_get_the_archive_title ( $title ){
+
+		if( is_category() ) {
+			$title = single_cat_title( '', false );
+		}
+		return $title;
     }
-    return $title;
-});
+}
