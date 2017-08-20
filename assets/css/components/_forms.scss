@@ -10,6 +10,10 @@ button, input, select, textarea {
   vertical-align: middle;
 }
 
+.navigation.pagination{
+  padding:0 0 30px;
+}
+
 .navigation .nav-links a, .bttn, button {
   background: $primary_color;
   color: #ffffff;

@@ -233,6 +233,9 @@ button, input, select, textarea {
   /* Addresses margins set differently in IE6/7, F3/4, S5, Chrome */
   vertical-align: middle; }
 
+.navigation.pagination {
+  padding: 0 0 30px; }
+
 .navigation .nav-links a, .bttn, button {
   background: #408c40;
   color: #ffffff;
