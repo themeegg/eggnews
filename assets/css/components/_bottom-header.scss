@@ -42,12 +42,11 @@ BOTTOM HEADER CSS
       line-height: 38px;
       margin: 0 1px;
       position: relative;
-      text-transform: capitalize;
+      text-transform: uppercase;
       a {
         margin: 0 1px;
         padding: 0 15px;
         color: $nav_menu_color;
-        font-weight: 600;
         display: block;
         &:hover {
           color: $primary_color;
@@ -72,6 +71,7 @@ BOTTOM HEADER CSS
       -ms-transition: all 0.5s ease;
       -o-transition: all 0.5s ease;
       transition: all 0.5s ease;
+    
     }
     li:hover > ul {
       &.sub-menu, &.children {
