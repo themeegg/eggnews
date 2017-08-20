@@ -27,12 +27,11 @@
 <div id="page" class="site">
 	<?php do_action( 'eggnews_before_header' ); ?>
 	<header id="masthead" class="site-header" role="banner">
-		
+
 			<div class="top-header-section">
 				<div class="teg-container">
 					<div class="top-left-header">
 						<?php do_action( 'eggnews_current_date' ); ?>
-						<?php do_action( 'eggnews_news_ticker' ); ?>
 						<nav id="top-header-navigation" class="top-navigation" role="navigation">
 							<?php wp_nav_menu( array( 'theme_location' => 'top-header', 'container_class' => 'top-menu', 'fallback_cb' => false, 'items_wrap' => '<ul>%3$s</ul>' ) ); ?>
 						</nav>
@@ -49,7 +48,7 @@
 								<?php the_custom_logo(); ?>
 							</div><!-- .site-logo -->
 						<?php } ?>
-						<?php 
+						<?php
 							$site_title_option = get_theme_mod( 'header_textcolor' );
 							if( $site_title_option != 'blank' ) {
 						?>
@@ -68,7 +67,7 @@
 								<?php
 								endif; ?>
 							</div><!-- .site-title-wrapper -->
-						<?php 
+						<?php
 							}
 						?>
 					</div><!-- .site-branding -->
@@ -90,7 +89,7 @@
 					<nav id="site-navigation" class="main-navigation" role="navigation">
 						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'container_class' => 'menu', 'items_wrap' => '<ul>%3$s</ul>' ) ); ?>
 					</nav><!-- #site-navigation -->
-					<div class="header-search-wrapper">                    
+					<div class="header-search-wrapper">
 		                <span class="search-main"><i class="fa fa-search"></i></span>
 		                <div class="search-form-main clearfix">
 			                <?php get_search_form(); ?>
@@ -98,7 +97,9 @@
 					</div><!-- .header-search-wrapper -->
 				</div><!-- .teg-container -->
 			</div><!-- #teg-menu-wrap -->
-			
+
+			<?php do_action( 'eggnews_news_ticker' ); ?>
+
 	</header><!-- #masthead -->
 	<?php do_action( 'eggnews_after_header' ); ?>
 	<?php do_action( 'eggnews_before_main' ); ?>

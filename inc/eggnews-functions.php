@@ -99,10 +99,11 @@ add_action( 'eggnews_news_ticker', 'eggnews_news_ticker_hook' );
 if( ! function_exists( 'eggnews_news_ticker_hook' ) ):
 	function eggnews_news_ticker_hook() {
 		$eggnews_ticker_option = get_theme_mod( 'eggnews_ticker_option', 'enable' );
-		if( $eggnews_ticker_option != 'disable') {
+		if( $eggnews_ticker_option != 'disable' && is_front_page() ) {
 			$eggnews_ticker_caption = get_theme_mod( 'eggnews_ticker_caption', __( 'Latest', 'eggnews' ) );
 ?>
 			<div class="eggnews-ticker-wrapper">
+				<div class="teg-container">
 					<span class="ticker-caption"><?php echo esc_html( $eggnews_ticker_caption ); ?></span>
 					<div class="ticker-content-wrapper">
 						<?php
@@ -120,6 +121,7 @@ if( ! function_exists( 'eggnews_news_ticker_hook' ) ):
 							}
 						?>
 					</div><!-- .ticker-content-wrapper -->
+				</div><!-- .teg-container -->
 			</div><!-- .eggnews-ticker-wrapper-->
 <?php
 		}
