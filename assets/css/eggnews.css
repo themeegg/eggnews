@@ -1844,17 +1844,22 @@ Archive page  css
   .archive-classic .entry-title a {
     color: #333;
     position: relative;
-    display: block; }
+    display: block;
+    padding-bottom: 10px; }
 
 .archive.archive-classic .entry-title a:after {
   position: absolute;
   left: 50%;
-  bottom: -5px;
-  width: 30px;
+  bottom: 0px;
+  width: 250px;
   height: 4px;
-  background: #408c40;
-  margin-left: -15px;
-  content: ""; }
+  background: #eee;
+  content: "";
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%); }
 
 .archive-classic .entry-title a:hover {
   color: #408c40; }
