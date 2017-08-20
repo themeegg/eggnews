@@ -1051,7 +1051,7 @@ BOTTOM HEADER CSS
       border-bottom: 2px solid #408c40;
       color: #408c40; }
   #site-navigation ul.sub-menu, #site-navigation ul.children {
-    background: #f2f2f2 none repeat scroll 0 0;
+    background: #303440;
     left: 0;
     min-width: 200px;
     position: absolute;
@@ -1063,8 +1063,7 @@ BOTTOM HEADER CSS
     -moz-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-    text-transform: capitalize; }
+    transition: all 0.5s ease; }
   #site-navigation ul li:hover > ul.sub-menu, #site-navigation ul li:hover > ul.children {
     opacity: 1;
     visibility: visible;
