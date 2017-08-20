@@ -12,7 +12,7 @@ Archive page  css
     text-transform: uppercase;
   }
   background: #f1f1f1 none repeat scroll 0 0;
-  border-left: 4px solid $prime_color;
+  border-left: 4px solid $primary_color;
   line-height: 24px;
   margin-bottom: 30px;
   padding: 0 20px 0 0;
@@ -53,14 +53,14 @@ Archive page  css
   bottom: -5px;
   width: 30px;
   height: 4px;
-  background: $prime_color;
+  background: $primary_color;
   margin-left: -15px;
   content: "";
 }
 
 .archive-classic {
   .entry-title a:hover {
-    color: $prime_color;
+    color: $primary_color;
   }
   .entry-content {
     text-align: justify;

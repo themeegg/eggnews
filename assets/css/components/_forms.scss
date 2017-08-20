@@ -11,7 +11,7 @@ button, input, select, textarea {
 }
 
 .navigation .nav-links a, .bttn, button {
-  background: $prime_color;
+  background: $primary_color;
   color: #ffffff;
   cursor: pointer;
   /* Improves usability and consistency of cursor style between image-type 'input' and others */
@@ -23,12 +23,12 @@ button, input, select, textarea {
   display: inline-block;
   position: relative;
   text-shadow: none;
-  border: 1px solid $prime_color;
+  border: 1px solid $primary_color;
 }
 
 input {
   &[type="button"], &[type="reset"], &[type="submit"] {
-    background: $prime_color;
+    background: $primary_color;
     color: #ffffff;
     cursor: pointer;
     /* Improves usability and consistency of cursor style between image-type 'input' and others */
@@ -41,18 +41,18 @@ input {
     display: inline-block;
     position: relative;
     text-shadow: none;
-    border: 1px solid $prime_color;
+    border: 1px solid $primary_color;
   }
 }
 
 .navigation .nav-links a:hover, .bttn:hover, button {
-  background: $prime_color;
+  background: $primary_color;
   color: #ffffff !important;
 }
 
 input {
   &[type="button"]:hover, &[type="reset"]:hover, &[type="submit"]:hover {
-    background: $prime_color;
+    background: $primary_color;
     color: #ffffff !important;
   }
   &[type="checkbox"], &[type="radio"] {

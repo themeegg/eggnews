@@ -22,7 +22,7 @@ BOTTOM HEADER CSS
 .home-icon {
   font-size: 22px;
   padding: 0 10px;
-  background: $prime_color;
+  background: $primary_color;
   a {
     color: #ffffff;
     &:hover {
@@ -37,7 +37,6 @@ BOTTOM HEADER CSS
     list-style: none;
     padding: 0;
     li {
-      border-bottom: 2px solid $prime_color;
       float: left;
       line-height: 38px;
       margin: 0 1px;
@@ -50,11 +49,12 @@ BOTTOM HEADER CSS
         font-weight: 600;
         display: block;
         &:hover {
-          color: $prime_color;
+          color: $primary_color;
         }
       }
       &.current-menu-item a {
-        color: $prime_color;
+        border-bottom: 2px solid $primary_color;
+        color: $primary_color;
       }
     }
     &.sub-menu, &.children {
@@ -128,13 +128,13 @@ BOTTOM HEADER CSS
   padding: 0 14px;
   cursor: pointer;
   color: #ffffff;
-  background: $prime_color;
+  background: $primary_color;
 }
 
 .header-search-wrapper .search-form-main {
   background: #ffffff none repeat scroll 0 0;
   box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.15);
-  border-top: 2px solid $prime_color;
+  border-top: 2px solid $primary_color;
   padding: 15px;
   position: absolute;
   right: 0;
@@ -146,7 +146,7 @@ BOTTOM HEADER CSS
   &:before {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-bottom: 10px solid $prime_color;
+    border-bottom: 10px solid $primary_color;
     content: "";
     position: absolute;
     right: 15px;
@@ -167,7 +167,7 @@ BOTTOM HEADER CSS
     padding: 10px 0 10px;
     width: 20%;
     height: 36px;
-    background: $prime_color;
+    background: $primary_color;
   }
 }
 

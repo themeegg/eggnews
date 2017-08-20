@@ -119,7 +119,9 @@ module.exports = function (grunt) {
         watch: {
             css: {
                 files: [
-                    '<%= dirs.css %>/*.scss'
+                    '<%= dirs.css %>/*.scss',
+                    '<%= dirs.css %>/**/*.scss'
+
                 ],
                 tasks: ['sass', 'rtlcss', 'cssmin', 'concat']
             },
@@ -291,7 +293,7 @@ module.exports = function (grunt) {
         'dev',
         'compress'
     ]);
-    grunt.registerTask('watch', [
+    /*grunt.registerTask('watch', [
         'watch',
-    ]);
+    ]);*/
 };

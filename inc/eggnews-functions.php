@@ -43,7 +43,7 @@ function eggnews_scripts() {
 	global $eggnews_version;
 
 	$query_args = array(
-            'family' => 'Titillium+Web:400,600,700,300&subset=latin,latin-ext',
+            'family' => 'Roboto+Slab',
         );
 
 	wp_enqueue_style( 'font-awesome', get_template_directory_uri().'/assets/lib/font-awesome/css/font-awesome.min.css', array(), '4.5.0' );

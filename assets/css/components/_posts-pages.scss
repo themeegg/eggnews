@@ -23,7 +23,7 @@ h1.entry-title {
 
 .single .byline, .group-blog .byline, .posted-on, .blog-author, .blog-cat {
   display: inline;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: $primary_font_family;
   font-size: 14px;
   font-style: italic;
   font-weight: 300;
@@ -43,7 +43,7 @@ h1.entry-title {
 }
 
 .edit-link .post-edit-link {
-  background: $prime_color;
+  background: $primary_color;
   padding: 4px 10px;
   color: #FFF !important;
   line-height: 1;
@@ -137,7 +137,7 @@ article.hentry {
 .entry-footer a {
   color: #999;
   &:hover {
-    color: $prime_color;
+    color: $primary_color;
   }
 }
 

@@ -8,7 +8,7 @@ Eggnews Default Widget
     width: 78%;
   }
   .search-submit {
-    background: $prime_color none repeat scroll 0 0;
+    background: $primary_color none repeat scroll 0 0;
     color: #ffffff;
     height: 36px;
     width: 22%;
@@ -46,13 +46,13 @@ Eggnews Default Widget
 
 .widget {
   a:hover {
-    color: $prime_color;
+    color: $primary_color;
     &::before {
-      color: $prime_color;
+      color: $primary_color;
     }
   }
   li:hover::before {
-    color: $prime_color;
+    color: $primary_color;
   }
 }
 
@@ -106,8 +106,8 @@ Eggnews Default Widget
   .search-submit {
     height: 36px;
     width: 25%;
-    background: $prime_color;
-    border-color: $prime_color;
+    background: $primary_color;
+    border-color: $primary_color;
     color: #ffffff;
   }
 }

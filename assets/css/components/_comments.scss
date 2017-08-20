@@ -55,7 +55,7 @@ textarea#comment {
   padding: 15px;
   margin-bottom: 20px;
   background: #F2F2F2;
-  border-top: 2px solid $prime_color;
+  border-top: 2px solid $primary_color;
 }
 
 .comment-author img {
@@ -83,7 +83,7 @@ textarea#comment {
       color: #333;
       padding: 0 5px;
       &:hover {
-        color: $prime_color;
+        color: $primary_color;
       }
     }
   }
@@ -110,7 +110,7 @@ textarea#comment {
 }
 
 .reply .comment-reply-link {
-  background: none repeat scroll 0 0 $prime_color;
+  background: none repeat scroll 0 0 $primary_color;
   border-radius: 3px;
   color: #FFFFFF;
   font-size: 13px;
@@ -131,16 +131,16 @@ textarea#comment {
 
 #cancel-comment-reply-link {
   font-style: italic;
-  color: $prime_color;
+  color: $primary_color;
   &:before {
     font-family: FontAwesome;
     content: "\f057";
     margin: 0 5px 0 20px;
     font-style: normal;
-    color: $prime_color;
+    color: $primary_color;
   }
 }
 
 .logged-in-as a {
-  color: $prime_color;
+  color: $primary_color;
 }
