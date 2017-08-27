@@ -8,8 +8,8 @@ jQuery(document).ready(function () {
         mode: 'vertical',
         auto: true,
         controls: true,
-        prevText: '<i class="fa fa-backward"> </i>',
-        nextText: '<i class="fa fa-forward"> </i>',
+        prevText: '<i class="fa fa-arrow-left"> </i>',
+        nextText: '<i class="fa fa-arrow-right"> </i>',
         pager: false
     });
     // Slider

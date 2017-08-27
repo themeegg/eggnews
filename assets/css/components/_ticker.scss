@@ -23,15 +23,7 @@ TICKER CSS
 	text-align: center;
 	width: 10%;
 	position: relative;
-	&::after {
-		border-bottom: 18px solid transparent;
-		border-left: 12px solid $ticker_caption;
-		border-top: 18px solid transparent;
-		content: "";
-		position: absolute;
-		right: -12px;
-		top: 0;
-	}
+
 }
 
 .ticker-content-wrapper {
