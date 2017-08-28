@@ -2,16 +2,20 @@
 Eggnews Block List
 --------------------------------------------------------------*/
 
+.post-thumb-wrapper {
+	margin-bottom: 10px;
+}
+
 .eggnews_block_list {
-  .single-post-wrapper {
-    margin-bottom: 2%;
-  }
-  .post-thumb-wrapper {
-    float: left;
-    width: 48%;
-  }
-  .post-content-wrapper {
-    float: right;
-    width: 50%;
-  }
+	.single-post-wrapper {
+		margin-bottom: 2%;
+	}
+	.post-thumb-wrapper {
+		float: none;
+		width: 100%;
+	}
+	.post-content-wrapper {
+		float: none;
+		width: 100%;
+	}
 }
