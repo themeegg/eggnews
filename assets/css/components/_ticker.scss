@@ -27,9 +27,9 @@ TICKER CSS
 }
 
 .ticker-content-wrapper {
-	border: 1px solid #e1e1e1;
+	border: 1px solid $ticker_caption;
 	float: left;
-	height: 36px;
+	height: 35px;
 	overflow: hidden;
 	padding: 4px 0px 0 30px;
 	width: 90%;
@@ -37,14 +37,14 @@ TICKER CSS
 	border-left: none;
 	z-index: 0;
 	.news-post a {
-		color: #666;
+		color: $ticker_caption;
 	}
 	.bx-controls {
 		position: absolute;
 		right: 5px;
 		top: 0;
 		a {
-			color: #333;
+			color: lighten($ticker_caption, 0.5);
 			display: inline-block;
 			margin: 5px 10px 0 0;
 			opacity: 0.6;
