@@ -16,17 +16,17 @@
 get_header(); ?>
 
 	<div class="featured-slider-section clearfix">
-		
+
 			<?php
 	        	if( is_active_sidebar( 'eggnews_home_slider_area' ) ) {
 	            	if ( !dynamic_sidebar( 'eggnews_home_slider_area' ) ):
 	            	endif;
 	         	}
 	        ?>
-		
+
 	</div><!-- .featured-slider-section -->
 	<div class="home-content-wrapper clearfix">
-		
+
 			<div class="home-primary-wrapper">
 					<?php
 			        	if( is_active_sidebar( 'eggnews_home_content_area' ) ) {
@@ -34,7 +34,7 @@ get_header(); ?>
 			            	endif;
 			         	}
 			        ?>
-			        
+
 			</div><!-- .home-primary-wrapper -->
 			<div class="home-secondary-wrapper">
 				<?php
@@ -44,7 +44,7 @@ get_header(); ?>
 		         	}
 		        ?>
 			</div><!-- .home-secondary-wrapper -->
-		
+
 	</div><!-- .home-content-wrapper -->
 <?php
 get_footer();

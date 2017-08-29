@@ -3,11 +3,44 @@
 --------------------------------------------------------------*/
 
 .widget {
-  margin: 0 0 25px;
-  padding-bottom: 10px;
-  select {
-    max-width: 100%;
-  }
+	margin: 0 0 25px;
+	padding-bottom: 10px;
+	select {
+		max-width: 100%;
+	}
+}
+
+.widget .widget-title,
+.related-articles-wrapper .related-title {
+	margin-bottom: 20px;
+	position: relative;
+	border-left: 2px solid $primary_color;
+	border-bottom: 2px solid $primary_color;
+}
+
+.widget .widget-title:before,
+.related-articles-wrapper .related-title:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 100%;
+	bottom: -2px;
+	right: -2000px;
+	background: #f1f1f1;
+	border-bottom: 2px solid $primary_color;
+}
+
+.widget .widget-title-wrapper .widget-title,
+.related-articles-wrapper .widget-title-wrapper .related-title {
+	border-left: 0px;
+	border-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.widget .widget-title-wrapper .widget-title:before,
+.related-articles-wrapper .widget-title-wrapper .related-title:before {
+	display: none;
 }
 
 /* Make sure select elements fit in widgets */

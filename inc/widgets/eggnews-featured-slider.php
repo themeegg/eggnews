@@ -21,7 +21,7 @@ class Eggnews_Featured_Slider extends WP_Widget {
      * Register widget with WordPress.
      */
     public function __construct() {
-        $widget_ops = array( 
+        $widget_ops = array(
             'classname' => 'eggnews_featured_slider clearfix',
             'description' => __( 'Display slider with featured posts.', 'eggnews' )
         );
@@ -33,7 +33,7 @@ class Eggnews_Featured_Slider extends WP_Widget {
      * Array is used in update and form functions
      */
     private function widget_fields() {
-	
+
 	   $eggnews_category_dropdown = eggnews_category_dropdown();
 
     	$fields = array(
@@ -111,12 +111,13 @@ class Eggnews_Featured_Slider extends WP_Widget {
                                     <figure><?php the_post_thumbnail( 'eggnews-slider-large' ); ?></figure>
                                 </a>
                                 <div class="slider-content-wrapper">
-                                    <?php do_action( 'eggnews_post_categories' ); ?>
+
                                     <h3 class="slide-title"><a href="<?php the_permalink();?>"><?php the_title(); ?></a></h3>
                                     <div class="post-meta-wrapper">
                                         <?php eggnews_posted_on(); ?>
                                         <?php eggnews_post_comment(); ?>
                                     </div>
+	                                <?php do_action( 'eggnews_post_categories' ); ?>
                                 </div><!-- .post-meta-wrapper -->
                             </li>
                     <?php
@@ -151,9 +152,10 @@ class Eggnews_Featured_Slider extends WP_Widget {
                             <figure><?php echo $image_path; ?></figure>
                         </a>
                         <div class="featured-content-wrapper">
-                            <?php do_action( 'eggnews_post_categories' ); ?>
+
                             <h3 class="featured-title"><a href="<?php the_permalink();?>"><?php the_title(); ?></a></h3>
                             <div class="post-meta-wrapper"> <?php eggnews_posted_on(); ?> </div>
+	                        <?php do_action( 'eggnews_post_categories' ); ?>
                         </div><!-- .post-meta-wrapper -->
                     </div><!-- .single-featured-wrap -->
             <?php
@@ -166,7 +168,7 @@ class Eggnews_Featured_Slider extends WP_Widget {
                 wp_reset_postdata();
             ?>
         </div>
-        
+
     <?php
         echo $after_widget;
     }

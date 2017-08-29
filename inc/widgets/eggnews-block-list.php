@@ -21,7 +21,7 @@ class Eggnews_Block_List extends WP_widget {
      * Register widget with WordPress.
      */
     public function __construct() {
-        $widget_ops = array( 
+        $widget_ops = array(
             'classname' => 'eggnews_block_list',
             'description' => __( 'Display posts in block list layout', 'eggnews' )
         );
@@ -34,7 +34,7 @@ class Eggnews_Block_List extends WP_widget {
      */
     private function widget_fields() {
         $eggnews_category_dropdown = eggnews_category_dropdown();
-        
+
         $fields = array(
 
             'eggnews_block_title' => array(
@@ -82,7 +82,7 @@ class Eggnews_Block_List extends WP_widget {
         echo $before_widget;
     ?>
             <div class="block-list-wrapper">
-                
+
                 <?php eggnews_block_title( $eggnews_block_title, $eggnews_block_cat_id ); ?>
 
                 <div class="posts-list-wrapper clearfix column-posts-block">
@@ -110,7 +110,7 @@ class Eggnews_Block_List extends WP_widget {
                                         </div><!-- .post-content -->
                                     </div><!-- .post-content-wrapper -->
                                 </div><!-- .single-post-wrapper -->
-                    <?php 
+                    <?php
                             }
                         }
                         wp_reset_postdata();
