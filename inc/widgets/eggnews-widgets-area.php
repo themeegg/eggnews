@@ -15,8 +15,8 @@ function eggnews_widgets_init() {
 		'description'   => '',
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h4 class="widget-title">',
-		'after_title'   => '</h4>',
+		'before_title'  => '<div class="widget-title-wrapper"><h4 class="widget-title">',
+		'after_title'   => '</h4></div>',
 	) );
 
 	register_sidebar( array(
@@ -25,8 +25,8 @@ function eggnews_widgets_init() {
 		'description'   => '',
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h4 class="widget-title">',
-		'after_title'   => '</h4>',
+		'before_title'  => '<div class="widget-title-wrapper"><h4 class="widget-title">',
+		'after_title'   => '</h4></div>',
 	) );
 
 	register_sidebar( array(
@@ -35,8 +35,8 @@ function eggnews_widgets_init() {
 		'description'   => '',
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h4 class="widget-title">',
-		'after_title'   => '</h4>',
+		'before_title'  => '<div class="widget-title-wrapper"><h4 class="widget-title">',
+		'after_title'   => '</h4></div>',
 	) );
 
 	register_sidebar( array(
@@ -45,8 +45,8 @@ function eggnews_widgets_init() {
 		'description'   => '',
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h4 class="widget-title">',
-		'after_title'   => '</h4>',
+		'before_title'  => '<div class="widget-title-wrapper"><h4 class="widget-title">',
+		'after_title'   => '</h4></div>',
 	) );
 
 	register_sidebar( array(
@@ -55,8 +55,8 @@ function eggnews_widgets_init() {
 		'description'   => '',
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h4 class="widget-title">',
-		'after_title'   => '</h4>',
+		'before_title'  => '<div class="widget-title-wrapper"><h4 class="widget-title">',
+		'after_title'   => '</h4></div>',
 	) );
 
 	register_sidebar( array(
@@ -65,8 +65,8 @@ function eggnews_widgets_init() {
 		'description'   => '',
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h4 class="widget-title">',
-		'after_title'   => '</h4>',
+		'before_title'  => '<div class="widget-title-wrapper"><h4 class="widget-title">',
+		'after_title'   => '</h4></div>',
 	) );
 
 	register_sidebar( array(
@@ -75,8 +75,8 @@ function eggnews_widgets_init() {
 		'description'   => '',
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h4 class="widget-title">',
-		'after_title'   => '</h4>',
+		'before_title'  => '<div class="widget-title-wrapper"><h4 class="widget-title">',
+		'after_title'   => '</h4></div>',
 	) );
 
 	register_sidebar( array(
@@ -85,8 +85,8 @@ function eggnews_widgets_init() {
 		'description'   => '',
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h4 class="widget-title">',
-		'after_title'   => '</h4>',
+		'before_title'  => '<div class="widget-title-wrapper"><h4 class="widget-title">',
+		'after_title'   => '</h4></div>',
 	) );
 
 	register_sidebar( array(
@@ -95,8 +95,8 @@ function eggnews_widgets_init() {
 		'description'   => '',
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h4 class="widget-title">',
-		'after_title'   => '</h4>',
+		'before_title'  => '<div class="widget-title-wrapper"><h4 class="widget-title">',
+		'after_title'   => '</h4></div>',
 	) );
 
 	register_sidebar( array(
@@ -105,8 +105,8 @@ function eggnews_widgets_init() {
 		'description'   => '',
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h4 class="widget-title">',
-		'after_title'   => '</h4>',
+		'before_title'  => '<div class="widget-title-wrapper"><h4 class="widget-title">',
+		'after_title'   => '</h4></div>',
 	) );
 
 }
