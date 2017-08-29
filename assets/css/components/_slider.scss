@@ -193,3 +193,15 @@ SLIDER CSS
 .featured-slider-section .block-header {
   display: none;
 }
+.eggnewsSlider>li{
+
+	display:none;
+}
+.eggnewsSlider>li:first-child{
+
+	display:block;
+}
+.bx-viewport .eggnewsSlider>li{
+
+	display:block;
+}
