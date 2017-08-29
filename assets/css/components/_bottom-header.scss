@@ -8,6 +8,7 @@ BOTTOM HEADER CSS
 
 .bottom-header-wrapper {
   background: $nav_background_color;
+	border-top:3px solid $primary_color;
 
 }
 
@@ -71,7 +72,7 @@ BOTTOM HEADER CSS
       -ms-transition: all 0.5s ease;
       -o-transition: all 0.5s ease;
       transition: all 0.5s ease;
-    
+
     }
     li:hover > ul {
       &.sub-menu, &.children {
