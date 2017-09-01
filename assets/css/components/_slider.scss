@@ -24,11 +24,11 @@ SLIDER CSS
 	padding: 10px;
 	position: absolute;
 	width: 100%;
-	.byline, .posted-on {
+	.byline, .posted-on, .comments-link {
 
 		&:hover {
 			color: #fff;
-			a.url, time.entry-date  {
+			a.url, time.entry-date, a  {
 
 				color: #fff;
 			}
