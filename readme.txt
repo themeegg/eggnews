@@ -62,6 +62,7 @@ Eggnews bundles the following third-party resources:
     * Home page design improvement
     * Slider widget design improvement (with color, font size  and header color etc)
     * Recommanded plugin installation option (for now contact form 7 is recommmanded plugin)
+    * Screenshot image changed
 = 1.1.0 =
     * Navigation design changed
     * Footer design changed
