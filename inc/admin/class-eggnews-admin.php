@@ -93,7 +93,10 @@ if ( ! class_exists( 'EggNews_Admin' ) ) :
 			<div id="message" class="updated eggnews-message">
 				<a class="eggnews-message-close notice-dismiss"
 				   href="<?php echo esc_url( wp_nonce_url( remove_query_arg( array( 'activated' ), add_query_arg( 'eggnews-hide-notice', 'welcome' ) ), 'eggnews_hide_notices_nonce', '_eggnews_notice_nonce' ) ); ?>"><?php esc_html_e( 'Dismiss', 'eggnews' ); ?></a>
-				<p><?php printf( esc_html__( 'Welcome! Thank you for choosing eggnews! To fully take advantage of the best our theme can offer please make sure you visit our %swelcome page%s.', 'eggnews' ), '<a href="' . esc_url( admin_url( 'themes.php?page=eggnews-welcome' ) ) . '">', '</a>' ); ?></p>
+				<p><?php
+					/* translators: 1: anchor tag start, 2: anchor tag end*/
+					printf( esc_html__( 'Welcome! Thank you for choosing eggnews! To fully take advantage of the best our theme can offer please make sure you visit our %1$swelcome page%1$s.', 'eggnews' ), '<a href="' . esc_url( admin_url( 'themes.php?page=eggnews-welcome' ) ) . '">', '</a>' );
+					?></p>
 				<p class="submit">
 					<a class="button-secondary"
 					   href="<?php echo esc_url( admin_url( 'themes.php?page=eggnews-welcome' ) ); ?>"><?php esc_html_e( 'Get started with EggNews', 'eggnews' ); ?></a>
