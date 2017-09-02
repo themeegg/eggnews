@@ -108,6 +108,38 @@ endif;
 add_action( 'after_setup_theme', 'eggnews_setup' );
 
 /**
+ * Define Directory Location Constants
+ */
+define( 'EGGNEWS_PARENT_DIR', get_template_directory() );
+define( 'EGGNEWS_CHILD_DIR', get_stylesheet_directory() );
+
+define( 'EGGNEWS_INCLUDES_DIR', EGGNEWS_PARENT_DIR. '/inc' );
+define( 'EGGNEWS_CSS_DIR', EGGNEWS_PARENT_DIR . '/css' );
+define( 'EGGNEWS_JS_DIR', EGGNEWS_PARENT_DIR . '/js' );
+define( 'EGGNEWS_LANGUAGES_DIR', EGGNEWS_PARENT_DIR . '/languages' );
+
+define( 'EGGNEWS_ADMIN_DIR', EGGNEWS_INCLUDES_DIR . '/admin' );
+define( 'EGGNEWS_WIDGETS_DIR', EGGNEWS_INCLUDES_DIR . '/widgets' );
+
+define( 'EGGNEWS_ADMIN_IMAGES_DIR', EGGNEWS_ADMIN_DIR . '/images' );
+
+/**
+ * Define URL Location Constants
+ */
+define( 'EGGNEWS_PARENT_URL', get_template_directory_uri() );
+define( 'EGGNEWS_CHILD_URL', get_stylesheet_directory_uri() );
+
+define( 'EGGNEWS_INCLUDES_URL', EGGNEWS_PARENT_URL. '/inc' );
+define( 'EGGNEWS_CSS_URL', EGGNEWS_PARENT_URL . '/css' );
+define( 'EGGNEWS_JS_URL', EGGNEWS_PARENT_URL . '/js' );
+define( 'EGGNEWS_LANGUAGES_URL', EGGNEWS_PARENT_URL . '/languages' );
+
+define( 'EGGNEWS_ADMIN_URL', EGGNEWS_INCLUDES_URL . '/admin' );
+define( 'EGGNEWS_WIDGETS_URL', EGGNEWS_INCLUDES_URL . '/widgets' );
+
+define( 'EGGNEWS_ADMIN_IMAGES_URL', EGGNEWS_ADMIN_URL . '/images' );
+
+/**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
  * Priority 0 to make it available to lower priority callbacks.
@@ -178,3 +210,15 @@ require get_template_directory() . '/inc/admin/assets/eggnews-custom-classes.php
  * Load customizer sanitize
  */
 require get_template_directory() . '/inc/admin/assets/eggnews-sanitize.php'; //custom classes
+
+/* Calling in the admin area for the Welcome Page */
+if ( is_admin() ) {
+	require get_template_directory() . '/inc/admin/class-eggnews-admin.php';
+}
+
+
+/**
+ * Load TGMPA Configs.
+ */
+require_once( EGGNEWS_INCLUDES_DIR . '/tgm-plugin-activation/class-tgm-plugin-activation.php' );
+require_once( EGGNEWS_INCLUDES_DIR . '/tgm-plugin-activation/tgmpa-eggnews.php' );
