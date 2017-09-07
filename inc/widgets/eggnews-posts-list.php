@@ -25,7 +25,7 @@ class Eggnews_Posts_List extends WP_widget {
             'classname' => 'eggnews_posts_list',
             'description' => __( 'Display latest or random posts in list view.', 'eggnews' )
         );
-        parent::__construct( 'eggnews_posts_list', __( 'Posts Lists (Eggnews)', 'eggnews' ), $widget_ops );
+        parent::__construct( 'eggnews_posts_list', __( 'Posts Lists - Eggnews', 'eggnews' ), $widget_ops );
     }
 
     /**

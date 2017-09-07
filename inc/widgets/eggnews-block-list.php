@@ -25,7 +25,7 @@ class Eggnews_Block_List extends WP_widget {
             'classname' => 'eggnews_block_list',
             'description' => __( 'Display posts in block list layout', 'eggnews' )
         );
-        parent::__construct( 'eggnews_block_list', __( 'Block Posts List (Eggnews)', 'eggnews' ), $widget_ops );
+        parent::__construct( 'eggnews_block_list', __( 'Block Posts List - Eggnews', 'eggnews' ), $widget_ops );
     }
 
     /**

@@ -25,7 +25,7 @@ class Eggnews_Block_Grid extends WP_Widget {
 			'classname'   => 'eggnews_block_grid',
 			'description' => __( 'Display block posts in grid layout.', 'eggnews' )
 		);
-		parent::__construct( 'eggnews_block_grid', __( 'Grid Block Posts (Eggnews)', 'eggnews' ), $widget_ops );
+		parent::__construct( 'eggnews_block_grid', __( 'Grid Block Posts - Eggnews', 'eggnews' ), $widget_ops );
 	}
 
 	/**
