@@ -46,7 +46,7 @@ Eggnews bundles the following third-party resources:
 	Sticky js, Copyright 2014-2016, Anthony Garand
     License: GPL
     Source: https://github.com/garand/sticky
-
+			
    	Screenshot Images 
     Licenses: CCO Public Domain
        	https://pixabay.com/en/taj-mahal-india-agra-tomb-grave-366/

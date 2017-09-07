@@ -27,7 +27,7 @@
 <div id="page" class="site">
 	<?php do_action( 'eggnews_before_header' ); ?>
 	<header id="masthead" class="site-header" role="banner">
-
+		<?php do_action( 'eggnews_news_ticker' ); ?>
 			<div class="top-header-section">
 				<div class="teg-container">
 					<div class="top-left-header">
@@ -98,7 +98,7 @@
 				</div><!-- .teg-container -->
 			</div><!-- #teg-menu-wrap -->
 
-			<?php do_action( 'eggnews_news_ticker' ); ?>
+
 
 	</header><!-- #masthead -->
 	<?php do_action( 'eggnews_after_header' ); ?>

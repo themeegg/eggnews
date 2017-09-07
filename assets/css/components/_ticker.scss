@@ -3,7 +3,8 @@ TICKER CSS
 --------------------------------------------------------------*/
 
 .eggnews-ticker-wrapper {
-	margin-top: 15px;
+
+	margin: 0;
 }
 
 #teg-newsTicker {
@@ -21,38 +22,23 @@ TICKER CSS
 	font-weight: 700;
 	padding: 5px 0;
 	text-align: center;
-	width: 10%;
+	width: 15%;
 	position: relative;
 
 }
 
 .ticker-content-wrapper {
-	border: 1px solid $ticker_caption;
-	float: left;
+	border: none;
 	height: 35px;
+	float: left;
 	overflow: hidden;
 	padding: 4px 0px 0 30px;
-	width: 90%;
+	width: 85%;
 	position: relative;
-	border-left: none;
+	background: lighten($top_header_background,0.5);
+
 	z-index: 0;
 	.news-post a {
-		color: $ticker_caption;
-	}
-	.bx-controls {
-		position: absolute;
-		right: 5px;
-		top: 0;
-		a {
-			color: lighten($ticker_caption, 0.5);
-			display: inline-block;
-			margin: 5px 10px 0 0;
-			opacity: 0.6;
-			position: static;
-			vertical-align: top;
-			&:hover {
-				opacity: 1;
-			}
-		}
+		color: #fff;
 	}
 }

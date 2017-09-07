@@ -105,29 +105,28 @@ if ( ! function_exists( 'eggnews_news_ticker_hook' ) ):
 			$eggnews_ticker_caption = get_theme_mod( 'eggnews_ticker_caption', __( 'Latest', 'eggnews' ) );
 			?>
 			<div class="eggnews-ticker-wrapper">
-				<div class="teg-container">
-					<span class="ticker-caption"><?php echo esc_html( $eggnews_ticker_caption ); ?></span>
-					<div class="ticker-content-wrapper">
-						<?php
-						$ticker_args  = eggnews_query_args( $cat_id = null, 5 );
-						$ticker_query = new WP_Query( $ticker_args );
-						if ( $ticker_query->have_posts() ) {
-							echo '<ul id="teg-newsTicker" class="cS-hidden">';
-							while ( $ticker_query->have_posts() ) {
-								$ticker_query->the_post();
-								?>
-								<li>
-									<div class="news-post"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-									</div>
-								</li>
-								<?php
-							}
-							echo '</ul>';
+				<span class="ticker-caption"><?php echo esc_html( $eggnews_ticker_caption ); ?></span>
+				<div class="ticker-content-wrapper">
+					<?php
+					$ticker_args  = eggnews_query_args( $cat_id = null, 5 );
+					$ticker_query = new WP_Query( $ticker_args );
+					if ( $ticker_query->have_posts() ) {
+						echo '<ul id="teg-newsTicker" class="cS-hidden">';
+						while ( $ticker_query->have_posts() ) {
+							$ticker_query->the_post();
+							?>
+							<li>
+								<div class="news-post"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+								</div>
+							</li>
+							<?php
 						}
-						?>
-					</div><!-- .ticker-content-wrapper -->
-				</div><!-- .teg-container -->
-			</div><!-- .eggnews-ticker-wrapper-->
+						echo '</ul>';
+					}
+					?>
+				</div><!-- .ticker-content-wrapper -->
+				<div style="clear:both"></div>
+			</div><!-- .teg-container -->
 			<?php
 		}
 	}

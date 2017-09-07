@@ -3,13 +3,14 @@ TOP HEADER CSS
 --------------------------------------------------------------*/
 
 .top-header-section {
-  background: rgba(0, 0, 0, 0.07) none repeat scroll 0 0;
+  background: lighten($top_header_background,0.3);
   font-size: 12px;
-  padding: 8px 0;
+	padding: 10px 0;
+	border-top: 2px solid $primary_color;
   .date-section {
     float: left;
     margin-right: 15px;
-    color: #000;
+    color: $white_color;
     &::before {
       content: "\f017";
       display: inline-block;
@@ -25,6 +26,7 @@ TOP HEADER CSS
   padding: 0;
 }
 
+
 .top-menu ul li, #footer-navigation ul li {
   border-left: 2px solid rgba(0, 0, 0, 0.3);
   display: inline-block;
@@ -32,9 +34,11 @@ TOP HEADER CSS
   margin-right: 10px;
   padding: 0 0 0 10px;
 }
-
+.top-menu ul li{
+	border-left:2px solid $primary_color;
+}
 .top-menu ul li a, #footer-navigation ul li a {
-  color: $primary_color;
+  color: $white_color;
 }
 
 .top-menu ul li a:hover, #footer-navigation ul li a:hover {
