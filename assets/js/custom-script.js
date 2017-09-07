@@ -15,6 +15,8 @@ $(document).ready(function () {
 	$('.eggnewsSlider').bxSlider({
 		pager: false,
 		controls: true,
+		prevText: '<i class="fa fa-arrow-left"> </i>',
+		nextText: '<i class="fa fa-arrow-right"> </i>',
 	});
 	//Search toggle
 	$('.header-search-wrapper .search-main').click(function () {
