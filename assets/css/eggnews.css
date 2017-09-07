@@ -968,7 +968,9 @@ TOP HEADER CSS
   float: right; }
   .top-social-wrapper .social-link {
     display: inline-block;
-    padding: 0 6px; }
+    padding: 0 6px;
+    background: #fff;
+    margin-left: 2px; }
     .top-social-wrapper .social-link .fa-facebook {
       color: #3350ae; }
     .top-social-wrapper .social-link .fa-twitter {
