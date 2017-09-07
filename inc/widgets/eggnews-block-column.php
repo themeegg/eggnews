@@ -25,7 +25,7 @@ class Eggnews_Block_Column extends WP_Widget {
 			'classname'   => 'eggnews_block_column',
 			'description' => __( 'Display block posts as Column layout.', 'eggnews' )
 		);
-		parent::__construct( 'eggnews_block_column', __( 'Column Block Posts - Eggnews', 'eggnews' ), $widget_ops );
+		parent::__construct( 'eggnews_block_column', __( 'Column Block Posts', 'eggnews' ), $widget_ops );
 	}
 
 	/**

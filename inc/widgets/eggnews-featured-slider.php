@@ -25,7 +25,7 @@ class Eggnews_Featured_Slider extends WP_Widget {
             'classname' => 'eggnews_featured_slider clearfix',
             'description' => __( 'Display slider with featured posts.', 'eggnews' )
         );
-        parent::__construct( 'eggnews_featured_slider', __( 'Featured Slider - Eggnews', 'eggnews' ), $widget_ops );
+        parent::__construct( 'eggnews_featured_slider', __( 'Featured Slider', 'eggnews' ), $widget_ops );
     }
 
     /**
