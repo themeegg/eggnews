@@ -21,11 +21,11 @@ class Eggnews_Block_Column extends WP_Widget {
      * Register widget with WordPress.
      */
     public function __construct() {
-        $widget_ops = array( 
+        $widget_ops = array(
             'classname' => 'eggnews_block_column',
             'description' => __( 'Display block posts as Column layout.', 'eggnews' )
         );
-        parent::__construct( 'eggnews_block_column', __( 'Eggnews: Block Posts (Column)', 'eggnews' ), $widget_ops );
+        parent::__construct( 'eggnews_block_column', __( 'Column Block Posts (Eggnews)', 'eggnews' ), $widget_ops );
     }
 
     /**
@@ -33,7 +33,7 @@ class Eggnews_Block_Column extends WP_Widget {
      * Array is used in update and form functions
      */
     private function widget_fields() {
-    
+
     $eggnews_category_dropdown = eggnews_category_dropdown();
 
         $fields = array(
@@ -82,9 +82,9 @@ class Eggnews_Block_Column extends WP_Widget {
         echo $before_widget;
     ?>
     	<div class="block-column-wrapper">
-    		
+
             <?php eggnews_block_title( $eggnews_block_title, $eggnews_block_cat_id ); ?>
-            
+
             <div class="block-posts-wrapper column-posts-block">
                 <?php
                     $block_column_args = eggnews_query_args( $eggnews_block_cat_id, $eggnews_block_posts_count );

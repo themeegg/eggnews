@@ -21,11 +21,11 @@ class Eggnews_Block_Layout extends WP_widget {
      * Register widget with WordPress.
      */
     public function __construct() {
-        $widget_ops = array( 
+        $widget_ops = array(
             'classname' => 'eggnews_block_layout',
             'description' => __( 'Display posts in block layout', 'eggnews' )
         );
-        parent::__construct( 'eggnews_block_layout', __( 'Eggnews: Block Layout', 'eggnews' ), $widget_ops );
+        parent::__construct( 'eggnews_block_layout', __( 'Block Layout (Eggnews)', 'eggnews' ), $widget_ops );
     }
 
     /**
@@ -34,7 +34,7 @@ class Eggnews_Block_Layout extends WP_widget {
      */
     private function widget_fields() {
         $eggnews_category_dropdown = eggnews_category_dropdown();
-        
+
         $fields = array(
 
             'eggnews_block_title' => array(
@@ -83,9 +83,9 @@ class Eggnews_Block_Layout extends WP_widget {
         echo $before_widget;
     ?>
         <div class="block-layout-wrapper">
-            
+
             <?php eggnews_block_title( $eggnews_block_title, $eggnews_block_cat_id ); ?>
-            
+
             <div class="block-posts-wrapper clearfix teg-column-wrapper">
                 <?php
                     $block_layout_args = eggnews_query_args( $eggnews_block_cat_id, $eggnews_block_posts_count );

@@ -21,11 +21,11 @@ class Eggnews_Posts_List extends WP_widget {
      * Register widget with WordPress.
      */
     public function __construct() {
-        $widget_ops = array( 
+        $widget_ops = array(
             'classname' => 'eggnews_posts_list',
             'description' => __( 'Display latest or random posts in list view.', 'eggnews' )
         );
-        parent::__construct( 'eggnews_posts_list', __( 'Eggnews: Posts Lists', 'eggnews' ), $widget_ops );
+        parent::__construct( 'eggnews_posts_list', __( 'Posts Lists (Eggnews)', 'eggnews' ), $widget_ops );
     }
 
     /**
@@ -38,7 +38,7 @@ class Eggnews_Posts_List extends WP_widget {
     					'latest' => __( 'Latest Posts', 'eggnews' ),
     					'random' => __( 'Random Posts', 'eggnews' )
     					);
-        
+
         $fields = array(
 
             'eggnews_block_title' => array(
@@ -116,7 +116,7 @@ class Eggnews_Posts_List extends WP_widget {
 	                <?php
 	            			}
 	            		}
-	            		
+
 	            	?>
 	            </div><!-- .posts-list-wrapper -->
 			</div><!-- .widget-block-wrapper -->

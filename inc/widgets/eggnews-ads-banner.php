@@ -25,7 +25,7 @@ class Eggnews_Ads_Banner extends WP_widget {
 			'classname'   => 'eggnews_ads_banner',
 			'description' => __( 'You can place banner as advertisement with links.', 'eggnews' )
 		);
-		parent::__construct( 'eggnews_ads_banner', __( 'Eggnews: Ads Banner', 'eggnews' ), $widget_ops );
+		parent::__construct( 'eggnews_ads_banner', __( 'Ads Banner (Eggnews)', 'eggnews' ), $widget_ops );
 	}
 
 	/**
