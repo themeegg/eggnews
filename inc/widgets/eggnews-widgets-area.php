@@ -110,6 +110,7 @@ function eggnews_widgets_init() {
 	) );
 
 }
+
 add_action( 'widgets_init', 'eggnews_widgets_init' );
 
 
@@ -118,6 +119,7 @@ add_action( 'widgets_init', 'eggnews_widgets_init' );
  */
 require get_template_directory() . '/inc/widgets/eggnews-widget-fields.php';
 require get_template_directory() . '/inc/widgets/eggnews-featured-slider.php';
+require get_template_directory() . '/inc/widgets/eggnews-post-carousel.php';
 require get_template_directory() . '/inc/widgets/eggnews-block-grid.php';
 require get_template_directory() . '/inc/widgets/eggnews-block-column.php';
 require get_template_directory() . '/inc/widgets/eggnews-ads-banner.php';

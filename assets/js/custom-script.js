@@ -18,9 +18,16 @@ $(document).ready(function () {
 		prevText: '<i class="fa fa-arrow-left"> </i>',
 		nextText: '<i class="fa fa-arrow-right"> </i>',
 	});
+	$('.eggnewsCarousel').bxSlider({
+		slideWidth: 200,
+		minSlides: 2,
+		maxSlides: 3,
+		slideMargin: 10,
+		controls: false,
+	});
 	//Search toggle
 	$('.header-search-wrapper .search-main').click(function () {
- 		$('.search-form-main').toggleClass('active-search');
+		$('.search-form-main').toggleClass('active-search');
 		$('.search-form-main .search-field').focus();
 	});
 

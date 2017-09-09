@@ -79,7 +79,7 @@ Typography
 --------------------------------------------------------------*/
 body, button, input, select, textarea {
   color: #3d3d3d;
-  font-family: "Roboto Slab, sanf-serif";
+  font-family: "Merriweather", serif;
   font-size: 14px;
   line-height: 1.8;
   font-weight: 400; }
@@ -87,7 +87,7 @@ body, button, input, select, textarea {
 h1, h2, h3, h4, h5, h6 {
   clear: both;
   font-weight: normal;
-  font-family: "Roboto Slab, sanf-serif";
+  font-family: "Merriweather", serif;
   line-height: 1.3;
   margin-bottom: 15px;
   color: #3d3d3d;
@@ -106,7 +106,7 @@ blockquote {
   margin: 0 15px;
   font-size: 20px;
   font-style: italic;
-  font-family: "Roboto Slab, sanf-serif";
+  font-family: "Merriweather", serif;
   font-weight: 300; }
 
 address {
@@ -449,13 +449,13 @@ Clearings
   .widget select {
     max-width: 100%; }
 
-.single-featured-wrap, .eggnewsSlider li, .post-thumb-wrapper, .single-post-wrapper {
+.single-featured-wrap, .eggnewsSlider li, .eggnewsCarousel li, .post-thumb-wrapper, .single-post-wrapper {
   overflow: hidden; }
-  .single-featured-wrap figure img, .eggnewsSlider li figure img, .post-thumb-wrapper figure img, .single-post-wrapper figure img {
+  .single-featured-wrap figure img, .eggnewsSlider li figure img, .eggnewsCarousel li figure img, .post-thumb-wrapper figure img, .single-post-wrapper figure img {
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s; }
-    .single-featured-wrap figure img:hover, .eggnewsSlider li figure img:hover, .post-thumb-wrapper figure img:hover, .single-post-wrapper figure img:hover {
+    .single-featured-wrap figure img:hover, .eggnewsSlider li figure img:hover, .eggnewsCarousel li figure img:hover, .post-thumb-wrapper figure img:hover, .single-post-wrapper figure img:hover {
       -webkit-transform: scale(1.5);
       -moz-transform: scale(1.5);
       transform: scale(1.5); }
@@ -480,7 +480,7 @@ h1.entry-title {
 
 .single .byline, .group-blog .byline, .posted-on, .blog-author, .blog-cat {
   display: inline;
-  font-family: "Roboto Slab, sanf-serif";
+  font-family: "Merriweather", serif;
   font-size: 14px;
   font-style: italic;
   font-weight: 300; }
@@ -870,6 +870,9 @@ Grid CSS
 .teg-column-wrapper {
   margin-left: -2%; }
 
+.full-width {
+  width: 100% !important; }
+
 .teg-column-1 {
   float: left;
   width: 98%;
@@ -897,7 +900,7 @@ body {
   font-weight: 400;
   overflow: hidden;
   position: relative;
-  font-family: "Roboto Slab, sanf-serif";
+  font-family: "Merriweather", serif;
   line-height: 1.8; }
 
 .boxed_layout #page {
@@ -1230,7 +1233,7 @@ SLIDER CSS
   margin-right: 1%;
   width: 50%; }
 
-.eggnewsSlider {
+.eggnewsSlider, .eggnewsCarousel {
   margin: 0;
   list-style: none; }
 
@@ -1376,10 +1379,17 @@ SLIDER CSS
 .eggnewsSlider > li {
   display: none; }
 
+.eggnewsCarousel li {
+  background: #f9f9f9;
+  border: 1px solid #e9e9e9;
+  padding: 10px; }
+  .eggnewsCarousel li:nth-child(n+3) {
+    display: none; }
+
 .eggnewsSlider > li:first-child {
   display: block; }
 
-.bx-viewport .eggnewsSlider > li {
+.bx-viewport .eggnewsSlider > li, .bx-viewport .eggnewsCarousel > li {
   display: block; }
 
 /*--------------------------------------------------------------

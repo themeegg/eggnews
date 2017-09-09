@@ -8,7 +8,7 @@ SLIDER CSS
 	width: 50%;
 }
 
-.eggnewsSlider {
+.eggnewsSlider, .eggnewsCarousel {
 	margin: 0;
 	list-style: none;
 }
@@ -28,7 +28,7 @@ SLIDER CSS
 
 		&:hover {
 			color: #fff;
-			a.url, time.entry-date, a  {
+			a.url, time.entry-date, a {
 
 				color: #fff;
 			}
@@ -210,12 +210,25 @@ SLIDER CSS
 	display: none;
 }
 
+.eggnewsCarousel {
+	li {
+		&:nth-child(n+3) {
+
+			display: none;
+		}
+		background: #f9f9f9;
+		border: 1px solid #e9e9e9;
+		padding:10px;
+	}
+}
+
 .eggnewsSlider > li:first-child {
 
 	display: block;
 }
 
-.bx-viewport .eggnewsSlider > li {
+.bx-viewport .eggnewsSlider > li, .bx-viewport .eggnewsCarousel > li {
 
 	display: block;
 }
+

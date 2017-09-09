@@ -1,14 +1,14 @@
 <?php
 /**
  * Define custom fields for widgets
- * 
+ *
  * @package Theme Egg
  * @subpackage Eggnews
  * @since 1.0.0
  */
 
 function eggnews_widgets_show_widget_field( $instance = '', $widget_field = '', $athm_field_value = '' ) {
-    
+
     extract( $widget_field );
 
     switch ( $eggnews_widgets_field_type ) {
@@ -48,7 +48,7 @@ function eggnews_widgets_show_widget_field( $instance = '', $widget_field = '', 
             ?>
             <p>
                 <input id="<?php echo esc_attr( $instance->get_field_id( $eggnews_widgets_name ) ); ?>" name="<?php echo esc_attr( $instance->get_field_name( $eggnews_widgets_name ) ); ?>" type="checkbox" value="1" <?php checked( '1', $athm_field_value ); ?>/>
-                <label for="<?php echo esc_attr( $instance->get_field_id( $eggnews_widgets_name ) ); ?>"><?php echo esc_html( $eggnews_widgets_title ); ?>:</label>
+                <label for="<?php echo esc_attr( $instance->get_field_id( $eggnews_widgets_name ) ); ?>"><?php echo esc_html( $eggnews_widgets_title ); ?></label>
 
                 <?php if ( isset( $eggnews_widgets_description ) ) { ?>
                     <br />

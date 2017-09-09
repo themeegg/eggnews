@@ -136,6 +136,8 @@ div[id*="eggnews_block_grid"].widget h3,
 div[id*="eggnews_block_layout"].widget h3,
 div[id*="eggnews_block_list"].widget h3,
 div[id*="eggnews_featured_slider"].widget h3,
-div[id*="eggnews_posts_list"].widget h3 {
+div[id*="eggnews_posts_list"].widget h3,
+div[id*="eggnews_post_carousel"].widget h3
+{
 	border-left: 3px solid #408c40;
 }
