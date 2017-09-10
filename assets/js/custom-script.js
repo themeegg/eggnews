@@ -19,11 +19,13 @@ $(document).ready(function () {
 		nextText: '<i class="fa fa-arrow-right"> </i>',
 	});
 	$('.eggnewsCarousel').bxSlider({
-		slideWidth: 200,
-		minSlides: 2,
+		slideWidth: 400,
+		minSlides: 1,
 		maxSlides: 3,
 		slideMargin: 10,
-		controls: false,
+		controls: true,
+		prevText: '<i class="fa fa-arrow-left"> </i>',
+		nextText: '<i class="fa fa-arrow-right"> </i>',
 	});
 	//Search toggle
 	$('.header-search-wrapper .search-main').click(function () {
