@@ -18,17 +18,17 @@ $(document).ready(function () {
 		prevText: '<i class="fa fa-arrow-left"> </i>',
 		nextText: '<i class="fa fa-arrow-right"> </i>',
 	});
+	$('.teg-carousel-section').removeClass('teg-before-carousel-js-load');
 	$('.eggnewsCarousel').bxSlider({
 		slideWidth: 350,
 		minSlides: 1,
 		maxSlides: 3,
 		slideMargin: 10,
-		controls: true,
+		controls: false,
 		auto: true,
-		moveSlides: 1,
-		prevText: '<i class="fa fa-arrow-left"> </i>',
-		nextText: '<i class="fa fa-arrow-right"> </i>',
+		moveSlides: 3,
 	});
+
 	//Search toggle
 	$('.header-search-wrapper .search-main').click(function () {
 		$('.search-form-main').toggleClass('active-search');

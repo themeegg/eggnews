@@ -93,7 +93,7 @@ class Eggnews_Post_Carousel extends WP_Widget {
 		echo $before_widget;
 		?>
 		<div class="teg-carousel-wrapper full-width">
-			<div class="teg-carousel-section">
+			<div class="teg-carousel-section teg-before-carousel-js-load">
 				<?php
 				$slider_args = eggnews_query_args( $eggnews_carousel_category_id, $eggnews_carousel_count );
 
