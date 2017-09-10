@@ -19,11 +19,13 @@ $(document).ready(function () {
 		nextText: '<i class="fa fa-arrow-right"> </i>',
 	});
 	$('.eggnewsCarousel').bxSlider({
-		slideWidth: 400,
+		slideWidth: 350,
 		minSlides: 1,
 		maxSlides: 3,
 		slideMargin: 10,
 		controls: true,
+		auto: true,
+		moveSlides: 1,
 		prevText: '<i class="fa fa-arrow-left"> </i>',
 		nextText: '<i class="fa fa-arrow-right"> </i>',
 	});
