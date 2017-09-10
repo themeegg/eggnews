@@ -109,7 +109,7 @@ class Eggnews_Post_Carousel extends WP_Widget {
 						?>
 						<li>
 							<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-								<figure><?php the_post_thumbnail( 'eggnews-slider-large' ); ?></figure>
+								<figure class="carousel-image-wrap"><?php the_post_thumbnail( 'eggnews-carousel-image' ); ?></figure>
 							</a>
 							<div class="carousel-content-wrapper">
 

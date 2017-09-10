@@ -51,6 +51,7 @@ if ( ! function_exists( 'eggnews_setup' ) ) :
 		add_image_size( 'eggnews-featured-medium', 420, 307, true );
 		add_image_size( 'eggnews-featured-long', 300, 443, true );
 		add_image_size( 'eggnews-block-medium', 464, 290, true );
+		add_image_size( 'eggnews-carousel-image', 600, 500, true );
 		add_image_size( 'eggnews-block-thumb', 322, 230, true );
 		add_image_size( 'eggnews-single-large', 1210, 642, true );
 
