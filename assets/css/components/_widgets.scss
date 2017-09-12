@@ -24,3 +24,35 @@
 		}
 	}
 }
+
+.block-header, 
+.widget .widget-title-wrapper, 
+.related-articles-wrapper{
+	background:lighten($primary_color, 0.75);
+}
+
+.block-header .block-title, 
+.widget .widget-title, 
+.related-articles-wrapper .related-title{
+	position:relative;
+		&:after {
+	    content: "";
+	    display: block;
+	    height: 0;
+	    width: 0px;
+	    border: 33px solid transparent;
+	    border-bottom-color: $primary_color;
+	    border-width: 0px 33px 33px 0px;
+	    position: absolute;
+	    top: 0px;
+	    left: 100%;
+	}
+}
+
+.footer-widgets-area{
+	.widget-title{
+		&:after{
+			display:none;
+		}
+	}
+}

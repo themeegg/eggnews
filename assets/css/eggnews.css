@@ -460,6 +460,32 @@ Clearings
       -moz-transform: scale(1.5);
       transform: scale(1.5); }
 
+.block-header,
+.widget .widget-title-wrapper,
+.related-articles-wrapper {
+  background: #418f41; }
+
+.block-header .block-title,
+.widget .widget-title,
+.related-articles-wrapper .related-title {
+  position: relative; }
+  .block-header .block-title:after,
+  .widget .widget-title:after,
+  .related-articles-wrapper .related-title:after {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0px;
+    border: 33px solid transparent;
+    border-bottom-color: #408c40;
+    border-width: 0px 33px 33px 0px;
+    position: absolute;
+    top: 0px;
+    left: 100%; }
+
+.footer-widgets-area .widget-title:after {
+  display: none; }
+
 /*--------------------------------------------------------------
 Posts and pages
 --------------------------------------------------------------*/
