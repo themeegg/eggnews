@@ -44,7 +44,7 @@ function eggnews_scripts() {
 	global $eggnews_version;
 
 	$query_args = array(
-		'family' => 'Merriweather',
+		'family' => 'Poppins',
 	);
 
 	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/assets/lib/font-awesome/css/font-awesome.min.css', array(), '4.5.0' );
