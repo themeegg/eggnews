@@ -11,7 +11,7 @@ Archive page  css
     padding: 0 30px;
     text-transform: uppercase;
   }
-  background: $primary_color none repeat scroll 0 0;
+  background: lighten($primary_color, 20%) none repeat scroll 0 0;
   border-left: 4px solid $primary_color;
   line-height: 24px;
   margin-bottom: 30px;

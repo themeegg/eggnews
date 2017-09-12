@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: themeeggofficial@gmail.com\n"
-"POT-Creation-Date: 2017-09-02 16:28:06+00:00\n"
+"POT-Creation-Date: 2017-09-12 17:10:21+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -41,19 +41,19 @@ msgstr ""
 msgid "22"
 msgstr ""
 
-#: 404.php:21
+#: 404.php:19
 msgid "404"
 msgstr ""
 
-#: 404.php:19
+#: 404.php:17
 msgid "Oops! That page can&rsquo;t be found."
 msgstr ""
 
-#: 404.php:21
+#: 404.php:20
 msgid "error"
 msgstr ""
 
-#: 404.php:23
+#: 404.php:22
 msgid ""
 "It looks like nothing was found at this location. Maybe try one of the "
 "links below or a search?"
@@ -83,15 +83,15 @@ msgstr ""
 msgid "Eggnews by %1$s."
 msgstr ""
 
-#: functions.php:66
+#: functions.php:67
 msgid "Primary Menu"
 msgstr ""
 
-#: functions.php:67
+#: functions.php:68
 msgid "Top Header Menu"
 msgstr ""
 
-#: functions.php:68
+#: functions.php:69
 msgid "Footer Menu"
 msgstr ""
 
@@ -116,18 +116,18 @@ msgstr ""
 #: inc/admin/assets/eggnews-sanitize.php:59
 #: inc/admin/assets/panels/design-panel.php:179
 #: inc/admin/assets/panels/header-panel.php:59
-#: inc/admin/assets/panels/header-panel.php:86
-#: inc/admin/assets/panels/header-panel.php:124
-#: inc/admin/assets/panels/header-panel.php:164
+#: inc/admin/assets/panels/header-panel.php:105
+#: inc/admin/assets/panels/header-panel.php:132
+#: inc/admin/assets/panels/header-panel.php:170
 msgid "Enable"
 msgstr ""
 
 #: inc/admin/assets/eggnews-sanitize.php:60
 #: inc/admin/assets/panels/design-panel.php:180
 #: inc/admin/assets/panels/header-panel.php:60
-#: inc/admin/assets/panels/header-panel.php:87
-#: inc/admin/assets/panels/header-panel.php:125
-#: inc/admin/assets/panels/header-panel.php:165
+#: inc/admin/assets/panels/header-panel.php:106
+#: inc/admin/assets/panels/header-panel.php:133
+#: inc/admin/assets/panels/header-panel.php:171
 msgid "Disable"
 msgstr ""
 
@@ -337,7 +337,7 @@ msgstr ""
 msgid "Enable/disable related articles section at single post page."
 msgstr ""
 
-#: inc/admin/assets/panels/design-panel.php:190 inc/eggnews-functions.php:503
+#: inc/admin/assets/panels/design-panel.php:190 inc/eggnews-functions.php:502
 msgid "Related Articles"
 msgstr ""
 
@@ -419,51 +419,47 @@ msgid "Top Header Section"
 msgstr ""
 
 #: inc/admin/assets/panels/header-panel.php:54
-msgid "Current Date Option"
-msgstr ""
-
-#: inc/admin/assets/panels/header-panel.php:55
-msgid "Enable/disable current date from top header."
-msgstr ""
-
-#: inc/admin/assets/panels/header-panel.php:81
-msgid "Social Icon Option"
-msgstr ""
-
-#: inc/admin/assets/panels/header-panel.php:82
-msgid "Enable/disable social icons from top header (right)."
-msgstr ""
-
-#: inc/admin/assets/panels/header-panel.php:99
-msgid "Sticky Menu"
-msgstr ""
-
-#: inc/admin/assets/panels/header-panel.php:119
-msgid "Menu Sticky"
-msgstr ""
-
-#: inc/admin/assets/panels/header-panel.php:120
-msgid "Enable/disable option for Menu Sticky"
-msgstr ""
-
-#: inc/admin/assets/panels/header-panel.php:138
-msgid "News Ticker Section"
-msgstr ""
-
-#: inc/admin/assets/panels/header-panel.php:159
 msgid "News Ticker Option"
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:160
+#: inc/admin/assets/panels/header-panel.php:55
 msgid "Enable/disable news ticker at header."
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:175 inc/eggnews-functions.php:105
+#: inc/admin/assets/panels/header-panel.php:70 inc/eggnews-functions.php:105
 msgid "Latest"
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:185
+#: inc/admin/assets/panels/header-panel.php:80
 msgid "News Ticker Caption"
+msgstr ""
+
+#: inc/admin/assets/panels/header-panel.php:100
+msgid "Current Date Option"
+msgstr ""
+
+#: inc/admin/assets/panels/header-panel.php:101
+msgid "Enable/disable current date from top header."
+msgstr ""
+
+#: inc/admin/assets/panels/header-panel.php:127
+msgid "Social Icon Option"
+msgstr ""
+
+#: inc/admin/assets/panels/header-panel.php:128
+msgid "Enable/disable social icons from top header (right)."
+msgstr ""
+
+#: inc/admin/assets/panels/header-panel.php:145
+msgid "Sticky Menu"
+msgstr ""
+
+#: inc/admin/assets/panels/header-panel.php:165
+msgid "Menu Sticky"
+msgstr ""
+
+#: inc/admin/assets/panels/header-panel.php:166
+msgid "Enable/disable option for Menu Sticky"
 msgstr ""
 
 #: inc/admin/class-eggnews-admin.php:36 inc/admin/class-eggnews-admin.php:122
@@ -807,23 +803,23 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
-#: inc/eggnews-functions.php:161
+#: inc/eggnews-functions.php:160
 msgid "Select Category"
 msgstr ""
 
-#: inc/eggnews-functions.php:173
+#: inc/eggnews-functions.php:172
 msgid "Select No. of Columns"
 msgstr ""
 
-#: inc/eggnews-functions.php:174
+#: inc/eggnews-functions.php:173
 msgid "2 Columns"
 msgstr ""
 
-#: inc/eggnews-functions.php:175
+#: inc/eggnews-functions.php:174
 msgid "3 Columns"
 msgstr ""
 
-#: inc/eggnews-functions.php:176
+#: inc/eggnews-functions.php:175
 msgid "4 Columns"
 msgstr ""
 
@@ -1235,7 +1231,7 @@ msgid "You can place banner as advertisement with links."
 msgstr ""
 
 #: inc/widgets/eggnews-ads-banner.php:28
-msgid "Eggnews: Ads Banner"
+msgid "Banner Ad"
 msgstr ""
 
 #: inc/widgets/eggnews-ads-banner.php:38
@@ -1275,7 +1271,7 @@ msgid "Display block posts as Column layout."
 msgstr ""
 
 #: inc/widgets/eggnews-block-column.php:28
-msgid "Eggnews: Block Posts (Column)"
+msgid "Column Block Posts"
 msgstr ""
 
 #: inc/widgets/eggnews-block-column.php:43
@@ -1302,7 +1298,7 @@ msgid "Display block posts in grid layout."
 msgstr ""
 
 #: inc/widgets/eggnews-block-grid.php:28
-msgid "Eggnews: Block Posts (Grid)"
+msgid "Grid Block Posts"
 msgstr ""
 
 #: inc/widgets/eggnews-block-grid.php:58
@@ -1314,7 +1310,7 @@ msgid "Display posts in block layout"
 msgstr ""
 
 #: inc/widgets/eggnews-block-layout.php:28
-msgid "Eggnews: Block Layout"
+msgid "Block Layout"
 msgstr ""
 
 #: inc/widgets/eggnews-block-layout.php:48
@@ -1327,7 +1323,7 @@ msgid "Display posts in block list layout"
 msgstr ""
 
 #: inc/widgets/eggnews-block-list.php:28
-msgid "Eggnews: Block Posts (List)"
+msgid "Block Posts List"
 msgstr ""
 
 #: inc/widgets/eggnews-featured-slider.php:26
@@ -1335,7 +1331,7 @@ msgid "Display slider with featured posts."
 msgstr ""
 
 #: inc/widgets/eggnews-featured-slider.php:28
-msgid "Eggnews: Featured Slider"
+msgid "Featured Slider"
 msgstr ""
 
 #: inc/widgets/eggnews-featured-slider.php:43
@@ -1343,10 +1339,12 @@ msgid "Slider Section"
 msgstr ""
 
 #: inc/widgets/eggnews-featured-slider.php:49
+#: inc/widgets/eggnews-post-carousel.php:49
 msgid "Category for Slider"
 msgstr ""
 
 #: inc/widgets/eggnews-featured-slider.php:57
+#: inc/widgets/eggnews-post-carousel.php:57
 msgid "No. of slides"
 msgstr ""
 
@@ -1358,12 +1356,28 @@ msgstr ""
 msgid "Category for Featured Posts"
 msgstr ""
 
+#: inc/widgets/eggnews-post-carousel.php:26
+msgid "Display carousel with posts."
+msgstr ""
+
+#: inc/widgets/eggnews-post-carousel.php:28
+msgid "Carousel Posts"
+msgstr ""
+
+#: inc/widgets/eggnews-post-carousel.php:43
+msgid "Carousel Section"
+msgstr ""
+
+#: inc/widgets/eggnews-post-carousel.php:64
+msgid "Show Random"
+msgstr ""
+
 #: inc/widgets/eggnews-posts-list.php:26
 msgid "Display latest or random posts in list view."
 msgstr ""
 
 #: inc/widgets/eggnews-posts-list.php:28
-msgid "Eggnews: Posts Lists"
+msgid "Posts Lists"
 msgstr ""
 
 #: inc/widgets/eggnews-posts-list.php:38
