@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Magazine Page
+ * Template Name: News Home Page
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
