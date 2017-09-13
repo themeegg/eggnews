@@ -9,6 +9,37 @@
  * @since 1.0.0
  */
 
+if ( ! function_exists( 'eggnews_sass_darken' ) ) :
+	function eggnews_sass_darken( $hex, $percent ) {
+		preg_match( '/^#?([0-9a-f]{2})([0-9a-f]{2})([0-9a-f]{2})$/i', $hex, $primary_colors );
+		str_replace( '%', '', $percent );
+		$color = "#";
+		for ( $i = 1; $i <= 3; $i ++ ) {
+			$rgb              = hexdec( $primary_colors[ $i ] );
+			$calculated_color = round( $rgb * ( 100 - ( $percent * 2 ) ) / 100 );
+			$calculated_color = $calculated_color < 0 ? 0 : $calculated_color;
+			$color .= str_pad( dechex( $calculated_color ), 2, '0', STR_PAD_LEFT );
+		}
+
+		return $color;
+	}
+endif;
+if ( ! function_exists( 'eggnews_sass_lighten' ) ) :
+	function eggnews_sass_lighten( $hex, $percent ) {
+		preg_match( '/^#?([0-9a-f]{2})([0-9a-f]{2})([0-9a-f]{2})$/i', $hex, $primary_colors );
+		str_replace( '%', '', $percent );
+		$color = "#";
+		for ( $i = 1; $i <= 3; $i ++ ) {
+			$rgb              = hexdec( $primary_colors[ $i ] );
+			$calculated_color = round( $rgb * ( 100 + $percent ) / 100 );
+			$calculated_color = $calculated_color > 254 ? 255 : $calculated_color;
+			$color .= str_pad( dechex( $calculated_color ), 2, '0', STR_PAD_LEFT );
+		}
+
+		return $color;
+	}
+
+endif;
 if ( ! function_exists( 'eggnews_setup' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.

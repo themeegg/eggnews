@@ -35,10 +35,15 @@ TICKER CSS
 	padding: 4px 0px 0 30px;
 	width: 85%;
 	position: relative;
-	background: lighten($top_header_background,0.5);
+	background: lighten($top_header_background, 0.5);
 
 	z-index: 0;
 	.news-post a {
 		color: #fff;
+		font-weight: bold	;
+		&:hover {
+
+			color: $primary_color;
+		}
 	}
 }

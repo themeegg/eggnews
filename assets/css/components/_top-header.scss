@@ -2,53 +2,58 @@
 TOP HEADER CSS
 --------------------------------------------------------------*/
 
-.top-header-section {
-  background: lighten($top_header_background,0.3);
-  font-size: 12px;
-	padding: 10px 0;
+.eggnews-ticker-wrapper ~ .top-header-section {
 	border-top: 2px solid $primary_color;
-  .date-section {
-    float: left;
-    margin-right: 15px;
-    color: $white_color;
-    &::before {
-      content: "\f017";
-      display: inline-block;
-      font-family: FontAwesome;
-      margin-right: 8px;
-    }
-  }
+
+}
+
+.top-header-section {
+	background: lighten($top_header_background, 0.3);
+	font-size: 12px;
+	padding: 10px 0;
+	.date-section {
+		float: left;
+		margin-right: 15px;
+		color: $white_color;
+		&::before {
+			content: "\f017";
+			display: inline-block;
+			font-family: FontAwesome;
+			margin-right: 8px;
+		}
+	}
 }
 
 .top-menu ul, #footer-navigation ul {
-  list-style: outside none none;
-  margin: 0;
-  padding: 0;
+	list-style: outside none none;
+	margin: 0;
+	padding: 0;
 }
-
 
 .top-menu ul li, #footer-navigation ul li {
-  border-left: 2px solid rgba(0, 0, 0, 0.3);
-  display: inline-block;
-  line-height: 12px;
-  margin-right: 10px;
-  padding: 0 0 0 10px;
+	border-left: 2px solid rgba(0, 0, 0, 0.3);
+	display: inline-block;
+	line-height: 12px;
+	margin-right: 10px;
+	padding: 0 0 0 10px;
 }
-.top-menu ul li{
-	border-left:2px solid $primary_color;
+
+.top-menu ul li {
+	border-left: 2px solid $primary_color;
 }
+
 .top-menu ul li a, #footer-navigation ul li a {
-  color: $white_color;
+	color: $white_color;
 }
 
 .top-menu ul li a:hover, #footer-navigation ul li a:hover {
-  color: $primary_color;
+	color: $primary_color;
 }
 
 #top-header-navigation {
-  float: left;
+	float: left;
 }
 
 #footer-navigation ul li ul {
-  display: none;
+	display: none;
 }

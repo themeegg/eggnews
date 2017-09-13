@@ -28,8 +28,7 @@
 #content {
 	.block-header,
 	.widget .widget-title-wrapper,
-	.related-articles-wrapper {
-
+	.related-articles-wrapper .widget-title-wrapper {
 		background-color: lighten($primary_color, 20%);
 
 	}
