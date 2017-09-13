@@ -62,11 +62,14 @@ if ( ! function_exists( 'eggnews_categories_color' ) ):
 		$teg_dynamic_css .= ".block-header, .widget .widget-title-wrapper, .related-articles-wrapper .widget-title-wrapper {border-left-color: " . $teg_theme_color . ";border-bottom-color: " . $teg_theme_color . "}\n";
 		$teg_dynamic_css .= "#content .block-header .block-title:after, #content .widget .widget-title:after, #content .related-articles-wrapper .related-title:after {border-bottom-color: " . $teg_theme_color . ";border-bottom-color: " . $teg_theme_color . "}\n";
 		$teg_dynamic_css .= ".archive .page-header {background-color: " . eggnews_sass_lighten( $teg_theme_color, '20%' ) . "}\n";
-		$teg_dynamic_css .= "#site-navigation ul li.current-menu-item a {border-color: " . $teg_theme_color . "}\n";
+		$teg_dynamic_css .= "#site-navigation ul li.current-menu-item a,.bx-default-pager .bx-pager-item a.active {border-color: " . $teg_theme_color . "}\n";
 		$teg_dynamic_css .= ".bottom-header-wrapper {border-color: " . $teg_theme_color . "}\n";
 		$teg_dynamic_css .= ".top-menu ul li, .eggnews-ticker-wrapper ~ .top-header-section {border-color: " . $teg_theme_color . "}\n";
 		$teg_dynamic_css .= ".ticker-caption {background-color: " . $teg_theme_color . "}\n";
 		$teg_dynamic_css .= ".ticker-content-wrapper .news-post a:hover{color: " . $teg_theme_color . "}\n";
+		if ( empty( $teg_theme_color ) ) {
+			$teg_dynamic_css = '';
+		}
 
 		?>
 		<style type="text/css">
