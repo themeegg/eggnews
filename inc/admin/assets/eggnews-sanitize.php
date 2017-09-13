@@ -66,6 +66,19 @@ function eggnews_enable_switch_sanitize( $input ) {
 	}
 }
 
+// Switch option for ticker all (enable/disable)
+function all_page_eggnews_ticker_enable_switch_sanitize( $input ) {
+	$valid_keys = array(
+		'yes' => __( 'Yes', 'eggnews' ),
+		'no'  => __( 'No', 'eggnews' )
+	);
+	if ( array_key_exists( $input, $valid_keys ) ) {
+		return $input;
+	} else {
+		return '';
+	}
+}
+
 //switch option (show/hide)
 function eggnews_show_switch_sanitize( $input ) {
 	$valid_keys = array(

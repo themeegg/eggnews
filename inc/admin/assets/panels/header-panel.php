@@ -53,7 +53,7 @@ function eggnews_header_settings_register( $wp_customize ) {
 				'type'        => 'switch',
 				'label'       => __( 'News Ticker Option', 'eggnews' ),
 				'description' => __( 'Enable/disable news ticker at header.', 'eggnews' ),
-				'priority'    => 4,
+				'priority'    => 1,
 				'section'     => 'eggnews_top_header_section',
 				'choices'     => array(
 					'enable'  => __( 'Enable', 'eggnews' ),
@@ -62,6 +62,7 @@ function eggnews_header_settings_register( $wp_customize ) {
 			)
 		)
 	);
+
 
 	//Ticker Caption
 	$wp_customize->add_setting(
@@ -79,9 +80,36 @@ function eggnews_header_settings_register( $wp_customize ) {
 			'type'     => 'text',
 			'label'    => __( 'News Ticker Caption', 'eggnews' ),
 			'section'  => 'eggnews_top_header_section',
-			'priority' => 4
+			'priority' => 2
 		)
 	);
+	// Show ticker in all page or only front page /*
+	$wp_customize->add_setting(
+		'all_page_eggnews_ticker_option',
+		array(
+			'default'           => 'no',
+			'capability'        => 'edit_theme_options',
+			'transport'         => 'postMessage',
+			'sanitize_callback' => 'all_page_eggnews_ticker_enable_switch_sanitize'
+		)
+	);
+	$wp_customize->add_control( new Eggnews_Customize_Switch_Control(
+			$wp_customize,
+			'all_page_eggnews_ticker_option',
+			array(
+				'type'        => 'switch',
+				'label'       => __( 'Show on all page', 'eggnews' ),
+				'description' => __( 'Select yes, if you want to show ticker on all page.', 'eggnews' ),
+				'priority'    => 3,
+				'section'     => 'eggnews_top_header_section',
+				'choices'     => array(
+					'yes' => __( 'Yes', 'eggnews' ),
+					'no'  => __( 'No', 'eggnews' )
+				)
+			)
+		)
+	);
+
 	// Display Current Date
 	$wp_customize->add_setting(
 		'eggnews_header_date',
