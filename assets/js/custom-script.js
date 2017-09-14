@@ -18,16 +18,52 @@ $(document).ready(function () {
 		prevText: '<i class="fa fa-arrow-left"> </i>',
 		nextText: '<i class="fa fa-arrow-right"> </i>',
 	});
-	$('.teg-carousel-section').removeClass('teg-before-carousel-js-load');
-	$('.eggnewsCarousel').bxSlider({
-		slideWidth: 350,
-		minSlides: 1,
-		maxSlides: 3,
-		slideMargin: 10,
-		controls: false,
-		auto: true,
-		moveSlides: 3,
+	//$('.teg-carousel-section').removeClass('teg-before-carousel-js-load');
+	$('.eggnews-carousel').owlCarousel({
+		navigation: true, // Show next and prev buttons
+		slideSpeed: 300,
+		paginationSpeed: 400,
+		singleItem: true,
+		margin: 10,
+		controls: true,
+		loop: true,
+		nav: false,
+		autoplayTimeout: 2200,
+		autoplay: false,
+		navText: ['<i class="fa fa-arrow-left"> </i>', '<i class="fa fa-arrow-right"> </i>'],
+
+
+		/*loop: true,
+		 margin: 10,
+		 autoplayTimeout: 2200,
+		 autoplay: false,
+		 singleItem: true,
+		 items: 5,
+		 nav: true,
+		 navText : ["Next","Prev"],
+
+		 controls: false,
+		 responsive: {
+		 0: {
+		 items: 1
+		 },
+		 600: {
+		 items: 3
+		 },
+		 1000: {
+		 items: 5
+		 }
+		 }*/
 	});
+	/*$('.eggnewsCarousel').bxSlider({
+
+	 minSlides: 3,
+	 maxSlides: 5,
+	 slideMargin: 10,
+	 controls: true,
+	 auto: true,
+	 moveSlides: 3,
+	 });*/
 
 	//Search toggle
 	$('.header-search-wrapper .search-main').click(function () {

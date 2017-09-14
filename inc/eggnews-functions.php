@@ -59,6 +59,17 @@ function eggnews_scripts() {
 
 	wp_enqueue_script( 'jquery-bxslider', get_template_directory_uri() . '/assets/lib/bxslider/jquery.bxslider.min.js', array( 'jquery' ), '4.1.2', true );
 
+	// Start : Owl Carousel
+
+	wp_enqueue_style( 'owl-carousel2-style', get_template_directory_uri() . '/assets/lib/owl/assets/owl.carousel.css', array(), esc_attr( $eggnews_version ) );
+
+	wp_enqueue_style( 'owl-carousel2-theme', get_template_directory_uri() . '/assets/lib/owl/assets/owl.theme.default.css', array(), esc_attr( $eggnews_version ) );
+
+	wp_enqueue_script( 'owl-carousel2-script', get_template_directory_uri() . '/assets/lib/owl/owl.carousel.min.js', array( 'jquery' ), esc_attr( $eggnews_version ), true );
+
+	//End : Owl Carousel
+
+
 	$menu_sticky_option = get_theme_mod( 'eggnews_sticky_option', 'enable' );
 	if ( $menu_sticky_option != 'disable' ) {
 		wp_enqueue_script( 'jquery-sticky', get_template_directory_uri() . '/assets/lib/sticky/jquery.sticky.js', array( 'jquery' ), '20150416', true );
@@ -102,7 +113,7 @@ if ( ! function_exists( 'eggnews_news_ticker_hook' ) ):
 	function eggnews_news_ticker_hook() {
 		$eggnews_ticker_option          = get_theme_mod( 'eggnews_ticker_option', 'enable' );
 		$all_page_eggnews_ticker_option = get_theme_mod( 'all_page_eggnews_ticker_option', 'no' );
-		
+
 		if ( $eggnews_ticker_option != 'disable'
 		     && ( ( is_front_page() && $all_page_eggnews_ticker_option == 'no' ) || $all_page_eggnews_ticker_option == 'yes' )
 		) {

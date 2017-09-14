@@ -91,41 +91,46 @@ class Eggnews_Post_Carousel extends WP_Widget {
 		$eggnews_featured_category_id     = intval( empty( $instance['eggnews_featured_category'] ) ? null : $instance['eggnews_featured_category'] );
 		$eggnews_carousel_category_random = intval( empty( $instance['eggnews_carousel_category_random'] ) ? null : $instance['eggnews_carousel_category_random'] );
 		echo $before_widget;
-		?>
-		<div class="teg-carousel-wrapper full-width">
-			<div class="teg-carousel-section teg-before-carousel-js-load">
+
+		$slider_args = eggnews_query_args( $eggnews_carousel_category_id, $eggnews_carousel_count );
+
+		if ( 1 === $eggnews_carousel_category_random ) {
+			$slider_args['orderby'] = 'rand';
+		}
+		$carousel_query = new WP_Query( $slider_args );
+		if ( $carousel_query->have_posts() ) {
+			?>
+
+			<div class="owl-carousel owl-theme eggnews-carousel">
+
 				<?php
-				$slider_args = eggnews_query_args( $eggnews_carousel_category_id, $eggnews_carousel_count );
 
-				if ( 1 === $eggnews_carousel_category_random ) {
-					$slider_args['orderby'] = 'rand';
-				}
-				$carousel_query = new WP_Query( $slider_args );
 
-				if ( $carousel_query->have_posts() ) {
-					echo '<ul class="eggnewsCarousel">';
-					while ( $carousel_query->have_posts() ) {
-						$carousel_query->the_post();
-						?>
-						<li>
-							<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-								<figure class="carousel-image-wrap"><?php the_post_thumbnail( 'eggnews-carousel-image' ); ?></figure>
-							</a>
-							<div class="carousel-content-wrapper">
+				while ( $carousel_query->have_posts() ) {
+					$carousel_query->the_post();
+					?>
+					<div class="item">
+						<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+							<figure
+								class="carousel-image-wrap"><?php the_post_thumbnail( 'eggnews-carousel-image' ); ?></figure>
+						</a>
+						<div class="carousel-content-wrapper">
+							<?php do_action( 'eggnews_post_categories' ); ?>
 
-								<h3 class="carousel-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-								</h3>
-							</div><!-- .post-meta-wrapper -->
-						</li>
-						<?php
-					}
-					echo '</ul>';
+							<h3 class="carousel-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+							</h3>
+
+						</div>
+					</div>
+					<?php
 				}
 				wp_reset_postdata();
 				?>
-				<div style="clear:both"></div>
-			</div><!-- .teg-slider-section -->
-		</div><!-- .teg-featured-slider-wrapper -->
+
+
+			</div>
+		<?php } ?>
+		<div style="clear:both"></div>
 
 
 		<?php
