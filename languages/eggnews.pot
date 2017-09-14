@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: themeeggofficial@gmail.com\n"
-"POT-Creation-Date: 2017-09-12 17:10:21+00:00\n"
+"POT-Creation-Date: 2017-09-14 17:52:17+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -83,15 +83,15 @@ msgstr ""
 msgid "Eggnews by %1$s."
 msgstr ""
 
-#: functions.php:67
+#: functions.php:98
 msgid "Primary Menu"
 msgstr ""
 
-#: functions.php:68
+#: functions.php:99
 msgid "Top Header Menu"
 msgstr ""
 
-#: functions.php:69
+#: functions.php:100
 msgid "Footer Menu"
 msgstr ""
 
@@ -116,67 +116,77 @@ msgstr ""
 #: inc/admin/assets/eggnews-sanitize.php:59
 #: inc/admin/assets/panels/design-panel.php:179
 #: inc/admin/assets/panels/header-panel.php:59
-#: inc/admin/assets/panels/header-panel.php:105
-#: inc/admin/assets/panels/header-panel.php:132
-#: inc/admin/assets/panels/header-panel.php:170
+#: inc/admin/assets/panels/header-panel.php:133
+#: inc/admin/assets/panels/header-panel.php:160
+#: inc/admin/assets/panels/header-panel.php:198
 msgid "Enable"
 msgstr ""
 
 #: inc/admin/assets/eggnews-sanitize.php:60
 #: inc/admin/assets/panels/design-panel.php:180
 #: inc/admin/assets/panels/header-panel.php:60
-#: inc/admin/assets/panels/header-panel.php:106
-#: inc/admin/assets/panels/header-panel.php:133
-#: inc/admin/assets/panels/header-panel.php:171
+#: inc/admin/assets/panels/header-panel.php:134
+#: inc/admin/assets/panels/header-panel.php:161
+#: inc/admin/assets/panels/header-panel.php:199
 msgid "Disable"
 msgstr ""
 
 #: inc/admin/assets/eggnews-sanitize.php:72
+#: inc/admin/assets/panels/header-panel.php:106
+msgid "Yes"
+msgstr ""
+
+#: inc/admin/assets/eggnews-sanitize.php:73
+#: inc/admin/assets/panels/header-panel.php:107
+msgid "No"
+msgstr ""
+
+#: inc/admin/assets/eggnews-sanitize.php:85
 #: inc/admin/assets/panels/design-panel.php:153
 msgid "Show"
 msgstr ""
 
-#: inc/admin/assets/eggnews-sanitize.php:73
+#: inc/admin/assets/eggnews-sanitize.php:86
 #: inc/admin/assets/panels/design-panel.php:154
 msgid "Hide"
 msgstr ""
 
-#: inc/admin/assets/eggnews-sanitize.php:85
+#: inc/admin/assets/eggnews-sanitize.php:98
 #: inc/admin/assets/panels/design-panel.php:85
 msgid "Classic Layout"
 msgstr ""
 
-#: inc/admin/assets/eggnews-sanitize.php:86
+#: inc/admin/assets/eggnews-sanitize.php:99
 #: inc/admin/assets/panels/design-panel.php:86
 msgid "Columns Layout"
 msgstr ""
 
-#: inc/admin/assets/eggnews-sanitize.php:113
+#: inc/admin/assets/eggnews-sanitize.php:126
 #: inc/admin/assets/panels/design-panel.php:301
 msgid "One Column"
 msgstr ""
 
-#: inc/admin/assets/eggnews-sanitize.php:114
+#: inc/admin/assets/eggnews-sanitize.php:127
 #: inc/admin/assets/panels/design-panel.php:302
 msgid "Two Columns"
 msgstr ""
 
-#: inc/admin/assets/eggnews-sanitize.php:115
+#: inc/admin/assets/eggnews-sanitize.php:128
 #: inc/admin/assets/panels/design-panel.php:303
 msgid "Three Columns"
 msgstr ""
 
-#: inc/admin/assets/eggnews-sanitize.php:116
+#: inc/admin/assets/eggnews-sanitize.php:129
 #: inc/admin/assets/panels/design-panel.php:304
 msgid "Four Columns"
 msgstr ""
 
-#: inc/admin/assets/eggnews-sanitize.php:128
+#: inc/admin/assets/eggnews-sanitize.php:141
 #: inc/admin/assets/panels/design-panel.php:223
 msgid "by Category"
 msgstr ""
 
-#: inc/admin/assets/eggnews-sanitize.php:129
+#: inc/admin/assets/eggnews-sanitize.php:142
 #: inc/admin/assets/panels/design-panel.php:224
 msgid "by Tags"
 msgstr ""
@@ -337,7 +347,7 @@ msgstr ""
 msgid "Enable/disable related articles section at single post page."
 msgstr ""
 
-#: inc/admin/assets/panels/design-panel.php:190 inc/eggnews-functions.php:502
+#: inc/admin/assets/panels/design-panel.php:190 inc/eggnews-functions.php:517
 msgid "Related Articles"
 msgstr ""
 
@@ -426,39 +436,47 @@ msgstr ""
 msgid "Enable/disable news ticker at header."
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:70 inc/eggnews-functions.php:105
+#: inc/admin/assets/panels/header-panel.php:71 inc/eggnews-functions.php:120
 msgid "Latest"
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:80
+#: inc/admin/assets/panels/header-panel.php:81
 msgid "News Ticker Caption"
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:100
-msgid "Current Date Option"
-msgstr ""
-
 #: inc/admin/assets/panels/header-panel.php:101
-msgid "Enable/disable current date from top header."
+msgid "Show on all page"
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:127
-msgid "Social Icon Option"
+#: inc/admin/assets/panels/header-panel.php:102
+msgid "Select yes, if you want to show ticker on all page."
 msgstr ""
 
 #: inc/admin/assets/panels/header-panel.php:128
+msgid "Current Date Option"
+msgstr ""
+
+#: inc/admin/assets/panels/header-panel.php:129
+msgid "Enable/disable current date from top header."
+msgstr ""
+
+#: inc/admin/assets/panels/header-panel.php:155
+msgid "Social Icon Option"
+msgstr ""
+
+#: inc/admin/assets/panels/header-panel.php:156
 msgid "Enable/disable social icons from top header (right)."
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:145
+#: inc/admin/assets/panels/header-panel.php:173
 msgid "Sticky Menu"
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:165
+#: inc/admin/assets/panels/header-panel.php:193
 msgid "Menu Sticky"
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:166
+#: inc/admin/assets/panels/header-panel.php:194
 msgid "Enable/disable option for Menu Sticky"
 msgstr ""
 
@@ -803,23 +821,23 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
-#: inc/eggnews-functions.php:160
+#: inc/eggnews-functions.php:175
 msgid "Select Category"
 msgstr ""
 
-#: inc/eggnews-functions.php:172
+#: inc/eggnews-functions.php:187
 msgid "Select No. of Columns"
 msgstr ""
 
-#: inc/eggnews-functions.php:173
+#: inc/eggnews-functions.php:188
 msgid "2 Columns"
 msgstr ""
 
-#: inc/eggnews-functions.php:174
+#: inc/eggnews-functions.php:189
 msgid "3 Columns"
 msgstr ""
 
-#: inc/eggnews-functions.php:175
+#: inc/eggnews-functions.php:190
 msgid "4 Columns"
 msgstr ""
 
