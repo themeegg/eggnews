@@ -45,31 +45,32 @@ if ( ! function_exists( 'eggnews_categories_color' ) ):
 
 		$teg_dynamic_css = '';
 
-		$teg_dynamic_css .= ".navigation .nav-links a,.bttn,button,input[type='button'],input[type='reset'],input[type='submit'],.navigation .nav-links a:hover,.bttn:hover,button,input[type='button']:hover,input[type='reset']:hover,input[type='submit']:hover,.edit-link .post-edit-link ,.reply .comment-reply-link,.home-icon,.search-main,.header-search-wrapper .search-form-main .search-submit,.teg-slider-section .bx-controls a:hover,.widget_search .search-submit,.error404 .page-title,.archive.archive-classic .entry-title a:after,#teg-scrollup,.widget_tag_cloud .tagcloud a:hover,.sub-toggle,#site-navigation ul > li:hover > .sub-toggle, #site-navigation ul > li.current-menu-item .sub-toggle, #site-navigation ul > li.current-menu-ancestor .sub-toggle{ background:" . $teg_theme_color . "}\n";
-
-		$teg_dynamic_css .= ".navigation .nav-links a,.bttn,button,input[type='button'],input[type='reset'],input[type='submit'],.widget_search .search-submit,.widget_tag_cloud .tagcloud a:hover{ border-color:" . $teg_theme_color . "}\n";
-
-		$teg_dynamic_css .= ".comment-list .comment-body ,.header-search-wrapper .search-form-main{ border-top-color:" . $teg_theme_color . "}\n";
-
-		$teg_dynamic_css .= "#site-navigation ul li,.header-search-wrapper .search-form-main:before{ border-bottom-color:" . $teg_theme_color . "}\n";
-
-		$teg_dynamic_css .= ".archive .page-header,.block-header, .widget .widget-title-wrapper, .related-articles-wrapper .widget-title-wrapper{ border-left-color:" . $teg_theme_color . "}\n";
-
-		$teg_dynamic_css .= "a,a:hover,a:focus,a:active,.entry-footer a:hover,.comment-author .fn .url:hover,#cancel-comment-reply-link,#cancel-comment-reply-link:before, .logged-in-as a,.top-menu ul li a:hover,#footer-navigation ul li a:hover,#site-navigation ul li a:hover,#site-navigation ul li.current-menu-item a,.teg-slider-section .slide-title a:hover,.featured-post-wrapper .featured-title a:hover,.eggnews_block_grid .post-title a:hover,.slider-meta-wrapper span:hover,.slider-meta-wrapper a:hover,.featured-meta-wrapper span:hover,.featured-meta-wrapper a:hover,.post-meta-wrapper > span:hover,.post-meta-wrapper span > a:hover ,.grid-posts-block .post-title a:hover,.list-posts-block .single-post-wrapper .post-content-wrapper .post-title a:hover,.column-posts-block .single-post-wrapper.secondary-post .post-content-wrapper .post-title a:hover,.widget a:hover,.widget a:hover::before,.widget li:hover::before,.entry-title a:hover,.entry-meta span a:hover,.post-readmore a:hover,.archive-classic .entry-title a:hover,
-            .archive-columns .entry-title a:hover,.related-posts-wrapper .post-title a:hover,.block-header .block-title a:hover,.widget .widget-title a:hover,.related-articles-wrapper .related-title a:hover { color:" . $teg_theme_color . "}\n";
-		$teg_dynamic_css .= "#content .block-header,#content .widget .widget-title-wrapper,#content .related-articles-wrapper .widget-title-wrapper {background-color: " . eggnews_sass_lighten( $teg_theme_color, '20%' ) . ";}\n";
-		$teg_dynamic_css .= ".block-header .block-title, .widget .widget-title, .related-articles-wrapper .related-title {background-color: " . $teg_theme_color . ";}\n";
-		$teg_dynamic_css .= ".block-header, .widget .widget-title-wrapper, .related-articles-wrapper .widget-title-wrapper {border-left-color: " . $teg_theme_color . ";border-bottom-color: " . $teg_theme_color . "}\n";
-		$teg_dynamic_css .= "#content .block-header .block-title:after, #content .widget .widget-title:after, #content .related-articles-wrapper .related-title:after {border-bottom-color: " . $teg_theme_color . ";border-bottom-color: " . $teg_theme_color . "}\n";
-		$teg_dynamic_css .= ".archive .page-header {background-color: " . eggnews_sass_lighten( $teg_theme_color, '20%' ) . "}\n";
-		$teg_dynamic_css .= "#site-navigation ul li.current-menu-item a,.bx-default-pager .bx-pager-item a.active {border-color: " . $teg_theme_color . "}\n";
-		$teg_dynamic_css .= ".bottom-header-wrapper {border-color: " . $teg_theme_color . "}\n";
-		$teg_dynamic_css .= ".top-menu ul li, .eggnews-ticker-wrapper ~ .top-header-section {border-color: " . $teg_theme_color . "}\n";
-		$teg_dynamic_css .= ".ticker-caption {background-color: " . $teg_theme_color . "}\n";
-		$teg_dynamic_css .= ".ticker-content-wrapper .news-post a:hover, .eggnews-carousel .item .carousel-content-wrapper a:hover{color: " . $teg_theme_color . "}\n";
-		$teg_dynamic_css .= ".eggnews-carousel .item .carousel-content-wrapper h3 a:hover{color: " . $teg_theme_color . "}\n";
 		if ( empty( $teg_theme_color ) ) {
-			$teg_dynamic_css = '';
+
+
+			$teg_dynamic_css .= ".navigation .nav-links a,.bttn,button,input[type='button'],input[type='reset'],input[type='submit'],.navigation .nav-links a:hover,.bttn:hover,button,input[type='button']:hover,input[type='reset']:hover,input[type='submit']:hover,.edit-link .post-edit-link ,.reply .comment-reply-link,.home-icon,.search-main,.header-search-wrapper .search-form-main .search-submit,.teg-slider-section .bx-controls a:hover,.widget_search .search-submit,.error404 .page-title,.archive.archive-classic .entry-title a:after,#teg-scrollup,.widget_tag_cloud .tagcloud a:hover,.sub-toggle,#site-navigation ul > li:hover > .sub-toggle, #site-navigation ul > li.current-menu-item .sub-toggle, #site-navigation ul > li.current-menu-ancestor .sub-toggle{ background:" . $teg_theme_color . "}\n";
+
+			$teg_dynamic_css .= ".navigation .nav-links a,.bttn,button,input[type='button'],input[type='reset'],input[type='submit'],.widget_search .search-submit,.widget_tag_cloud .tagcloud a:hover{ border-color:" . $teg_theme_color . "}\n";
+
+			$teg_dynamic_css .= ".comment-list .comment-body ,.header-search-wrapper .search-form-main{ border-top-color:" . $teg_theme_color . "}\n";
+
+			$teg_dynamic_css .= "#site-navigation ul li,.header-search-wrapper .search-form-main:before{ border-bottom-color:" . $teg_theme_color . "}\n";
+
+			$teg_dynamic_css .= ".archive .page-header,.block-header, .widget .widget-title-wrapper, .related-articles-wrapper .widget-title-wrapper{ border-left-color:" . $teg_theme_color . "}\n";
+
+			$teg_dynamic_css .= "a,a:hover,a:focus,a:active,.entry-footer a:hover,.comment-author .fn .url:hover,#cancel-comment-reply-link,#cancel-comment-reply-link:before, .logged-in-as a,.top-menu ul li a:hover,#footer-navigation ul li a:hover,#site-navigation ul li a:hover,#site-navigation ul li.current-menu-item a,.teg-slider-section .slide-title a:hover,.featured-post-wrapper .featured-title a:hover,.eggnews_block_grid .post-title a:hover,.slider-meta-wrapper span:hover,.slider-meta-wrapper a:hover,.featured-meta-wrapper span:hover,.featured-meta-wrapper a:hover,.post-meta-wrapper > span:hover,.post-meta-wrapper span > a:hover ,.grid-posts-block .post-title a:hover,.list-posts-block .single-post-wrapper .post-content-wrapper .post-title a:hover,.column-posts-block .single-post-wrapper.secondary-post .post-content-wrapper .post-title a:hover,.widget a:hover,.widget a:hover::before,.widget li:hover::before,.entry-title a:hover,.entry-meta span a:hover,.post-readmore a:hover,.archive-classic .entry-title a:hover,
+            .archive-columns .entry-title a:hover,.related-posts-wrapper .post-title a:hover,.block-header .block-title a:hover,.widget .widget-title a:hover,.related-articles-wrapper .related-title a:hover { color:" . $teg_theme_color . "}\n";
+			$teg_dynamic_css .= "#content .block-header,#content .widget .widget-title-wrapper,#content .related-articles-wrapper .widget-title-wrapper {background-color: " . eggnews_sass_lighten( $teg_theme_color, '20%' ) . ";}\n";
+			$teg_dynamic_css .= ".block-header .block-title, .widget .widget-title, .related-articles-wrapper .related-title {background-color: " . $teg_theme_color . ";}\n";
+			$teg_dynamic_css .= ".block-header, .widget .widget-title-wrapper, .related-articles-wrapper .widget-title-wrapper {border-left-color: " . $teg_theme_color . ";border-bottom-color: " . $teg_theme_color . "}\n";
+			$teg_dynamic_css .= "#content .block-header .block-title:after, #content .widget .widget-title:after, #content .related-articles-wrapper .related-title:after {border-bottom-color: " . $teg_theme_color . ";border-bottom-color: " . $teg_theme_color . "}\n";
+			$teg_dynamic_css .= ".archive .page-header {background-color: " . eggnews_sass_lighten( $teg_theme_color, '20%' ) . "}\n";
+			$teg_dynamic_css .= "#site-navigation ul li.current-menu-item a,.bx-default-pager .bx-pager-item a.active {border-color: " . $teg_theme_color . "}\n";
+			$teg_dynamic_css .= ".bottom-header-wrapper {border-color: " . $teg_theme_color . "}\n";
+			$teg_dynamic_css .= ".top-menu ul li, .eggnews-ticker-wrapper ~ .top-header-section {border-color: " . $teg_theme_color . "}\n";
+			$teg_dynamic_css .= ".ticker-caption {background-color: " . $teg_theme_color . "}\n";
+			$teg_dynamic_css .= ".ticker-content-wrapper .news-post a:hover, .eggnews-carousel .item .carousel-content-wrapper a:hover{color: " . $teg_theme_color . "}\n";
+			$teg_dynamic_css .= ".eggnews-carousel .item .carousel-content-wrapper h3 a:hover{color: " . $teg_theme_color . "}\n";
 		}
 
 		?>
