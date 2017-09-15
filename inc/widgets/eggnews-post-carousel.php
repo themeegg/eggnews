@@ -99,6 +99,10 @@ class Eggnews_Post_Carousel extends WP_Widget {
 		}
 		$carousel_query = new WP_Query( $slider_args );
 		if ( $carousel_query->have_posts() ) {
+
+			wp_enqueue_style( 'owl-carousel2-style' );
+			wp_enqueue_style( 'owl-carousel2-theme' );
+			wp_enqueue_script( 'owl-carousel2-script' );
 			?>
 
 			<div class="owl-carousel owl-theme eggnews-carousel">

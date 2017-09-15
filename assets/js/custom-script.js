@@ -29,41 +29,9 @@ $(document).ready(function () {
 		loop: true,
 		nav: false,
 		autoplayTimeout: 2200,
-		autoplay: false,
+		autoplay: true,
 		navText: ['<i class="fa fa-arrow-left"> </i>', '<i class="fa fa-arrow-right"> </i>'],
-
-
-		/*loop: true,
-		 margin: 10,
-		 autoplayTimeout: 2200,
-		 autoplay: false,
-		 singleItem: true,
-		 items: 5,
-		 nav: true,
-		 navText : ["Next","Prev"],
-
-		 controls: false,
-		 responsive: {
-		 0: {
-		 items: 1
-		 },
-		 600: {
-		 items: 3
-		 },
-		 1000: {
-		 items: 5
-		 }
-		 }*/
 	});
-	/*$('.eggnewsCarousel').bxSlider({
-
-	 minSlides: 3,
-	 maxSlides: 5,
-	 slideMargin: 10,
-	 controls: true,
-	 auto: true,
-	 moveSlides: 3,
-	 });*/
 
 	//Search toggle
 	$('.header-search-wrapper .search-main').click(function () {

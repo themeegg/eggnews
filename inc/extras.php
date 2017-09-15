@@ -67,6 +67,7 @@ if ( ! function_exists( 'eggnews_categories_color' ) ):
 		$teg_dynamic_css .= ".top-menu ul li, .eggnews-ticker-wrapper ~ .top-header-section {border-color: " . $teg_theme_color . "}\n";
 		$teg_dynamic_css .= ".ticker-caption {background-color: " . $teg_theme_color . "}\n";
 		$teg_dynamic_css .= ".ticker-content-wrapper .news-post a:hover, .eggnews-carousel .item .carousel-content-wrapper a:hover{color: " . $teg_theme_color . "}\n";
+		$teg_dynamic_css .= ".eggnews-carousel .item .carousel-content-wrapper h3 a:hover{color: " . $teg_theme_color . "}\n";
 		if ( empty( $teg_theme_color ) ) {
 			$teg_dynamic_css = '';
 		}

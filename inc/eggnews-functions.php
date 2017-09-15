@@ -61,11 +61,11 @@ function eggnews_scripts() {
 
 	// Start : Owl Carousel
 
-	wp_enqueue_style( 'owl-carousel2-style', get_template_directory_uri() . '/assets/lib/owl/assets/owl.carousel.css', array(), esc_attr( $eggnews_version ) );
+	wp_register_style( 'owl-carousel2-style', get_template_directory_uri() . '/assets/lib/owl/assets/owl.carousel.css', array(), esc_attr( $eggnews_version ) );
 
-	wp_enqueue_style( 'owl-carousel2-theme', get_template_directory_uri() . '/assets/lib/owl/assets/owl.theme.default.css', array(), esc_attr( $eggnews_version ) );
+	wp_register_style( 'owl-carousel2-theme', get_template_directory_uri() . '/assets/lib/owl/assets/owl.theme.default.css', array(), esc_attr( $eggnews_version ) );
 
-	wp_enqueue_script( 'owl-carousel2-script', get_template_directory_uri() . '/assets/lib/owl/owl.carousel.min.js', array( 'jquery' ), esc_attr( $eggnews_version ), true );
+	wp_register_script( 'owl-carousel2-script', get_template_directory_uri() . '/assets/lib/owl/owl.carousel.min.js', array( 'jquery' ), esc_attr( $eggnews_version ), true );
 
 	//End : Owl Carousel
 
