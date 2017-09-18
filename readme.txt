@@ -6,7 +6,7 @@ Tested up to:       WordPress 4.8
 Version:            1.3.0
 License:            GPLv3 or later
 License URI:        http://www.gnu.org/licenses/gpl-3.0.html
-Tags:               news, grid-layout, custom-colors, news theme, two-columns, left-sidebar, onlien news, featured-images, wordpress theme, magazine theme, full feature theme
+Tags:               full feature theme, news, grid-layout, custom-colors, news theme, two-columns, left-sidebar, online news, featured-images, wordpress theme, magazine theme, news portal theme
 
 == Description ==
 
@@ -46,6 +46,10 @@ Eggnews bundles the following third-party resources:
 	Sticky js, Copyright 2014-2016, Anthony Garand
     License: GPL
     Source: https://github.com/garand/sticky
+    
+    OwlCarousel2, Copyright 2013-2017, David Deutsch
+        License: MIT
+        Source: https://github.com/OwlCarousel2/OwlCarousel2
 			
    	Screenshot Images 
     Licenses: CCO Public Domain
