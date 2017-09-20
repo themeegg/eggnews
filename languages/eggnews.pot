@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: themeeggofficial@gmail.com\n"
-"POT-Creation-Date: 2017-09-15 02:14:41+00:00\n"
+"POT-Creation-Date: 2017-09-20 02:26:55+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -985,10 +985,6 @@ msgstr ""
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:397
 #: inc/tgm-plugin-activation/tgmpa-eggnews.php:109
 msgid "Please contact the administrator of this site for help."
-msgstr ""
-
-#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:522
-msgid "This plugin needs to be updated to be compatible with your theme."
 msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:523
