@@ -31,8 +31,8 @@ function eggnews_sanitize_number( $input ) {
 // site layout
 function eggnews_sanitize_site_layout( $input ) {
 	$valid_keys = array(
-		'fullwidth_layout' => __( 'Fullwidth Layout', 'eggnews' ),
-		'boxed_layout'     => __( 'Boxed Layout', 'eggnews' )
+		'fullwidth_layout' => esc_html__( 'Fullwidth Layout', 'eggnews' ),
+		'boxed_layout'     => esc_html__( 'Boxed Layout', 'eggnews' )
 	);
 	if ( array_key_exists( $input, $valid_keys ) ) {
 		return $input;
@@ -44,7 +44,7 @@ function eggnews_sanitize_site_layout( $input ) {
 // site layout
 function eggnews_sanitize_site_skin( $input ) {
 	$valid_keys = array(
-		'default' => __( 'Default Skin', 'eggnews' ),
+		'default' => esc_html__( 'Default Skin', 'eggnews' ),
 	);
 	if ( array_key_exists( $input, $valid_keys ) ) {
 		return $input;
@@ -56,8 +56,8 @@ function eggnews_sanitize_site_skin( $input ) {
 // Switch option (enable/disable)
 function eggnews_enable_switch_sanitize( $input ) {
 	$valid_keys = array(
-		'enable'  => __( 'Enable', 'eggnews' ),
-		'disable' => __( 'Disable', 'eggnews' )
+		'enable'  => esc_html__( 'Enable', 'eggnews' ),
+		'disable' => esc_html__( 'Disable', 'eggnews' )
 	);
 	if ( array_key_exists( $input, $valid_keys ) ) {
 		return $input;
@@ -69,8 +69,8 @@ function eggnews_enable_switch_sanitize( $input ) {
 // Switch option for ticker all (enable/disable)
 function all_page_eggnews_ticker_enable_switch_sanitize( $input ) {
 	$valid_keys = array(
-		'yes' => __( 'Yes', 'eggnews' ),
-		'no'  => __( 'No', 'eggnews' )
+		'yes' => esc_html__( 'Yes', 'eggnews' ),
+		'no'  => esc_html__( 'No', 'eggnews' )
 	);
 	if ( array_key_exists( $input, $valid_keys ) ) {
 		return $input;
@@ -82,8 +82,8 @@ function all_page_eggnews_ticker_enable_switch_sanitize( $input ) {
 //switch option (show/hide)
 function eggnews_show_switch_sanitize( $input ) {
 	$valid_keys = array(
-		'show' => __( 'Show', 'eggnews' ),
-		'hide' => __( 'Hide', 'eggnews' )
+		'show' => esc_html__( 'Show', 'eggnews' ),
+		'hide' => esc_html__( 'Hide', 'eggnews' )
 	);
 	if ( array_key_exists( $input, $valid_keys ) ) {
 		return $input;
@@ -95,8 +95,8 @@ function eggnews_show_switch_sanitize( $input ) {
 //Archive page layout
 function eggnews_sanitize_archive_layout( $input ) {
 	$valid_keys = array(
-		'classic' => __( 'Classic Layout', 'eggnews' ),
-		'columns' => __( 'Columns Layout', 'eggnews' )
+		'classic' => esc_html__( 'Classic Layout', 'eggnews' ),
+		'columns' => esc_html__( 'Columns Layout', 'eggnews' )
 	);
 	if ( array_key_exists( $input, $valid_keys ) ) {
 		return $input;
@@ -123,10 +123,10 @@ function eggnews_page_layout_sanitize( $input ) {
 //Footer widget columns
 function eggnews_footer_widget_sanitize( $input ) {
 	$valid_keys = array(
-		'column1' => __( 'One Column', 'eggnews' ),
-		'column2' => __( 'Two Columns', 'eggnews' ),
-		'column3' => __( 'Three Columns', 'eggnews' ),
-		'column4' => __( 'Four Columns', 'eggnews' )
+		'column1' => esc_html__( 'One Column', 'eggnews' ),
+		'column2' => esc_html__( 'Two Columns', 'eggnews' ),
+		'column3' => esc_html__( 'Three Columns', 'eggnews' ),
+		'column4' => esc_html__( 'Four Columns', 'eggnews' )
 	);
 	if ( array_key_exists( $input, $valid_keys ) ) {
 		return $input;
@@ -138,8 +138,8 @@ function eggnews_footer_widget_sanitize( $input ) {
 //Related posts type
 function eggnews_sanitize_related_type( $input ) {
 	$valid_keys = array(
-		'category' => __( 'by Category', 'eggnews' ),
-		'tag'      => __( 'by Tags', 'eggnews' )
+		'category' => esc_html__( 'by Category', 'eggnews' ),
+		'tag'      => esc_html__( 'by Tags', 'eggnews' )
 	);
 	if ( array_key_exists( $input, $valid_keys ) ) {
 		return $input;

@@ -20,9 +20,9 @@
 			<div id="bottom-footer" class="sub-footer-wrapper clearfix">
 				<div class="teg-container">
 					<div class="site-info">
-						<span class="copy-info"><?php echo esc_html( get_theme_mod( 'eggnews_copyright_text', __( '2017 eggnews', 'eggnews' ) ) ); ?></span>
+						<span class="copy-info"><?php echo esc_html( get_theme_mod( 'eggnews_copyright_text', esc_html__( '2017 eggnews', 'eggnews' ) ) ); ?></span>
 						<span class="sep"> | </span>
-						<?php 
+						<?php
 							$eggnews_theme_author = esc_url( 'http://themeegg.com/' );
 							printf( esc_html__( 'Eggnews by %1$s.', 'eggnews' ), '<a href="'.$eggnews_theme_author.'" rel="designer">Theme Egg</a>' );
 						?>

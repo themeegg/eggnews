@@ -20,7 +20,7 @@ function eggnews_design_settings_register( $wp_customize ) {
 			'priority'       => 6,
 			'capability'     => 'edit_theme_options',
 			'theme_supports' => '',
-			'title'          => __( 'Design Settings', 'eggnews' ),
+			'title'          => esc_html__( 'Design Settings', 'eggnews' ),
 		)
 	);
 
@@ -31,7 +31,7 @@ function eggnews_design_settings_register( $wp_customize ) {
 	$wp_customize->add_section(
 		'eggnews_archive_section',
 		array(
-			'title'    => __( 'Archive Settings', 'eggnews' ),
+			'title'    => esc_html__( 'Archive Settings', 'eggnews' ),
 			'priority' => 10,
 			'panel'    => 'eggnews_design_settings_panel'
 		)
@@ -52,8 +52,8 @@ function eggnews_design_settings_register( $wp_customize ) {
 			'eggnews_archive_sidebar',
 			array(
 				'type'        => 'radio',
-				'label'       => __( 'Available Sidebars', 'eggnews' ),
-				'description' => __( 'Select sidebar for whole site archives, categories, search page etc.', 'eggnews' ),
+				'label'       => esc_html__( 'Available Sidebars', 'eggnews' ),
+				'description' => esc_html__( 'Select sidebar for whole site archives, categories, search page etc.', 'eggnews' ),
 				'section'     => 'eggnews_archive_section',
 				'priority'    => 4,
 				'choices'     => array(
@@ -78,12 +78,12 @@ function eggnews_design_settings_register( $wp_customize ) {
 		'eggnews_archive_layout',
 		array(
 			'type'        => 'radio',
-			'label'       => __( 'Archive Page Layout', 'eggnews' ),
-			'description' => __( 'Choose available layout for all archive pages.', 'eggnews' ),
+			'label'       => esc_html__( 'Archive Page Layout', 'eggnews' ),
+			'description' => esc_html__( 'Choose available layout for all archive pages.', 'eggnews' ),
 			'section'     => 'eggnews_archive_section',
 			'choices'     => array(
-				'classic' => __( 'Classic Layout', 'eggnews' ),
-				'columns' => __( 'Columns Layout', 'eggnews' )
+				'classic' => esc_html__( 'Classic Layout', 'eggnews' ),
+				'columns' => esc_html__( 'Columns Layout', 'eggnews' )
 			),
 			'priority'    => 5
 		)
@@ -96,7 +96,7 @@ function eggnews_design_settings_register( $wp_customize ) {
 	$wp_customize->add_section(
 		'eggnews_single_post_section',
 		array(
-			'title'    => __( 'Post Settings', 'eggnews' ),
+			'title'    => esc_html__( 'Post Settings', 'eggnews' ),
 			'priority' => 15,
 			'panel'    => 'eggnews_design_settings_panel'
 		)
@@ -117,8 +117,8 @@ function eggnews_design_settings_register( $wp_customize ) {
 			'eggnews_default_post_sidebar',
 			array(
 				'type'        => 'radio',
-				'label'       => __( 'Available Sidebars', 'eggnews' ),
-				'description' => __( 'Select sidebar for whole single post page.', 'eggnews' ),
+				'label'       => esc_html__( 'Available Sidebars', 'eggnews' ),
+				'description' => esc_html__( 'Select sidebar for whole single post page.', 'eggnews' ),
 				'section'     => 'eggnews_single_post_section',
 				'priority'    => 4,
 				'choices'     => array(
@@ -145,13 +145,13 @@ function eggnews_design_settings_register( $wp_customize ) {
 			'eggnews_author_box_option',
 			array(
 				'type'        => 'switch',
-				'label'       => __( 'Author Option', 'eggnews' ),
-				'description' => __( 'Enable/disable author information at single post page.', 'eggnews' ),
+				'label'       => esc_html__( 'Author Option', 'eggnews' ),
+				'description' => esc_html__( 'Enable/disable author information at single post page.', 'eggnews' ),
 				'priority'    => 5,
 				'section'     => 'eggnews_single_post_section',
 				'choices'     => array(
-					'show' => __( 'Show', 'eggnews' ),
-					'hide' => __( 'Hide', 'eggnews' )
+					'show' => esc_html__( 'Show', 'eggnews' ),
+					'hide' => esc_html__( 'Hide', 'eggnews' )
 				)
 			)
 		)
@@ -171,13 +171,13 @@ function eggnews_design_settings_register( $wp_customize ) {
 			'eggnews_related_articles_option',
 			array(
 				'type'        => 'switch',
-				'label'       => __( 'Related Articles Option', 'eggnews' ),
-				'description' => __( 'Enable/disable related articles section at single post page.', 'eggnews' ),
+				'label'       => esc_html__( 'Related Articles Option', 'eggnews' ),
+				'description' => esc_html__( 'Enable/disable related articles section at single post page.', 'eggnews' ),
 				'priority'    => 7,
 				'section'     => 'eggnews_single_post_section',
 				'choices'     => array(
-					'enable'  => __( 'Enable', 'eggnews' ),
-					'disable' => __( 'Disable', 'eggnews' )
+					'enable'  => esc_html__( 'Enable', 'eggnews' ),
+					'disable' => esc_html__( 'Disable', 'eggnews' )
 				)
 			)
 		)
@@ -187,7 +187,7 @@ function eggnews_design_settings_register( $wp_customize ) {
 	$wp_customize->add_setting(
 		'eggnews_related_articles_title',
 		array(
-			'default'           => __( 'Related Articles', 'eggnews' ),
+			'default'           => esc_html__( 'Related Articles', 'eggnews' ),
 			'capability'        => 'edit_theme_options',
 			'transport'         => 'postMessage',
 			'sanitize_callback' => 'eggnews_sanitize_text',
@@ -197,7 +197,7 @@ function eggnews_design_settings_register( $wp_customize ) {
 		'eggnews_related_articles_title',
 		array(
 			'type'            => 'text',
-			'label'           => __( 'Section Title', 'eggnews' ),
+			'label'           => esc_html__( 'Section Title', 'eggnews' ),
 			'section'         => 'eggnews_single_post_section',
 			'active_callback' => 'eggnews_related_articles_option_callback',
 			'priority'        => 8
@@ -216,12 +216,12 @@ function eggnews_design_settings_register( $wp_customize ) {
 		'eggnews_related_articles_type',
 		array(
 			'type'            => 'radio',
-			'label'           => __( 'Types of Related Articles', 'eggnews' ),
-			'description'     => __( 'Option to display related articles from category/tags.', 'eggnews' ),
+			'label'           => esc_html__( 'Types of Related Articles', 'eggnews' ),
+			'description'     => esc_html__( 'Option to display related articles from category/tags.', 'eggnews' ),
 			'section'         => 'eggnews_single_post_section',
 			'choices'         => array(
-				'category' => __( 'by Category', 'eggnews' ),
-				'tag'      => __( 'by Tags', 'eggnews' )
+				'category' => esc_html__( 'by Category', 'eggnews' ),
+				'tag'      => esc_html__( 'by Tags', 'eggnews' )
 			),
 			'active_callback' => 'eggnews_related_articles_option_callback',
 			'priority'        => 9
@@ -234,7 +234,7 @@ function eggnews_design_settings_register( $wp_customize ) {
 	$wp_customize->add_section(
 		'eggnews_single_page_section',
 		array(
-			'title'    => __( 'Page Settings', 'eggnews' ),
+			'title'    => esc_html__( 'Page Settings', 'eggnews' ),
 			'priority' => 20,
 			'panel'    => 'eggnews_design_settings_panel'
 		)
@@ -255,8 +255,8 @@ function eggnews_design_settings_register( $wp_customize ) {
 			'eggnews_default_page_sidebar',
 			array(
 				'type'        => 'radio',
-				'label'       => __( 'Available Sidebars', 'eggnews' ),
-				'description' => __( 'Select sidebar for whole single page.', 'eggnews' ),
+				'label'       => esc_html__( 'Available Sidebars', 'eggnews' ),
+				'description' => esc_html__( 'Select sidebar for whole single page.', 'eggnews' ),
 				'section'     => 'eggnews_single_page_section',
 				'priority'    => 4,
 				'choices'     => array(
@@ -276,7 +276,7 @@ function eggnews_design_settings_register( $wp_customize ) {
 	$wp_customize->add_section(
 		'eggnews_footer_widget_section',
 		array(
-			'title'    => __( 'Footer Settings', 'eggnews' ),
+			'title'    => esc_html__( 'Footer Settings', 'eggnews' ),
 			'priority' => 25,
 			'panel'    => 'eggnews_design_settings_panel'
 		)
@@ -294,14 +294,14 @@ function eggnews_design_settings_register( $wp_customize ) {
 		array(
 			'type'        => 'radio',
 			'priority'    => 4,
-			'label'       => __( 'Footer Widget Area', 'eggnews' ),
-			'description' => __( 'Choose option to display number of columns in footer area.', 'eggnews' ),
+			'label'       => esc_html__( 'Footer Widget Area', 'eggnews' ),
+			'description' => esc_html__( 'Choose option to display number of columns in footer area.', 'eggnews' ),
 			'section'     => 'eggnews_footer_widget_section',
 			'choices'     => array(
-				'column1' => __( 'One Column', 'eggnews' ),
-				'column2' => __( 'Two Columns', 'eggnews' ),
-				'column3' => __( 'Three Columns', 'eggnews' ),
-				'column4' => __( 'Four Columns', 'eggnews' ),
+				'column1' => esc_html__( 'One Column', 'eggnews' ),
+				'column2' => esc_html__( 'Two Columns', 'eggnews' ),
+				'column3' => esc_html__( 'Three Columns', 'eggnews' ),
+				'column4' => esc_html__( 'Four Columns', 'eggnews' ),
 			),
 		)
 	);
@@ -310,7 +310,7 @@ function eggnews_design_settings_register( $wp_customize ) {
 	$wp_customize->add_setting(
 		'eggnews_copyright_text',
 		array(
-			'default'           => __( '2017 eggnews', 'eggnews' ),
+			'default'           => esc_html__( '2017 eggnews', 'eggnews' ),
 			'capability'        => 'edit_theme_options',
 			'transport'         => 'postMessage',
 			'sanitize_callback' => 'eggnews_sanitize_text',
@@ -320,7 +320,7 @@ function eggnews_design_settings_register( $wp_customize ) {
 		'eggnews_copyright_text',
 		array(
 			'type'     => 'text',
-			'label'    => __( 'Copyright Info', 'eggnews' ),
+			'label'    => esc_html__( 'Copyright Info', 'eggnews' ),
 			'section'  => 'eggnews_footer_widget_section',
 			'priority' => 5
 		)
@@ -332,8 +332,8 @@ function eggnews_design_settings_register( $wp_customize ) {
 	$wp_customize->add_section(
 		'eggnews_site_skin',
 		array(
-			'title'       => __( 'Site Skin', 'eggnews' ),
-			'description' => __( 'Choose website skin to use different website skin design.', 'eggnews' ),
+			'title'       => esc_html__( 'Site Skin', 'eggnews' ),
+			'description' => esc_html__( 'Choose website skin to use different website skin design.', 'eggnews' ),
 			'priority'    => 5,
 			'panel'       => 'eggnews_design_settings_panel',
 		)
@@ -351,10 +351,10 @@ function eggnews_design_settings_register( $wp_customize ) {
 		array(
 			'type'     => 'radio',
 			'priority' => 10,
-			'label'    => __( 'Site Skin', 'eggnews' ),
+			'label'    => esc_html__( 'Site Skin', 'eggnews' ),
 			'section'  => 'eggnews_site_skin',
 			'choices'  => array(
-				'default' => __( 'Default Skin', 'eggnews' ),
+				'default' => esc_html__( 'Default Skin', 'eggnews' ),
 			),
 		)
 	);

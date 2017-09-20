@@ -8,7 +8,7 @@
  */
 
 if ( class_exists( 'WP_Customize_Control' ) ) {
-    
+
     class Eggnews_Customize_Category_Control extends WP_Customize_Control {
         /**
          * Render the control's content.
@@ -20,15 +20,15 @@ if ( class_exists( 'WP_Customize_Control' ) ) {
                 array(
                     'name'              => '_customize-dropdown-categories-' . $this->id,
                     'echo'              => 0,
-                    'show_option_none'  => __( '&mdash; Select Category &mdash;', 'eggnews' ),
+                    'show_option_none'  => esc_html__( '&mdash; Select Category &mdash;', 'eggnews' ),
                     'option_none_value' => '',
                     'selected'          => $this->value(),
                 )
             );
- 
+
             // Hackily add in the data link parameter.
             $dropdown = str_replace( '<select', '<select ' . $this->get_link(), $dropdown );
- 
+
             printf(
                 '<label class="customize-control-select"><span class="customize-control-title">%s</span><span class="description customize-control-description">%s</span> %s </label>',
                 $this->label,
@@ -39,7 +39,7 @@ if ( class_exists( 'WP_Customize_Control' ) ) {
     }
 
     /**
-     * Image control by radio button 
+     * Image control by radio button
      */
     class Eggnews_Image_Radio_Control extends WP_Customize_Control {
 
@@ -74,16 +74,16 @@ if ( class_exists( 'WP_Customize_Control' ) ) {
 
     /**
      * Customize control for switch option
-     */    
+     */
     class Eggnews_Customize_Switch_Control extends WP_Customize_Control {
-        public $type = 'switch';    
+        public $type = 'switch';
         public function render_content() {
     ?>
             <label>
                 <span class="customize-control-title"><?php echo esc_html( $this->label ); ?></span>
                 <div class="description customize-control-description"><?php echo esc_html( $this->description ); ?></div>
                 <div class="switch_options">
-                    <?php 
+                    <?php
                         $show_choices = $this->choices;
                         foreach ( $show_choices as $key => $value ) {
                             echo '<span class="switch_part '.$key.'" data-switch="'.$key.'">'. $value.'</span>';

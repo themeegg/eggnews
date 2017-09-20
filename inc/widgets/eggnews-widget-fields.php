@@ -162,24 +162,24 @@ function eggnews_widgets_show_widget_field( $instance = '', $widget_field = '', 
             }
             $output .= '<div class="sub-option widget-upload">';
             $output .= '<label for="' . esc_attr( $instance->get_field_id( $eggnews_widgets_name ) ) . '">' . esc_html( $eggnews_widgets_title ) . '</label><br/>';
-            $output .= '<input id="' . $id . '" class="upload' . $class . '" type="text" name="' . $name . '" value="' . $value . '" placeholder="' . __( 'No file chosen', 'eggnews' ) . '" />' . "\n";
+            $output .= '<input id="' . $id . '" class="upload' . $class . '" type="text" name="' . $name . '" value="' . $value . '" placeholder="' . esc_html__( 'No file chosen', 'eggnews' ) . '" />' . "\n";
             if ( function_exists( 'wp_enqueue_media' ) ) {
                 if ( ( $value == '') ) {
-                    $output .= '<input id="upload-' . $id . '" class="wid-upload-button button" type="button" value="' . __( 'Upload', 'eggnews' ) . '" />' . "\n";
+                    $output .= '<input id="upload-' . $id . '" class="wid-upload-button button" type="button" value="' . esc_html__( 'Upload', 'eggnews' ) . '" />' . "\n";
                 } else {
-                    $output .= '<input id="remove-' . $id . '" class="wid-remove-file button" type="button" value="' . __( 'Remove', 'eggnews' ) . '" />' . "\n";
+                    $output .= '<input id="remove-' . $id . '" class="wid-remove-file button" type="button" value="' . esc_html__( 'Remove', 'eggnews' ) . '" />' . "\n";
                 }
             } else {
-                $output .= '<p><i>' . __( 'Upgrade your version of WordPress for full media support.', 'eggnews' ) . '</i></p>';
+                $output .= '<p><i>' . esc_html__( 'Upgrade your version of WordPress for full media support.', 'eggnews' ) . '</i></p>';
             }
 
             $output .= '<div class="screenshot upload-thumb" id="' . $id . '-image">' . "\n";
 
             if ( $value != '' ) {
-                $remove = '<a class="remove-image">'. __( 'Remove', 'eggnews' ).'</a>';
+                $remove = '<a class="remove-image">'. esc_html__( 'Remove', 'eggnews' ).'</a>';
                 $image = preg_match( '/(^.*\.jpg|jpeg|png|gif|ico*)/i', $value );
                 if ( $image ) {
-                    $output .= '<img src="' . $value . '" alt="'.__( 'Upload image', 'eggnews' ).'" />';
+                    $output .= '<img src="' . $value . '" alt="'.esc_html__( 'Upload image', 'eggnews' ).'" />';
                 } else {
                     $parts = explode( "/", $value );
                     for ( $i = 0; $i < sizeof( $parts ); ++$i ) {
@@ -190,7 +190,7 @@ function eggnews_widgets_show_widget_field( $instance = '', $widget_field = '', 
                     $output .= '';
 
                     // Standard generic output if it's not an image.
-                    $title = __( 'View File', 'eggnews' );
+                    $title = esc_html__( 'View File', 'eggnews' );
                     $output .= '<div class="no-image"><span class="file_link"><a href="' . $value . '" target="_blank" rel="external">' . $title . '</a></span></div>';
                 }
             }

@@ -23,9 +23,9 @@ class Eggnews_Block_List extends WP_widget {
     public function __construct() {
         $widget_ops = array(
             'classname' => 'eggnews_block_list',
-            'description' => __( 'Display posts in block list layout', 'eggnews' )
+            'description' => esc_html__( 'Display posts in block list layout', 'eggnews' )
         );
-        parent::__construct( 'eggnews_block_list', __( 'Block Posts List', 'eggnews' ), $widget_ops );
+        parent::__construct( 'eggnews_block_list', esc_html__( 'Block Posts List', 'eggnews' ), $widget_ops );
     }
 
     /**
@@ -39,13 +39,13 @@ class Eggnews_Block_List extends WP_widget {
 
             'eggnews_block_title' => array(
                 'eggnews_widgets_name'         => 'eggnews_block_title',
-                'eggnews_widgets_title'        => __( 'Block Title', 'eggnews' ),
+                'eggnews_widgets_title'        => esc_html__( 'Block Title', 'eggnews' ),
                 'eggnews_widgets_field_type'   => 'text'
             ),
 
             'eggnews_block_cat_id' => array(
                 'eggnews_widgets_name' => 'eggnews_block_cat_id',
-                'eggnews_widgets_title' => __( 'Category for Block Layout', 'eggnews' ),
+                'eggnews_widgets_title' => esc_html__( 'Category for Block Layout', 'eggnews' ),
                 'eggnews_widgets_default'      => 0,
                 'eggnews_widgets_field_type' => 'select',
                 'eggnews_widgets_field_options' => $eggnews_category_dropdown
@@ -53,7 +53,7 @@ class Eggnews_Block_List extends WP_widget {
 
             'eggnews_block_posts_count' => array(
                 'eggnews_widgets_name'         => 'eggnews_block_posts_count',
-                'eggnews_widgets_title'        => __( 'No. of Posts', 'eggnews' ),
+                'eggnews_widgets_title'        => esc_html__( 'No. of Posts', 'eggnews' ),
                 'eggnews_widgets_default'      => 5,
                 'eggnews_widgets_field_type'   => 'number'
             ),

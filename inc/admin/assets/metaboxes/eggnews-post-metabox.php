@@ -1,7 +1,7 @@
 <?php
 /**
  * Functions for rendering meta boxes in post area
- * 
+ *
  * @package Theme Egg
  * @subpackage Eggnews
  * @since 1.0.0
@@ -11,7 +11,7 @@ add_action( 'add_meta_boxes', 'eggnews_metaboxes', 10, 2 );
 function eggnews_metaboxes( $type, $post ) {
     add_meta_box(
         'eggnews_post_sidebar',
-        __( 'Sidebar Position', 'eggnews' ),
+        esc_html__( 'Sidebar Position', 'eggnews' ),
         'eggnews_sidebar_callback',
         'post',
         'side',
@@ -19,7 +19,7 @@ function eggnews_metaboxes( $type, $post ) {
     );
     add_meta_box(
         'eggnews_post_sidebar',
-        __( 'Sidebar Position', 'eggnews' ),
+        esc_html__( 'Sidebar Position', 'eggnews' ),
         'eggnews_sidebar_callback',
         'page',
         'side',
@@ -34,27 +34,27 @@ function eggnews_sidebar_callback( $post ) {
     'default-sidebar' => array(
         'id'        => 'default-sidebar',
         'value'     => 'default_sidebar',
-        'label'     => __( 'Default Layout', 'eggnews' ),
+        'label'     => esc_html__( 'Default Layout', 'eggnews' ),
         ),
     'right-sidebar' => array(
         'id'        => 'rigth-sidebar',
         'value'     => 'right_sidebar',
-        'label'     => __( 'Right Sidebar', 'eggnews' ),
+        'label'     => esc_html__( 'Right Sidebar', 'eggnews' ),
         ),
     'left-sidebar' => array(
         'id'        => 'left-sidebar',
         'value'     => 'left_sidebar',
-        'label'     => __( 'Left Sidebar', 'eggnews' ),
+        'label'     => esc_html__( 'Left Sidebar', 'eggnews' ),
         ),
     'no-sidebar-full-width' => array(
         'id'        => 'no-sidebar',
         'value'     => 'no_sidebar',
-        'label'     => __( 'No Sidebar Full Width', 'eggnews' ),
+        'label'     => esc_html__( 'No Sidebar Full Width', 'eggnews' ),
         ),
     'no-sidebar-content-centered' => array(
         'id'        => 'no-sidebar-center',
         'value'     => 'no_sidebar_center',
-        'label'     => __( 'No Sidebar Content Centered', 'eggnews' ),
+        'label'     => esc_html__( 'No Sidebar Content Centered', 'eggnews' ),
         ),
     );
 

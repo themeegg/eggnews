@@ -52,7 +52,7 @@ Eggnews bundles the following third-party resources:
         Source: https://github.com/OwlCarousel2/OwlCarousel2
 			
    	Screenshot Images 
-    Licenses: CCO Public Domain   	     	
+    Licenses: CCO Public Domain
       	https://pixabay.com/en/taj-mahal-india-building-misty-1209004/
       	https://pixabay.com/en/taj-mahal-india-agra-tomb-grave-366/
        	https://pixabay.com/en/taj-mahal-taj-ganz-indians-india-2309887/

@@ -29,7 +29,7 @@ function eggnews_general_settings_register( $wp_customize ) {
 			'priority'       => 3,
 			'capability'     => 'edit_theme_options',
 			'theme_supports' => '',
-			'title'          => __( 'General Settings', 'eggnews' ),
+			'title'          => esc_html__( 'General Settings', 'eggnews' ),
 		)
 	);
 
@@ -47,8 +47,8 @@ function eggnews_general_settings_register( $wp_customize ) {
 			$wp_customize,
 			'eggnews_theme_color',
 			array(
-				'label'    => __( 'Theme color', 'eggnews' ),
-				/*'description'   => __( 'Choose color to make different your website.', 'eggnews' ),*/
+				'label'    => esc_html__( 'Theme color', 'eggnews' ),
+				/*'description'   => esc_html__( 'Choose color to make different your website.', 'eggnews' ),*/
 				'section'  => 'colors',
 				'priority' => 5
 			)
@@ -62,8 +62,8 @@ function eggnews_general_settings_register( $wp_customize ) {
 	$wp_customize->add_section(
 		'eggnews_site_layout',
 		array(
-			'title'       => __( 'Website Layout', 'eggnews' ),
-			'description' => __( 'Choose a site to display your website more effectively.', 'eggnews' ),
+			'title'       => esc_html__( 'Website Layout', 'eggnews' ),
+			'description' => esc_html__( 'Choose a site to display your website more effectively.', 'eggnews' ),
 			'priority'    => 5,
 			'panel'       => 'eggnews_general_settings_panel',
 		)
@@ -81,11 +81,11 @@ function eggnews_general_settings_register( $wp_customize ) {
 		array(
 			'type'     => 'radio',
 			'priority' => 10,
-			'label'    => __( 'Site Layout', 'eggnews' ),
+			'label'    => esc_html__( 'Site Layout', 'eggnews' ),
 			'section'  => 'eggnews_site_layout',
 			'choices'  => array(
-				'fullwidth_layout' => __( 'FullWidth Layout', 'eggnews' ),
-				'boxed_layout'     => __( 'Boxed Layout', 'eggnews' )
+				'fullwidth_layout' => esc_html__( 'FullWidth Layout', 'eggnews' ),
+				'boxed_layout'     => esc_html__( 'Boxed Layout', 'eggnews' )
 			),
 		)
 	);

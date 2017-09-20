@@ -23,9 +23,9 @@ class Eggnews_Post_Carousel extends WP_Widget {
 	public function __construct() {
 		$widget_ops = array(
 			'classname'   => 'eggnews_post_carousel clearfix',
-			'description' => __( 'Display carousel with posts.', 'eggnews' )
+			'description' => esc_html__( 'Display carousel with posts.', 'eggnews' )
 		);
-		parent::__construct( 'eggnews_post_carousel', __( 'Carousel Posts', 'eggnews' ), $widget_ops );
+		parent::__construct( 'eggnews_post_carousel', esc_html__( 'Carousel Posts', 'eggnews' ), $widget_ops );
 	}
 
 	/**
@@ -40,13 +40,13 @@ class Eggnews_Post_Carousel extends WP_Widget {
 
 			'carousel_header_section' => array(
 				'eggnews_widgets_name'       => 'carousel_header_section',
-				'eggnews_widgets_title'      => __( 'Carousel Section', 'eggnews' ),
+				'eggnews_widgets_title'      => esc_html__( 'Carousel Section', 'eggnews' ),
 				'eggnews_widgets_field_type' => 'widget_section_header'
 			),
 
 			'eggnews_carousel_category' => array(
 				'eggnews_widgets_name'          => 'eggnews_carousel_category',
-				'eggnews_widgets_title'         => __( 'Category for Slider', 'eggnews' ),
+				'eggnews_widgets_title'         => esc_html__( 'Category for Slider', 'eggnews' ),
 				'eggnews_widgets_default'       => 0,
 				'eggnews_widgets_field_type'    => 'select',
 				'eggnews_widgets_field_options' => $eggnews_category_dropdown
@@ -54,14 +54,14 @@ class Eggnews_Post_Carousel extends WP_Widget {
 
 			'eggnews_carousel_count' => array(
 				'eggnews_widgets_name'       => 'eggnews_carousel_count',
-				'eggnews_widgets_title'      => __( 'No. of slides', 'eggnews' ),
+				'eggnews_widgets_title'      => esc_html__( 'No. of slides', 'eggnews' ),
 				'eggnews_widgets_default'    => 5,
 				'eggnews_widgets_field_type' => 'number'
 			),
 
 			'eggnews_carousel_category_random' => array(
 				'eggnews_widgets_name'       => 'eggnews_carousel_category_random',
-				'eggnews_widgets_title'      => __( 'Show Random', 'eggnews' ),
+				'eggnews_widgets_title'      => esc_html__( 'Show Random', 'eggnews' ),
 				'eggnews_widgets_default'    => 1,
 				'eggnews_widgets_field_type' => 'checkbox',
 			),

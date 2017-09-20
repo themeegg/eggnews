@@ -23,9 +23,9 @@ class Eggnews_Featured_Slider extends WP_Widget {
     public function __construct() {
         $widget_ops = array(
             'classname' => 'eggnews_featured_slider clearfix',
-            'description' => __( 'Display slider with featured posts.', 'eggnews' )
+            'description' => esc_html__( 'Display slider with featured posts.', 'eggnews' )
         );
-        parent::__construct( 'eggnews_featured_slider', __( 'Featured Slider', 'eggnews' ), $widget_ops );
+        parent::__construct( 'eggnews_featured_slider', esc_html__( 'Featured Slider', 'eggnews' ), $widget_ops );
     }
 
     /**
@@ -40,13 +40,13 @@ class Eggnews_Featured_Slider extends WP_Widget {
 
             'slider_header_section' => array(
                 'eggnews_widgets_name' => 'slider_header_section',
-                'eggnews_widgets_title' => __( 'Slider Section', 'eggnews' ),
+                'eggnews_widgets_title' => esc_html__( 'Slider Section', 'eggnews' ),
                 'eggnews_widgets_field_type' => 'widget_section_header'
             ),
 
             'eggnews_slider_category' => array(
                 'eggnews_widgets_name' => 'eggnews_slider_category',
-                'eggnews_widgets_title' => __( 'Category for Slider', 'eggnews' ),
+                'eggnews_widgets_title' => esc_html__( 'Category for Slider', 'eggnews' ),
                 'eggnews_widgets_default'      => 0,
                 'eggnews_widgets_field_type' => 'select',
                 'eggnews_widgets_field_options' => $eggnews_category_dropdown
@@ -54,20 +54,20 @@ class Eggnews_Featured_Slider extends WP_Widget {
 
             'eggnews_slide_count' => array(
                 'eggnews_widgets_name' => 'eggnews_slide_count',
-                'eggnews_widgets_title' => __( 'No. of slides', 'eggnews' ),
+                'eggnews_widgets_title' => esc_html__( 'No. of slides', 'eggnews' ),
                 'eggnews_widgets_default' => 5,
                 'eggnews_widgets_field_type' => 'number'
             ),
 
             'featured_header_section' => array(
                 'eggnews_widgets_name' => 'featured_header_section',
-                'eggnews_widgets_title' => __( 'Featured Posts Section', 'eggnews' ),
+                'eggnews_widgets_title' => esc_html__( 'Featured Posts Section', 'eggnews' ),
                 'eggnews_widgets_field_type' => 'widget_section_header'
             ),
 
             'eggnews_featured_category' => array(
                 'eggnews_widgets_name' => 'eggnews_featured_category',
-                'eggnews_widgets_title' => __( 'Category for Featured Posts', 'eggnews' ),
+                'eggnews_widgets_title' => esc_html__( 'Category for Featured Posts', 'eggnews' ),
                 'eggnews_widgets_default'      => 0,
                 'eggnews_widgets_field_type' => 'select',
                 'eggnews_widgets_field_options' => $eggnews_category_dropdown

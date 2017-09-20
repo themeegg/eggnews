@@ -73,11 +73,11 @@ if ( ! class_exists( 'EggNews_Admin' ) ) :
 		public static function hide_notices() {
 			if ( isset( $_GET['eggnews-hide-notice'] ) && isset( $_GET['_eggnews_notice_nonce'] ) ) {
 				if ( ! wp_verify_nonce( $_GET['_eggnews_notice_nonce'], 'eggnews_hide_notices_nonce' ) ) {
-					wp_die( __( 'Action failed. Please refresh the page and retry.', 'eggnews' ) );
+					wp_die( esc_html__( 'Action failed. Please refresh the page and retry.', 'eggnews' ) );
 				}
 
 				if ( ! current_user_can( 'manage_options' ) ) {
-					wp_die( __( 'Cheatin&#8217; huh?', 'eggnews' ) );
+					wp_die( esc_html__( 'Cheatin&#8217; huh?', 'eggnews' ) );
 				}
 
 				$hide_notice = sanitize_text_field( $_GET['eggnews-hide-notice'] );

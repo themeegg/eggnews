@@ -23,9 +23,9 @@ class Eggnews_Posts_List extends WP_widget {
     public function __construct() {
         $widget_ops = array(
             'classname' => 'eggnews_posts_list',
-            'description' => __( 'Display latest or random posts in list view.', 'eggnews' )
+            'description' => esc_html__( 'Display latest or random posts in list view.', 'eggnews' )
         );
-        parent::__construct( 'eggnews_posts_list', __( 'Posts Lists', 'eggnews' ), $widget_ops );
+        parent::__construct( 'eggnews_posts_list', esc_html__( 'Posts Lists', 'eggnews' ), $widget_ops );
     }
 
     /**
@@ -35,28 +35,28 @@ class Eggnews_Posts_List extends WP_widget {
     private function widget_fields() {
 
     	$eggnews_post_list_option = array(
-    					'latest' => __( 'Latest Posts', 'eggnews' ),
-    					'random' => __( 'Random Posts', 'eggnews' )
+    					'latest' => esc_html__( 'Latest Posts', 'eggnews' ),
+    					'random' => esc_html__( 'Random Posts', 'eggnews' )
     					);
 
         $fields = array(
 
             'eggnews_block_title' => array(
                 'eggnews_widgets_name'         => 'eggnews_block_title',
-                'eggnews_widgets_title'        => __( 'Widget Title', 'eggnews' ),
+                'eggnews_widgets_title'        => esc_html__( 'Widget Title', 'eggnews' ),
                 'eggnews_widgets_field_type'   => 'text'
             ),
 
             'eggnews_block_posts_count' => array(
                 'eggnews_widgets_name'         => 'eggnews_block_posts_count',
-                'eggnews_widgets_title'        => __( 'No. of Posts', 'eggnews' ),
+                'eggnews_widgets_title'        => esc_html__( 'No. of Posts', 'eggnews' ),
                 'eggnews_widgets_default'      => 4,
                 'eggnews_widgets_field_type'   => 'number'
             ),
 
             'eggnews_block_posts_type' => array(
                 'eggnews_widgets_name'         => 'eggnews_block_posts_type',
-                'eggnews_widgets_title'        => __( 'Posts Type', 'eggnews' ),
+                'eggnews_widgets_title'        => esc_html__( 'Posts Type', 'eggnews' ),
                 'eggnews_widgets_default'		 => 'latest',
                 'eggnews_widgets_field_options'=> $eggnews_post_list_option,
                 'eggnews_widgets_field_type'   => 'radio'

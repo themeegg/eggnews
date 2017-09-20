@@ -25,8 +25,8 @@ function eggnews_admin_scripts_style( $hook ) {
 	wp_register_script( 'eggnews-media-uploader', get_template_directory_uri() . '/inc/admin/js/media-uploader.js', array( 'jquery' ), 1.70 );
 	wp_enqueue_script( 'eggnews-media-uploader' );
 	wp_localize_script( 'eggnews-media-uploader', 'eggnews_l10n', array(
-		'upload' => __( 'Upload', 'eggnews' ),
-		'remove' => __( 'Remove', 'eggnews' )
+		'upload' => esc_html__( 'Upload', 'eggnews' ),
+		'remove' => esc_html__( 'Remove', 'eggnews' )
 	) );
 
 	wp_enqueue_script( 'eggnews-admin-script', get_template_directory_uri() . '/inc/admin/js/admin-script.js', array( 'jquery' ), esc_attr( $eggnews_version ), true );
@@ -117,7 +117,7 @@ if ( ! function_exists( 'eggnews_news_ticker_hook' ) ):
 		if ( $eggnews_ticker_option != 'disable'
 		     && ( ( is_front_page() && $all_page_eggnews_ticker_option == 'no' ) || $all_page_eggnews_ticker_option == 'yes' )
 		) {
-			$eggnews_ticker_caption = get_theme_mod( 'eggnews_ticker_caption', __( 'Latest', 'eggnews' ) );
+			$eggnews_ticker_caption = get_theme_mod( 'eggnews_ticker_caption', esc_html__( 'Latest', 'eggnews' ) );
 			?>
 			<div class="eggnews-ticker-wrapper">
 				<span class="ticker-caption"><?php echo esc_html( $eggnews_ticker_caption ); ?></span>
@@ -172,7 +172,7 @@ endif;
 if ( ! function_exists( 'eggnews_category_dropdown' ) ) :
 	function eggnews_category_dropdown() {
 		$eggnews_categories             = get_categories( array( 'hide_empty' => 0 ) );
-		$eggnews_category_dropdown['0'] = __( 'Select Category', 'eggnews' );
+		$eggnews_category_dropdown['0'] = esc_html__( 'Select Category', 'eggnews' );
 		foreach ( $eggnews_categories as $eggnews_category ) {
 			$eggnews_category_dropdown[ $eggnews_category->term_id ] = $eggnews_category->cat_name;
 		}
@@ -184,10 +184,10 @@ endif;
 
 //no of columns
 $eggnews_grid_columns = array(
-	''  => __( 'Select No. of Columns', 'eggnews' ),
-	'2' => __( '2 Columns', 'eggnews' ),
-	'3' => __( '3 Columns', 'eggnews' ),
-	'4' => __( '4 Columns', 'eggnews' )
+	''  => esc_html__( 'Select No. of Columns', 'eggnews' ),
+	'2' => esc_html__( '2 Columns', 'eggnews' ),
+	'3' => esc_html__( '3 Columns', 'eggnews' ),
+	'4' => esc_html__( '4 Columns', 'eggnews' )
 );
 
 /*------------------------------------------------------------------------------------------------*/
@@ -514,7 +514,7 @@ add_action( 'eggnews_related_articles', 'eggnews_related_articles_hook' );
 if ( ! function_exists( 'eggnews_related_articles_hook' ) ):
 	function eggnews_related_articles_hook() {
 		$eggnews_related_option = esc_attr( get_theme_mod( 'eggnews_related_articles_option', 'enable' ) );
-		$eggnews_related_title  = get_theme_mod( 'eggnews_related_articles_title', __( 'Related Articles', 'eggnews' ) );
+		$eggnews_related_title  = get_theme_mod( 'eggnews_related_articles_title', esc_html__( 'Related Articles', 'eggnews' ) );
 		if ( $eggnews_related_option != 'disable' ) {
 			?>
 			<div class="related-articles-wrapper">

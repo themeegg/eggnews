@@ -23,9 +23,9 @@ class Eggnews_Ads_Banner extends WP_widget {
 	public function __construct() {
 		$widget_ops = array(
 			'classname'   => 'eggnews_ads_banner',
-			'description' => __( 'You can place banner as advertisement with links.', 'eggnews' )
+			'description' => esc_html__( 'You can place banner as advertisement with links.', 'eggnews' )
 		);
-		parent::__construct( 'eggnews_ads_banner', __( 'Banner Ad', 'eggnews' ), $widget_ops );
+		parent::__construct( 'eggnews_ads_banner', esc_html__( 'Banner Ad', 'eggnews' ), $widget_ops );
 	}
 
 	/**
@@ -35,20 +35,20 @@ class Eggnews_Ads_Banner extends WP_widget {
 	private function widget_fields() {
 
 		$ads_size = array(
-			'leaderboard' => __( 'Leaderboard (728x90)', 'eggnews' ),
-			'large'       => __( 'Large (300x250)', 'eggnews' )
+			'leaderboard' => esc_html__( 'Leaderboard (728x90)', 'eggnews' ),
+			'large'       => esc_html__( 'Large (300x250)', 'eggnews' )
 		);
 		$fields   = array(
 
 			'banner_title' => array(
 				'eggnews_widgets_name'       => 'banner_title',
-				'eggnews_widgets_title'      => __( 'Title', 'eggnews' ),
+				'eggnews_widgets_title'      => esc_html__( 'Title', 'eggnews' ),
 				'eggnews_widgets_field_type' => 'text'
 			),
 
 			'banner_size' => array(
 				'eggnews_widgets_name'          => 'banner_size',
-				'eggnews_widgets_title'         => __( 'Ads Size', 'eggnews' ),
+				'eggnews_widgets_title'         => esc_html__( 'Ads Size', 'eggnews' ),
 				'eggnews_widgets_default'       => 'leaderboard',
 				'eggnews_widgets_field_type'    => 'radio',
 				'eggnews_widgets_field_options' => $ads_size
@@ -56,25 +56,25 @@ class Eggnews_Ads_Banner extends WP_widget {
 
 			'banner_image' => array(
 				'eggnews_widgets_name'       => 'banner_image',
-				'eggnews_widgets_title'      => __( 'Add Image', 'eggnews' ),
+				'eggnews_widgets_title'      => esc_html__( 'Add Image', 'eggnews' ),
 				'eggnews_widgets_field_type' => 'upload',
 			),
 
 			'banner_url' => array(
 				'eggnews_widgets_name'       => 'banner_url',
-				'eggnews_widgets_title'      => __( 'Add Url', 'eggnews' ),
+				'eggnews_widgets_title'      => esc_html__( 'Add Url', 'eggnews' ),
 				'eggnews_widgets_field_type' => 'url'
 			),
 
 			'banner_target' => array(
 				'eggnews_widgets_name'       => 'banner_target',
-				'eggnews_widgets_title'      => __( 'Open in new tab', 'eggnews' ),
+				'eggnews_widgets_title'      => esc_html__( 'Open in new tab', 'eggnews' ),
 				'eggnews_widgets_field_type' => 'checkbox'
 			),
 
 			'banner_rel' => array(
 				'eggnews_widgets_name'       => 'banner_rel',
-				'eggnews_widgets_title'      => __( 'Rel Attribute for URL Link', 'eggnews' ),
+				'eggnews_widgets_title'      => esc_html__( 'Rel Attribute for URL Link', 'eggnews' ),
 				'eggnews_widgets_field_type' => 'checkbox'
 			)
 

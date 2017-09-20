@@ -20,7 +20,7 @@ function eggnews_header_settings_register( $wp_customize ) {
 			'priority'       => 4,
 			'capability'     => 'edit_theme_options',
 			'theme_supports' => '',
-			'title'          => __( 'Header Settings', 'eggnews' ),
+			'title'          => esc_html__( 'Header Settings', 'eggnews' ),
 		)
 	);
 	/*----------------------------------------------------------------------------------------------------*/
@@ -30,7 +30,7 @@ function eggnews_header_settings_register( $wp_customize ) {
 	$wp_customize->add_section(
 		'eggnews_top_header_section',
 		array(
-			'title'    => __( 'Top Header Section', 'eggnews' ),
+			'title'    => esc_html__( 'Top Header Section', 'eggnews' ),
 			'priority' => 5,
 			'panel'    => 'eggnews_header_settings_panel'
 		)
@@ -51,13 +51,13 @@ function eggnews_header_settings_register( $wp_customize ) {
 			'eggnews_ticker_option',
 			array(
 				'type'        => 'switch',
-				'label'       => __( 'News Ticker Option', 'eggnews' ),
-				'description' => __( 'Enable/disable news ticker at header.', 'eggnews' ),
+				'label'       => esc_html__( 'News Ticker Option', 'eggnews' ),
+				'description' => esc_html__( 'Enable/disable news ticker at header.', 'eggnews' ),
 				'priority'    => 1,
 				'section'     => 'eggnews_top_header_section',
 				'choices'     => array(
-					'enable'  => __( 'Enable', 'eggnews' ),
-					'disable' => __( 'Disable', 'eggnews' )
+					'enable'  => esc_html__( 'Enable', 'eggnews' ),
+					'disable' => esc_html__( 'Disable', 'eggnews' )
 				)
 			)
 		)
@@ -68,7 +68,7 @@ function eggnews_header_settings_register( $wp_customize ) {
 	$wp_customize->add_setting(
 		'eggnews_ticker_caption',
 		array(
-			'default'           => __( 'Latest', 'eggnews' ),
+			'default'           => esc_html__( 'Latest', 'eggnews' ),
 			'capability'        => 'edit_theme_options',
 			'transport'         => 'postMessage',
 			'sanitize_callback' => 'eggnews_sanitize_text',
@@ -78,7 +78,7 @@ function eggnews_header_settings_register( $wp_customize ) {
 		'eggnews_ticker_caption',
 		array(
 			'type'     => 'text',
-			'label'    => __( 'News Ticker Caption', 'eggnews' ),
+			'label'    => esc_html__( 'News Ticker Caption', 'eggnews' ),
 			'section'  => 'eggnews_top_header_section',
 			'priority' => 2
 		)
@@ -98,13 +98,13 @@ function eggnews_header_settings_register( $wp_customize ) {
 			'all_page_eggnews_ticker_option',
 			array(
 				'type'        => 'switch',
-				'label'       => __( 'Show on all page', 'eggnews' ),
-				'description' => __( 'Select yes, if you want to show ticker on all page.', 'eggnews' ),
+				'label'       => esc_html__( 'Show on all page', 'eggnews' ),
+				'description' => esc_html__( 'Select yes, if you want to show ticker on all page.', 'eggnews' ),
 				'priority'    => 3,
 				'section'     => 'eggnews_top_header_section',
 				'choices'     => array(
-					'yes' => __( 'Yes', 'eggnews' ),
-					'no'  => __( 'No', 'eggnews' )
+					'yes' => esc_html__( 'Yes', 'eggnews' ),
+					'no'  => esc_html__( 'No', 'eggnews' )
 				)
 			)
 		)
@@ -125,13 +125,13 @@ function eggnews_header_settings_register( $wp_customize ) {
 			'eggnews_header_date',
 			array(
 				'type'        => 'switch',
-				'label'       => __( 'Current Date Option', 'eggnews' ),
-				'description' => __( 'Enable/disable current date from top header.', 'eggnews' ),
+				'label'       => esc_html__( 'Current Date Option', 'eggnews' ),
+				'description' => esc_html__( 'Enable/disable current date from top header.', 'eggnews' ),
 				'priority'    => 4,
 				'section'     => 'eggnews_top_header_section',
 				'choices'     => array(
-					'enable'  => __( 'Enable', 'eggnews' ),
-					'disable' => __( 'Disable', 'eggnews' )
+					'enable'  => esc_html__( 'Enable', 'eggnews' ),
+					'disable' => esc_html__( 'Disable', 'eggnews' )
 				)
 			)
 		)
@@ -152,13 +152,13 @@ function eggnews_header_settings_register( $wp_customize ) {
 			'eggnews_header_social_option',
 			array(
 				'type'        => 'switch',
-				'label'       => __( 'Social Icon Option', 'eggnews' ),
-				'description' => __( 'Enable/disable social icons from top header (right).', 'eggnews' ),
+				'label'       => esc_html__( 'Social Icon Option', 'eggnews' ),
+				'description' => esc_html__( 'Enable/disable social icons from top header (right).', 'eggnews' ),
 				'priority'    => 5,
 				'section'     => 'eggnews_top_header_section',
 				'choices'     => array(
-					'enable'  => __( 'Enable', 'eggnews' ),
-					'disable' => __( 'Disable', 'eggnews' )
+					'enable'  => esc_html__( 'Enable', 'eggnews' ),
+					'disable' => esc_html__( 'Disable', 'eggnews' )
 				)
 			)
 		)
@@ -170,7 +170,7 @@ function eggnews_header_settings_register( $wp_customize ) {
 	$wp_customize->add_section(
 		'eggnews_sticky_header_section',
 		array(
-			'title'    => __( 'Sticky Menu', 'eggnews' ),
+			'title'    => esc_html__( 'Sticky Menu', 'eggnews' ),
 			'priority' => 10,
 			'panel'    => 'eggnews_header_settings_panel'
 		)
@@ -190,13 +190,13 @@ function eggnews_header_settings_register( $wp_customize ) {
 			'eggnews_sticky_option',
 			array(
 				'type'        => 'switch',
-				'label'       => __( 'Menu Sticky', 'eggnews' ),
-				'description' => __( 'Enable/disable option for Menu Sticky', 'eggnews' ),
+				'label'       => esc_html__( 'Menu Sticky', 'eggnews' ),
+				'description' => esc_html__( 'Enable/disable option for Menu Sticky', 'eggnews' ),
 				'priority'    => 4,
 				'section'     => 'eggnews_sticky_header_section',
 				'choices'     => array(
-					'enable'  => __( 'Enable', 'eggnews' ),
-					'disable' => __( 'Disable', 'eggnews' )
+					'enable'  => esc_html__( 'Enable', 'eggnews' ),
+					'disable' => esc_html__( 'Disable', 'eggnews' )
 				)
 			)
 		)

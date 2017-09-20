@@ -23,9 +23,9 @@ class Eggnews_Block_Grid extends WP_Widget {
 	public function __construct() {
 		$widget_ops = array(
 			'classname'   => 'eggnews_block_grid',
-			'description' => __( 'Display block posts in grid layout.', 'eggnews' )
+			'description' => esc_html__( 'Display block posts in grid layout.', 'eggnews' )
 		);
-		parent::__construct( 'eggnews_block_grid', __( 'Grid Block Posts', 'eggnews' ), $widget_ops );
+		parent::__construct( 'eggnews_block_grid', esc_html__( 'Grid Block Posts', 'eggnews' ), $widget_ops );
 	}
 
 	/**
@@ -41,13 +41,13 @@ class Eggnews_Block_Grid extends WP_Widget {
 
 			'eggnews_block_title' => array(
 				'eggnews_widgets_name'       => 'eggnews_block_title',
-				'eggnews_widgets_title'      => __( 'Block Title', 'eggnews' ),
+				'eggnews_widgets_title'      => esc_html__( 'Block Title', 'eggnews' ),
 				'eggnews_widgets_field_type' => 'text'
 			),
 
 			'eggnews_block_cat_id' => array(
 				'eggnews_widgets_name'          => 'eggnews_block_cat_id',
-				'eggnews_widgets_title'         => __( 'Category for Block Post', 'eggnews' ),
+				'eggnews_widgets_title'         => esc_html__( 'Category for Block Post', 'eggnews' ),
 				'eggnews_widgets_default'       => 0,
 				'eggnews_widgets_field_type'    => 'select',
 				'eggnews_widgets_field_options' => $eggnews_category_dropdown
@@ -55,7 +55,7 @@ class Eggnews_Block_Grid extends WP_Widget {
 
 			'eggnews_block_grid_column' => array(
 				'eggnews_widgets_name'          => 'eggnews_block_grid_column',
-				'eggnews_widgets_title'         => __( 'No. of Columns', 'eggnews' ),
+				'eggnews_widgets_title'         => esc_html__( 'No. of Columns', 'eggnews' ),
 				'eggnews_widgets_default'       => 2,
 				'eggnews_widgets_field_type'    => 'select',
 				'eggnews_widgets_field_options' => $eggnews_grid_columns
@@ -63,7 +63,7 @@ class Eggnews_Block_Grid extends WP_Widget {
 
 			'eggnews_block_posts_count' => array(
 				'eggnews_widgets_name'       => 'eggnews_block_posts_count',
-				'eggnews_widgets_title'      => __( 'No. of Posts', 'eggnews' ),
+				'eggnews_widgets_title'      => esc_html__( 'No. of Posts', 'eggnews' ),
 				'eggnews_widgets_default'    => 4,
 				'eggnews_widgets_field_type' => 'number'
 			),
