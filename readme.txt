@@ -6,8 +6,7 @@ Tested up to:       WordPress 4.8
 Version:            1.3.0
 License:            GPLv3 or later
 License URI:        http://www.gnu.org/licenses/gpl-3.0.html
-Tags:               full feature theme, news, grid-layout, custom-colors, news theme, two-columns, left-sidebar, online news, featured-images, wordpress theme, magazine theme, news portal theme
-
+Tags:               news, grid-layout, custom-colors, one-column, two-columns, three-columns, left-sidebar, right-sidebar, featured-images, footer-widgets, full-width-template, theme-options, translation-ready, rtl-language-support
 == Description ==
 
 Eggnews is a  responsive newsportal style Free WordPress theme. This theme is mainly applicable for online magazines, newspaper, publishing, personal blogs and any kind of news sites. It's customizable theme. If any support needed then hit the url htp://support.themeegg.com please check the demo on http://demo.themeegg.com/themes/eggnews
