@@ -32,7 +32,7 @@ function eggnews_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html__( 'Header Ads', 'eggnews' ),
 		'id'            => 'eggnews_header_ads_area',
-		'description'   => esc_html__( 'This sidebar will appear on header section of a page to show the ads.' ),
+		'description'   => esc_html__( 'This sidebar will appear on header section of a page.' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<div class="widget-title-wrapper"><h4 class="widget-title">',
@@ -42,7 +42,7 @@ function eggnews_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html__( 'Home Page Slider Area', 'eggnews' ),
 		'id'            => 'eggnews_home_slider_area',
-		'description'   => esc_html__( 'This sidebar will appear below header(after menu) section of News Home Page Template. ' ),
+		'description'   => esc_html__( 'This sidebar will appear below header(after menu) section of News Home Page Template.' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<div class="widget-title-wrapper"><h4 class="widget-title">',
