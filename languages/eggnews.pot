@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: themeeggofficial@gmail.com\n"
-"POT-Creation-Date: 2017-09-21 02:11:29+00:00\n"
+"POT-Creation-Date: 2017-09-21 02:36:23+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1433,7 +1433,7 @@ msgid "Header Ads"
 msgstr ""
 
 #: inc/widgets/eggnews-widgets-area.php:35
-msgid "This sidebar will appear on header section of a page to show the ads."
+msgid "This sidebar will appear on header section of a page."
 msgstr ""
 
 #: inc/widgets/eggnews-widgets-area.php:43
@@ -1443,7 +1443,7 @@ msgstr ""
 #: inc/widgets/eggnews-widgets-area.php:45
 msgid ""
 "This sidebar will appear below header(after menu) section of News Home Page "
-"Template. "
+"Template."
 msgstr ""
 
 #: inc/widgets/eggnews-widgets-area.php:53

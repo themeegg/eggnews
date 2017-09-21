@@ -63,6 +63,15 @@ Eggnews bundles the following third-party resources:
 
 
 == Changelog ==
+= 1.3.1 - 2017/09/21 =
+	* Fixed - Tag issue  
+	* Fixed - Screenshot changed
+	* Fixed - Escaping issue fixed
+	* Fixed - Design improvement on widget section 
+	* Added - Description added on sidebar. 
+	* Fixed - Search box responsive issue fixed.
+	* Fixed - Javascript error fixed.
+
 = 1.3.0 - 2017/09/15 =
 	* Ticker design update 
 	* Owl Carousel implemented on carousel
