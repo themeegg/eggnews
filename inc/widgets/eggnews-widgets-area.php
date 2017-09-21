@@ -12,7 +12,7 @@ function eggnews_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html__( 'Sidebar', 'eggnews' ),
 		'id'            => 'sidebar-1',
-		'description'   => '',
+		'description'   => esc_html__( 'This sidebar will appear only if you choose right sidebar.' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<div class="widget-title-wrapper"><h4 class="widget-title">',
@@ -22,7 +22,7 @@ function eggnews_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html__( 'Left Sidebar', 'eggnews' ),
 		'id'            => 'eggnews_left_sidebar',
-		'description'   => '',
+		'description'   => esc_html__( 'This sidebar will appear only if you choose left sidebar.' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<div class="widget-title-wrapper"><h4 class="widget-title">',
@@ -32,7 +32,7 @@ function eggnews_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html__( 'Header Ads', 'eggnews' ),
 		'id'            => 'eggnews_header_ads_area',
-		'description'   => '',
+		'description'   => esc_html__( 'This sidebar will appear on header section of a page to show the ads.' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<div class="widget-title-wrapper"><h4 class="widget-title">',
@@ -40,9 +40,9 @@ function eggnews_widgets_init() {
 	) );
 
 	register_sidebar( array(
-		'name'          => esc_html__( 'HomePage Slider Area', 'eggnews' ),
+		'name'          => esc_html__( 'Home Page Slider Area', 'eggnews' ),
 		'id'            => 'eggnews_home_slider_area',
-		'description'   => '',
+		'description'   => esc_html__( 'This sidebar will appear below header(after menu) section of News Home Page Template. ' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<div class="widget-title-wrapper"><h4 class="widget-title">',
@@ -52,7 +52,7 @@ function eggnews_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html__( 'HomePage Content Area', 'eggnews' ),
 		'id'            => 'eggnews_home_content_area',
-		'description'   => '',
+		'description'   => esc_html__( 'This sidebar will appear below Home Page Slider section of News Home Page Template. ' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<div class="widget-title-wrapper"><h4 class="widget-title">',
@@ -62,7 +62,7 @@ function eggnews_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html__( 'HomePage Sidebar', 'eggnews' ),
 		'id'            => 'eggnews_home_sidebar',
-		'description'   => '',
+		'description'   => esc_html__( 'Home page sidebar of News Home Page Template.' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<div class="widget-title-wrapper"><h4 class="widget-title">',
@@ -72,7 +72,7 @@ function eggnews_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html__( 'Footer 1st Column', 'eggnews' ),
 		'id'            => 'eggnews_footer_one',
-		'description'   => '',
+		'description'   => esc_html__( 'First column of footer section. Appear only if at least one column footer widget area selected from customizer footer settings.' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<div class="widget-title-wrapper"><h4 class="widget-title">',
@@ -82,7 +82,7 @@ function eggnews_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html__( 'Footer 2nd Column', 'eggnews' ),
 		'id'            => 'eggnews_footer_two',
-		'description'   => '',
+		'description'   => esc_html__( 'Second column of footer section. Appear only if at least two column footer widget area selected from customizer footer settings.' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<div class="widget-title-wrapper"><h4 class="widget-title">',
@@ -92,7 +92,7 @@ function eggnews_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html__( 'Footer 3rd Column', 'eggnews' ),
 		'id'            => 'eggnews_footer_three',
-		'description'   => '',
+		'description'   => esc_html__( 'Third column of footer section. Appear only if at least three column footer widget area selected from customizer footer settings.' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<div class="widget-title-wrapper"><h4 class="widget-title">',
@@ -102,7 +102,7 @@ function eggnews_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html__( 'Footer 4th Column', 'eggnews' ),
 		'id'            => 'eggnews_footer_four',
-		'description'   => '',
+		'description'   => esc_html__( 'Fourth column of footer section. Appear only if at least four column footer widget area selected from customizer footer settings.' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<div class="widget-title-wrapper"><h4 class="widget-title">',

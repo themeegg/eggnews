@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: themeeggofficial@gmail.com\n"
-"POT-Creation-Date: 2017-09-20 02:26:55+00:00\n"
+"POT-Creation-Date: 2017-09-21 02:11:29+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -109,7 +109,6 @@ msgid "Boxed Layout"
 msgstr ""
 
 #: inc/admin/assets/eggnews-sanitize.php:47
-#: inc/admin/assets/panels/design-panel.php:357
 msgid "Default Skin"
 msgstr ""
 
@@ -385,15 +384,6 @@ msgstr ""
 
 #: inc/admin/assets/panels/design-panel.php:323
 msgid "Copyright Info"
-msgstr ""
-
-#: inc/admin/assets/panels/design-panel.php:335
-#: inc/admin/assets/panels/design-panel.php:354
-msgid "Site Skin"
-msgstr ""
-
-#: inc/admin/assets/panels/design-panel.php:336
-msgid "Choose website skin to use different website skin design."
 msgstr ""
 
 #: inc/admin/assets/panels/general-panel.php:32
@@ -1430,36 +1420,88 @@ msgstr ""
 msgid "Sidebar"
 msgstr ""
 
+#: inc/widgets/eggnews-widgets-area.php:15
+msgid "This sidebar will appear only if you choose right sidebar."
+msgstr ""
+
+#: inc/widgets/eggnews-widgets-area.php:25
+msgid "This sidebar will appear only if you choose left sidebar."
+msgstr ""
+
 #: inc/widgets/eggnews-widgets-area.php:33
 msgid "Header Ads"
 msgstr ""
 
+#: inc/widgets/eggnews-widgets-area.php:35
+msgid "This sidebar will appear on header section of a page to show the ads."
+msgstr ""
+
 #: inc/widgets/eggnews-widgets-area.php:43
-msgid "HomePage Slider Area"
+msgid "Home Page Slider Area"
+msgstr ""
+
+#: inc/widgets/eggnews-widgets-area.php:45
+msgid ""
+"This sidebar will appear below header(after menu) section of News Home Page "
+"Template. "
 msgstr ""
 
 #: inc/widgets/eggnews-widgets-area.php:53
 msgid "HomePage Content Area"
 msgstr ""
 
+#: inc/widgets/eggnews-widgets-area.php:55
+msgid ""
+"This sidebar will appear below Home Page Slider section of News Home Page "
+"Template. "
+msgstr ""
+
 #: inc/widgets/eggnews-widgets-area.php:63
 msgid "HomePage Sidebar"
+msgstr ""
+
+#: inc/widgets/eggnews-widgets-area.php:65
+msgid "Home page sidebar of News Home Page Template."
 msgstr ""
 
 #: inc/widgets/eggnews-widgets-area.php:73
 msgid "Footer 1st Column"
 msgstr ""
 
+#: inc/widgets/eggnews-widgets-area.php:75
+msgid ""
+"First column of footer section. Appear only if at least one column footer "
+"widget area selected from customizer footer settings."
+msgstr ""
+
 #: inc/widgets/eggnews-widgets-area.php:83
 msgid "Footer 2nd Column"
+msgstr ""
+
+#: inc/widgets/eggnews-widgets-area.php:85
+msgid ""
+"Second column of footer section. Appear only if at least two column footer "
+"widget area selected from customizer footer settings."
 msgstr ""
 
 #: inc/widgets/eggnews-widgets-area.php:93
 msgid "Footer 3rd Column"
 msgstr ""
 
+#: inc/widgets/eggnews-widgets-area.php:95
+msgid ""
+"Third column of footer section. Appear only if at least three column footer "
+"widget area selected from customizer footer settings."
+msgstr ""
+
 #: inc/widgets/eggnews-widgets-area.php:103
 msgid "Footer 4th Column"
+msgstr ""
+
+#: inc/widgets/eggnews-widgets-area.php:105
+msgid ""
+"Fourth column of footer section. Appear only if at least four column footer "
+"widget area selected from customizer footer settings."
 msgstr ""
 
 #: search.php:21
