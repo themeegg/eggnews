@@ -15,22 +15,50 @@ Eggnews Default Widget
 	}
 }
 
-.widget_archive ul, .widget_categories ul, .widget_recent_entries ul, .widget_meta ul, .widget_recent_comments ul, .widget_rss ul, .widget_pages ul, .widget_nav_menu ul {
+.widget_archive ul, 
+.widget_categories ul, 
+.widget_recent_entries ul, 
+.widget_meta ul, 
+.widget_recent_comments ul, 
+.widget_rss ul, 
+.widget_pages ul, 
+.widget_nav_menu ul {
 	list-style: outside none none;
 	margin: 0;
 }
 
-.widget_archive li, .widget_categories li, .widget_recent_entries li, .widget_meta li, .widget_recent_comments li, .widget_rss li, .widget_pages li, .widget_nav_menu li {
+.widget_archive li, 
+.widget_categories li, 
+.widget_recent_entries li, 
+.widget_meta li, 
+.widget_recent_comments li, 
+.widget_rss li, 
+.widget_pages li, 
+.widget_nav_menu li {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 	margin-bottom: 5px;
 	padding-bottom: 5px;
 }
 
-.widget_archive li:last-child, .widget_categories li:last-child, .widget_recent_entries li:last-child, .widget_meta li:last-child, .widget_recent_comments li:last-child, .widget_rss li:last-child, .widget_pages li:last-child, .widget_nav_menu li:last-child {
+.widget_archive li:last-child, 
+.widget_categories li:last-child, 
+.widget_recent_entries li:last-child, 
+.widget_meta li:last-child,
+.widget_recent_comments li:last-child,
+.widget_rss li:last-child,
+.widget_pages li:last-child,
+.widget_nav_menu li:last-child{
 	border: none;
 }
 
-.widget_archive a, .widget_categories a, .widget_recent_entries a, .widget_meta a, .widget_recent_comments li, .widget_rss li, .widget_pages li a, .widget_nav_menu li a {
+.widget_archive a,
+.widget_categories a,
+.widget_recent_entries a,
+.widget_meta a,
+.widget_recent_comments li, 
+.widget_rss li, 
+.widget_pages li a,
+.widget_nav_menu li a {
 	color: #333333;
 	font-size: 14px;
 	line-height: 32px;
@@ -56,7 +84,14 @@ Eggnews Default Widget
 	}
 }
 
-.widget_archive a::before, .widget_categories a::before, .widget_recent_entries a::before, .widget_meta a::before, .widget_recent_comments li::before, .widget_rss li:before, .widget_pages li a:before, .widget_nav_menu li a:before {
+.widget_archive a::before,
+.widget_categories a::before,
+.widget_recent_entries a::before,
+.widget_meta a::before,
+.widget_recent_comments li::before,
+.widget_rss li:before,
+.widget_pages li a:before,
+.widget_nav_menu li a:before {
 	color: #afb4bd;
 	content: "\f187";
 	font-family: "FontAwesome";
@@ -79,7 +114,8 @@ Eggnews Default Widget
 	content: "\f101";
 }
 
-.widget_meta a::before, .widget_nav_menu li a:before {
+.widget_meta a::before,
+.widget_nav_menu li a:before {
 	content: "\f105";
 }
 
@@ -130,9 +166,21 @@ Eggnews Default Widget
 .widget_nav_menu {
 	.sub-menu {
 		display: none;
+		display: block;
+		padding-left:10px;
+		li{
+			line-height:38px;
+			margin-bottom:5px;
+			paddding-bottom:5px;
+			border-top: 1px solid rgba(0, 0, 0, 0.1);
+		}
 	}
 	li::before {
 		top: 0;
+	}
+	li:last-child{
+		margin-bottom:0px;
+		padding-bottom:0px;
 	}
 }
 

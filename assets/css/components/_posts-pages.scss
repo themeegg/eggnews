@@ -141,6 +141,17 @@ article.hentry {
   }
 }
 
+.navigation.posts-navigation{
+  padding-bottom:30px;
+  &::after{
+    content:'';
+    display:block;
+    clear:both;
+  }
+  .nav-links{
+    clear:both;
+  }
+}
 .nav-links {
   .meta-nav {
     display: none;
