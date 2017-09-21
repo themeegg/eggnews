@@ -18,6 +18,7 @@ Related Article css
     margin-bottom: 5px;
     a {
       color: #333;
+      display:block;
       font-size: 18px;
       &:hover {
         color: $primary_color;
