@@ -62,7 +62,7 @@ Eggnews Default Widget
 	color: #333333;
 	font-size: 14px;
 	line-height: 32px;
-	padding-left: 22px;
+	padding-left: 15px;
 	position: relative;
 	-webkit-transition: color 0.3s ease;
 	-moz-transition: color 0.3s ease;
@@ -161,12 +161,15 @@ Eggnews Default Widget
 	margin-top: -5px;
 	padding-left: 24px;
 }
-
 .widget_nav_menu {
+	ul{
+		li{
+			padding-left:10px;
+		}
+	}
 	.sub-menu {
 		display: none;
 		display: block;
-		padding-left:10px;
 		li{
 			line-height:38px;
 			margin-bottom:5px;

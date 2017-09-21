@@ -1200,7 +1200,7 @@ BOTTOM HEADER CSS
   .header-search-wrapper .search-form-main .search-field {
     border-radius: 0;
     padding: 4px 10px;
-    width: 80%;
+    width: 75%;
     float: left; }
   .header-search-wrapper .search-form-main .search-submit {
     border: medium none;
@@ -1209,7 +1209,7 @@ BOTTOM HEADER CSS
     color: #fff;
     float: left;
     padding: 10px 0 10px;
-    width: 20%;
+    width: 25%;
     height: 36px;
     background: #408c40; }
 
@@ -1707,7 +1707,7 @@ Eggnews Default Widget
   color: #333333;
   font-size: 14px;
   line-height: 32px;
-  padding-left: 22px;
+  padding-left: 15px;
   position: relative;
   -webkit-transition: color 0.3s ease;
   -moz-transition: color 0.3s ease;
@@ -1792,10 +1792,12 @@ Eggnews Default Widget
   margin-top: -5px;
   padding-left: 24px; }
 
+.widget_nav_menu ul li {
+  padding-left: 10px; }
+
 .widget_nav_menu .sub-menu {
   display: none;
-  display: block;
-  padding-left: 10px; }
+  display: block; }
   .widget_nav_menu .sub-menu li {
     line-height: 38px;
     margin-bottom: 5px;
@@ -2027,7 +2029,7 @@ Error 404 css
 --------------------------------------------------------------*/
 .error-404.not-found {
   border: 1px solid #e1e1e1;
-  margin: 0 auto;
+  margin: 0 auto 15px;
   max-width: 700px; }
 
 .error404 .page-title {
