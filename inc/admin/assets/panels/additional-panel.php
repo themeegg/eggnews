@@ -56,7 +56,7 @@ function eggnews_additional_settings_register( $wp_customize ) {
 				array(
 					'label'    => sprintf( esc_html__( ' %s', 'eggnews' ), esc_html( $category_list->name ) ),
 					'section'  => 'eggnews_categories_color_section',
-					'priority' => $priority
+					'priority' => absint($priority)
 				)
 			)
 		);
