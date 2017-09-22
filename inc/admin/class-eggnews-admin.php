@@ -120,12 +120,12 @@ if ( ! class_exists( 'EggNews_Admin' ) ) :
 			<div class="eggnews-theme-info">
 				<h1>
 					<?php esc_html_e( 'About', 'eggnews' ); ?>
-					<?php echo $theme->display( 'Name' ); ?>
+					<?php echo esc_html($theme->display( 'Name' )); ?>
 					<?php printf( '%s', $major_version ); ?>
 				</h1>
 
 				<div class="welcome-description-wrap">
-					<div class="about-text"><?php echo $theme->display( 'Description' ); ?></div>
+					<div class="about-text"><?php echo esc_html($theme->display( 'Description' )); ?></div>
 
 					<div class="eggnews-screenshot">
 						<img src="<?php echo esc_url( get_template_directory_uri() ) . '/screenshot.png'; ?>"/>
