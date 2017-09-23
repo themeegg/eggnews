@@ -72,7 +72,7 @@ if ( ! class_exists( 'EggNews_Admin' ) ) :
 		 */
 		public static function hide_notices() {
 			if ( isset( $_GET['eggnews-hide-notice'] ) && isset( $_GET['_eggnews_notice_nonce'] ) ) {
-				if ( ! wp_verify_nonce( $_GET['_eggnews_notice_nonce'], 'eggnews_hide_notices_nonce' ) ) {
+				if ( ! wp_verify_nonce( wp_unslash($_GET['_eggnews_notice_nonce']), 'eggnews_hide_notices_nonce' ) ) {
 					wp_die( esc_html__( 'Action failed. Please refresh the page and retry.', 'eggnews' ) );
 				}
 
@@ -80,7 +80,7 @@ if ( ! class_exists( 'EggNews_Admin' ) ) :
 					wp_die( esc_html__( 'Cheatin&#8217; huh?', 'eggnews' ) );
 				}
 
-				$hide_notice = sanitize_text_field( $_GET['eggnews-hide-notice'] );
+				$hide_notice = sanitize_text_field( wp_unslash($_GET['eggnews-hide-notice']) );
 				update_option( 'eggnews_admin_notice_' . $hide_notice, 1 );
 			}
 		}
@@ -169,7 +169,7 @@ if ( ! class_exists( 'EggNews_Admin' ) ) :
 		 * Welcome screen page.
 		 */
 		public function welcome_screen() {
-			$current_tab = empty( $_GET['tab'] ) ? 'about' : sanitize_title( $_GET['tab'] );
+			$current_tab = empty( $_GET['tab'] ) ? 'about' : sanitize_title( wp_unslash($_GET['tab']));
 
 			// Look for a {$current_tab}_screen method.
 			if ( is_callable( array( $this, $current_tab . '_screen' ) ) ) {
