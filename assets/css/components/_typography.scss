@@ -32,12 +32,21 @@ dfn, cite, em, i {
   font-style: italic;
 }
 
-blockquote {
+blockquote, q{
   margin: 0 15px;
   font-size: 20px;
   font-style: italic;
   font-family: $primary_font_family;
   font-weight: 300;
+  &:before{
+    content:'"';
+  }
+  &:after{
+
+  }
+  &:before, &:after{
+    content:'"';
+  }
 }
 
 address {
