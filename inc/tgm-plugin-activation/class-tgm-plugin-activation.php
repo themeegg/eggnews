@@ -324,7 +324,7 @@ if ( ! class_exists( 'TGM_Plugin_Activation' ) ) {
 
 			// Load class strings.
 			$this->strings = array(
-				'page_title'                      => esc_html__( 'Install Required Plugins', 'eggnews' ),
+				'page_title'                      => esc_html__( 'Install Recommended Plugins', 'eggnews' ),
 				'menu_title'                      => esc_html__( 'Install Plugins', 'eggnews' ),
 				/* translators: %s: plugin name. */
 				'installing'                      => esc_html__( 'Installing Plugin: %s', 'eggnews' ),
@@ -382,7 +382,7 @@ if ( ! class_exists( 'TGM_Plugin_Activation' ) ) {
 					'Begin activating plugins',
 					'eggnews'
 				),
-				'return'                          => esc_html__( 'Return to Required Plugins Installer', 'eggnews' ),
+				'return'                          => esc_html__( 'Return to Recommended Plugins Installer', 'eggnews' ),
 				'dashboard'                       => esc_html__( 'Return to the Dashboard', 'eggnews' ),
 				'plugin_activated'                => esc_html__( 'Plugin activated successfully.', 'eggnews' ),
 				'activated_successfully'          => esc_html__( 'The following plugin was activated successfully:', 'eggnews' ),

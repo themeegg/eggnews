@@ -37,7 +37,7 @@ function eggnews_register_required_plugins() {
 		'message'      => '',                      // Message to output right before the plugins table.
 
 		'strings'      => array(
-			'page_title'                      => esc_html__( 'Install Required Plugins', 'eggnews' ),
+			'page_title'                      => esc_html__( 'Install Recommended Plugins', 'eggnews' ),
 			'menu_title'                      => esc_html__( 'Install Plugins', 'eggnews' ),
 			/* translators: %s: plugin name. */
 			'installing'                      => esc_html__( 'Installing Plugin: %s', 'eggnews' ),

@@ -32,17 +32,22 @@ dfn, cite, em, i {
   font-style: italic;
 }
 
-blockquote, q{
-  margin:0px;
-  font-size: 20px;
+blockquote{
+  margin:0 15px;
+  font-size: 16px;
+  padding: 0 5px;
   font-style: italic;
   font-family: $primary_font_family;
   font-weight: 300;
-}
-
-q, blockquote p{
-  border-right:4px solid rgb(35, 82, 35);
-  padding: 0 15px;
+  border-left:10px solid #dedede;
+  &:before{
+    height: 0;
+    content: "“";
+    display: block;
+    margin-left: -.75em;
+    font: italic 400%/1 Cochin,Georgia,"Times New Roman", serif;
+    color: rgb(153, 153, 153);
+  }
 }
 
 address {

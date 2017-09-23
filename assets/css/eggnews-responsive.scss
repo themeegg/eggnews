@@ -150,6 +150,9 @@
 		-o-transition: none;
 		transition: none;
 	}
+	#site-navigation ul.sub-menu{
+		padding-left:10px;
+	}
 	#site-navigation ul > li:hover > .sub-menu,
 	#site-navigation ul > li:hover > .children {
 		top: 0;
