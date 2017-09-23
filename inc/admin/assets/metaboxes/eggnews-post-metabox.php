@@ -80,7 +80,7 @@ function eggnews_save_post_meta( $post_id ) {
     // Checks save status
     $is_autosave = wp_is_post_autosave( $post_id );
     $is_revision = wp_is_post_revision( $post_id );
-    $is_valid_nonce = ( isset( $_POST['eggnews_sidebar_location_nonce'] ) && wp_verify_nonce( $_POST['eggnews_sidebar_location_nonce'], 'eggnews_nonce_' . basename( __FILE__ ) ) ) ? 'true' : 'false';
+    $is_valid_nonce = ( isset( $_POST['eggnews_sidebar_location_nonce'] ) && wp_verify_nonce( wp_unslash($_POST['eggnews_sidebar_location_nonce']), 'eggnews_nonce_' . basename( __FILE__ ) ) ) ? 'true' : 'false';
 
     // Exits script depending on save status
     if ( $is_autosave || $is_revision || ! $is_valid_nonce ) {
@@ -90,7 +90,7 @@ function eggnews_save_post_meta( $post_id ) {
     // Check for out input value.
     if ( isset( $_POST['eggnews_sidebar_location'] ) ) {
         // We validate making sure that the option is something we can expect.
-        $value = in_array( $_POST['eggnews_sidebar_location'], array( 'no_sidebar', 'left_sidebar', 'right_sidebar', 'no_sidebar_center', 'default_sidebar' ) ) ? $_POST['eggnews_sidebar_location'] : 'default_sidebar';
+        $value = in_array( wp_unslash($_POST['eggnews_sidebar_location']), array( 'no_sidebar', 'left_sidebar', 'right_sidebar', 'no_sidebar_center', 'default_sidebar' ) ) ? wp_unslash($_POST['eggnews_sidebar_location']) : 'default_sidebar';
         // We update our post meta.
         update_post_meta( $post_id, 'eggnews_sidebar_location', sanitize_text_field(wp_unslash ($value)));
     }

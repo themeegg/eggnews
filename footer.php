@@ -24,6 +24,7 @@
 						<span class="sep"> | </span>
 						<?php
 							$eggnews_theme_author = esc_url( 'http://themeegg.com/' );
+						/* translators: %s: theme author */
 							printf( esc_html__( 'Eggnews by %1$s.', 'eggnews' ), '<a href="'.$eggnews_theme_author.'" rel="designer">Theme Egg</a>' );
 						?>
 					</div><!-- .site-info -->
