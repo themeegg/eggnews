@@ -104,20 +104,30 @@ dfn, cite, em, i {
   font-style: italic; }
 
 blockquote {
-  margin: 0 15px;
+  margin: 0 0 0 25px;
   font-size: 16px;
   padding: 0 5px;
   font-style: italic;
   font-family: "Poppins", serif;
   font-weight: 300;
-  border-left: 10px solid #dedede; }
+  border-left: 8px solid #dddddd; }
+  blockquote:hover {
+    -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5); }
   blockquote:before {
     height: 0;
     content: "“";
     display: block;
-    margin-left: -.75em;
+    margin-left: -45px;
     font: italic 400%/1 Cochin,Georgia,"Times New Roman", serif;
     color: #999999; }
+
+q:before {
+  content: '"'; }
+
+q:after {
+  content: '"'; }
 
 address {
   margin: 0 0 15px; }
@@ -2033,6 +2043,15 @@ footer#colophon {
 /*--------------------------------------------------------------
 Error 404 css
 --------------------------------------------------------------*/
+#primary404 {
+  width: 73%;
+  float: left;
+  padding: 0 15px; }
+  @media (max-width: 768px) {
+    #primary404 {
+      width: 100%;
+      float: none; } }
+
 .error-404.not-found {
   border: 1px solid #e1e1e1;
   margin: 0 auto 15px;
@@ -2057,6 +2076,17 @@ Error 404 css
 .error404 .page-content {
   font-size: 14px;
   text-align: center; }
+
+.error404 .search-form {
+  margin: 0 15px;
+  padding: 0 100px 30px 0;
+  position: relative; }
+  .error404 .search-form .search-submit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 36px;
+    width: 100px; }
 
 /*--------------------------------------------------------------
 Archive page  css

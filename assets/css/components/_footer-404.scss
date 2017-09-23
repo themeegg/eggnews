@@ -1,6 +1,16 @@
 /*--------------------------------------------------------------
 Error 404 css
 --------------------------------------------------------------*/
+#primary404{
+  width:73%;
+  float:left;
+  padding:0 15px;
+  @media(max-width:768px){
+    width:100%;
+    float:none;
+  }
+}
+
 .error-404.not-found {
   border: 1px solid #e1e1e1;
   margin: 0 auto 15px;
@@ -29,4 +39,19 @@ Error 404 css
 .error404 .page-content {
   font-size: 14px;
   text-align: center;
+}
+
+.error404{
+  .search-form{
+    margin:0 15px;
+    padding:0 100px 30px 0;
+    position: relative;
+    .search-submit{
+      position:absolute;
+      top:0;
+      right:0;
+      height:36px;
+      width:100px;
+    }
+  }
 }

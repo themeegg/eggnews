@@ -20,11 +20,11 @@ get_header(); ?>
 					<span><?php esc_html_e( 'error', 'eggnews' ); ?></span></div>
 				<div class="page-content">
 					<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'eggnews' ); ?></p>
-
 				</div><!-- .page-content -->
+				<?php get_search_form(); ?>
 			</section><!-- .error-404 -->
-
 		</main><!-- #main -->
 	</div><!-- #primary -->
+	<?php get_sidebar(); ?>
 <?php
 get_footer();
