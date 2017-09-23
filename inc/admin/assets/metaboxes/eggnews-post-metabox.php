@@ -92,6 +92,6 @@ function eggnews_save_post_meta( $post_id ) {
         // We validate making sure that the option is something we can expect.
         $value = in_array( $_POST['eggnews_sidebar_location'], array( 'no_sidebar', 'left_sidebar', 'right_sidebar', 'no_sidebar_center', 'default_sidebar' ) ) ? $_POST['eggnews_sidebar_location'] : 'default_sidebar';
         // We update our post meta.
-        update_post_meta( $post_id, 'eggnews_sidebar_location', sanitize_text_field($value ));
+        update_post_meta( $post_id, 'eggnews_sidebar_location', sanitize_text_field(wp_unslash ($value)));
     }
 }

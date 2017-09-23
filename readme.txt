@@ -58,6 +58,8 @@ Eggnews bundles the following third-party resources:
        	https://pixabay.com/en/taj-mahal-indians-india-agra-2309888/
        	https://pixabay.com/en/india-taj-mahal-agra-mausoleum-1748445/
        	https://pixabay.com/en/taj-mahal-indians-children-india-2309884/
+    Other custom js files are our own creation and is licensed under the same license as this theme.
+    Other custom images are our own creation and is licensed under the same license as this theme.
 
 
 

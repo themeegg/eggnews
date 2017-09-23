@@ -92,7 +92,7 @@ if ( class_exists( 'WP_Customize_Control' ) ) {
 					<?php
 					$show_choices = $this->choices;
 					foreach ( $show_choices as $key => $value ) {
-						echo '<span class="switch_part ' . $key . '" data-switch="' . $key . '">' . $value . '</span>';
+						echo '<span class="switch_part ' . esc_attr($key) . '" data-switch="' . esc_attr($key) . '">' . esc_html($value) . '</span>';
 					}
 					?>
 					<input type="hidden" id="enable_switch_option" <?php $this->link(); ?>
