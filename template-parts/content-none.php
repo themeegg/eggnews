@@ -23,6 +23,7 @@
 			<p><?php
 				printf(
 					wp_kses(
+					/* translators: %s: hyperlink*/
 						esc_html__( 'Ready to publish your first post? <a href="%1$s">Get started here</a>.', 'eggnews' ),
 						array( 'a' => array( 'href' => array() ) )
 					),
