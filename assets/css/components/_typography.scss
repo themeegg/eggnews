@@ -33,20 +33,16 @@ dfn, cite, em, i {
 }
 
 blockquote, q{
-  margin: 0 15px;
+  margin:0px;
   font-size: 20px;
   font-style: italic;
   font-family: $primary_font_family;
   font-weight: 300;
-  &:before{
-    content:'"';
-  }
-  &:after{
+}
 
-  }
-  &:before, &:after{
-    content:'"';
-  }
+q, blockquote p{
+  border-right:4px solid rgb(35, 82, 35);
+  padding: 0 15px;
 }
 
 address {

@@ -102,12 +102,16 @@ b, strong {
 dfn, cite, em, i {
   font-style: italic; }
 
-blockquote {
-  margin: 0 15px;
+blockquote, q {
+  margin: 0px;
   font-size: 20px;
   font-style: italic;
   font-family: "Poppins", serif;
   font-weight: 300; }
+
+q, blockquote p {
+  border-right: 4px solid #235223;
+  padding: 0 15px; }
 
 address {
   margin: 0 0 15px; }
