@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: themeeggofficial@gmail.com\n"
-"POT-Creation-Date: 2017-09-22 02:36:40+00:00\n"
+"POT-Creation-Date: 2017-09-24 05:55:38+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -79,7 +79,8 @@ msgstr ""
 msgid "2017 eggnews"
 msgstr ""
 
-#: footer.php:27
+#: footer.php:28
+#. translators: %s: theme author
 msgid "Eggnews by %1$s."
 msgstr ""
 
@@ -224,75 +225,76 @@ msgstr ""
 msgid "Categories Color"
 msgstr ""
 
-#: inc/admin/assets/panels/additional-panel.php:57
+#: inc/admin/assets/panels/additional-panel.php:58
+#. translators: %s: category namet
 msgid " %s"
 msgstr ""
 
-#: inc/admin/assets/panels/additional-panel.php:70
+#: inc/admin/assets/panels/additional-panel.php:71
 msgid "Social Media"
 msgstr ""
 
-#: inc/admin/assets/panels/additional-panel.php:91
+#: inc/admin/assets/panels/additional-panel.php:92
 msgid "Facebook"
 msgstr ""
 
-#: inc/admin/assets/panels/additional-panel.php:92
+#: inc/admin/assets/panels/additional-panel.php:93
 msgid "Your Facebook Account URL"
 msgstr ""
 
-#: inc/admin/assets/panels/additional-panel.php:112
+#: inc/admin/assets/panels/additional-panel.php:113
 msgid "Twitter"
 msgstr ""
 
-#: inc/admin/assets/panels/additional-panel.php:113
+#: inc/admin/assets/panels/additional-panel.php:114
 msgid "Your Twitter Account URL"
 msgstr ""
 
-#: inc/admin/assets/panels/additional-panel.php:133
+#: inc/admin/assets/panels/additional-panel.php:134
 msgid "Google Plus"
 msgstr ""
 
-#: inc/admin/assets/panels/additional-panel.php:134
+#: inc/admin/assets/panels/additional-panel.php:135
 msgid "Your Google Plus Account URL"
 msgstr ""
 
-#: inc/admin/assets/panels/additional-panel.php:154
+#: inc/admin/assets/panels/additional-panel.php:155
 msgid "LinkedIn"
 msgstr ""
 
-#: inc/admin/assets/panels/additional-panel.php:155
+#: inc/admin/assets/panels/additional-panel.php:156
 msgid "Your LinkedIn Account URL"
 msgstr ""
 
-#: inc/admin/assets/panels/additional-panel.php:175
+#: inc/admin/assets/panels/additional-panel.php:176
 msgid "YouTube"
 msgstr ""
 
-#: inc/admin/assets/panels/additional-panel.php:176
+#: inc/admin/assets/panels/additional-panel.php:177
 msgid "Your YouTube Account URL"
 msgstr ""
 
-#: inc/admin/assets/panels/additional-panel.php:196
+#: inc/admin/assets/panels/additional-panel.php:197
 msgid "Vimeo"
 msgstr ""
 
-#: inc/admin/assets/panels/additional-panel.php:197
+#: inc/admin/assets/panels/additional-panel.php:198
 msgid "Your Vimeo Account URL"
 msgstr ""
 
-#: inc/admin/assets/panels/additional-panel.php:217
+#: inc/admin/assets/panels/additional-panel.php:218
 msgid "Pinterest"
 msgstr ""
 
-#: inc/admin/assets/panels/additional-panel.php:218
+#: inc/admin/assets/panels/additional-panel.php:219
 msgid "Your Pinterest Account URL"
 msgstr ""
 
-#: inc/admin/assets/panels/additional-panel.php:238
+#: inc/admin/assets/panels/additional-panel.php:239
 msgid "Instagram"
 msgstr ""
 
-#: inc/admin/assets/panels/additional-panel.php:239
+#: inc/admin/assets/panels/additional-panel.php:240
 msgid "Your Instagram Account URL"
 msgstr ""
 
@@ -858,18 +860,19 @@ msgstr ""
 msgid ", "
 msgstr ""
 
-#: inc/template-tags.php:69
+#: inc/template-tags.php:70
+#. translators: %s: tag list
 msgid "Tagged %1$s"
 msgstr ""
 
-#: inc/template-tags.php:76 template-parts/content-page.php:35
+#: inc/template-tags.php:77 template-parts/content-page.php:35
 #. translators: %s: Name of current post
 msgid "Edit %s"
 msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:327
 #: inc/tgm-plugin-activation/tgmpa-eggnews.php:40
-msgid "Install Required Plugins"
+msgid "Install Recommended Plugins"
 msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:328
@@ -917,8 +920,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:385
-#: inc/tgm-plugin-activation/tgmpa-eggnews.php:98
-msgid "Return to Required Plugins Installer"
+msgid "Return to Recommended Plugins Installer"
 msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:386
@@ -1230,6 +1232,10 @@ msgstr ""
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
+#: inc/tgm-plugin-activation/tgmpa-eggnews.php:98
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
 #: inc/widgets/eggnews-ads-banner.php:26
 msgid "You can place banner as advertisement with links."
 msgstr ""
@@ -1504,7 +1510,8 @@ msgid ""
 "widget area selected from customizer footer settings."
 msgstr ""
 
-#: search.php:21
+#: search.php:23
+#. translators: %s: search query
 msgid "Search Results for: %s"
 msgstr ""
 
@@ -1512,17 +1519,18 @@ msgstr ""
 msgid "Nothing Found"
 msgstr ""
 
-#: template-parts/content-none.php:26
+#: template-parts/content-none.php:27
+#. translators: %s: hyperlink
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
-#: template-parts/content-none.php:35
+#: template-parts/content-none.php:36
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
 msgstr ""
 
-#: template-parts/content-none.php:41
+#: template-parts/content-none.php:42
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
