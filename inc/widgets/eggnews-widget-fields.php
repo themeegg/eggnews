@@ -240,7 +240,6 @@ function eggnews_widgets_updated_field_value( $widget_field, $new_field_value ) 
 	extract( $widget_field );
 
 	switch ( $eggnews_widgets_field_type ) {
-
 		// Allow only integers in number fields
 		case 'number':
 			return eggnews_sanitize_number( $new_field_value );
@@ -251,7 +250,6 @@ function eggnews_widgets_updated_field_value( $widget_field, $new_field_value ) 
 				// If not, fallback to default tags
 				$eggnews_widgets_allowed_tags = '<p><strong><em><a>';
 			}
-
 			return strip_tags( $new_field_value, $eggnews_widgets_allowed_tags );
 			break;
 		// No allowed tags for all other fields

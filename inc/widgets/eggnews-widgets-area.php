@@ -122,7 +122,6 @@ require get_template_directory() . '/inc/widgets/eggnews-featured-slider.php';
 require get_template_directory() . '/inc/widgets/eggnews-post-carousel.php';
 require get_template_directory() . '/inc/widgets/eggnews-block-grid.php';
 require get_template_directory() . '/inc/widgets/eggnews-block-column.php';
-require get_template_directory() . '/inc/widgets/eggnews-ads-banner.php';
 require get_template_directory() . '/inc/widgets/eggnews-block-layout.php';
 require get_template_directory() . '/inc/widgets/eggnews-posts-list.php';
 require get_template_directory() . '/inc/widgets/eggnews-block-list.php';
