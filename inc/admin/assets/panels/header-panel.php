@@ -10,7 +10,6 @@
 add_action( 'customize_register', 'eggnews_header_settings_register' );
 
 function eggnews_header_settings_register( $wp_customize ) {
-	$wp_customize->remove_section( 'header_image' );
 	/**
 	 * Add header panels
 	 */
@@ -90,7 +89,7 @@ function eggnews_header_settings_register( $wp_customize ) {
 			'default'           => 'no',
 			'capability'        => 'edit_theme_options',
 			'transport'         => 'postMessage',
-			'sanitize_callback' => 'all_page_eggnews_ticker_enable_switch_sanitize'
+			'sanitize_callback' => 'eggnews_all_page_ticker_enable_switch_sanitize'
 		)
 	);
 	$wp_customize->add_control( new Eggnews_Customize_Switch_Control(

@@ -112,7 +112,7 @@ class Eggnews_Block_Layout extends WP_widget {
                 ?>
                             <div class="single-post-wrapper clearfix <?php echo esc_attr( $post_class ); ?>">
                                 <div class="post-thumb-wrapper">
-                                    <a href="<?php the_permalink();?>" title="<?php the_title();?>">
+                                    <a href="<?php the_permalink();?>" title="<?php the_title_attribute();?>">
                                         <figure><?php echo $image_path ; ?></figure>
                                     </a>
                                 </div><!-- .post-thumb-wrapper -->

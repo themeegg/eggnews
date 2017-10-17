@@ -105,7 +105,7 @@ class Eggnews_Block_Grid extends WP_Widget {
 						$block_grid_query->the_post();
 						?>
 						<div class="single-post-wrapper">
-							<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+							<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
 								<figure><?php the_post_thumbnail( 'eggnews-block-medium' ); ?></figure>
 							</a>
 							<div class="post-content-wrapper">

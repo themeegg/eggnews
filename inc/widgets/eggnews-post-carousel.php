@@ -114,7 +114,7 @@ class Eggnews_Post_Carousel extends WP_Widget {
 					$carousel_query->the_post();
 					?>
 					<div class="item">
-						<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+						<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
 							<figure
 								class="carousel-image-wrap"><?php the_post_thumbnail( 'eggnews-carousel-image' ); ?></figure>
 						</a>

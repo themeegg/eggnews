@@ -311,28 +311,28 @@ if ( ! function_exists( 'eggnews_social_icons' ) ):
 		$social_insta_link = get_theme_mod( 'social_insta_link', '' );
 
 		$social_fb_icon = 'fa-facebook';
-		$social_fb_icon = apply_filters( 'social_fb_icon', $social_fb_icon );
+		$social_fb_icon = apply_filters( 'eggnews_social_fb_icon', $social_fb_icon );
 
 		$social_tw_icon = 'fa-twitter';
-		$social_tw_icon = apply_filters( 'social_tw_icon', $social_tw_icon );
+		$social_tw_icon = apply_filters( 'eggnews_social_tw_icon', $social_tw_icon );
 
 		$social_gp_icon = 'fa-google-plus';
-		$social_gp_icon = apply_filters( 'social_gp_icon', $social_gp_icon );
+		$social_gp_icon = apply_filters( 'eggnews_social_gp_icon', $social_gp_icon );
 
 		$social_lnk_icon = 'fa-linkedin';
-		$social_lnk_icon = apply_filters( 'social_lnk_icon', $social_lnk_icon );
+		$social_lnk_icon = apply_filters( 'eggnews_social_lnk_icon', $social_lnk_icon );
 
 		$social_yt_icon = 'fa-youtube';
-		$social_yt_icon = apply_filters( 'social_yt_icon', $social_yt_icon );
+		$social_yt_icon = apply_filters( 'eggnews_social_yt_icon', $social_yt_icon );
 
 		$social_vm_icon = 'fa-vimeo';
-		$social_vm_icon = apply_filters( 'social_vm_icon', $social_vm_icon );
+		$social_vm_icon = apply_filters( 'eggnews_social_vm_icon', $social_vm_icon );
 
 		$social_pin_icon = 'fa-pinterest';
-		$social_pin_icon = apply_filters( 'social_pin_icon', $social_pin_icon );
+		$social_pin_icon = apply_filters( 'eggnews_social_pin_icon', $social_pin_icon );
 
 		$social_insta_icon = 'fa-instagram';
-		$social_insta_icon = apply_filters( 'social_insta_icon', $social_insta_icon );
+		$social_insta_icon = apply_filters( 'eggnews_social_insta_icon', $social_insta_icon );
 
 		if ( ! empty( $social_fb_link ) ) {
 			echo '<span class="social-link"><a href="' . esc_url( $social_fb_link ) . '" target="_blank"><i class="fa ' . esc_attr( $social_fb_icon ) . '"></i></a></span>';
@@ -531,7 +531,7 @@ if ( ! function_exists( 'eggnews_related_articles_hook' ) ):
 
 				$eggnews_related_type = get_theme_mod( 'eggnews_related_articles_type', 'category' );
 				$related_post_count   = 3;
-				$related_post_count   = apply_filters( 'related_posts_count', $related_post_count );
+				$related_post_count   = apply_filters( 'eggnews_related_posts_count', $related_post_count );
 
 				// Define related post arguments
 				$related_args = array(
@@ -573,7 +573,7 @@ if ( ! function_exists( 'eggnews_related_articles_hook' ) ):
 						?>
 						<div class="single-post-wrap">
 							<div class="post-thumb-wrapper">
-								<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+								<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
 									<figure><?php the_post_thumbnail( 'eggnews-block-medium' ); ?></figure>
 								</a>
 							</div><!-- .post-thumb-wrapper -->
@@ -603,10 +603,10 @@ endif;
 /**
  * Filter the category title
  */
-if ( ! function_exists( 'themeegg_get_the_archive_title' ) ) {
+if ( ! function_exists( 'eggnews_get_the_archive_title' ) ) {
 
-	add_filter( 'get_the_archive_title', 'themeegg_get_the_archive_title', 10, 1 );
-	function themeegg_get_the_archive_title( $title ) {
+	add_filter( 'get_the_archive_title', 'eggnews_get_the_archive_title', 10, 1 );
+	function eggnews_get_the_archive_title( $title ) {
 
 		if ( is_category() ) {
 			$title = single_cat_title( '', false );

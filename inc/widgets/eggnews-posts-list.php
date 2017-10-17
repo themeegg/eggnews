@@ -102,7 +102,7 @@ class Eggnews_Posts_List extends WP_widget {
 	                ?>
 	                			<div class="single-post-wrapper clearfix">
                                     <div class="post-thumb-wrapper">
-    	                                <a href="<?php the_permalink();?>" title="<?php the_title();?>">
+    	                                <a href="<?php the_permalink();?>" title="<?php the_title_attribute();?>">
     	                                    <figure><?php the_post_thumbnail( 'eggnews-block-thumb' ); ?></figure>
     	                                </a>
                                     </div>

@@ -107,7 +107,7 @@ class Eggnews_Featured_Slider extends WP_Widget {
                             $slider_query->the_post();
                     ?>
                             <li>
-                                <a href="<?php the_permalink();?>" title="<?php the_title(); ?>">
+                                <a href="<?php the_permalink();?>" title="<?php the_title_attribute(); ?>">
                                     <figure><?php the_post_thumbnail( 'eggnews-slider-large' ); ?></figure>
                                 </a>
                                 <div class="slider-content-wrapper">
@@ -148,7 +148,7 @@ class Eggnews_Featured_Slider extends WP_Widget {
                         }
             ?>
                     <div class="single-featured-wrap">
-                        <a href="<?php the_permalink();?>" title="<?php the_title(); ?>">
+                        <a href="<?php the_permalink();?>" title="<?php the_title_attribute(); ?>">
                             <figure><?php echo $image_path; ?></figure>
                         </a>
                         <div class="featured-content-wrapper">

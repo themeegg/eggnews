@@ -67,7 +67,7 @@ function eggnews_enable_switch_sanitize( $input ) {
 }
 
 // Switch option for ticker all (enable/disable)
-function all_page_eggnews_ticker_enable_switch_sanitize( $input ) {
+function eggnews_all_page_ticker_enable_switch_sanitize( $input ) {
 	$valid_keys = array(
 		'yes' => esc_html__( 'Yes', 'eggnews' ),
 		'no'  => esc_html__( 'No', 'eggnews' )
