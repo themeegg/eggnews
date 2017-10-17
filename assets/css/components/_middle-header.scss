@@ -44,7 +44,7 @@ MIDDLE HEADER CSS
   padding: 0;
 }
 
-.header-ads-wrapper .widget {
+#masthead .header-ads-wrapper .widget {
   &.eggnews_ads_banner {
     margin: 0;
     padding: 0;
@@ -52,6 +52,8 @@ MIDDLE HEADER CSS
   &.eggnews_782x90_banner {
     margin: 0;
   }
+	margin:0;
+	padding:0;
 }
 
 .home .widget.eggnews_ads_banner {
