@@ -3,7 +3,7 @@
 Contributors:       Theme Egg Team
 Requires at least:  WordPress 4.0
 Tested up to:       WordPress 4.8.2
-Version:            1.3.2
+Version:            1.3.3
 License:            GPLv3 or later
 License URI:        http://www.gnu.org/licenses/gpl-3.0.html
 Tags:               news, grid-layout, custom-colors, one-column, two-columns, three-columns, left-sidebar, right-sidebar, featured-images, footer-widgets, full-width-template, theme-options, translation-ready, rtl-language-support
@@ -65,23 +65,29 @@ Eggnews bundles the following third-party resources:
 
 
 == Changelog ==
+= 1.3.3 - 2017/10/18 =
+	* Remove  - Add widget removed   
+	* Fix - Escaping issue resolved
+	* Fix - Filter prefix issue resolved
+	* Fix - Header image design issue 
+	
 = 1.3.2 - 2017/09/24 =
-	* Fixed - Interactive 404 page  
-	* Fixed - Screenshot changed
-	* Fixed - Escaping issue fixed
-	* Fixed - Design improvement 
+	* Fix - Interactive 404 page  
+	* Fix - Screenshot changed
+	* Fix - Escaping issue fixed
+	* Fix - Design improvement 
 	* Added - Description added on sidebar. 
-	* Fixed - Javascript error fixed.
+	* Fix - Javascript error fixed.
 	* Added - Licenses added
 	
 = 1.3.1 - 2017/09/21 =
-	* Fixed - Tag issue  
-	* Fixed - Screenshot changed
-	* Fixed - Escaping issue fixed
-	* Fixed - Design improvement on widget section 
+	* Fix - Tag issue  
+	* Fix - Screenshot changed
+	* Fix - Escaping issue fixed
+	* Fix - Design improvement on widget section 
 	* Added - Description added on sidebar. 
-	* Fixed - Search box responsive issue fixed.
-	* Fixed - Javascript error fixed.
+	* Fix - Search box responsive issue fixed.
+	* Fix - Javascript error fixed.
 
 = 1.3.0 - 2017/09/15 =
 	* Ticker design update 

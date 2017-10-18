@@ -4,8 +4,8 @@
  *
  * @package WordPress
  * @subpackage EggNews
- * @since 1.3.4
- * @version 1.3.4
+ * @since 1.3.3
+ * @version 1.3.3
  */
 
 ?>
