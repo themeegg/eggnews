@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: themeeggofficial@gmail.com\n"
-"POT-Creation-Date: 2017-09-24 05:55:38+00:00\n"
+"POT-Creation-Date: 2017-10-18 06:48:37+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -96,6 +96,10 @@ msgstr ""
 msgid "Footer Menu"
 msgstr ""
 
+#: header.php:29
+msgid "Skip to content"
+msgstr ""
+
 #: inc/admin/assets/eggnews-custom-classes.php:23
 msgid "&mdash; Select Category &mdash;"
 msgstr ""
@@ -115,29 +119,29 @@ msgstr ""
 
 #: inc/admin/assets/eggnews-sanitize.php:59
 #: inc/admin/assets/panels/design-panel.php:179
-#: inc/admin/assets/panels/header-panel.php:59
-#: inc/admin/assets/panels/header-panel.php:133
-#: inc/admin/assets/panels/header-panel.php:160
-#: inc/admin/assets/panels/header-panel.php:198
+#: inc/admin/assets/panels/header-panel.php:58
+#: inc/admin/assets/panels/header-panel.php:132
+#: inc/admin/assets/panels/header-panel.php:159
+#: inc/admin/assets/panels/header-panel.php:197
 msgid "Enable"
 msgstr ""
 
 #: inc/admin/assets/eggnews-sanitize.php:60
 #: inc/admin/assets/panels/design-panel.php:180
-#: inc/admin/assets/panels/header-panel.php:60
-#: inc/admin/assets/panels/header-panel.php:134
-#: inc/admin/assets/panels/header-panel.php:161
-#: inc/admin/assets/panels/header-panel.php:199
+#: inc/admin/assets/panels/header-panel.php:59
+#: inc/admin/assets/panels/header-panel.php:133
+#: inc/admin/assets/panels/header-panel.php:160
+#: inc/admin/assets/panels/header-panel.php:198
 msgid "Disable"
 msgstr ""
 
 #: inc/admin/assets/eggnews-sanitize.php:72
-#: inc/admin/assets/panels/header-panel.php:106
+#: inc/admin/assets/panels/header-panel.php:105
 msgid "Yes"
 msgstr ""
 
 #: inc/admin/assets/eggnews-sanitize.php:73
-#: inc/admin/assets/panels/header-panel.php:107
+#: inc/admin/assets/panels/header-panel.php:106
 msgid "No"
 msgstr ""
 
@@ -412,63 +416,63 @@ msgstr ""
 msgid "FullWidth Layout"
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:23
+#: inc/admin/assets/panels/header-panel.php:22
 msgid "Header Settings"
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:33
+#: inc/admin/assets/panels/header-panel.php:32
 msgid "Top Header Section"
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:54
+#: inc/admin/assets/panels/header-panel.php:53
 msgid "News Ticker Option"
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:55
+#: inc/admin/assets/panels/header-panel.php:54
 msgid "Enable/disable news ticker at header."
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:71 inc/eggnews-functions.php:120
+#: inc/admin/assets/panels/header-panel.php:70 inc/eggnews-functions.php:120
 msgid "Latest"
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:81
+#: inc/admin/assets/panels/header-panel.php:80
 msgid "News Ticker Caption"
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:101
+#: inc/admin/assets/panels/header-panel.php:100
 msgid "Show on all page"
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:102
+#: inc/admin/assets/panels/header-panel.php:101
 msgid "Select yes, if you want to show ticker on all page."
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:128
+#: inc/admin/assets/panels/header-panel.php:127
 msgid "Current Date Option"
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:129
+#: inc/admin/assets/panels/header-panel.php:128
 msgid "Enable/disable current date from top header."
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:155
+#: inc/admin/assets/panels/header-panel.php:154
 msgid "Social Icon Option"
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:156
+#: inc/admin/assets/panels/header-panel.php:155
 msgid "Enable/disable social icons from top header (right)."
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:173
+#: inc/admin/assets/panels/header-panel.php:172
 msgid "Sticky Menu"
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:193
+#: inc/admin/assets/panels/header-panel.php:192
 msgid "Menu Sticky"
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:194
+#: inc/admin/assets/panels/header-panel.php:193
 msgid "Enable/disable option for Menu Sticky"
 msgstr ""
 
@@ -804,12 +808,12 @@ msgstr ""
 msgid "View Pro"
 msgstr ""
 
-#: inc/eggnews-functions.php:28 inc/widgets/eggnews-widget-fields.php:168
+#: inc/eggnews-functions.php:28 inc/widgets/eggnews-widget-fields.php:201
 msgid "Upload"
 msgstr ""
 
-#: inc/eggnews-functions.php:29 inc/widgets/eggnews-widget-fields.php:170
-#: inc/widgets/eggnews-widget-fields.php:179
+#: inc/eggnews-functions.php:29 inc/widgets/eggnews-widget-fields.php:203
+#: inc/widgets/eggnews-widget-fields.php:212
 msgid "Remove"
 msgstr ""
 
@@ -1236,46 +1240,6 @@ msgstr ""
 msgid "Return to Required Plugins Installer"
 msgstr ""
 
-#: inc/widgets/eggnews-ads-banner.php:26
-msgid "You can place banner as advertisement with links."
-msgstr ""
-
-#: inc/widgets/eggnews-ads-banner.php:28
-msgid "Banner Ad"
-msgstr ""
-
-#: inc/widgets/eggnews-ads-banner.php:38
-msgid "Leaderboard (728x90)"
-msgstr ""
-
-#: inc/widgets/eggnews-ads-banner.php:39
-msgid "Large (300x250)"
-msgstr ""
-
-#: inc/widgets/eggnews-ads-banner.php:45
-msgid "Title"
-msgstr ""
-
-#: inc/widgets/eggnews-ads-banner.php:51
-msgid "Ads Size"
-msgstr ""
-
-#: inc/widgets/eggnews-ads-banner.php:59
-msgid "Add Image"
-msgstr ""
-
-#: inc/widgets/eggnews-ads-banner.php:65
-msgid "Add Url"
-msgstr ""
-
-#: inc/widgets/eggnews-ads-banner.php:71
-msgid "Open in new tab"
-msgstr ""
-
-#: inc/widgets/eggnews-ads-banner.php:77
-msgid "Rel Attribute for URL Link"
-msgstr ""
-
 #: inc/widgets/eggnews-block-column.php:26
 msgid "Display block posts as Column layout."
 msgstr ""
@@ -1406,19 +1370,19 @@ msgstr ""
 msgid "Posts Type"
 msgstr ""
 
-#: inc/widgets/eggnews-widget-fields.php:165
+#: inc/widgets/eggnews-widget-fields.php:198
 msgid "No file chosen"
 msgstr ""
 
-#: inc/widgets/eggnews-widget-fields.php:173
+#: inc/widgets/eggnews-widget-fields.php:206
 msgid "Upgrade your version of WordPress for full media support."
 msgstr ""
 
-#: inc/widgets/eggnews-widget-fields.php:182
+#: inc/widgets/eggnews-widget-fields.php:215
 msgid "Upload image"
 msgstr ""
 
-#: inc/widgets/eggnews-widget-fields.php:193
+#: inc/widgets/eggnews-widget-fields.php:226
 msgid "View File"
 msgstr ""
 

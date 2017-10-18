@@ -26,7 +26,7 @@
 <?php do_action( 'eggnews_before_page' ); ?>
 <div id="page" class="site">
 	<?php do_action( 'eggnews_before_header' ); ?>
-	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyseventeen' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'eggnews' ); ?></a>
 	<header id="masthead" class="site-header" role="banner">
 		<?php get_template_part( 'template-parts/header/header', 'image' ); ?>
 		<?php do_action( 'eggnews_news_ticker' ); ?>
