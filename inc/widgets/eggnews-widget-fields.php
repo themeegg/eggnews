@@ -174,7 +174,7 @@ function eggnews_widgets_show_widget_field( $instance = '', $widget_field = '', 
 			<div class="layout-image-wrapper">
 				<span class="image-title"><?php echo esc_html( $eggnews_widgets_title ); ?></span>
 				<img src="<?php echo esc_url( $eggnews_widgets_layout_img ); ?>"
-				     title="<?php echo esc_attr( 'Widget Layout', 'eggnews' ); ?>"/>
+				     title="<?php echo esc_attr__( 'Widget Layout', 'eggnews' ); ?>"/>
 			</div>
 			<?php
 			break;
@@ -212,7 +212,7 @@ function eggnews_widgets_show_widget_field( $instance = '', $widget_field = '', 
 				$remove = '<a class="remove-image">' . esc_html__( 'Remove', 'eggnews' ) . '</a>';
 				$image  = preg_match( '/(^.*\.jpg|jpeg|png|gif|ico*)/i', $value );
 				if ( $image ) {
-					$output .= '<img src="' . $value . '" alt="' . esc_html__( 'Upload image', 'eggnews' ) . '" />';
+					$output .= '<img src="' . esc_url($value) . '" alt="' . esc_html__( 'Upload image', 'eggnews' ) . '" />';
 				} else {
 					$parts = explode( "/", $value );
 					for ( $i = 0; $i < sizeof( $parts ); ++ $i ) {
@@ -235,6 +235,7 @@ function eggnews_widgets_show_widget_field( $instance = '', $widget_field = '', 
 
 function eggnews_widgets_updated_field_value( $widget_field, $new_field_value ) {
 
+
 	$eggnews_widgets_field_type = '';
 
 	extract( $widget_field );
@@ -246,18 +247,22 @@ function eggnews_widgets_updated_field_value( $widget_field, $new_field_value ) 
 			break;
 		// Allow some tags in textareas
 		case 'textarea':
-			if ( ! isset( $eggnews_widgets_allowed_tags ) ) {
-				// If not, fallback to default tags
-				$eggnews_widgets_allowed_tags = '<p><strong><em><a>';
-			}
-			return strip_tags( $new_field_value, $eggnews_widgets_allowed_tags );
+			$eggnews_widgets_allowed_tags = array(
+				'p' => array(),
+				'em' => array(),
+				'strong' => array(),
+				'a' => array(
+					'href' => array(),
+				),
+			);
+			return wp_kses( $new_field_value, $eggnews_widgets_allowed_tags );
 			break;
 		// No allowed tags for all other fields
 		case 'url':
 			return esc_url_raw( $new_field_value );
 			break;
 		default:
-			return strip_tags( sanitize_text_field( $new_field_value ) );
+			return wp_kses_post( sanitize_text_field( $new_field_value ) );
 
 	}
 }
