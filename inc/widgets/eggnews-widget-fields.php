@@ -212,7 +212,7 @@ function eggnews_widgets_show_widget_field( $instance = '', $widget_field = '', 
 				$remove = '<a class="remove-image">' . esc_html__( 'Remove', 'eggnews' ) . '</a>';
 				$image  = preg_match( '/(^.*\.jpg|jpeg|png|gif|ico*)/i', $value );
 				if ( $image ) {
-					$output .= '<img src="' . esc_url($value) . '" alt="' . esc_html__( 'Upload image', 'eggnews' ) . '" />';
+					$output .= '<img src="' . esc_url($value) . '" alt="' . esc_attr__( 'Upload image', 'eggnews' ) . '" />';
 				} else {
 					$parts = explode( "/", $value );
 					for ( $i = 0; $i < sizeof( $parts ); ++ $i ) {
