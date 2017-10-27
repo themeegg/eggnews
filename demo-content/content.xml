@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.8.2" created="2017-10-25 14:53" -->
+<!-- generator="WordPress/4.8.2" created="2017-10-27 15:00" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Eggnews</title>
 	<link>https://demo.themeegg.com/themes/eggnews</link>
 	<description>Wordpress news magazine theme</description>
-	<pubDate>Wed, 25 Oct 2017 14:53:56 +0000</pubDate>
+	<pubDate>Fri, 27 Oct 2017 15:00:48 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://demo.themeegg.com/themes/eggnews</wp:base_site_url>
@@ -78,6 +78,12 @@
 		<wp:category_nicename><![CDATA[national]]></wp:category_nicename>
 		<wp:category_parent><![CDATA[]]></wp:category_parent>
 		<wp:cat_name><![CDATA[National]]></wp:cat_name>
+	</wp:category>
+	<wp:category>
+		<wp:term_id>30</wp:term_id>
+		<wp:category_nicename><![CDATA[natural]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Natural]]></wp:cat_name>
 	</wp:category>
 	<wp:category>
 		<wp:term_id>10</wp:term_id>
@@ -301,6 +307,13 @@
 		<wp:term_name><![CDATA[national]]></wp:term_name>
 	</wp:term>
 	<wp:term>
+		<wp:term_id><![CDATA[30]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[natural]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Natural]]></wp:term_name>
+	</wp:term>
+	<wp:term>
 		<wp:term_id><![CDATA[23]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[news]]></wp:term_slug>
@@ -389,41 +402,6 @@
 	<generator>https://wordpress.org/?v=4.8.2</generator>
 
 	<item>
-		<title>india-1748445_1920</title>
-		<link>https://demo.themeegg.com/themes/eggnews/31-injured-in-dhading-bus-truck-collision/india-1748445_1920/</link>
-		<pubDate>Mon, 18 Sep 2017 17:50:25 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/07/india-1748445_1920.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>144</wp:post_id>
-		<wp:post_date><![CDATA[2017-09-18 17:50:25]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-09-18 17:50:25]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[india-1748445_1920]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>39</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/07/india-1748445_1920.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2017/07/india-1748445_1920.jpg]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[wp-smpro-smush-data]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:5:"stats";a:8:{s:7:"percent";d:4.67091748155706287803923260071314871311187744140625;s:5:"bytes";i:24079;s:11:"size_before";i:515509;s:10:"size_after";i:491430;s:4:"time";d:0.62999999999999989341858963598497211933135986328125;s:11:"api_version";s:3:"1.0";s:5:"lossy";b:0;s:9:"keep_exif";i:0;}s:5:"sizes";a:11:{s:9:"thumbnail";O:8:"stdClass":5:{s:7:"percent";d:4.4000000000000003552713678800500929355621337890625;s:5:"bytes";i:208;s:11:"size_before";i:4723;s:10:"size_after";i:4515;s:4:"time";d:0.01000000000000000020816681711721685132943093776702880859375;}s:6:"medium";O:8:"stdClass":5:{s:7:"percent";d:4.11000000000000031974423109204508364200592041015625;s:5:"bytes";i:430;s:11:"size_before";i:10468;s:10:"size_after";i:10038;s:4:"time";d:0.0299999999999999988897769753748434595763683319091796875;}s:12:"medium_large";O:8:"stdClass":5:{s:7:"percent";d:4.45000000000000017763568394002504646778106689453125;s:5:"bytes";i:2380;s:11:"size_before";i:53515;s:10:"size_after";i:51135;s:4:"time";d:0.0299999999999999988897769753748434595763683319091796875;}s:5:"large";O:8:"stdClass":5:{s:7:"percent";d:4.589999999999999857891452847979962825775146484375;s:5:"bytes";i:4248;s:11:"size_before";i:92495;s:10:"size_after";i:88247;s:4:"time";d:0.11999999999999999555910790149937383830547332763671875;}s:20:"eggnews-slider-large";O:8:"stdClass":5:{s:7:"percent";d:5.12000000000000010658141036401502788066864013671875;s:5:"bytes";i:5628;s:11:"size_before";i:109908;s:10:"size_after";i:104280;s:4:"time";d:0.1499999999999999944488848768742172978818416595458984375;}s:23:"eggnews-featured-medium";O:8:"stdClass":5:{s:7:"percent";d:4.71999999999999975131004248396493494510650634765625;s:5:"bytes";i:1035;s:11:"size_before";i:21943;s:10:"size_after";i:20908;s:4:"time";d:0.0200000000000000004163336342344337026588618755340576171875;}s:21:"eggnews-featured-long";O:8:"stdClass":5:{s:7:"percent";i:5;s:5:"bytes";i:1006;s:11:"size_before";i:20117;s:10:"size_after";i:19111;s:4:"time";d:0.070000000000000006661338147750939242541790008544921875;}s:20:"eggnews-block-medium";O:8:"stdClass":5:{s:7:"percent";d:4.13999999999999968025576890795491635799407958984375;s:5:"bytes";i:975;s:11:"size_before";i:23524;s:10:"size_after";i:22549;s:4:"time";d:0.05000000000000000277555756156289135105907917022705078125;}s:22:"eggnews-carousel-image";O:8:"stdClass":5:{s:7:"percent";d:4.75;s:5:"bytes";i:2170;s:11:"size_before";i:45725;s:10:"size_after";i:43555;s:4:"time";d:0.08000000000000000166533453693773481063544750213623046875;}s:19:"eggnews-block-thumb";O:8:"stdClass":5:{s:7:"percent";d:4.1500000000000003552713678800500929355621337890625;s:5:"bytes";i:561;s:11:"size_before";i:13515;s:10:"size_after";i:12954;s:4:"time";d:0.01000000000000000020816681711721685132943093776702880859375;}s:20:"eggnews-single-large";O:8:"stdClass":5:{s:7:"percent";d:4.54999999999999982236431605997495353221893310546875;s:5:"bytes";i:5438;s:11:"size_before";i:119576;s:10:"size_after";i:114138;s:4:"time";d:0.059999999999999997779553950749686919152736663818359375;}}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1920;s:6:"height";i:1080;s:4:"file";s:30:"2017/07/india-1748445_1920.jpg";s:5:"sizes";a:11:{s:9:"thumbnail";a:4:{s:4:"file";s:30:"india-1748445_1920-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:30:"india-1748445_1920-300x169.jpg";s:5:"width";i:300;s:6:"height";i:169;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:30:"india-1748445_1920-768x432.jpg";s:5:"width";i:768;s:6:"height";i:432;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:31:"india-1748445_1920-1024x576.jpg";s:5:"width";i:1024;s:6:"height";i:576;s:9:"mime-type";s:10:"image/jpeg";}s:20:"eggnews-slider-large";a:4:{s:4:"file";s:31:"india-1748445_1920-1020x731.jpg";s:5:"width";i:1020;s:6:"height";i:731;s:9:"mime-type";s:10:"image/jpeg";}s:23:"eggnews-featured-medium";a:4:{s:4:"file";s:30:"india-1748445_1920-420x307.jpg";s:5:"width";i:420;s:6:"height";i:307;s:9:"mime-type";s:10:"image/jpeg";}s:21:"eggnews-featured-long";a:4:{s:4:"file";s:30:"india-1748445_1920-300x443.jpg";s:5:"width";i:300;s:6:"height";i:443;s:9:"mime-type";s:10:"image/jpeg";}s:20:"eggnews-block-medium";a:4:{s:4:"file";s:30:"india-1748445_1920-464x290.jpg";s:5:"width";i:464;s:6:"height";i:290;s:9:"mime-type";s:10:"image/jpeg";}s:22:"eggnews-carousel-image";a:4:{s:4:"file";s:30:"india-1748445_1920-600x500.jpg";s:5:"width";i:600;s:6:"height";i:500;s:9:"mime-type";s:10:"image/jpeg";}s:19:"eggnews-block-thumb";a:4:{s:4:"file";s:30:"india-1748445_1920-322x230.jpg";s:5:"width";i:322;s:6:"height";i:230;s:9:"mime-type";s:10:"image/jpeg";}s:20:"eggnews-single-large";a:4:{s:4:"file";s:31:"india-1748445_1920-1210x642.jpg";s:5:"width";i:1210;s:6:"height";i:642;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:3:"4.5";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D810";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:2:"70";s:3:"iso";s:3:"100";s:13:"shutter_speed";s:9:"0.0015625";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>taj-mahal-366_1920</title>
 		<link>https://demo.themeegg.com/themes/eggnews/taj-mahal-366_1920/</link>
 		<pubDate>Mon, 17 Jul 2017 13:28:39 +0000</pubDate>
@@ -456,111 +434,6 @@
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[wp-smpro-smush-data]]></wp:meta_key>
 			<wp:meta_value><![CDATA[a:2:{s:5:"stats";a:8:{s:7:"percent";d:1.1489382374850209966865577371208928525447845458984375;s:5:"bytes";i:4257;s:11:"size_before";i:370516;s:10:"size_after";i:366259;s:4:"time";d:0.360000000000000042188474935755948536098003387451171875;s:11:"api_version";s:3:"1.0";s:5:"lossy";b:0;s:9:"keep_exif";i:0;}s:5:"sizes";a:11:{s:9:"thumbnail";O:8:"stdClass":5:{s:7:"percent";i:0;s:5:"bytes";i:0;s:11:"size_before";i:3093;s:10:"size_after";i:3093;s:4:"time";d:0.01000000000000000020816681711721685132943093776702880859375;}s:6:"medium";O:8:"stdClass":5:{s:7:"percent";i:0;s:5:"bytes";i:0;s:11:"size_before";i:7702;s:10:"size_after";i:7702;s:4:"time";d:0.01000000000000000020816681711721685132943093776702880859375;}s:12:"medium_large";O:8:"stdClass":5:{s:7:"percent";d:0.60999999999999998667732370449812151491641998291015625;s:5:"bytes";i:502;s:11:"size_before";i:41282;s:10:"size_after";i:41031;s:4:"time";d:0.0299999999999999988897769753748434595763683319091796875;}s:5:"large";O:8:"stdClass":5:{s:7:"percent";d:1.060000000000000053290705182007513940334320068359375;s:5:"bytes";i:1606;s:11:"size_before";i:75692;s:10:"size_after";i:74889;s:4:"time";d:0.070000000000000006661338147750939242541790008544921875;}s:20:"eggnews-slider-large";O:8:"stdClass":5:{s:7:"percent";d:1.4499999999999999555910790149937383830547332763671875;s:5:"bytes";i:2124;s:11:"size_before";i:73365;s:10:"size_after";i:72303;s:4:"time";d:0.070000000000000006661338147750939242541790008544921875;}s:23:"eggnews-featured-medium";O:8:"stdClass":5:{s:7:"percent";i:0;s:5:"bytes";i:0;s:11:"size_before";i:13506;s:10:"size_after";i:13506;s:4:"time";d:0.0200000000000000004163336342344337026588618755340576171875;}s:21:"eggnews-featured-long";O:8:"stdClass":5:{s:7:"percent";i:0;s:5:"bytes";i:0;s:11:"size_before";i:14353;s:10:"size_after";i:14353;s:4:"time";d:0.0200000000000000004163336342344337026588618755340576171875;}s:20:"eggnews-block-medium";O:8:"stdClass":5:{s:7:"percent";i:0;s:5:"bytes";i:0;s:11:"size_before";i:14629;s:10:"size_after";i:14629;s:4:"time";d:0.0299999999999999988897769753748434595763683319091796875;}s:22:"eggnews-carousel-image";O:8:"stdClass":5:{s:7:"percent";d:0.689999999999999946709294817992486059665679931640625;s:5:"bytes";i:210;s:11:"size_before";i:30415;s:10:"size_after";i:30205;s:4:"time";d:0.0299999999999999988897769753748434595763683319091796875;}s:19:"eggnews-block-thumb";O:8:"stdClass":5:{s:7:"percent";i:0;s:5:"bytes";i:0;s:11:"size_before";i:8459;s:10:"size_after";i:8459;s:4:"time";d:0.01000000000000000020816681711721685132943093776702880859375;}s:20:"eggnews-single-large";O:8:"stdClass":5:{s:7:"percent";d:2.189999999999999946709294817992486059665679931640625;s:5:"bytes";i:3862;s:11:"size_before";i:88020;s:10:"size_after";i:86089;s:4:"time";d:0.059999999999999997779553950749686919152736663818359375;}}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>taj-mahal-2309888_1920</title>
-		<link>https://demo.themeegg.com/themes/eggnews/six-parties-registered-with-ec/taj-mahal-2309888_1920/</link>
-		<pubDate>Mon, 18 Sep 2017 17:48:31 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/07/taj-mahal-2309888_1920.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>142</wp:post_id>
-		<wp:post_date><![CDATA[2017-09-18 17:48:31]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-09-18 17:48:31]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[taj-mahal-2309888_1920]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>41</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/07/taj-mahal-2309888_1920.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2017/07/taj-mahal-2309888_1920.jpg]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[wp-smpro-smush-data]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:5:"stats";a:8:{s:7:"percent";d:5.09550469980345877019090039539150893688201904296875;s:5:"bytes";i:48637;s:11:"size_before";i:954508;s:10:"size_after";i:905871;s:4:"time";d:0.99000000000000010214051826551440171897411346435546875;s:11:"api_version";s:3:"1.0";s:5:"lossy";b:0;s:9:"keep_exif";i:0;}s:5:"sizes";a:11:{s:9:"thumbnail";O:8:"stdClass":5:{s:7:"percent";d:5.5999999999999996447286321199499070644378662109375;s:5:"bytes";i:444;s:11:"size_before";i:7923;s:10:"size_after";i:7479;s:4:"time";d:0.01000000000000000020816681711721685132943093776702880859375;}s:6:"medium";O:8:"stdClass":5:{s:7:"percent";d:5.410000000000000142108547152020037174224853515625;s:5:"bytes";i:1003;s:11:"size_before";i:18556;s:10:"size_after";i:17553;s:4:"time";d:0.08000000000000000166533453693773481063544750213623046875;}s:12:"medium_large";O:8:"stdClass":5:{s:7:"percent";d:5.19000000000000039079850466805510222911834716796875;s:5:"bytes";i:5586;s:11:"size_before";i:107644;s:10:"size_after";i:102058;s:4:"time";d:0.1700000000000000122124532708767219446599483489990234375;}s:5:"large";O:8:"stdClass":5:{s:7:"percent";d:5.0800000000000000710542735760100185871124267578125;s:5:"bytes";i:9549;s:11:"size_before";i:188105;s:10:"size_after";i:178556;s:4:"time";d:0.0899999999999999966693309261245303787291049957275390625;}s:20:"eggnews-slider-large";O:8:"stdClass":5:{s:7:"percent";d:4.9199999999999999289457264239899814128875732421875;s:5:"bytes";i:9774;s:11:"size_before";i:198458;s:10:"size_after";i:188684;s:4:"time";d:0.11000000000000000055511151231257827021181583404541015625;}s:23:"eggnews-featured-medium";O:8:"stdClass":5:{s:7:"percent";d:5.38999999999999968025576890795491635799407958984375;s:5:"bytes";i:2044;s:11:"size_before";i:37916;s:10:"size_after";i:35872;s:4:"time";d:0.05000000000000000277555756156289135105907917022705078125;}s:21:"eggnews-featured-long";O:8:"stdClass":5:{s:7:"percent";d:4.910000000000000142108547152020037174224853515625;s:5:"bytes";i:1823;s:11:"size_before";i:37102;s:10:"size_after";i:35279;s:4:"time";d:0.059999999999999997779553950749686919152736663818359375;}s:20:"eggnews-block-medium";O:8:"stdClass":5:{s:7:"percent";d:5.3300000000000000710542735760100185871124267578125;s:5:"bytes";i:2109;s:11:"size_before";i:39566;s:10:"size_after";i:37457;s:4:"time";d:0.08000000000000000166533453693773481063544750213623046875;}s:22:"eggnews-carousel-image";O:8:"stdClass":5:{s:7:"percent";d:5.410000000000000142108547152020037174224853515625;s:5:"bytes";i:4547;s:11:"size_before";i:84081;s:10:"size_after";i:79534;s:4:"time";d:0.05000000000000000277555756156289135105907917022705078125;}s:19:"eggnews-block-thumb";O:8:"stdClass":5:{s:7:"percent";d:5.589999999999999857891452847979962825775146484375;s:5:"bytes";i:1267;s:11:"size_before";i:22653;s:10:"size_after";i:21386;s:4:"time";d:0.0200000000000000004163336342344337026588618755340576171875;}s:20:"eggnews-single-large";O:8:"stdClass":5:{s:7:"percent";d:4.94000000000000039079850466805510222911834716796875;s:5:"bytes";i:10491;s:11:"size_before";i:212504;s:10:"size_after";i:202013;s:4:"time";d:0.270000000000000017763568394002504646778106689453125;}}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1920;s:6:"height";i:1280;s:4:"file";s:34:"2017/07/taj-mahal-2309888_1920.jpg";s:5:"sizes";a:11:{s:9:"thumbnail";a:4:{s:4:"file";s:34:"taj-mahal-2309888_1920-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:34:"taj-mahal-2309888_1920-300x200.jpg";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:34:"taj-mahal-2309888_1920-768x512.jpg";s:5:"width";i:768;s:6:"height";i:512;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:35:"taj-mahal-2309888_1920-1024x683.jpg";s:5:"width";i:1024;s:6:"height";i:683;s:9:"mime-type";s:10:"image/jpeg";}s:20:"eggnews-slider-large";a:4:{s:4:"file";s:35:"taj-mahal-2309888_1920-1020x731.jpg";s:5:"width";i:1020;s:6:"height";i:731;s:9:"mime-type";s:10:"image/jpeg";}s:23:"eggnews-featured-medium";a:4:{s:4:"file";s:34:"taj-mahal-2309888_1920-420x307.jpg";s:5:"width";i:420;s:6:"height";i:307;s:9:"mime-type";s:10:"image/jpeg";}s:21:"eggnews-featured-long";a:4:{s:4:"file";s:34:"taj-mahal-2309888_1920-300x443.jpg";s:5:"width";i:300;s:6:"height";i:443;s:9:"mime-type";s:10:"image/jpeg";}s:20:"eggnews-block-medium";a:4:{s:4:"file";s:34:"taj-mahal-2309888_1920-464x290.jpg";s:5:"width";i:464;s:6:"height";i:290;s:9:"mime-type";s:10:"image/jpeg";}s:22:"eggnews-carousel-image";a:4:{s:4:"file";s:34:"taj-mahal-2309888_1920-600x500.jpg";s:5:"width";i:600;s:6:"height";i:500;s:9:"mime-type";s:10:"image/jpeg";}s:19:"eggnews-block-thumb";a:4:{s:4:"file";s:34:"taj-mahal-2309888_1920-322x230.jpg";s:5:"width";i:322;s:6:"height";i:230;s:9:"mime-type";s:10:"image/jpeg";}s:20:"eggnews-single-large";a:4:{s:4:"file";s:35:"taj-mahal-2309888_1920-1210x642.jpg";s:5:"width";i:1210;s:6:"height";i:642;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:2:"13";s:6:"credit";s:0:"";s:6:"camera";s:12:"Canon EOS 6D";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:2:"38";s:3:"iso";s:3:"125";s:13:"shutter_speed";s:17:"0.033333333333333";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>taj-mahal-2309887_1920</title>
-		<link>https://demo.themeegg.com/themes/eggnews/dpm-rejects-retaining-240-constituencies/taj-mahal-2309887_1920/</link>
-		<pubDate>Mon, 18 Sep 2017 17:46:38 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/07/taj-mahal-2309887_1920.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>140</wp:post_id>
-		<wp:post_date><![CDATA[2017-09-18 17:46:38]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-09-18 17:46:38]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[taj-mahal-2309887_1920]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>47</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/07/taj-mahal-2309887_1920.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2017/07/taj-mahal-2309887_1920.jpg]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[wp-smpro-smush-data]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:5:"stats";a:8:{s:7:"percent";d:3.467732495508624168678579735569655895233154296875;s:5:"bytes";i:20441;s:11:"size_before";i:589463;s:10:"size_after";i:569022;s:4:"time";d:0.910000000000000142108547152020037174224853515625;s:11:"api_version";s:3:"1.0";s:5:"lossy";b:0;s:9:"keep_exif";i:0;}s:5:"sizes";a:11:{s:9:"thumbnail";O:8:"stdClass":5:{s:7:"percent";d:3.95999999999999996447286321199499070644378662109375;s:5:"bytes";i:243;s:11:"size_before";i:6141;s:10:"size_after";i:5898;s:4:"time";d:0.01000000000000000020816681711721685132943093776702880859375;}s:6:"medium";O:8:"stdClass":5:{s:7:"percent";d:3.640000000000000124344978758017532527446746826171875;s:5:"bytes";i:523;s:11:"size_before";i:14372;s:10:"size_after";i:13849;s:4:"time";d:0.040000000000000000832667268468867405317723751068115234375;}s:12:"medium_large";O:8:"stdClass":5:{s:7:"percent";d:3.529999999999999804600747665972448885440826416015625;s:5:"bytes";i:2498;s:11:"size_before";i:70724;s:10:"size_after";i:68226;s:4:"time";d:0.05000000000000000277555756156289135105907917022705078125;}s:5:"large";O:8:"stdClass":5:{s:7:"percent";d:3.5;s:5:"bytes";i:4189;s:11:"size_before";i:119788;s:10:"size_after";i:115599;s:4:"time";d:0.1499999999999999944488848768742172978818416595458984375;}s:20:"eggnews-slider-large";O:8:"stdClass":5:{s:7:"percent";d:3.5099999999999997868371792719699442386627197265625;s:5:"bytes";i:3946;s:11:"size_before";i:112533;s:10:"size_after";i:108587;s:4:"time";d:0.299999999999999988897769753748434595763683319091796875;}s:23:"eggnews-featured-medium";O:8:"stdClass":5:{s:7:"percent";d:3.649999999999999911182158029987476766109466552734375;s:5:"bytes";i:881;s:11:"size_before";i:24142;s:10:"size_after";i:23261;s:4:"time";d:0.0200000000000000004163336342344337026588618755340576171875;}s:21:"eggnews-featured-long";O:8:"stdClass":5:{s:7:"percent";d:3.5099999999999997868371792719699442386627197265625;s:5:"bytes";i:996;s:11:"size_before";i:28389;s:10:"size_after";i:27393;s:4:"time";d:0.059999999999999997779553950749686919152736663818359375;}s:20:"eggnews-block-medium";O:8:"stdClass":5:{s:7:"percent";d:3.54000000000000003552713678800500929355621337890625;s:5:"bytes";i:926;s:11:"size_before";i:26143;s:10:"size_after";i:25217;s:4:"time";d:0.059999999999999997779553950749686919152736663818359375;}s:22:"eggnews-carousel-image";O:8:"stdClass":5:{s:7:"percent";d:3.7400000000000002131628207280300557613372802734375;s:5:"bytes";i:1711;s:11:"size_before";i:45758;s:10:"size_after";i:44047;s:4:"time";d:0.08000000000000000166533453693773481063544750213623046875;}s:19:"eggnews-block-thumb";O:8:"stdClass":5:{s:7:"percent";d:3.910000000000000142108547152020037174224853515625;s:5:"bytes";i:607;s:11:"size_before";i:15515;s:10:"size_after";i:14908;s:4:"time";d:0.01000000000000000020816681711721685132943093776702880859375;}s:20:"eggnews-single-large";O:8:"stdClass":5:{s:7:"percent";d:3.109999999999999875655021241982467472553253173828125;s:5:"bytes";i:3921;s:11:"size_before";i:125958;s:10:"size_after";i:122037;s:4:"time";d:0.13000000000000000444089209850062616169452667236328125;}}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1920;s:6:"height";i:1635;s:4:"file";s:34:"2017/07/taj-mahal-2309887_1920.jpg";s:5:"sizes";a:11:{s:9:"thumbnail";a:4:{s:4:"file";s:34:"taj-mahal-2309887_1920-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:34:"taj-mahal-2309887_1920-300x255.jpg";s:5:"width";i:300;s:6:"height";i:255;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:34:"taj-mahal-2309887_1920-768x654.jpg";s:5:"width";i:768;s:6:"height";i:654;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:35:"taj-mahal-2309887_1920-1024x872.jpg";s:5:"width";i:1024;s:6:"height";i:872;s:9:"mime-type";s:10:"image/jpeg";}s:20:"eggnews-slider-large";a:4:{s:4:"file";s:35:"taj-mahal-2309887_1920-1020x731.jpg";s:5:"width";i:1020;s:6:"height";i:731;s:9:"mime-type";s:10:"image/jpeg";}s:23:"eggnews-featured-medium";a:4:{s:4:"file";s:34:"taj-mahal-2309887_1920-420x307.jpg";s:5:"width";i:420;s:6:"height";i:307;s:9:"mime-type";s:10:"image/jpeg";}s:21:"eggnews-featured-long";a:4:{s:4:"file";s:34:"taj-mahal-2309887_1920-300x443.jpg";s:5:"width";i:300;s:6:"height";i:443;s:9:"mime-type";s:10:"image/jpeg";}s:20:"eggnews-block-medium";a:4:{s:4:"file";s:34:"taj-mahal-2309887_1920-464x290.jpg";s:5:"width";i:464;s:6:"height";i:290;s:9:"mime-type";s:10:"image/jpeg";}s:22:"eggnews-carousel-image";a:4:{s:4:"file";s:34:"taj-mahal-2309887_1920-600x500.jpg";s:5:"width";i:600;s:6:"height";i:500;s:9:"mime-type";s:10:"image/jpeg";}s:19:"eggnews-block-thumb";a:4:{s:4:"file";s:34:"taj-mahal-2309887_1920-322x230.jpg";s:5:"width";i:322;s:6:"height";i:230;s:9:"mime-type";s:10:"image/jpeg";}s:20:"eggnews-single-large";a:4:{s:4:"file";s:35:"taj-mahal-2309887_1920-1210x642.jpg";s:5:"width";i:1210;s:6:"height";i:642;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:2:"13";s:6:"credit";s:0:"";s:6:"camera";s:12:"Canon EOS 6D";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:2:"59";s:3:"iso";s:3:"100";s:13:"shutter_speed";s:4:"0.01";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>taj-mahal-1209004_1920</title>
-		<link>https://demo.themeegg.com/themes/eggnews/the-border-disputes/taj-mahal-1209004_1920/</link>
-		<pubDate>Mon, 18 Sep 2017 17:44:47 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/07/taj-mahal-1209004_1920.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>138</wp:post_id>
-		<wp:post_date><![CDATA[2017-09-18 17:44:47]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-09-18 17:44:47]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[taj-mahal-1209004_1920]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>81</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/07/taj-mahal-1209004_1920.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2017/07/taj-mahal-1209004_1920.jpg]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[wp-smpro-smush-data]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:2:{s:5:"stats";a:8:{s:7:"percent";d:0.70441471889318307830762933008372783660888671875;s:5:"bytes";i:2672;s:11:"size_before";i:379322;s:10:"size_after";i:376650;s:4:"time";d:0.71000000000000007549516567451064474880695343017578125;s:11:"api_version";s:3:"1.0";s:5:"lossy";b:0;s:9:"keep_exif";i:0;}s:5:"sizes";a:11:{s:9:"thumbnail";O:8:"stdClass":5:{s:7:"percent";i:0;s:5:"bytes";i:0;s:11:"size_before";i:4170;s:10:"size_after";i:4170;s:4:"time";d:0.01000000000000000020816681711721685132943093776702880859375;}s:6:"medium";O:8:"stdClass":5:{s:7:"percent";i:0;s:5:"bytes";i:0;s:11:"size_before";i:8162;s:10:"size_after";i:8162;s:4:"time";d:0.0200000000000000004163336342344337026588618755340576171875;}s:12:"medium_large";O:8:"stdClass":5:{s:7:"percent";d:0.81999999999999995115018691649311222136020660400390625;s:5:"bytes";i:322;s:11:"size_before";i:39470;s:10:"size_after";i:39148;s:4:"time";d:0.059999999999999997779553950749686919152736663818359375;}s:5:"large";O:8:"stdClass":5:{s:7:"percent";d:1.060000000000000053290705182007513940334320068359375;s:5:"bytes";i:718;s:11:"size_before";i:67538;s:10:"size_after";i:66820;s:4:"time";d:0.13000000000000000444089209850062616169452667236328125;}s:20:"eggnews-slider-large";O:8:"stdClass":5:{s:7:"percent";d:0.92000000000000003996802888650563545525074005126953125;s:5:"bytes";i:745;s:11:"size_before";i:81178;s:10:"size_after";i:80433;s:4:"time";d:0.059999999999999997779553950749686919152736663818359375;}s:23:"eggnews-featured-medium";O:8:"stdClass":5:{s:7:"percent";i:0;s:5:"bytes";i:0;s:11:"size_before";i:17256;s:10:"size_after";i:17256;s:4:"time";d:0.05000000000000000277555756156289135105907917022705078125;}s:21:"eggnews-featured-long";O:8:"stdClass":5:{s:7:"percent";i:0;s:5:"bytes";i:0;s:11:"size_before";i:17988;s:10:"size_after";i:17988;s:4:"time";d:0.059999999999999997779553950749686919152736663818359375;}s:20:"eggnews-block-medium";O:8:"stdClass":5:{s:7:"percent";d:0.190000000000000002220446049250313080847263336181640625;s:5:"bytes";i:34;s:11:"size_before";i:17553;s:10:"size_after";i:17519;s:4:"time";d:0.059999999999999997779553950749686919152736663818359375;}s:22:"eggnews-carousel-image";O:8:"stdClass":5:{s:7:"percent";d:0.6999999999999999555910790149937383830547332763671875;s:5:"bytes";i:253;s:11:"size_before";i:35928;s:10:"size_after";i:35675;s:4:"time";d:0.0899999999999999966693309261245303787291049957275390625;}s:19:"eggnews-block-thumb";O:8:"stdClass":5:{s:7:"percent";i:0;s:5:"bytes";i:0;s:11:"size_before";i:10533;s:10:"size_after";i:10533;s:4:"time";d:0.01000000000000000020816681711721685132943093776702880859375;}s:20:"eggnews-single-large";O:8:"stdClass":5:{s:7:"percent";d:0.75;s:5:"bytes";i:600;s:11:"size_before";i:79546;s:10:"size_after";i:78946;s:4:"time";d:0.1600000000000000033306690738754696212708950042724609375;}}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1920;s:6:"height";i:1157;s:4:"file";s:34:"2017/07/taj-mahal-1209004_1920.jpg";s:5:"sizes";a:11:{s:9:"thumbnail";a:4:{s:4:"file";s:34:"taj-mahal-1209004_1920-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:34:"taj-mahal-1209004_1920-300x181.jpg";s:5:"width";i:300;s:6:"height";i:181;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:34:"taj-mahal-1209004_1920-768x463.jpg";s:5:"width";i:768;s:6:"height";i:463;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:35:"taj-mahal-1209004_1920-1024x617.jpg";s:5:"width";i:1024;s:6:"height";i:617;s:9:"mime-type";s:10:"image/jpeg";}s:20:"eggnews-slider-large";a:4:{s:4:"file";s:35:"taj-mahal-1209004_1920-1020x731.jpg";s:5:"width";i:1020;s:6:"height";i:731;s:9:"mime-type";s:10:"image/jpeg";}s:23:"eggnews-featured-medium";a:4:{s:4:"file";s:34:"taj-mahal-1209004_1920-420x307.jpg";s:5:"width";i:420;s:6:"height";i:307;s:9:"mime-type";s:10:"image/jpeg";}s:21:"eggnews-featured-long";a:4:{s:4:"file";s:34:"taj-mahal-1209004_1920-300x443.jpg";s:5:"width";i:300;s:6:"height";i:443;s:9:"mime-type";s:10:"image/jpeg";}s:20:"eggnews-block-medium";a:4:{s:4:"file";s:34:"taj-mahal-1209004_1920-464x290.jpg";s:5:"width";i:464;s:6:"height";i:290;s:9:"mime-type";s:10:"image/jpeg";}s:22:"eggnews-carousel-image";a:4:{s:4:"file";s:34:"taj-mahal-1209004_1920-600x500.jpg";s:5:"width";i:600;s:6:"height";i:500;s:9:"mime-type";s:10:"image/jpeg";}s:19:"eggnews-block-thumb";a:4:{s:4:"file";s:34:"taj-mahal-1209004_1920-322x230.jpg";s:5:"width";i:322;s:6:"height";i:230;s:9:"mime-type";s:10:"image/jpeg";}s:20:"eggnews-single-large";a:4:{s:4:"file";s:35:"taj-mahal-1209004_1920-1210x642.jpg";s:5:"width";i:1210;s:6:"height";i:642;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -1082,6 +955,146 @@
 		</wp:postmeta>
 	</item>
 	<item>
+		<title>taj-mahal-1209004_1920</title>
+		<link>https://demo.themeegg.com/themes/eggnews/the-border-disputes/taj-mahal-1209004_1920/</link>
+		<pubDate>Mon, 18 Sep 2017 17:44:47 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/07/taj-mahal-1209004_1920.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>138</wp:post_id>
+		<wp:post_date><![CDATA[2017-09-18 17:44:47]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-09-18 17:44:47]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[taj-mahal-1209004_1920]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>81</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/07/taj-mahal-1209004_1920.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2017/07/taj-mahal-1209004_1920.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[wp-smpro-smush-data]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:5:"stats";a:8:{s:7:"percent";d:0.70441471889318307830762933008372783660888671875;s:5:"bytes";i:2672;s:11:"size_before";i:379322;s:10:"size_after";i:376650;s:4:"time";d:0.71000000000000007549516567451064474880695343017578125;s:11:"api_version";s:3:"1.0";s:5:"lossy";b:0;s:9:"keep_exif";i:0;}s:5:"sizes";a:11:{s:9:"thumbnail";O:8:"stdClass":5:{s:7:"percent";i:0;s:5:"bytes";i:0;s:11:"size_before";i:4170;s:10:"size_after";i:4170;s:4:"time";d:0.01000000000000000020816681711721685132943093776702880859375;}s:6:"medium";O:8:"stdClass":5:{s:7:"percent";i:0;s:5:"bytes";i:0;s:11:"size_before";i:8162;s:10:"size_after";i:8162;s:4:"time";d:0.0200000000000000004163336342344337026588618755340576171875;}s:12:"medium_large";O:8:"stdClass":5:{s:7:"percent";d:0.81999999999999995115018691649311222136020660400390625;s:5:"bytes";i:322;s:11:"size_before";i:39470;s:10:"size_after";i:39148;s:4:"time";d:0.059999999999999997779553950749686919152736663818359375;}s:5:"large";O:8:"stdClass":5:{s:7:"percent";d:1.060000000000000053290705182007513940334320068359375;s:5:"bytes";i:718;s:11:"size_before";i:67538;s:10:"size_after";i:66820;s:4:"time";d:0.13000000000000000444089209850062616169452667236328125;}s:20:"eggnews-slider-large";O:8:"stdClass":5:{s:7:"percent";d:0.92000000000000003996802888650563545525074005126953125;s:5:"bytes";i:745;s:11:"size_before";i:81178;s:10:"size_after";i:80433;s:4:"time";d:0.059999999999999997779553950749686919152736663818359375;}s:23:"eggnews-featured-medium";O:8:"stdClass":5:{s:7:"percent";i:0;s:5:"bytes";i:0;s:11:"size_before";i:17256;s:10:"size_after";i:17256;s:4:"time";d:0.05000000000000000277555756156289135105907917022705078125;}s:21:"eggnews-featured-long";O:8:"stdClass":5:{s:7:"percent";i:0;s:5:"bytes";i:0;s:11:"size_before";i:17988;s:10:"size_after";i:17988;s:4:"time";d:0.059999999999999997779553950749686919152736663818359375;}s:20:"eggnews-block-medium";O:8:"stdClass":5:{s:7:"percent";d:0.190000000000000002220446049250313080847263336181640625;s:5:"bytes";i:34;s:11:"size_before";i:17553;s:10:"size_after";i:17519;s:4:"time";d:0.059999999999999997779553950749686919152736663818359375;}s:22:"eggnews-carousel-image";O:8:"stdClass":5:{s:7:"percent";d:0.6999999999999999555910790149937383830547332763671875;s:5:"bytes";i:253;s:11:"size_before";i:35928;s:10:"size_after";i:35675;s:4:"time";d:0.0899999999999999966693309261245303787291049957275390625;}s:19:"eggnews-block-thumb";O:8:"stdClass":5:{s:7:"percent";i:0;s:5:"bytes";i:0;s:11:"size_before";i:10533;s:10:"size_after";i:10533;s:4:"time";d:0.01000000000000000020816681711721685132943093776702880859375;}s:20:"eggnews-single-large";O:8:"stdClass":5:{s:7:"percent";d:0.75;s:5:"bytes";i:600;s:11:"size_before";i:79546;s:10:"size_after";i:78946;s:4:"time";d:0.1600000000000000033306690738754696212708950042724609375;}}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1920;s:6:"height";i:1157;s:4:"file";s:34:"2017/07/taj-mahal-1209004_1920.jpg";s:5:"sizes";a:11:{s:9:"thumbnail";a:4:{s:4:"file";s:34:"taj-mahal-1209004_1920-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:34:"taj-mahal-1209004_1920-300x181.jpg";s:5:"width";i:300;s:6:"height";i:181;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:34:"taj-mahal-1209004_1920-768x463.jpg";s:5:"width";i:768;s:6:"height";i:463;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:35:"taj-mahal-1209004_1920-1024x617.jpg";s:5:"width";i:1024;s:6:"height";i:617;s:9:"mime-type";s:10:"image/jpeg";}s:20:"eggnews-slider-large";a:4:{s:4:"file";s:35:"taj-mahal-1209004_1920-1020x731.jpg";s:5:"width";i:1020;s:6:"height";i:731;s:9:"mime-type";s:10:"image/jpeg";}s:23:"eggnews-featured-medium";a:4:{s:4:"file";s:34:"taj-mahal-1209004_1920-420x307.jpg";s:5:"width";i:420;s:6:"height";i:307;s:9:"mime-type";s:10:"image/jpeg";}s:21:"eggnews-featured-long";a:4:{s:4:"file";s:34:"taj-mahal-1209004_1920-300x443.jpg";s:5:"width";i:300;s:6:"height";i:443;s:9:"mime-type";s:10:"image/jpeg";}s:20:"eggnews-block-medium";a:4:{s:4:"file";s:34:"taj-mahal-1209004_1920-464x290.jpg";s:5:"width";i:464;s:6:"height";i:290;s:9:"mime-type";s:10:"image/jpeg";}s:22:"eggnews-carousel-image";a:4:{s:4:"file";s:34:"taj-mahal-1209004_1920-600x500.jpg";s:5:"width";i:600;s:6:"height";i:500;s:9:"mime-type";s:10:"image/jpeg";}s:19:"eggnews-block-thumb";a:4:{s:4:"file";s:34:"taj-mahal-1209004_1920-322x230.jpg";s:5:"width";i:322;s:6:"height";i:230;s:9:"mime-type";s:10:"image/jpeg";}s:20:"eggnews-single-large";a:4:{s:4:"file";s:35:"taj-mahal-1209004_1920-1210x642.jpg";s:5:"width";i:1210;s:6:"height";i:642;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>taj-mahal-2309887_1920</title>
+		<link>https://demo.themeegg.com/themes/eggnews/dpm-rejects-retaining-240-constituencies/taj-mahal-2309887_1920/</link>
+		<pubDate>Mon, 18 Sep 2017 17:46:38 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/07/taj-mahal-2309887_1920.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>140</wp:post_id>
+		<wp:post_date><![CDATA[2017-09-18 17:46:38]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-09-18 17:46:38]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[taj-mahal-2309887_1920]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>47</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/07/taj-mahal-2309887_1920.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2017/07/taj-mahal-2309887_1920.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[wp-smpro-smush-data]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:5:"stats";a:8:{s:7:"percent";d:3.467732495508624168678579735569655895233154296875;s:5:"bytes";i:20441;s:11:"size_before";i:589463;s:10:"size_after";i:569022;s:4:"time";d:0.910000000000000142108547152020037174224853515625;s:11:"api_version";s:3:"1.0";s:5:"lossy";b:0;s:9:"keep_exif";i:0;}s:5:"sizes";a:11:{s:9:"thumbnail";O:8:"stdClass":5:{s:7:"percent";d:3.95999999999999996447286321199499070644378662109375;s:5:"bytes";i:243;s:11:"size_before";i:6141;s:10:"size_after";i:5898;s:4:"time";d:0.01000000000000000020816681711721685132943093776702880859375;}s:6:"medium";O:8:"stdClass":5:{s:7:"percent";d:3.640000000000000124344978758017532527446746826171875;s:5:"bytes";i:523;s:11:"size_before";i:14372;s:10:"size_after";i:13849;s:4:"time";d:0.040000000000000000832667268468867405317723751068115234375;}s:12:"medium_large";O:8:"stdClass":5:{s:7:"percent";d:3.529999999999999804600747665972448885440826416015625;s:5:"bytes";i:2498;s:11:"size_before";i:70724;s:10:"size_after";i:68226;s:4:"time";d:0.05000000000000000277555756156289135105907917022705078125;}s:5:"large";O:8:"stdClass":5:{s:7:"percent";d:3.5;s:5:"bytes";i:4189;s:11:"size_before";i:119788;s:10:"size_after";i:115599;s:4:"time";d:0.1499999999999999944488848768742172978818416595458984375;}s:20:"eggnews-slider-large";O:8:"stdClass":5:{s:7:"percent";d:3.5099999999999997868371792719699442386627197265625;s:5:"bytes";i:3946;s:11:"size_before";i:112533;s:10:"size_after";i:108587;s:4:"time";d:0.299999999999999988897769753748434595763683319091796875;}s:23:"eggnews-featured-medium";O:8:"stdClass":5:{s:7:"percent";d:3.649999999999999911182158029987476766109466552734375;s:5:"bytes";i:881;s:11:"size_before";i:24142;s:10:"size_after";i:23261;s:4:"time";d:0.0200000000000000004163336342344337026588618755340576171875;}s:21:"eggnews-featured-long";O:8:"stdClass":5:{s:7:"percent";d:3.5099999999999997868371792719699442386627197265625;s:5:"bytes";i:996;s:11:"size_before";i:28389;s:10:"size_after";i:27393;s:4:"time";d:0.059999999999999997779553950749686919152736663818359375;}s:20:"eggnews-block-medium";O:8:"stdClass":5:{s:7:"percent";d:3.54000000000000003552713678800500929355621337890625;s:5:"bytes";i:926;s:11:"size_before";i:26143;s:10:"size_after";i:25217;s:4:"time";d:0.059999999999999997779553950749686919152736663818359375;}s:22:"eggnews-carousel-image";O:8:"stdClass":5:{s:7:"percent";d:3.7400000000000002131628207280300557613372802734375;s:5:"bytes";i:1711;s:11:"size_before";i:45758;s:10:"size_after";i:44047;s:4:"time";d:0.08000000000000000166533453693773481063544750213623046875;}s:19:"eggnews-block-thumb";O:8:"stdClass":5:{s:7:"percent";d:3.910000000000000142108547152020037174224853515625;s:5:"bytes";i:607;s:11:"size_before";i:15515;s:10:"size_after";i:14908;s:4:"time";d:0.01000000000000000020816681711721685132943093776702880859375;}s:20:"eggnews-single-large";O:8:"stdClass":5:{s:7:"percent";d:3.109999999999999875655021241982467472553253173828125;s:5:"bytes";i:3921;s:11:"size_before";i:125958;s:10:"size_after";i:122037;s:4:"time";d:0.13000000000000000444089209850062616169452667236328125;}}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1920;s:6:"height";i:1635;s:4:"file";s:34:"2017/07/taj-mahal-2309887_1920.jpg";s:5:"sizes";a:11:{s:9:"thumbnail";a:4:{s:4:"file";s:34:"taj-mahal-2309887_1920-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:34:"taj-mahal-2309887_1920-300x255.jpg";s:5:"width";i:300;s:6:"height";i:255;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:34:"taj-mahal-2309887_1920-768x654.jpg";s:5:"width";i:768;s:6:"height";i:654;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:35:"taj-mahal-2309887_1920-1024x872.jpg";s:5:"width";i:1024;s:6:"height";i:872;s:9:"mime-type";s:10:"image/jpeg";}s:20:"eggnews-slider-large";a:4:{s:4:"file";s:35:"taj-mahal-2309887_1920-1020x731.jpg";s:5:"width";i:1020;s:6:"height";i:731;s:9:"mime-type";s:10:"image/jpeg";}s:23:"eggnews-featured-medium";a:4:{s:4:"file";s:34:"taj-mahal-2309887_1920-420x307.jpg";s:5:"width";i:420;s:6:"height";i:307;s:9:"mime-type";s:10:"image/jpeg";}s:21:"eggnews-featured-long";a:4:{s:4:"file";s:34:"taj-mahal-2309887_1920-300x443.jpg";s:5:"width";i:300;s:6:"height";i:443;s:9:"mime-type";s:10:"image/jpeg";}s:20:"eggnews-block-medium";a:4:{s:4:"file";s:34:"taj-mahal-2309887_1920-464x290.jpg";s:5:"width";i:464;s:6:"height";i:290;s:9:"mime-type";s:10:"image/jpeg";}s:22:"eggnews-carousel-image";a:4:{s:4:"file";s:34:"taj-mahal-2309887_1920-600x500.jpg";s:5:"width";i:600;s:6:"height";i:500;s:9:"mime-type";s:10:"image/jpeg";}s:19:"eggnews-block-thumb";a:4:{s:4:"file";s:34:"taj-mahal-2309887_1920-322x230.jpg";s:5:"width";i:322;s:6:"height";i:230;s:9:"mime-type";s:10:"image/jpeg";}s:20:"eggnews-single-large";a:4:{s:4:"file";s:35:"taj-mahal-2309887_1920-1210x642.jpg";s:5:"width";i:1210;s:6:"height";i:642;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:2:"13";s:6:"credit";s:0:"";s:6:"camera";s:12:"Canon EOS 6D";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:2:"59";s:3:"iso";s:3:"100";s:13:"shutter_speed";s:4:"0.01";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>taj-mahal-2309888_1920</title>
+		<link>https://demo.themeegg.com/themes/eggnews/six-parties-registered-with-ec/taj-mahal-2309888_1920/</link>
+		<pubDate>Mon, 18 Sep 2017 17:48:31 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/07/taj-mahal-2309888_1920.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>142</wp:post_id>
+		<wp:post_date><![CDATA[2017-09-18 17:48:31]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-09-18 17:48:31]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[taj-mahal-2309888_1920]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>41</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/07/taj-mahal-2309888_1920.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2017/07/taj-mahal-2309888_1920.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[wp-smpro-smush-data]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:5:"stats";a:8:{s:7:"percent";d:5.09550469980345877019090039539150893688201904296875;s:5:"bytes";i:48637;s:11:"size_before";i:954508;s:10:"size_after";i:905871;s:4:"time";d:0.99000000000000010214051826551440171897411346435546875;s:11:"api_version";s:3:"1.0";s:5:"lossy";b:0;s:9:"keep_exif";i:0;}s:5:"sizes";a:11:{s:9:"thumbnail";O:8:"stdClass":5:{s:7:"percent";d:5.5999999999999996447286321199499070644378662109375;s:5:"bytes";i:444;s:11:"size_before";i:7923;s:10:"size_after";i:7479;s:4:"time";d:0.01000000000000000020816681711721685132943093776702880859375;}s:6:"medium";O:8:"stdClass":5:{s:7:"percent";d:5.410000000000000142108547152020037174224853515625;s:5:"bytes";i:1003;s:11:"size_before";i:18556;s:10:"size_after";i:17553;s:4:"time";d:0.08000000000000000166533453693773481063544750213623046875;}s:12:"medium_large";O:8:"stdClass":5:{s:7:"percent";d:5.19000000000000039079850466805510222911834716796875;s:5:"bytes";i:5586;s:11:"size_before";i:107644;s:10:"size_after";i:102058;s:4:"time";d:0.1700000000000000122124532708767219446599483489990234375;}s:5:"large";O:8:"stdClass":5:{s:7:"percent";d:5.0800000000000000710542735760100185871124267578125;s:5:"bytes";i:9549;s:11:"size_before";i:188105;s:10:"size_after";i:178556;s:4:"time";d:0.0899999999999999966693309261245303787291049957275390625;}s:20:"eggnews-slider-large";O:8:"stdClass":5:{s:7:"percent";d:4.9199999999999999289457264239899814128875732421875;s:5:"bytes";i:9774;s:11:"size_before";i:198458;s:10:"size_after";i:188684;s:4:"time";d:0.11000000000000000055511151231257827021181583404541015625;}s:23:"eggnews-featured-medium";O:8:"stdClass":5:{s:7:"percent";d:5.38999999999999968025576890795491635799407958984375;s:5:"bytes";i:2044;s:11:"size_before";i:37916;s:10:"size_after";i:35872;s:4:"time";d:0.05000000000000000277555756156289135105907917022705078125;}s:21:"eggnews-featured-long";O:8:"stdClass":5:{s:7:"percent";d:4.910000000000000142108547152020037174224853515625;s:5:"bytes";i:1823;s:11:"size_before";i:37102;s:10:"size_after";i:35279;s:4:"time";d:0.059999999999999997779553950749686919152736663818359375;}s:20:"eggnews-block-medium";O:8:"stdClass":5:{s:7:"percent";d:5.3300000000000000710542735760100185871124267578125;s:5:"bytes";i:2109;s:11:"size_before";i:39566;s:10:"size_after";i:37457;s:4:"time";d:0.08000000000000000166533453693773481063544750213623046875;}s:22:"eggnews-carousel-image";O:8:"stdClass":5:{s:7:"percent";d:5.410000000000000142108547152020037174224853515625;s:5:"bytes";i:4547;s:11:"size_before";i:84081;s:10:"size_after";i:79534;s:4:"time";d:0.05000000000000000277555756156289135105907917022705078125;}s:19:"eggnews-block-thumb";O:8:"stdClass":5:{s:7:"percent";d:5.589999999999999857891452847979962825775146484375;s:5:"bytes";i:1267;s:11:"size_before";i:22653;s:10:"size_after";i:21386;s:4:"time";d:0.0200000000000000004163336342344337026588618755340576171875;}s:20:"eggnews-single-large";O:8:"stdClass":5:{s:7:"percent";d:4.94000000000000039079850466805510222911834716796875;s:5:"bytes";i:10491;s:11:"size_before";i:212504;s:10:"size_after";i:202013;s:4:"time";d:0.270000000000000017763568394002504646778106689453125;}}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1920;s:6:"height";i:1280;s:4:"file";s:34:"2017/07/taj-mahal-2309888_1920.jpg";s:5:"sizes";a:11:{s:9:"thumbnail";a:4:{s:4:"file";s:34:"taj-mahal-2309888_1920-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:34:"taj-mahal-2309888_1920-300x200.jpg";s:5:"width";i:300;s:6:"height";i:200;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:34:"taj-mahal-2309888_1920-768x512.jpg";s:5:"width";i:768;s:6:"height";i:512;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:35:"taj-mahal-2309888_1920-1024x683.jpg";s:5:"width";i:1024;s:6:"height";i:683;s:9:"mime-type";s:10:"image/jpeg";}s:20:"eggnews-slider-large";a:4:{s:4:"file";s:35:"taj-mahal-2309888_1920-1020x731.jpg";s:5:"width";i:1020;s:6:"height";i:731;s:9:"mime-type";s:10:"image/jpeg";}s:23:"eggnews-featured-medium";a:4:{s:4:"file";s:34:"taj-mahal-2309888_1920-420x307.jpg";s:5:"width";i:420;s:6:"height";i:307;s:9:"mime-type";s:10:"image/jpeg";}s:21:"eggnews-featured-long";a:4:{s:4:"file";s:34:"taj-mahal-2309888_1920-300x443.jpg";s:5:"width";i:300;s:6:"height";i:443;s:9:"mime-type";s:10:"image/jpeg";}s:20:"eggnews-block-medium";a:4:{s:4:"file";s:34:"taj-mahal-2309888_1920-464x290.jpg";s:5:"width";i:464;s:6:"height";i:290;s:9:"mime-type";s:10:"image/jpeg";}s:22:"eggnews-carousel-image";a:4:{s:4:"file";s:34:"taj-mahal-2309888_1920-600x500.jpg";s:5:"width";i:600;s:6:"height";i:500;s:9:"mime-type";s:10:"image/jpeg";}s:19:"eggnews-block-thumb";a:4:{s:4:"file";s:34:"taj-mahal-2309888_1920-322x230.jpg";s:5:"width";i:322;s:6:"height";i:230;s:9:"mime-type";s:10:"image/jpeg";}s:20:"eggnews-single-large";a:4:{s:4:"file";s:35:"taj-mahal-2309888_1920-1210x642.jpg";s:5:"width";i:1210;s:6:"height";i:642;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:2:"13";s:6:"credit";s:0:"";s:6:"camera";s:12:"Canon EOS 6D";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:2:"38";s:3:"iso";s:3:"125";s:13:"shutter_speed";s:17:"0.033333333333333";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>india-1748445_1920</title>
+		<link>https://demo.themeegg.com/themes/eggnews/31-injured-in-dhading-bus-truck-collision/india-1748445_1920/</link>
+		<pubDate>Mon, 18 Sep 2017 17:50:25 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/07/india-1748445_1920.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>144</wp:post_id>
+		<wp:post_date><![CDATA[2017-09-18 17:50:25]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-09-18 17:50:25]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[india-1748445_1920]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>39</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/07/india-1748445_1920.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2017/07/india-1748445_1920.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[wp-smpro-smush-data]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:2:{s:5:"stats";a:8:{s:7:"percent";d:4.67091748155706287803923260071314871311187744140625;s:5:"bytes";i:24079;s:11:"size_before";i:515509;s:10:"size_after";i:491430;s:4:"time";d:0.62999999999999989341858963598497211933135986328125;s:11:"api_version";s:3:"1.0";s:5:"lossy";b:0;s:9:"keep_exif";i:0;}s:5:"sizes";a:11:{s:9:"thumbnail";O:8:"stdClass":5:{s:7:"percent";d:4.4000000000000003552713678800500929355621337890625;s:5:"bytes";i:208;s:11:"size_before";i:4723;s:10:"size_after";i:4515;s:4:"time";d:0.01000000000000000020816681711721685132943093776702880859375;}s:6:"medium";O:8:"stdClass":5:{s:7:"percent";d:4.11000000000000031974423109204508364200592041015625;s:5:"bytes";i:430;s:11:"size_before";i:10468;s:10:"size_after";i:10038;s:4:"time";d:0.0299999999999999988897769753748434595763683319091796875;}s:12:"medium_large";O:8:"stdClass":5:{s:7:"percent";d:4.45000000000000017763568394002504646778106689453125;s:5:"bytes";i:2380;s:11:"size_before";i:53515;s:10:"size_after";i:51135;s:4:"time";d:0.0299999999999999988897769753748434595763683319091796875;}s:5:"large";O:8:"stdClass":5:{s:7:"percent";d:4.589999999999999857891452847979962825775146484375;s:5:"bytes";i:4248;s:11:"size_before";i:92495;s:10:"size_after";i:88247;s:4:"time";d:0.11999999999999999555910790149937383830547332763671875;}s:20:"eggnews-slider-large";O:8:"stdClass":5:{s:7:"percent";d:5.12000000000000010658141036401502788066864013671875;s:5:"bytes";i:5628;s:11:"size_before";i:109908;s:10:"size_after";i:104280;s:4:"time";d:0.1499999999999999944488848768742172978818416595458984375;}s:23:"eggnews-featured-medium";O:8:"stdClass":5:{s:7:"percent";d:4.71999999999999975131004248396493494510650634765625;s:5:"bytes";i:1035;s:11:"size_before";i:21943;s:10:"size_after";i:20908;s:4:"time";d:0.0200000000000000004163336342344337026588618755340576171875;}s:21:"eggnews-featured-long";O:8:"stdClass":5:{s:7:"percent";i:5;s:5:"bytes";i:1006;s:11:"size_before";i:20117;s:10:"size_after";i:19111;s:4:"time";d:0.070000000000000006661338147750939242541790008544921875;}s:20:"eggnews-block-medium";O:8:"stdClass":5:{s:7:"percent";d:4.13999999999999968025576890795491635799407958984375;s:5:"bytes";i:975;s:11:"size_before";i:23524;s:10:"size_after";i:22549;s:4:"time";d:0.05000000000000000277555756156289135105907917022705078125;}s:22:"eggnews-carousel-image";O:8:"stdClass":5:{s:7:"percent";d:4.75;s:5:"bytes";i:2170;s:11:"size_before";i:45725;s:10:"size_after";i:43555;s:4:"time";d:0.08000000000000000166533453693773481063544750213623046875;}s:19:"eggnews-block-thumb";O:8:"stdClass":5:{s:7:"percent";d:4.1500000000000003552713678800500929355621337890625;s:5:"bytes";i:561;s:11:"size_before";i:13515;s:10:"size_after";i:12954;s:4:"time";d:0.01000000000000000020816681711721685132943093776702880859375;}s:20:"eggnews-single-large";O:8:"stdClass":5:{s:7:"percent";d:4.54999999999999982236431605997495353221893310546875;s:5:"bytes";i:5438;s:11:"size_before";i:119576;s:10:"size_after";i:114138;s:4:"time";d:0.059999999999999997779553950749686919152736663818359375;}}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1920;s:6:"height";i:1080;s:4:"file";s:30:"2017/07/india-1748445_1920.jpg";s:5:"sizes";a:11:{s:9:"thumbnail";a:4:{s:4:"file";s:30:"india-1748445_1920-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:30:"india-1748445_1920-300x169.jpg";s:5:"width";i:300;s:6:"height";i:169;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:30:"india-1748445_1920-768x432.jpg";s:5:"width";i:768;s:6:"height";i:432;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:31:"india-1748445_1920-1024x576.jpg";s:5:"width";i:1024;s:6:"height";i:576;s:9:"mime-type";s:10:"image/jpeg";}s:20:"eggnews-slider-large";a:4:{s:4:"file";s:31:"india-1748445_1920-1020x731.jpg";s:5:"width";i:1020;s:6:"height";i:731;s:9:"mime-type";s:10:"image/jpeg";}s:23:"eggnews-featured-medium";a:4:{s:4:"file";s:30:"india-1748445_1920-420x307.jpg";s:5:"width";i:420;s:6:"height";i:307;s:9:"mime-type";s:10:"image/jpeg";}s:21:"eggnews-featured-long";a:4:{s:4:"file";s:30:"india-1748445_1920-300x443.jpg";s:5:"width";i:300;s:6:"height";i:443;s:9:"mime-type";s:10:"image/jpeg";}s:20:"eggnews-block-medium";a:4:{s:4:"file";s:30:"india-1748445_1920-464x290.jpg";s:5:"width";i:464;s:6:"height";i:290;s:9:"mime-type";s:10:"image/jpeg";}s:22:"eggnews-carousel-image";a:4:{s:4:"file";s:30:"india-1748445_1920-600x500.jpg";s:5:"width";i:600;s:6:"height";i:500;s:9:"mime-type";s:10:"image/jpeg";}s:19:"eggnews-block-thumb";a:4:{s:4:"file";s:30:"india-1748445_1920-322x230.jpg";s:5:"width";i:322;s:6:"height";i:230;s:9:"mime-type";s:10:"image/jpeg";}s:20:"eggnews-single-large";a:4:{s:4:"file";s:31:"india-1748445_1920-1210x642.jpg";s:5:"width";i:1210;s:6:"height";i:642;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:3:"4.5";s:6:"credit";s:0:"";s:6:"camera";s:10:"NIKON D810";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:2:"70";s:3:"iso";s:3:"100";s:13:"shutter_speed";s:9:"0.0015625";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 		<title>cropped-kiwi-2508423_1920.jpg</title>
 		<link>https://demo.themeegg.com/themes/eggnews/cropped-kiwi-2508423_1920-jpg/</link>
 		<pubDate>Mon, 23 Oct 2017 13:36:36 +0000</pubDate>
@@ -1114,281 +1127,6 @@
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/07/cropped-kiwi-2508423_1920.jpg]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Home</title>
-		<link>https://demo.themeegg.com/themes/eggnews/home/</link>
-		<pubDate>Mon, 17 Jul 2017 13:26:00 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/2017/07/17/home/</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>17</wp:post_id>
-		<wp:post_date><![CDATA[2017-07-17 13:26:00]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-07-17 13:26:00]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[home]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>1</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[17]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-			<wp:meta_value><![CDATA[https://demo.themeegg.com/themes/eggnews]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>About us</title>
-		<link>https://demo.themeegg.com/themes/eggnews/19/</link>
-		<pubDate>Mon, 17 Jul 2017 13:26:00 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/2017/07/17/19/</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>19</wp:post_id>
-		<wp:post_date><![CDATA[2017-07-17 13:26:00]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-07-17 13:26:00]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[19]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>9</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[13]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-			<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title></title>
-		<link>https://demo.themeegg.com/themes/eggnews/100/</link>
-		<pubDate>Tue, 29 Aug 2017 17:03:11 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?p=100</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>100</wp:post_id>
-		<wp:post_date><![CDATA[2017-08-29 17:03:11]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-08-29 17:03:11]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[100]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>1</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="top-menu"><![CDATA[Top Menu]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-			<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[13]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title></title>
-		<link>https://demo.themeegg.com/themes/eggnews/101/</link>
-		<pubDate>Tue, 29 Aug 2017 17:03:11 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?p=101</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>101</wp:post_id>
-		<wp:post_date><![CDATA[2017-08-29 17:03:11]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-08-29 17:03:11]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[101]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>2</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="top-menu"><![CDATA[Top Menu]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-			<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title></title>
-		<link>https://demo.themeegg.com/themes/eggnews/102/</link>
-		<pubDate>Tue, 29 Aug 2017 17:05:01 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?p=102</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>102</wp:post_id>
-		<wp:post_date><![CDATA[2017-08-29 17:05:01]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-08-29 17:05:01]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[102]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>1</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="footer-menu"><![CDATA[Footer Menu]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[13]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-			<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -1861,220 +1599,457 @@
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Sample Page</title>
-		<link>https://demo.themeegg.com/themes/eggnews/sample-page__trashed/</link>
-		<pubDate>Mon, 17 Jul 2017 13:11:08 +0000</pubDate>
+		<title>categories color</title>
+		<link>https://demo.themeegg.com/themes/eggnews/categories-color/</link>
+		<pubDate>Wed, 25 Oct 2017 14:56:29 +0000</pubDate>
 		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews//?page_id=2</guid>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/10/categories-color.png</guid>
 		<description></description>
-		<content:encoded><![CDATA[This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:
-
-<blockquote>Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin' caught in the rain.)</blockquote>
-
-...or something like this:
-
-<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>
-
-As a new WordPress user, you should go to <a href="https://demo.themeegg.com/themes/eggnews//wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!]]></content:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>2</wp:post_id>
-		<wp:post_date><![CDATA[2017-07-17 13:11:08]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-07-17 13:11:08]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[sample-page__trashed]]></wp:post_name>
-		<wp:status><![CDATA[trash]]></wp:status>
+		<wp:post_id>176</wp:post_id>
+		<wp:post_date><![CDATA[2017-10-25 14:56:29]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-10-25 14:56:29]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[categories-color]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/10/categories-color.png]]></wp:attachment_url>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[templates/magazine-template.php]]></wp:meta_value>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2017/10/categories-color.png]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1036;s:6:"height";i:635;s:4:"file";s:28:"2017/10/categories-color.png";s:5:"sizes";a:10:{s:9:"thumbnail";a:4:{s:4:"file";s:28:"categories-color-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:28:"categories-color-300x184.png";s:5:"width";i:300;s:6:"height";i:184;s:9:"mime-type";s:9:"image/png";}s:12:"medium_large";a:4:{s:4:"file";s:28:"categories-color-768x471.png";s:5:"width";i:768;s:6:"height";i:471;s:9:"mime-type";s:9:"image/png";}s:5:"large";a:4:{s:4:"file";s:29:"categories-color-1024x628.png";s:5:"width";i:1024;s:6:"height";i:628;s:9:"mime-type";s:9:"image/png";}s:20:"eggnews-slider-large";a:4:{s:4:"file";s:29:"categories-color-1020x635.png";s:5:"width";i:1020;s:6:"height";i:635;s:9:"mime-type";s:9:"image/png";}s:23:"eggnews-featured-medium";a:4:{s:4:"file";s:28:"categories-color-420x307.png";s:5:"width";i:420;s:6:"height";i:307;s:9:"mime-type";s:9:"image/png";}s:21:"eggnews-featured-long";a:4:{s:4:"file";s:28:"categories-color-300x443.png";s:5:"width";i:300;s:6:"height";i:443;s:9:"mime-type";s:9:"image/png";}s:20:"eggnews-block-medium";a:4:{s:4:"file";s:28:"categories-color-464x290.png";s:5:"width";i:464;s:6:"height";i:290;s:9:"mime-type";s:9:"image/png";}s:22:"eggnews-carousel-image";a:4:{s:4:"file";s:28:"categories-color-600x500.png";s:5:"width";i:600;s:6:"height";i:500;s:9:"mime-type";s:9:"image/png";}s:19:"eggnews-block-thumb";a:4:{s:4:"file";s:28:"categories-color-322x230.png";s:5:"width";i:322;s:6:"height";i:230;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>additional setting social media</title>
+		<link>https://demo.themeegg.com/themes/eggnews/additional-setting-social-media/</link>
+		<pubDate>Wed, 25 Oct 2017 14:58:33 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/10/additional-setting-social-media.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>177</wp:post_id>
+		<wp:post_date><![CDATA[2017-10-25 14:58:33]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-10-25 14:58:33]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[additional-setting-social-media]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/10/additional-setting-social-media.png]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2017/10/additional-setting-social-media.png]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1391;s:6:"height";i:642;s:4:"file";s:43:"2017/10/additional-setting-social-media.png";s:5:"sizes";a:11:{s:9:"thumbnail";a:4:{s:4:"file";s:43:"additional-setting-social-media-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:43:"additional-setting-social-media-300x138.png";s:5:"width";i:300;s:6:"height";i:138;s:9:"mime-type";s:9:"image/png";}s:12:"medium_large";a:4:{s:4:"file";s:43:"additional-setting-social-media-768x354.png";s:5:"width";i:768;s:6:"height";i:354;s:9:"mime-type";s:9:"image/png";}s:5:"large";a:4:{s:4:"file";s:44:"additional-setting-social-media-1024x473.png";s:5:"width";i:1024;s:6:"height";i:473;s:9:"mime-type";s:9:"image/png";}s:20:"eggnews-slider-large";a:4:{s:4:"file";s:44:"additional-setting-social-media-1020x642.png";s:5:"width";i:1020;s:6:"height";i:642;s:9:"mime-type";s:9:"image/png";}s:23:"eggnews-featured-medium";a:4:{s:4:"file";s:43:"additional-setting-social-media-420x307.png";s:5:"width";i:420;s:6:"height";i:307;s:9:"mime-type";s:9:"image/png";}s:21:"eggnews-featured-long";a:4:{s:4:"file";s:43:"additional-setting-social-media-300x443.png";s:5:"width";i:300;s:6:"height";i:443;s:9:"mime-type";s:9:"image/png";}s:20:"eggnews-block-medium";a:4:{s:4:"file";s:43:"additional-setting-social-media-464x290.png";s:5:"width";i:464;s:6:"height";i:290;s:9:"mime-type";s:9:"image/png";}s:22:"eggnews-carousel-image";a:4:{s:4:"file";s:43:"additional-setting-social-media-600x500.png";s:5:"width";i:600;s:6:"height";i:500;s:9:"mime-type";s:9:"image/png";}s:19:"eggnews-block-thumb";a:4:{s:4:"file";s:43:"additional-setting-social-media-322x230.png";s:5:"width";i:322;s:6:"height";i:230;s:9:"mime-type";s:9:"image/png";}s:20:"eggnews-single-large";a:4:{s:4:"file";s:44:"additional-setting-social-media-1210x642.png";s:5:"width";i:1210;s:6:"height";i:642;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>eggthemesHeader images</title>
+		<link>https://demo.themeegg.com/themes/eggnews/eggthemesheader-images/</link>
+		<pubDate>Wed, 25 Oct 2017 15:02:18 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/10/eggthemesHeader-images.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>178</wp:post_id>
+		<wp:post_date><![CDATA[2017-10-25 15:02:18]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-10-25 15:02:18]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[eggthemesheader-images]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/10/eggthemesHeader-images.png]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2017/10/eggthemesHeader-images.png]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1381;s:6:"height";i:516;s:4:"file";s:34:"2017/10/eggthemesHeader-images.png";s:5:"sizes";a:11:{s:9:"thumbnail";a:4:{s:4:"file";s:34:"eggthemesHeader-images-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:34:"eggthemesHeader-images-300x112.png";s:5:"width";i:300;s:6:"height";i:112;s:9:"mime-type";s:9:"image/png";}s:12:"medium_large";a:4:{s:4:"file";s:34:"eggthemesHeader-images-768x287.png";s:5:"width";i:768;s:6:"height";i:287;s:9:"mime-type";s:9:"image/png";}s:5:"large";a:4:{s:4:"file";s:35:"eggthemesHeader-images-1024x383.png";s:5:"width";i:1024;s:6:"height";i:383;s:9:"mime-type";s:9:"image/png";}s:20:"eggnews-slider-large";a:4:{s:4:"file";s:35:"eggthemesHeader-images-1020x516.png";s:5:"width";i:1020;s:6:"height";i:516;s:9:"mime-type";s:9:"image/png";}s:23:"eggnews-featured-medium";a:4:{s:4:"file";s:34:"eggthemesHeader-images-420x307.png";s:5:"width";i:420;s:6:"height";i:307;s:9:"mime-type";s:9:"image/png";}s:21:"eggnews-featured-long";a:4:{s:4:"file";s:34:"eggthemesHeader-images-300x443.png";s:5:"width";i:300;s:6:"height";i:443;s:9:"mime-type";s:9:"image/png";}s:20:"eggnews-block-medium";a:4:{s:4:"file";s:34:"eggthemesHeader-images-464x290.png";s:5:"width";i:464;s:6:"height";i:290;s:9:"mime-type";s:9:"image/png";}s:22:"eggnews-carousel-image";a:4:{s:4:"file";s:34:"eggthemesHeader-images-600x500.png";s:5:"width";i:600;s:6:"height";i:500;s:9:"mime-type";s:9:"image/png";}s:19:"eggnews-block-thumb";a:4:{s:4:"file";s:34:"eggthemesHeader-images-322x230.png";s:5:"width";i:322;s:6:"height";i:230;s:9:"mime-type";s:9:"image/png";}s:20:"eggnews-single-large";a:4:{s:4:"file";s:35:"eggthemesHeader-images-1210x516.png";s:5:"width";i:1210;s:6:"height";i:516;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>menuAdd</title>
+		<link>https://demo.themeegg.com/themes/eggnews/menuadd/</link>
+		<pubDate>Wed, 25 Oct 2017 15:08:03 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/10/menuAdd.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>179</wp:post_id>
+		<wp:post_date><![CDATA[2017-10-25 15:08:03]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-10-25 15:08:03]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[menuadd]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/10/menuAdd.png]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2017/10/menuAdd.png]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1508943154]]></wp:meta_value>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:277;s:6:"height";i:164;s:4:"file";s:19:"2017/10/menuAdd.png";s:5:"sizes";a:1:{s:9:"thumbnail";a:4:{s:4:"file";s:19:"menuAdd-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>MenuCollectionEggThemes</title>
+		<link>https://demo.themeegg.com/themes/eggnews/menucollectioneggthemes/</link>
+		<pubDate>Wed, 25 Oct 2017 15:08:05 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/10/MenuCollectionEggThemes.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>180</wp:post_id>
+		<wp:post_date><![CDATA[2017-10-25 15:08:05]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-10-25 15:08:05]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[menucollectioneggthemes]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/10/MenuCollectionEggThemes.png]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2017/10/MenuCollectionEggThemes.png]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
-			<wp:meta_value><![CDATA[sample-page]]></wp:meta_value>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:304;s:6:"height";i:499;s:4:"file";s:35:"2017/10/MenuCollectionEggThemes.png";s:5:"sizes";a:6:{s:9:"thumbnail";a:4:{s:4:"file";s:35:"MenuCollectionEggThemes-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:35:"MenuCollectionEggThemes-183x300.png";s:5:"width";i:183;s:6:"height";i:300;s:9:"mime-type";s:9:"image/png";}s:23:"eggnews-featured-medium";a:4:{s:4:"file";s:35:"MenuCollectionEggThemes-304x307.png";s:5:"width";i:304;s:6:"height";i:307;s:9:"mime-type";s:9:"image/png";}s:21:"eggnews-featured-long";a:4:{s:4:"file";s:35:"MenuCollectionEggThemes-300x443.png";s:5:"width";i:300;s:6:"height";i:443;s:9:"mime-type";s:9:"image/png";}s:20:"eggnews-block-medium";a:4:{s:4:"file";s:35:"MenuCollectionEggThemes-304x290.png";s:5:"width";i:304;s:6:"height";i:290;s:9:"mime-type";s:9:"image/png";}s:19:"eggnews-block-thumb";a:4:{s:4:"file";s:35:"MenuCollectionEggThemes-304x230.png";s:5:"width";i:304;s:6:"height";i:230;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>Home</title>
-		<link>https://demo.themeegg.com/themes/eggnews/</link>
-		<pubDate>Mon, 17 Jul 2017 13:21:39 +0000</pubDate>
+		<link>https://demo.themeegg.com/themes/eggnews/home/</link>
+		<pubDate>Mon, 17 Jul 2017 13:26:00 +0000</pubDate>
 		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?page_id=7</guid>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/2017/07/17/home/</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>7</wp:post_id>
-		<wp:post_date><![CDATA[2017-07-17 13:21:39]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-07-17 13:21:39]]></wp:post_date_gmt>
+		<wp:post_id>17</wp:post_id>
+		<wp:post_date><![CDATA[2017-07-17 13:26:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-07-17 13:26:00]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[home]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[templates/magazine-template.php]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Blog</title>
-		<link>https://demo.themeegg.com/themes/eggnews/blog/</link>
-		<pubDate>Mon, 17 Jul 2017 13:21:55 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?page_id=9</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>9</wp:post_id>
-		<wp:post_date><![CDATA[2017-07-17 13:21:55]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-07-17 13:21:55]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[blog]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Gallery</title>
-		<link>https://demo.themeegg.com/themes/eggnews/gallery/</link>
-		<pubDate>Mon, 17 Jul 2017 13:22:03 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?page_id=11</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>11</wp:post_id>
-		<wp:post_date><![CDATA[2017-07-17 13:22:03]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-07-17 13:22:03]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[gallery]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>About</title>
-		<link>https://demo.themeegg.com/themes/eggnews/about/</link>
-		<pubDate>Mon, 17 Jul 2017 13:24:04 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?page_id=13</guid>
-		<description></description>
-		<content:encoded><![CDATA[Eggnews is a responsive newsportal style Free WordPress theme. This theme is mainly applicable for online magazines, newspaper, publishing, personal blogs and any kind of news sites. It’s customizable theme. If any support needed then hit the url <a href="htp://support.themeegg.com">htp://support.themeegg.com </a>please check the demo on <a href="https://demo.themeegg.com/themes/eggnews">https://demo.themeegg.com/themes/eggnews</a>]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>13</wp:post_id>
-		<wp:post_date><![CDATA[2017-07-17 13:24:04]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-07-17 13:24:04]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[about]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title></title>
-		<link>https://demo.themeegg.com/themes/eggnews/124/</link>
-		<pubDate>Sat, 02 Sep 2017 17:01:15 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/2017/09/02/124/</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>124</wp:post_id>
-		<wp:post_date><![CDATA[2017-09-02 17:01:15]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-09-02 17:01:15]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[124]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>10</wp:menu_order>
+		<wp:menu_order>1</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[17]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://demo.themeegg.com/themes/eggnews]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>About us</title>
+		<link>https://demo.themeegg.com/themes/eggnews/19/</link>
+		<pubDate>Mon, 17 Jul 2017 13:26:00 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/2017/07/17/19/</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>19</wp:post_id>
+		<wp:post_date><![CDATA[2017-07-17 13:26:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-07-17 13:26:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[19]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>9</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[13]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Blog Page</title>
+		<link>https://demo.themeegg.com/themes/eggnews/blog-page/</link>
+		<pubDate>Sun, 16 Jul 2017 04:11:08 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/enews/?page_id=6</guid>
+		<description></description>
+		<content:encoded><![CDATA[<div>
+<h2>What is Lorem Ipsum?</h2>
+<strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+</div>
+<div>
+<h2>Why do we use it?</h2>
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+</div>
+&nbsp;
+<div>
+<h2>Where does it come from?</h2>
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+
+</div>
+<div>
+<h2>Where can I get some?</h2>
+There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+
+</div>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>87</wp:post_id>
+		<wp:post_date><![CDATA[2017-07-16 04:11:08]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-07-16 04:11:08]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[blog-page]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>https://demo.themeegg.com/themes/eggnews/100/</link>
+		<pubDate>Tue, 29 Aug 2017 17:03:11 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?p=100</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>100</wp:post_id>
+		<wp:post_date><![CDATA[2017-08-29 17:03:11]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-08-29 17:03:11]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[100]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="top-menu"><![CDATA[Top Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[13]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>https://demo.themeegg.com/themes/eggnews/101/</link>
+		<pubDate>Tue, 29 Aug 2017 17:03:11 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?p=101</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>101</wp:post_id>
+		<wp:post_date><![CDATA[2017-08-29 17:03:11]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-08-29 17:03:11]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[101]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="top-menu"><![CDATA[Top Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>https://demo.themeegg.com/themes/eggnews/102/</link>
+		<pubDate>Tue, 29 Aug 2017 17:05:01 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?p=102</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>102</wp:post_id>
+		<wp:post_date><![CDATA[2017-08-29 17:05:01]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-08-29 17:05:01]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[102]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="footer-menu"><![CDATA[Footer Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
@@ -2086,11 +2061,223 @@ As a new WordPress user, you should go to <a href="https://demo.themeegg.com/the
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[121]]></wp:meta_value>
+			<wp:meta_value><![CDATA[13]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
 			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>https://demo.themeegg.com/themes/eggnews/103/</link>
+		<pubDate>Tue, 29 Aug 2017 17:05:01 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?p=103</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>103</wp:post_id>
+		<wp:post_date><![CDATA[2017-08-29 17:05:01]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-08-29 17:05:01]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[103]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="footer-menu"><![CDATA[Footer Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[7]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>https://demo.themeegg.com/themes/eggnews/114/</link>
+		<pubDate>Sat, 02 Sep 2017 16:59:59 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?p=114</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>114</wp:post_id>
+		<wp:post_date><![CDATA[2017-09-02 16:59:59]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-09-02 16:59:59]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[114]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[taxonomy]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[10]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[category]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>https://demo.themeegg.com/themes/eggnews/115/</link>
+		<pubDate>Sat, 02 Sep 2017 16:59:59 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?p=115</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>115</wp:post_id>
+		<wp:post_date><![CDATA[2017-09-02 16:59:59]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-09-02 16:59:59]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[115]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[taxonomy]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[4]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[category]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>https://demo.themeegg.com/themes/eggnews/116/</link>
+		<pubDate>Sat, 02 Sep 2017 16:59:59 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?p=116</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>116</wp:post_id>
+		<wp:post_date><![CDATA[2017-09-02 16:59:59]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-09-02 16:59:59]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[116]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[taxonomy]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[6]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[category]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
@@ -2331,29 +2518,33 @@ As a new WordPress user, you should go to <a href="https://demo.themeegg.com/the
 	</item>
 	<item>
 		<title></title>
-		<link>https://demo.themeegg.com/themes/eggnews/116/</link>
-		<pubDate>Sat, 02 Sep 2017 16:59:59 +0000</pubDate>
+		<link>https://demo.themeegg.com/themes/eggnews/124/</link>
+		<pubDate>Sat, 02 Sep 2017 17:01:15 +0000</pubDate>
 		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?p=116</guid>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/2017/09/02/124/</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>116</wp:post_id>
-		<wp:post_date><![CDATA[2017-09-02 16:59:59]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-09-02 16:59:59]]></wp:post_date_gmt>
+		<wp:post_id>124</wp:post_id>
+		<wp:post_date><![CDATA[2017-09-02 17:01:15]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-09-02 17:01:15]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[116]]></wp:post_name>
+		<wp:post_name><![CDATA[124]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>4</wp:menu_order>
+		<wp:menu_order>10</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
 		<wp:postmeta>
+			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
 			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[taxonomy]]></wp:meta_value>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
@@ -2361,11 +2552,11 @@ As a new WordPress user, you should go to <a href="https://demo.themeegg.com/the
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[6]]></wp:meta_value>
+			<wp:meta_value><![CDATA[121]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-			<wp:meta_value><![CDATA[category]]></wp:meta_value>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
@@ -2385,121 +2576,166 @@ As a new WordPress user, you should go to <a href="https://demo.themeegg.com/the
 		</wp:postmeta>
 	</item>
 	<item>
-		<title></title>
-		<link>https://demo.themeegg.com/themes/eggnews/114/</link>
-		<pubDate>Sat, 02 Sep 2017 16:59:59 +0000</pubDate>
+		<title>MenuTOPset</title>
+		<link>https://demo.themeegg.com/themes/eggnews/menutopset/</link>
+		<pubDate>Wed, 25 Oct 2017 15:14:13 +0000</pubDate>
 		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?p=114</guid>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/10/MenuTOPset.png</guid>
 		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>114</wp:post_id>
-		<wp:post_date><![CDATA[2017-09-02 16:59:59]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-09-02 16:59:59]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:post_id>181</wp:post_id>
+		<wp:post_date><![CDATA[2017-10-25 15:14:13]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-10-25 15:14:13]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[114]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_name><![CDATA[menutopset]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>2</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
+		<wp:attachment_url><![CDATA[https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/10/MenuTOPset.png]]></wp:attachment_url>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[taxonomy]]></wp:meta_value>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2017/10/MenuTOPset.png]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[10]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-			<wp:meta_value><![CDATA[category]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:338;s:6:"height";i:546;s:4:"file";s:22:"2017/10/MenuTOPset.png";s:5:"sizes";a:7:{s:9:"thumbnail";a:4:{s:4:"file";s:22:"MenuTOPset-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:22:"MenuTOPset-186x300.png";s:5:"width";i:186;s:6:"height";i:300;s:9:"mime-type";s:9:"image/png";}s:23:"eggnews-featured-medium";a:4:{s:4:"file";s:22:"MenuTOPset-338x307.png";s:5:"width";i:338;s:6:"height";i:307;s:9:"mime-type";s:9:"image/png";}s:21:"eggnews-featured-long";a:4:{s:4:"file";s:22:"MenuTOPset-300x443.png";s:5:"width";i:300;s:6:"height";i:443;s:9:"mime-type";s:9:"image/png";}s:20:"eggnews-block-medium";a:4:{s:4:"file";s:22:"MenuTOPset-338x290.png";s:5:"width";i:338;s:6:"height";i:290;s:9:"mime-type";s:9:"image/png";}s:22:"eggnews-carousel-image";a:4:{s:4:"file";s:22:"MenuTOPset-338x500.png";s:5:"width";i:338;s:6:"height";i:500;s:9:"mime-type";s:9:"image/png";}s:19:"eggnews-block-thumb";a:4:{s:4:"file";s:22:"MenuTOPset-322x230.png";s:5:"width";i:322;s:6:"height";i:230;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
-		<title></title>
-		<link>https://demo.themeegg.com/themes/eggnews/115/</link>
-		<pubDate>Sat, 02 Sep 2017 16:59:59 +0000</pubDate>
+		<title>HomePageContent 1</title>
+		<link>https://demo.themeegg.com/themes/eggnews/homepagecontent-1/</link>
+		<pubDate>Thu, 26 Oct 2017 02:48:51 +0000</pubDate>
 		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?p=115</guid>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/10/HomePageContent-1.png</guid>
 		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>115</wp:post_id>
-		<wp:post_date><![CDATA[2017-09-02 16:59:59]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-09-02 16:59:59]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:post_id>182</wp:post_id>
+		<wp:post_date><![CDATA[2017-10-26 02:48:51]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-10-26 02:48:51]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[115]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_name><![CDATA[homepagecontent-1]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>3</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
+		<wp:attachment_url><![CDATA[https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/10/HomePageContent-1.png]]></wp:attachment_url>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[taxonomy]]></wp:meta_value>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2017/10/HomePageContent-1.png]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1335;s:6:"height";i:601;s:4:"file";s:29:"2017/10/HomePageContent-1.png";s:5:"sizes";a:11:{s:9:"thumbnail";a:4:{s:4:"file";s:29:"HomePageContent-1-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:29:"HomePageContent-1-300x135.png";s:5:"width";i:300;s:6:"height";i:135;s:9:"mime-type";s:9:"image/png";}s:12:"medium_large";a:4:{s:4:"file";s:29:"HomePageContent-1-768x346.png";s:5:"width";i:768;s:6:"height";i:346;s:9:"mime-type";s:9:"image/png";}s:5:"large";a:4:{s:4:"file";s:30:"HomePageContent-1-1024x461.png";s:5:"width";i:1024;s:6:"height";i:461;s:9:"mime-type";s:9:"image/png";}s:20:"eggnews-slider-large";a:4:{s:4:"file";s:30:"HomePageContent-1-1020x601.png";s:5:"width";i:1020;s:6:"height";i:601;s:9:"mime-type";s:9:"image/png";}s:23:"eggnews-featured-medium";a:4:{s:4:"file";s:29:"HomePageContent-1-420x307.png";s:5:"width";i:420;s:6:"height";i:307;s:9:"mime-type";s:9:"image/png";}s:21:"eggnews-featured-long";a:4:{s:4:"file";s:29:"HomePageContent-1-300x443.png";s:5:"width";i:300;s:6:"height";i:443;s:9:"mime-type";s:9:"image/png";}s:20:"eggnews-block-medium";a:4:{s:4:"file";s:29:"HomePageContent-1-464x290.png";s:5:"width";i:464;s:6:"height";i:290;s:9:"mime-type";s:9:"image/png";}s:22:"eggnews-carousel-image";a:4:{s:4:"file";s:29:"HomePageContent-1-600x500.png";s:5:"width";i:600;s:6:"height";i:500;s:9:"mime-type";s:9:"image/png";}s:19:"eggnews-block-thumb";a:4:{s:4:"file";s:29:"HomePageContent-1-322x230.png";s:5:"width";i:322;s:6:"height";i:230;s:9:"mime-type";s:9:"image/png";}s:20:"eggnews-single-large";a:4:{s:4:"file";s:30:"HomePageContent-1-1210x601.png";s:5:"width";i:1210;s:6:"height";i:601;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>HomePageContent 1</title>
+		<link>https://demo.themeegg.com/themes/eggnews/homepagecontent-1-2/</link>
+		<pubDate>Thu, 26 Oct 2017 02:49:16 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/10/HomePageContent-1-1.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>183</wp:post_id>
+		<wp:post_date><![CDATA[2017-10-26 02:49:16]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-10-26 02:49:16]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[homepagecontent-1-2]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/10/HomePageContent-1-1.png]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2017/10/HomePageContent-1-1.png]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[4]]></wp:meta_value>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1335;s:6:"height";i:601;s:4:"file";s:31:"2017/10/HomePageContent-1-1.png";s:5:"sizes";a:11:{s:9:"thumbnail";a:4:{s:4:"file";s:31:"HomePageContent-1-1-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:31:"HomePageContent-1-1-300x135.png";s:5:"width";i:300;s:6:"height";i:135;s:9:"mime-type";s:9:"image/png";}s:12:"medium_large";a:4:{s:4:"file";s:31:"HomePageContent-1-1-768x346.png";s:5:"width";i:768;s:6:"height";i:346;s:9:"mime-type";s:9:"image/png";}s:5:"large";a:4:{s:4:"file";s:32:"HomePageContent-1-1-1024x461.png";s:5:"width";i:1024;s:6:"height";i:461;s:9:"mime-type";s:9:"image/png";}s:20:"eggnews-slider-large";a:4:{s:4:"file";s:32:"HomePageContent-1-1-1020x601.png";s:5:"width";i:1020;s:6:"height";i:601;s:9:"mime-type";s:9:"image/png";}s:23:"eggnews-featured-medium";a:4:{s:4:"file";s:31:"HomePageContent-1-1-420x307.png";s:5:"width";i:420;s:6:"height";i:307;s:9:"mime-type";s:9:"image/png";}s:21:"eggnews-featured-long";a:4:{s:4:"file";s:31:"HomePageContent-1-1-300x443.png";s:5:"width";i:300;s:6:"height";i:443;s:9:"mime-type";s:9:"image/png";}s:20:"eggnews-block-medium";a:4:{s:4:"file";s:31:"HomePageContent-1-1-464x290.png";s:5:"width";i:464;s:6:"height";i:290;s:9:"mime-type";s:9:"image/png";}s:22:"eggnews-carousel-image";a:4:{s:4:"file";s:31:"HomePageContent-1-1-600x500.png";s:5:"width";i:600;s:6:"height";i:500;s:9:"mime-type";s:9:"image/png";}s:19:"eggnews-block-thumb";a:4:{s:4:"file";s:31:"HomePageContent-1-1-322x230.png";s:5:"width";i:322;s:6:"height";i:230;s:9:"mime-type";s:9:"image/png";}s:20:"eggnews-single-large";a:4:{s:4:"file";s:32:"HomePageContent-1-1-1210x601.png";s:5:"width";i:1210;s:6:"height";i:601;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>shree chandee adarsha saral secondary school Lalitpur</title>
+		<link>https://demo.themeegg.com/themes/eggnews/demo-slider__trashed/shree-chandee-adarsha-saral-secondary-school-lalitpur/</link>
+		<pubDate>Thu, 26 Oct 2017 10:20:56 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/10/shree-chandee-adarsha-saral-secondary-school-Lalitpur.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>191</wp:post_id>
+		<wp:post_date><![CDATA[2017-10-26 10:20:56]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-10-26 10:20:56]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[shree-chandee-adarsha-saral-secondary-school-lalitpur]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>189</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/10/shree-chandee-adarsha-saral-secondary-school-Lalitpur.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2017/10/shree-chandee-adarsha-saral-secondary-school-Lalitpur.jpg]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-			<wp:meta_value><![CDATA[category]]></wp:meta_value>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:960;s:6:"height";i:540;s:4:"file";s:65:"2017/10/shree-chandee-adarsha-saral-secondary-school-Lalitpur.jpg";s:5:"sizes";a:8:{s:9:"thumbnail";a:4:{s:4:"file";s:65:"shree-chandee-adarsha-saral-secondary-school-Lalitpur-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:65:"shree-chandee-adarsha-saral-secondary-school-Lalitpur-300x169.jpg";s:5:"width";i:300;s:6:"height";i:169;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:65:"shree-chandee-adarsha-saral-secondary-school-Lalitpur-768x432.jpg";s:5:"width";i:768;s:6:"height";i:432;s:9:"mime-type";s:10:"image/jpeg";}s:23:"eggnews-featured-medium";a:4:{s:4:"file";s:65:"shree-chandee-adarsha-saral-secondary-school-Lalitpur-420x307.jpg";s:5:"width";i:420;s:6:"height";i:307;s:9:"mime-type";s:10:"image/jpeg";}s:21:"eggnews-featured-long";a:4:{s:4:"file";s:65:"shree-chandee-adarsha-saral-secondary-school-Lalitpur-300x443.jpg";s:5:"width";i:300;s:6:"height";i:443;s:9:"mime-type";s:10:"image/jpeg";}s:20:"eggnews-block-medium";a:4:{s:4:"file";s:65:"shree-chandee-adarsha-saral-secondary-school-Lalitpur-464x290.jpg";s:5:"width";i:464;s:6:"height";i:290;s:9:"mime-type";s:10:"image/jpeg";}s:22:"eggnews-carousel-image";a:4:{s:4:"file";s:65:"shree-chandee-adarsha-saral-secondary-school-Lalitpur-600x500.jpg";s:5:"width";i:600;s:6:"height";i:500;s:9:"mime-type";s:10:"image/jpeg";}s:19:"eggnews-block-thumb";a:4:{s:4:"file";s:65:"shree-chandee-adarsha-saral-secondary-school-Lalitpur-322x230.jpg";s:5:"width";i:322;s:6:"height";i:230;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Free-Wallpaper-Nature-Scenes_Gg92QQ8</title>
+		<link>https://demo.themeegg.com/themes/eggnews/free-wallpaper-natural-scenses/free-wallpaper-nature-scenes_gg92qq8/</link>
+		<pubDate>Thu, 26 Oct 2017 10:29:43 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/10/Free-Wallpaper-Nature-Scenes_Gg92QQ8.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>194</wp:post_id>
+		<wp:post_date><![CDATA[2017-10-26 10:29:43]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-10-26 10:29:43]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[free-wallpaper-nature-scenes_gg92qq8]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>193</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/10/Free-Wallpaper-Nature-Scenes_Gg92QQ8.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2017/10/Free-Wallpaper-Nature-Scenes_Gg92QQ8.jpg]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1366;s:6:"height";i:768;s:4:"file";s:48:"2017/10/Free-Wallpaper-Nature-Scenes_Gg92QQ8.jpg";s:5:"sizes";a:11:{s:9:"thumbnail";a:4:{s:4:"file";s:48:"Free-Wallpaper-Nature-Scenes_Gg92QQ8-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:48:"Free-Wallpaper-Nature-Scenes_Gg92QQ8-300x169.jpg";s:5:"width";i:300;s:6:"height";i:169;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:48:"Free-Wallpaper-Nature-Scenes_Gg92QQ8-768x432.jpg";s:5:"width";i:768;s:6:"height";i:432;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:49:"Free-Wallpaper-Nature-Scenes_Gg92QQ8-1024x576.jpg";s:5:"width";i:1024;s:6:"height";i:576;s:9:"mime-type";s:10:"image/jpeg";}s:20:"eggnews-slider-large";a:4:{s:4:"file";s:49:"Free-Wallpaper-Nature-Scenes_Gg92QQ8-1020x731.jpg";s:5:"width";i:1020;s:6:"height";i:731;s:9:"mime-type";s:10:"image/jpeg";}s:23:"eggnews-featured-medium";a:4:{s:4:"file";s:48:"Free-Wallpaper-Nature-Scenes_Gg92QQ8-420x307.jpg";s:5:"width";i:420;s:6:"height";i:307;s:9:"mime-type";s:10:"image/jpeg";}s:21:"eggnews-featured-long";a:4:{s:4:"file";s:48:"Free-Wallpaper-Nature-Scenes_Gg92QQ8-300x443.jpg";s:5:"width";i:300;s:6:"height";i:443;s:9:"mime-type";s:10:"image/jpeg";}s:20:"eggnews-block-medium";a:4:{s:4:"file";s:48:"Free-Wallpaper-Nature-Scenes_Gg92QQ8-464x290.jpg";s:5:"width";i:464;s:6:"height";i:290;s:9:"mime-type";s:10:"image/jpeg";}s:22:"eggnews-carousel-image";a:4:{s:4:"file";s:48:"Free-Wallpaper-Nature-Scenes_Gg92QQ8-600x500.jpg";s:5:"width";i:600;s:6:"height";i:500;s:9:"mime-type";s:10:"image/jpeg";}s:19:"eggnews-block-thumb";a:4:{s:4:"file";s:48:"Free-Wallpaper-Nature-Scenes_Gg92QQ8-322x230.jpg";s:5:"width";i:322;s:6:"height";i:230;s:9:"mime-type";s:10:"image/jpeg";}s:20:"eggnews-single-large";a:4:{s:4:"file";s:49:"Free-Wallpaper-Nature-Scenes_Gg92QQ8-1210x642.jpg";s:5:"width";i:1210;s:6:"height";i:642;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>Sample Page</title>
-		<link>https://demo.themeegg.com/themes/eggnews/sample-page-2__trashed/</link>
-		<pubDate>Sun, 16 Jul 2017 04:09:48 +0000</pubDate>
+		<link>https://demo.themeegg.com/themes/eggnews/sample-page__trashed/</link>
+		<pubDate>Mon, 17 Jul 2017 13:11:08 +0000</pubDate>
 		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/enews/?page_id=2</guid>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews//?page_id=2</guid>
 		<description></description>
 		<content:encoded><![CDATA[This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:
 
@@ -2509,14 +2745,14 @@ As a new WordPress user, you should go to <a href="https://demo.themeegg.com/the
 
 <blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>
 
-As a new WordPress user, you should go to <a href="https://demo.themeegg.com/themes/enews/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!]]></content:encoded>
+As a new WordPress user, you should go to <a href="https://demo.themeegg.com/themes/eggnews//wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>84</wp:post_id>
-		<wp:post_date><![CDATA[2017-07-16 04:09:48]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-07-16 04:09:48]]></wp:post_date_gmt>
+		<wp:post_id>2</wp:post_id>
+		<wp:post_date><![CDATA[2017-07-17 13:11:08]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-07-17 13:11:08]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[sample-page-2__trashed]]></wp:post_name>
+		<wp:post_name><![CDATA[sample-page__trashed]]></wp:post_name>
 		<wp:status><![CDATA[trash]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -2525,7 +2761,15 @@ As a new WordPress user, you should go to <a href="https://demo.themeegg.com/the
 		<wp:is_sticky>0</wp:is_sticky>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+			<wp:meta_value><![CDATA[templates/magazine-template.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
@@ -2537,7 +2781,7 @@ As a new WordPress user, you should go to <a href="https://demo.themeegg.com/the
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
-			<wp:meta_value><![CDATA[sample-page-2]]></wp:meta_value>
+			<wp:meta_value><![CDATA[sample-page]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -2609,279 +2853,140 @@ There are many variations of passages of Lorem Ipsum available, but the majority
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Blog Page</title>
-		<link>https://demo.themeegg.com/themes/eggnews/blog-page/</link>
-		<pubDate>Sun, 16 Jul 2017 04:11:08 +0000</pubDate>
+		<title>Home</title>
+		<link>https://demo.themeegg.com/themes/eggnews/</link>
+		<pubDate>Mon, 17 Jul 2017 13:21:39 +0000</pubDate>
 		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/enews/?page_id=6</guid>
-		<description></description>
-		<content:encoded><![CDATA[<div>
-<h2>What is Lorem Ipsum?</h2>
-<strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-</div>
-<div>
-<h2>Why do we use it?</h2>
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-</div>
-&nbsp;
-<div>
-<h2>Where does it come from?</h2>
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-
-</div>
-<div>
-<h2>Where can I get some?</h2>
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-
-</div>]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>87</wp:post_id>
-		<wp:post_date><![CDATA[2017-07-16 04:11:08]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-07-16 04:11:08]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[blog-page]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Contact us</title>
-		<link>https://demo.themeegg.com/themes/eggnews/contact-us/</link>
-		<pubDate>Sat, 02 Sep 2017 17:01:15 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?page_id=121</guid>
-		<description></description>
-		<content:encoded><![CDATA[[contact-form-7 id="123" title="Contact form 1"]]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>121</wp:post_id>
-		<wp:post_date><![CDATA[2017-09-02 17:01:15]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-09-02 17:01:15]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[contact-us]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>31 injured in Dhading bus-truck collision</title>
-		<link>https://demo.themeegg.com/themes/eggnews/31-injured-in-dhading-bus-truck-collision/</link>
-		<pubDate>Sun, 16 Jul 2017 05:04:22 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/enews/?page_id=36</guid>
-		<description></description>
-		<content:encoded><![CDATA[<div>
-<h2>What is Lorem Ipsum?</h2>
-<strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-</div>
-<div>
-<h2>Why do we use it?</h2>
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-</div>
-&nbsp;
-<div>
-<h2>Where does it come from?</h2>
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of “de Finibus Bonorum et Malorum” (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, “Lorem ipsum dolor sit amet..”, comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from “de Finibus Bonorum et Malorum” by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-
-</div>
-<div>
-<h2>Where can I get some?</h2>
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-
-</div>]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>91</wp:post_id>
-		<wp:post_date><![CDATA[2017-07-16 05:04:22]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-07-16 05:04:22]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[31-injured-in-dhading-bus-truck-collision]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[38]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[enews_sidebar_location]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>RJP, Nepal, Sajha Party registered in EC</title>
-		<link>https://demo.themeegg.com/themes/eggnews/?p=51</link>
-		<pubDate>Mon, 30 Nov -0001 00:00:00 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/enews/?p=51</guid>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?page_id=7</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>51</wp:post_id>
-		<wp:post_date><![CDATA[2017-07-16 05:10:57]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[]]></wp:post_name>
-		<wp:status><![CDATA[draft]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title></title>
-		<link>https://demo.themeegg.com/themes/eggnews/103/</link>
-		<pubDate>Tue, 29 Aug 2017 17:05:01 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?p=103</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>103</wp:post_id>
-		<wp:post_date><![CDATA[2017-08-29 17:05:01]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-08-29 17:05:01]]></wp:post_date_gmt>
+		<wp:post_id>7</wp:post_id>
+		<wp:post_date><![CDATA[2017-07-17 13:21:39]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-07-17 13:21:39]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[103]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>2</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="footer-menu"><![CDATA[Footer Menu]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-			<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[7]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Hello world!</title>
-		<link>https://demo.themeegg.com/themes/eggnews/hello-world/</link>
-		<pubDate>Mon, 17 Jul 2017 13:11:08 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews//?p=1</guid>
-		<description></description>
-		<content:encoded><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1</wp:post_id>
-		<wp:post_date><![CDATA[2017-07-17 13:11:08]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-07-17 13:11:08]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[hello-world]]></wp:post_name>
+		<wp:post_name><![CDATA[home]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[23]]></wp:meta_value>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[templates/magazine-template.php]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
 			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:comment>
-			<wp:comment_id>1</wp:comment_id>
-			<wp:comment_author><![CDATA[A WordPress Commenter]]></wp:comment_author>
-			<wp:comment_author_email><![CDATA[wapuu@wordpress.example]]></wp:comment_author_email>
-			<wp:comment_author_url>https://wordpress.org/</wp:comment_author_url>
-			<wp:comment_author_IP><![CDATA[]]></wp:comment_author_IP>
-			<wp:comment_date><![CDATA[2017-07-17 13:11:08]]></wp:comment_date>
-			<wp:comment_date_gmt><![CDATA[2017-07-17 13:11:08]]></wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[Hi, this is a comment.
-To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
-Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:comment_content>
-			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
-			<wp:comment_type><![CDATA[]]></wp:comment_type>
-			<wp:comment_parent>0</wp:comment_parent>
-			<wp:comment_user_id>0</wp:comment_user_id>
-		</wp:comment>
+	</item>
+	<item>
+		<title>Blog</title>
+		<link>https://demo.themeegg.com/themes/eggnews/blog/</link>
+		<pubDate>Mon, 17 Jul 2017 13:21:55 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?page_id=9</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9</wp:post_id>
+		<wp:post_date><![CDATA[2017-07-17 13:21:55]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-07-17 13:21:55]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[blog]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Gallery</title>
+		<link>https://demo.themeegg.com/themes/eggnews/gallery/</link>
+		<pubDate>Mon, 17 Jul 2017 13:22:03 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?page_id=11</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>11</wp:post_id>
+		<wp:post_date><![CDATA[2017-07-17 13:22:03]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-07-17 13:22:03]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[gallery]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>About</title>
+		<link>https://demo.themeegg.com/themes/eggnews/about/</link>
+		<pubDate>Mon, 17 Jul 2017 13:24:04 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?page_id=13</guid>
+		<description></description>
+		<content:encoded><![CDATA[Eggnews is a responsive newsportal style Free WordPress theme. This theme is mainly applicable for online magazines, newspaper, publishing, personal blogs and any kind of news sites. It’s customizable theme. If any support needed then hit the url <a href="htp://support.themeegg.com">htp://support.themeegg.com </a>please check the demo on <a href="https://demo.themeegg.com/themes/eggnews">https://demo.themeegg.com/themes/eggnews</a>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>13</wp:post_id>
+		<wp:post_date><![CDATA[2017-07-17 13:24:04]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-07-17 13:24:04]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[about]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>31 injured in Dhading bus-truck collision</title>
@@ -3206,6 +3311,33 @@ There are many variations of passages of Lorem Ipsum available, but the majority
 		</wp:postmeta>
 	</item>
 	<item>
+		<title>RJP, Nepal, Sajha Party registered in EC</title>
+		<link>https://demo.themeegg.com/themes/eggnews/?p=51</link>
+		<pubDate>Mon, 30 Nov -0001 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/enews/?p=51</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>51</wp:post_id>
+		<wp:post_date><![CDATA[2017-07-16 05:10:57]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[]]></wp:post_name>
+		<wp:status><![CDATA[draft]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 		<title>Stagehand dies in tragic accident</title>
 		<link>https://demo.themeegg.com/themes/eggnews/stagehand-dies-in-tragic-accident-on-avenged-sevenfold-tour/</link>
 		<pubDate>Sun, 16 Jul 2017 14:29:21 +0000</pubDate>
@@ -3382,6 +3514,52 @@ Nunc dapibus risus lectus, sit amet egestas risus vestibulum at. Vivamus vitae l
 		</wp:comment>
 	</item>
 	<item>
+		<title>Sample Page</title>
+		<link>https://demo.themeegg.com/themes/eggnews/sample-page-2__trashed/</link>
+		<pubDate>Sun, 16 Jul 2017 04:09:48 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/enews/?page_id=2</guid>
+		<description></description>
+		<content:encoded><![CDATA[This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:
+
+<blockquote>Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin' caught in the rain.)</blockquote>
+
+...or something like this:
+
+<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>
+
+As a new WordPress user, you should go to <a href="https://demo.themeegg.com/themes/enews/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>84</wp:post_id>
+		<wp:post_date><![CDATA[2017-07-16 04:09:48]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-07-16 04:09:48]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[sample-page-2__trashed]]></wp:post_name>
+		<wp:status><![CDATA[trash]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1508943154]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[sample-page-2]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 		<title>New Post</title>
 		<link>https://demo.themeegg.com/themes/eggnews/new-post/</link>
 		<pubDate>Sun, 16 Jul 2017 04:18:46 +0000</pubDate>
@@ -3501,6 +3679,151 @@ There are many variations of passages of Lorem Ipsum available, but the majority
 		</wp:postmeta>
 	</item>
 	<item>
+		<title>31 injured in Dhading bus-truck collision</title>
+		<link>https://demo.themeegg.com/themes/eggnews/31-injured-in-dhading-bus-truck-collision/</link>
+		<pubDate>Sun, 16 Jul 2017 05:04:22 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/enews/?page_id=36</guid>
+		<description></description>
+		<content:encoded><![CDATA[<div>
+<h2>What is Lorem Ipsum?</h2>
+<strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+</div>
+<div>
+<h2>Why do we use it?</h2>
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+</div>
+&nbsp;
+<div>
+<h2>Where does it come from?</h2>
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of “de Finibus Bonorum et Malorum” (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, “Lorem ipsum dolor sit amet..”, comes from a line in section 1.10.32.
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from “de Finibus Bonorum et Malorum” by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+
+</div>
+<div>
+<h2>Where can I get some?</h2>
+There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+
+</div>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>91</wp:post_id>
+		<wp:post_date><![CDATA[2017-07-16 05:04:22]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-07-16 05:04:22]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[31-injured-in-dhading-bus-truck-collision]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[38]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[enews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Contact us</title>
+		<link>https://demo.themeegg.com/themes/eggnews/contact-us/</link>
+		<pubDate>Sat, 02 Sep 2017 17:01:15 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?page_id=121</guid>
+		<description></description>
+		<content:encoded><![CDATA[[contact-form-7 id="123" title="Contact form 1"]]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>121</wp:post_id>
+		<wp:post_date><![CDATA[2017-09-02 17:01:15]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-09-02 17:01:15]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[contact-us]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Hello world!</title>
+		<link>https://demo.themeegg.com/themes/eggnews/hello-world/</link>
+		<pubDate>Mon, 17 Jul 2017 13:11:08 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews//?p=1</guid>
+		<description></description>
+		<content:encoded><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1</wp:post_id>
+		<wp:post_date><![CDATA[2017-07-17 13:11:08]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-07-17 13:11:08]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[hello-world]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[23]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:comment>
+			<wp:comment_id>1</wp:comment_id>
+			<wp:comment_author><![CDATA[A WordPress Commenter]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[wapuu@wordpress.example]]></wp:comment_author_email>
+			<wp:comment_author_url>https://wordpress.org/</wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2017-07-17 13:11:08]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2017-07-17 13:11:08]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Hi, this is a comment.
+To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
+Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+		</wp:comment>
+	</item>
+	<item>
 		<title>Contact form 1</title>
 		<link>https://demo.themeegg.com/themes/eggnews/?post_type=wpcf7_contact_form&#038;p=123</link>
 		<pubDate>Sat, 02 Sep 2017 17:00:51 +0000</pubDate>
@@ -3615,6 +3938,89 @@ This e-mail was sent from a contact form on Eggnews (https://demo.themeegg.com/t
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
 			<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>demo slider</title>
+		<link>https://demo.themeegg.com/themes/eggnews/demo-slider__trashed/</link>
+		<pubDate>Thu, 26 Oct 2017 10:19:41 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/?p=189</guid>
+		<description></description>
+		<content:encoded><![CDATA[Slider title content goes here ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>189</wp:post_id>
+		<wp:post_date><![CDATA[2017-10-26 10:19:41]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-10-26 10:19:41]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[demo-slider__trashed]]></wp:post_name>
+		<wp:status><![CDATA[trash]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="international"><![CDATA[International]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[191]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1509013451]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[demo-slider]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Free Wallpaper Natural Scenses</title>
+		<link>https://demo.themeegg.com/themes/eggnews/free-wallpaper-natural-scenses/</link>
+		<pubDate>Thu, 26 Oct 2017 10:29:55 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/?p=193</guid>
+		<description></description>
+		<content:encoded><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed urna ut ipsum egestas auctor. Vivamus neque nulla, laoreet in fringilla at, lobortis vitae tortor. Nullam at luctus neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sodales ante id diam fermentum vestibulum. Phasellus libero neque, ullamcorper vel libero vitae, accumsan feugiat elit. Nullam non ante quis purus rutrum ornare quis id mi. Nulla quam augue, dapibus facilisis blandit at, sollicitudin quis mauris. Mauris lobortis lobortis risus sit amet suscipit. Praesent convallis ac lacus scelerisque gravida.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>193</wp:post_id>
+		<wp:post_date><![CDATA[2017-10-26 10:29:55]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-10-26 10:29:55]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[free-wallpaper-natural-scenses]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="international"><![CDATA[International]]></category>
+		<category domain="category" nicename="natural"><![CDATA[Natural]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[194]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 </channel>
