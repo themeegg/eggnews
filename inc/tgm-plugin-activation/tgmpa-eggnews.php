@@ -25,7 +25,7 @@ function eggnews_register_required_plugins() {
 		array(
 			'name'      => 'ThemeEgg ToolKit',
 			'slug'      => 'themeegg-toolkit',
-			'required'  => false,
+			'required'  => true,
 		),
 		array(
 			'name'      => 'Social Icons Lite',
