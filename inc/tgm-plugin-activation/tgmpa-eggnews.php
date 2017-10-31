@@ -16,14 +16,27 @@ function eggnews_register_required_plugins() {
 	 * Array of plugin arrays. Required keys are name and slug.
 	 */
 	$plugins = array(
-
 		// Include Contact form 7 Importer as recommended
 		array(
 			'name'      => 'Contact Form 7',
 			'slug'      => 'contact-form-7',
 			'required'  => false,
 		),
-
+		array(
+			'name'      => 'ThemeEgg ToolKit',
+			'slug'      => 'themeegg-toolkit',
+			'required'  => false,
+		),
+		array(
+			'name'      => 'Social Icons Lite',
+			'slug'      => 'social-icons-lite',
+			'required'  => false,
+		),
+		array(
+			'name'      => 'Twitter API Master',
+			'slug'      => 'teg-twitter-api',
+			'required'  => false,
+		),
 	);
 
 	$config = array(
