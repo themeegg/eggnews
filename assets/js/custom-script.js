@@ -23,19 +23,25 @@ $(document).ready(function () {
 		});
 	}
 	//$('.teg-carousel-section').removeClass('teg-before-carousel-js-load');
-	if ($('.eggnews-carousel').length > 0) {
-		$('.eggnews-carousel').owlCarousel({
-			navigation: true, // Show next and prev buttons
-			slideSpeed: 300,
-			paginationSpeed: 400,
-			singleItem: true,
-			margin: 10,
-			controls: true,
-			loop: true,
-			nav: false,
-			autoplayTimeout: 2200,
-			autoplay: true,
-			navText: ['<i class="fa fa-arrow-left"> </i>', '<i class="fa fa-arrow-right"> </i>'],
+	var eggnews_carousel = $('.eggnews-carousel');
+	var eggnews_carousel_args = {
+		navigation: true, // Show next and prev buttons
+		slideSpeed: 300,
+		paginationSpeed: 400,
+		singleItem: true,
+		margin: 10,
+		controls: true,
+		loop: true,
+		nav: false,
+		autoplayTimeout: 2200,
+		autoplay: true,
+		navText: ['<i class="fa fa-arrow-left"> </i>', '<i class="fa fa-arrow-right"> </i>'],
+	};
+	if (eggnews_carousel.length > 0) {
+		eggnews_carousel.each(function(index){
+			var items = $(this).parent().width()/300;
+			eggnews_carousel_args.items = (items>3) ? 3 : (items<1) ? 1 : Math.floor(items);
+			$(this).owlCarousel(eggnews_carousel_args);
 		});
 	}
 	//Search toggle
