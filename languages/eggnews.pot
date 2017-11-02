@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: themeeggofficial@gmail.com\n"
-"POT-Creation-Date: 2017-10-23 09:07:17+00:00\n"
+"POT-Creation-Date: 2017-11-02 15:45:56+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -352,7 +352,7 @@ msgstr ""
 msgid "Enable/disable related articles section at single post page."
 msgstr ""
 
-#: inc/admin/assets/panels/design-panel.php:190 inc/eggnews-functions.php:517
+#: inc/admin/assets/panels/design-panel.php:190 inc/eggnews-functions.php:519
 msgid "Related Articles"
 msgstr ""
 
@@ -413,7 +413,7 @@ msgid "Site Layout"
 msgstr ""
 
 #: inc/admin/assets/panels/general-panel.php:87
-msgid "FullWidth Layout"
+msgid "Full Width Layout"
 msgstr ""
 
 #: inc/admin/assets/panels/header-panel.php:22
@@ -817,23 +817,23 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
-#: inc/eggnews-functions.php:175
+#: inc/eggnews-functions.php:177
 msgid "Select Category"
 msgstr ""
 
-#: inc/eggnews-functions.php:187
+#: inc/eggnews-functions.php:189
 msgid "Select No. of Columns"
 msgstr ""
 
-#: inc/eggnews-functions.php:188
+#: inc/eggnews-functions.php:190
 msgid "2 Columns"
 msgstr ""
 
-#: inc/eggnews-functions.php:189
+#: inc/eggnews-functions.php:191
 msgid "3 Columns"
 msgstr ""
 
-#: inc/eggnews-functions.php:190
+#: inc/eggnews-functions.php:192
 msgid "4 Columns"
 msgstr ""
 
@@ -875,34 +875,34 @@ msgid "Edit %s"
 msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:327
-#: inc/tgm-plugin-activation/tgmpa-eggnews.php:40
+#: inc/tgm-plugin-activation/tgmpa-eggnews.php:53
 msgid "Install Recommended Plugins"
 msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:328
-#: inc/tgm-plugin-activation/tgmpa-eggnews.php:41
+#: inc/tgm-plugin-activation/tgmpa-eggnews.php:54
 msgid "Install Plugins"
 msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:330
-#: inc/tgm-plugin-activation/tgmpa-eggnews.php:43
+#: inc/tgm-plugin-activation/tgmpa-eggnews.php:56
 #. translators: %s: plugin name.
 msgid "Installing Plugin: %s"
 msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:332
-#: inc/tgm-plugin-activation/tgmpa-eggnews.php:45
+#: inc/tgm-plugin-activation/tgmpa-eggnews.php:58
 #. translators: %s: plugin name.
 msgid "Updating Plugin: %s"
 msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:333
-#: inc/tgm-plugin-activation/tgmpa-eggnews.php:46
+#: inc/tgm-plugin-activation/tgmpa-eggnews.php:59
 msgid "Something went wrong with the plugin API."
 msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:370
-#: inc/tgm-plugin-activation/tgmpa-eggnews.php:83
+#: inc/tgm-plugin-activation/tgmpa-eggnews.php:96
 #. translators: 1: plugin name(s).
 msgid "Begin installing plugin"
 msgid_plural "Begin installing plugins"
@@ -910,14 +910,14 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:375
-#: inc/tgm-plugin-activation/tgmpa-eggnews.php:88
+#: inc/tgm-plugin-activation/tgmpa-eggnews.php:101
 msgid "Begin updating plugin"
 msgid_plural "Begin updating plugins"
 msgstr[0] ""
 msgstr[1] ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:380
-#: inc/tgm-plugin-activation/tgmpa-eggnews.php:93
+#: inc/tgm-plugin-activation/tgmpa-eggnews.php:106
 msgid "Begin activating plugin"
 msgid_plural "Begin activating plugins"
 msgstr[0] ""
@@ -936,24 +936,24 @@ msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:387
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3159
-#: inc/tgm-plugin-activation/tgmpa-eggnews.php:99
+#: inc/tgm-plugin-activation/tgmpa-eggnews.php:112
 msgid "Plugin activated successfully."
 msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:388
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2952
-#: inc/tgm-plugin-activation/tgmpa-eggnews.php:100
+#: inc/tgm-plugin-activation/tgmpa-eggnews.php:113
 msgid "The following plugin was activated successfully:"
 msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:390
-#: inc/tgm-plugin-activation/tgmpa-eggnews.php:102
+#: inc/tgm-plugin-activation/tgmpa-eggnews.php:115
 #. translators: 1: plugin name.
 msgid "No action taken. Plugin %1$s was already active."
 msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:392
-#: inc/tgm-plugin-activation/tgmpa-eggnews.php:104
+#: inc/tgm-plugin-activation/tgmpa-eggnews.php:117
 #. translators: 1: plugin name.
 msgid ""
 "Plugin not activated. A higher version of %s is needed for this theme. "
@@ -961,25 +961,25 @@ msgid ""
 msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:394
-#: inc/tgm-plugin-activation/tgmpa-eggnews.php:106
+#: inc/tgm-plugin-activation/tgmpa-eggnews.php:119
 #. translators: 1: dashboard link.
 msgid "All plugins installed and activated successfully. %1$s"
 msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:395
-#: inc/tgm-plugin-activation/tgmpa-eggnews.php:107
+#: inc/tgm-plugin-activation/tgmpa-eggnews.php:120
 msgid "Dismiss this notice"
 msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:396
-#: inc/tgm-plugin-activation/tgmpa-eggnews.php:108
+#: inc/tgm-plugin-activation/tgmpa-eggnews.php:121
 msgid ""
 "There are one or more required or recommended plugins to install, update or "
 "activate."
 msgstr ""
 
 #: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:397
-#: inc/tgm-plugin-activation/tgmpa-eggnews.php:109
+#: inc/tgm-plugin-activation/tgmpa-eggnews.php:122
 msgid "Please contact the administrator of this site for help."
 msgstr ""
 
@@ -1236,7 +1236,7 @@ msgstr ""
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
-#: inc/tgm-plugin-activation/tgmpa-eggnews.php:98
+#: inc/tgm-plugin-activation/tgmpa-eggnews.php:111
 msgid "Return to Required Plugins Installer"
 msgstr ""
 

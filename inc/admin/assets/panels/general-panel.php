@@ -84,7 +84,7 @@ function eggnews_general_settings_register( $wp_customize ) {
 			'label'    => esc_html__( 'Site Layout', 'eggnews' ),
 			'section'  => 'eggnews_site_layout',
 			'choices'  => array(
-				'fullwidth_layout' => esc_html__( 'FullWidth Layout', 'eggnews' ),
+				'fullwidth_layout' => esc_html__( 'Full Width Layout', 'eggnews' ),
 				'boxed_layout'     => esc_html__( 'Boxed Layout', 'eggnews' )
 			),
 		)
