@@ -276,15 +276,8 @@ footer#colophon .eggnews-carousel h3 a {
 			}
 		}
 		.carousel-content-wrapper {
-			///*background: rgba(0, 0, 0, 0.6);
-			//bottom: 0;
-			//left: 0;
-			padding: 10px;
-			//position: absolute;
-			//width: 100%;*/
-
+			padding: 10px 10px 0;
 			.post-cat-list {
-
 				a {
 					color: #fff;
 					text-transform: capitalize;
@@ -292,7 +285,7 @@ footer#colophon .eggnews-carousel h3 a {
 					margin: 0 5px 2px 0;
 					font-size: 12px;
 					padding: 0 6px;
-
+				  	line-height: 1.8em;
 				}
 			}
 			&:hover {
