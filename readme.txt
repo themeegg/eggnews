@@ -65,7 +65,7 @@ Eggnews bundles the following third-party resources:
 
 == Changelog ==
 
-= 1.3.5 - 2017/11/95 =
+= 1.3.5 - 2017/11/05 =
 	* Fix - Header design issue fixed
 	* Fix - Post Carousel issue fixed
 
