@@ -27,16 +27,6 @@ function eggnews_register_required_plugins() {
 			'slug'      => 'themeegg-toolkit',
 			'required'  => true,
 		),
-		array(
-			'name'      => 'Social Icons Lite',
-			'slug'      => 'social-icons-lite',
-			'required'  => false,
-		),
-		array(
-			'name'      => 'Twitter API Master',
-			'slug'      => 'teg-twitter-api',
-			'required'  => false,
-		),
 	);
 
 	$config = array(
