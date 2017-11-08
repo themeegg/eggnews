@@ -51,12 +51,16 @@ Eggnews bundles the following third-party resources:
 			
    	Screenshot Images 
     Licenses: CCO Public Domain
-      	https://pixabay.com/en/taj-mahal-india-building-misty-1209004/
-      	https://pixabay.com/en/taj-mahal-india-agra-tomb-grave-366/
-       	https://pixabay.com/en/taj-mahal-taj-ganz-indians-india-2309887/
-       	https://pixabay.com/en/taj-mahal-indians-india-agra-2309888/
-       	https://pixabay.com/en/india-taj-mahal-agra-mausoleum-1748445/
-       	https://pixabay.com/en/taj-mahal-indians-children-india-2309884/
+    https://pixabay.com/en/people-woman-rally-protest-unite-2575608/
+    https://pixabay.com/en/fashion-woman-beauty-leisure-model-1636868/
+    https://pixabay.com/en/beautiful-business-woman-outdoors-2910264/
+    https://pixabay.com/en/young-girl-rose-man-lady-girl-531252/
+    https://pixabay.com/en/stock-iphone-business-mobile-phone-624712/
+    https://pixabay.com/en/spyware-cyber-cyber-crime-security-2319403/
+    https://pixabay.com/en/drone-multicopter-dji-inspire-1080844/
+    https://pixabay.com/en/milipol-claude-gueant-politicians-836171/
+    https://pixabay.com/en/basketball-sport-play-1602392/
+   
     Other custom js files are our own creation and is licensed under the same license as this theme.
     Other custom images are our own creation and is licensed under the same license as this theme.
 
