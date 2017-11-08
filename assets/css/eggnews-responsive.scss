@@ -98,6 +98,11 @@
 		top: 100%;
 		width: 100%;
 		z-index: 99;
+	  	overflow-y:auto;
+	  	max-height:100vh;
+	}
+  	.is-sticky #site-navigation{
+	  max-height: calc( 100vh - 43px );
 	}
 	.bottom-header-wrapper {
 		position: relative;
