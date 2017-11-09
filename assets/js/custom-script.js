@@ -19,7 +19,7 @@ $(document).ready(function () {
 			pager: false,
 			controls: true,
 			prevText: '<i class="fa fa-arrow-left"> </i>',
-			nextText: '<i class="fa fa-arrow-right"> </i>',
+			nextText: '<i class="fa fa-arrow-right"> </i>'
 		});
 	}
 	//$('.teg-carousel-section').removeClass('teg-before-carousel-js-load');
@@ -35,10 +35,10 @@ $(document).ready(function () {
 		nav: false,
 		autoplayTimeout: 2200,
 		autoplay: true,
-		navText: ['<i class="fa fa-arrow-left"> </i>', '<i class="fa fa-arrow-right"> </i>'],
+		navText: ['<i class="fa fa-arrow-left"> </i>', '<i class="fa fa-arrow-right"> </i>']
 	};
 	if (eggnews_carousel.length > 0) {
-		eggnews_carousel.each(function(index){
+		eggnews_carousel.each(function(){
 			var items = $(this).parent().width()/300;
 			eggnews_carousel_args.items = (items>3) ? 3 : (items<1) ? 1 : Math.floor(items);
 			$(this).owlCarousel(eggnews_carousel_args);
