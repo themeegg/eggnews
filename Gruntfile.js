@@ -279,7 +279,7 @@ module.exports = function (grunt) {
 
     grunt.registerTask('css', [
         'sass',
-        //'rtlcss',
+        'rtlcss',
         'postcss',
         'cssmin',
         'concat'
