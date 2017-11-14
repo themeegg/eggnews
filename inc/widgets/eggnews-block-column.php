@@ -83,8 +83,9 @@ class Eggnews_Block_Column extends WP_Widget {
 		echo $before_widget;
 		?>
 		<div class="block-column-wrapper">
-
+		<?php if($eggnews_block_title): ?>
 		<?php eggnews_block_title( $eggnews_block_title, $eggnews_block_cat_id ); ?>
+		<?php endif; ?>
 
 		<div class="block-posts-wrapper column-posts-block">
 			<?php

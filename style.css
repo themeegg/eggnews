@@ -20,7 +20,51 @@ Underscores is distributed under the terms of the GNU GPL v3 or later.
     display: inline-block;
 }
 
-.single-post-wrapper .post-meta-wrapper span > a,
-.single-post-wrapper .post-meta-wrapper > span{
-    vertical-align: middle;
+.post-meta-wrapper span a,
+.post-meta-wrapper > span{
+    vertical-align: top;
+}
+
+.post-meta-wrapper > span{
+    line-height:1em;
+    vertical-align: top;
+}
+
+.post-meta-wrapper > span:before,
+.post-meta-wrapper > span:after{
+    line-height:1.5em;
+}
+
+.post-meta-wrapper span a{
+    line-height:1.4em;
+    vertical-align: top;
+}
+
+/*=====================================================================
+Block Layout
+=====================================================================*/
+
+.block-title:empty{
+    display:none;
+}
+
+#secondary .block-posts-block{
+    width:100%;
+    margin-left:0;
+}
+
+#secondary .post-meta-wrapper > span{
+    display: block;
+    margin-right:0px;
+}
+
+.widget_archive a,
+.widget_categories a,
+.widget_meta a,
+.widget_nav_menu li a,
+.widget_pages li a,
+.widget_recent_comments li,
+.widget_recent_entries a,
+.widget_rss li{
+    padding-left:20px;
 }

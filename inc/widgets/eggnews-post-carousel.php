@@ -38,12 +38,6 @@ class Eggnews_Post_Carousel extends WP_Widget {
 
 		$fields = array(
 
-			'carousel_header_section' => array(
-				'eggnews_widgets_name'       => 'carousel_header_section',
-				'eggnews_widgets_title'      => esc_html__( 'Carousel Section', 'eggnews' ),
-				'eggnews_widgets_field_type' => 'widget_section_header'
-			),
-
 			'eggnews_carousel_category' => array(
 				'eggnews_widgets_name'          => 'eggnews_carousel_category',
 				'eggnews_widgets_title'         => esc_html__( 'Category for Slider', 'eggnews' ),
