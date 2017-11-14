@@ -186,7 +186,7 @@ endif;
 
 //no of columns
 $eggnews_grid_columns = array(
-	''  => esc_html__( 'Select No. of Columns', 'eggnews' ),
+	'1'  => esc_html__( 'Select No. of Columns', 'eggnews' ),
 	'2' => esc_html__( '2 Columns', 'eggnews' ),
 	'3' => esc_html__( '3 Columns', 'eggnews' ),
 	'4' => esc_html__( '4 Columns', 'eggnews' )
