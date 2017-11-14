@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: themeeggofficial@gmail.com\n"
-"POT-Creation-Date: 2017-11-05 07:58:49+00:00\n"
+"POT-Creation-Date: 2017-11-14 12:37:51+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1309,24 +1309,20 @@ msgid "Featured Slider"
 msgstr ""
 
 #: inc/widgets/eggnews-featured-slider.php:43
-msgid "Slider Section"
-msgstr ""
-
-#: inc/widgets/eggnews-featured-slider.php:49
-#: inc/widgets/eggnews-post-carousel.php:49
+#: inc/widgets/eggnews-post-carousel.php:43
 msgid "Category for Slider"
 msgstr ""
 
-#: inc/widgets/eggnews-featured-slider.php:57
-#: inc/widgets/eggnews-post-carousel.php:57
+#: inc/widgets/eggnews-featured-slider.php:51
+#: inc/widgets/eggnews-post-carousel.php:51
 msgid "No. of slides"
 msgstr ""
 
-#: inc/widgets/eggnews-featured-slider.php:64
+#: inc/widgets/eggnews-featured-slider.php:58
 msgid "Featured Posts Section"
 msgstr ""
 
-#: inc/widgets/eggnews-featured-slider.php:70
+#: inc/widgets/eggnews-featured-slider.php:64
 msgid "Category for Featured Posts"
 msgstr ""
 
@@ -1338,11 +1334,7 @@ msgstr ""
 msgid "Carousel Posts"
 msgstr ""
 
-#: inc/widgets/eggnews-post-carousel.php:43
-msgid "Carousel Section"
-msgstr ""
-
-#: inc/widgets/eggnews-post-carousel.php:64
+#: inc/widgets/eggnews-post-carousel.php:58
 msgid "Show Random"
 msgstr ""
 
