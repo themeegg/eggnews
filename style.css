@@ -76,6 +76,12 @@ Block Layout
     margin-left:0px;
 }
 
+.block-header::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
 .widget_archive a,
 .widget_categories a,
 .widget_meta a,
