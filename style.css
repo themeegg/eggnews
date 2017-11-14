@@ -76,6 +76,7 @@ Block Layout
     margin-left:0px;
 }
 
+.widget-title-wrapper::after,
 .block-header::after {
     clear: both;
     content: "";
