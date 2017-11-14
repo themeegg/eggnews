@@ -71,6 +71,11 @@ Block Layout
     width:100%;
 }
 
+#secondary .teg-column-wrapper,
+#secondary .eggnews_block_grid .block-posts-wrapper{
+    margin-left:0px;
+}
+
 .widget_archive a,
 .widget_categories a,
 .widget_meta a,
@@ -81,3 +86,4 @@ Block Layout
 .widget_rss li{
     padding-left:20px;
 }
+

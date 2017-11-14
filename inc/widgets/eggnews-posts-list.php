@@ -86,9 +86,11 @@ class Eggnews_Posts_List extends WP_widget {
         echo $before_widget;
 ?>
 			<div class="widget-block-wrapper">
+                <?php if($eggnews_block_title): ?>
 				<div class="block-header">
 	                <h3 class="block-title"><?php echo esc_html( $eggnews_block_title ); ?></h3>
 	            </div><!-- .block-header -->
+                <?php endif; ?>
 	            <div class="posts-list-wrapper list-posts-block">
 	            	<?php
 	            		$posts_list_args = eggnews_query_args( $cat_id = null, $eggnews_block_posts_count );
