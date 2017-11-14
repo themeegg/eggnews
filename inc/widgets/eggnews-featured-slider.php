@@ -38,12 +38,6 @@ class Eggnews_Featured_Slider extends WP_Widget {
 
     	$fields = array(
 
-            'slider_header_section' => array(
-                'eggnews_widgets_name' => 'slider_header_section',
-                'eggnews_widgets_title' => esc_html__( 'Slider Section', 'eggnews' ),
-                'eggnews_widgets_field_type' => 'widget_section_header'
-            ),
-
             'eggnews_slider_category' => array(
                 'eggnews_widgets_name' => 'eggnews_slider_category',
                 'eggnews_widgets_title' => esc_html__( 'Category for Slider', 'eggnews' ),

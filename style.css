@@ -58,6 +58,19 @@ Block Layout
     margin-right:0px;
 }
 
+#secondary .featured-right-section,
+#secondary .featured-post-wrapper{
+    padding-top:10px;
+}
+
+#secondary .featured-right-section img,
+#secondary .featured-right-section,
+#secondary .featured-left-section,
+#secondary .featured-post-wrapper,
+#secondary .teg-featured-slider-wrapper{
+    width:100%;
+}
+
 .widget_archive a,
 .widget_categories a,
 .widget_meta a,
