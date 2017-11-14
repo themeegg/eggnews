@@ -94,3 +94,11 @@ Block Layout
     padding-left:20px;
 }
 
+.rtl #content .block-header .block-title::after,
+.rtl #content .related-articles-wrapper .related-title::after,
+.rtl #content .widget .widget-title::after{
+    left:initial;
+    right:100%;
+    border-width: 33px 33px 0 0;
+    border-right-color:#408c40;
+}
