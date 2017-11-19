@@ -7,15 +7,13 @@
   width: 20px;
   margin: 0 5px;
 }
+.widget .owl-theme .owl-dots .owl-dot{
+  border:none;
+  outline:none;
+}
 
 .widget .owl-theme .owl-dots .owl-dot.active span{
   background: #408c40;
-}
-
-.widget .owl-theme .owl-dots .owl-dot:hover,
-.widget .owl-theme .owl-dots .owl-dot:focus,
-.widget .owl-theme .owl-dots .owl-dot:active{
-
 }
 
 .widget {
