@@ -162,7 +162,6 @@ article.hentry {
   }
   .nav-next {
     width: 50%;
-    float: left;
     text-align: right;
     float: right;
   }
@@ -177,13 +176,14 @@ article.hentry {
     font-family: FontAwesome;
     font-style: normal;
     margin-left: 5px;
+    position:absolute;
+    right:10px;
   }
   .nav-previous {
     float: left;
     width: 25%;
   }
   .nav-next {
-    float: left;
     width: 25%;
     float: right;
     a {
@@ -191,6 +191,8 @@ article.hentry {
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
+      position:relative;
+      padding-right:20px;
     }
   }
   .nav-previous a {
