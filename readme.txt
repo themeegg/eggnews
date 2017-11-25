@@ -1,9 +1,9 @@
 === Eggnews ===
 
-Contributors:       Theme Egg Team
+Contributors:       ThemeEgg Team
 Requires at least:  WordPress 4.0
 Tested up to:       WordPress 4.9
-Version:            1.3.8
+Version:            1.3.9
 License:            GPLv3 or later
 License URI:        http://www.gnu.org/licenses/gpl-3.0.html
 Tags:               news, grid-layout, custom-colors, one-column, two-columns, three-columns, left-sidebar, right-sidebar, featured-images, footer-widgets, full-width-template, theme-options, translation-ready, rtl-language-support
@@ -69,6 +69,11 @@ Eggnews bundles the following third-party resources:
 
 == Changelog ==
 
+= 1.3.9 - 2017/11/25 =
+	* Fix - Header issue fixed
+	* Fix - Archive page taxonomy description issue fixed
+	* Fix - Resizable image issue fixed
+	
 = 1.3.8 - 2017/11/20 =
 	* Fix - RTL issue fixed
 	* Fix - Responsive design issue fixed
