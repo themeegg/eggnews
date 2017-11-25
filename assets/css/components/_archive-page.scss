@@ -2,26 +2,30 @@
 Archive page  css
 --------------------------------------------------------------*/
 
-.archive .page-header {
-  .page-title {
-    background: #fff none repeat scroll 0 0;
-    display: inline-block;
-    font-size: 24px;
-    margin: 0;
-    padding: 0 30px;
-    text-transform: uppercase;
+.archive{
+  .page-header{
+    background: lighten($primary_color, 20%) none repeat scroll 0 0;
+    border-left: 4px solid $primary_color;
+    line-height: 24px;
+    margin-bottom: 30px;
+    padding: 0 20px 0 0;
+    .page-title {
+      background: #fff none repeat scroll 0 0;
+      display: inline-block;
+      font-size: 24px;
+      margin: 0;
+      padding: 0 30px;
+      text-transform: uppercase;
+    }
   }
-  background: lighten($primary_color, 20%) none repeat scroll 0 0;
-  border-left: 4px solid $primary_color;
-  line-height: 24px;
-  margin-bottom: 30px;
-  padding: 0 20px 0 0;
 }
 
-.archive-classic .post-image {
+.blog .post-image,
+.archive-classic .post-image{
   text-align: center;
 }
 
+.blog .entry-header,
 .archive .entry-header {
   margin-top: 20px;
   text-align: center;
@@ -72,6 +76,7 @@ Archive page  css
   }
 }
 
+.blog .entry-content,
 .archive.archive-classic .entry-content {
   text-align: center;
 }
@@ -83,7 +88,7 @@ Archive page  css
 .archive.archive-classic .entry-content p {
   margin-bottom: 0;
 }
-
+.blog,
 .archive-classic {
   .entry-footer {
     margin-top: 20px;
