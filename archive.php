@@ -20,8 +20,9 @@ get_header(); ?>
 
 				<header class="page-header teg-cat-<?php echo esc_attr( $teg_cat_id ); ?>">
 					<h1 class="page-title teg-archive-title"><?php the_archive_title(); ?></h1>
-					<?php the_archive_description( '<div class="taxonomy-description">', '</div>' ); ?>
 				</header><!-- .page-header -->
+				<?php the_archive_description( '<div class="taxonomy-description">', '</div>' ); ?>
+
 				<div class="archive-content-wrapper clearfix">
 					<?php
 					/* Start the Loop */
