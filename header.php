@@ -18,7 +18,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
 	<?php wp_head(); ?>
 </head>
 
@@ -26,7 +25,7 @@
 <?php do_action( 'eggnews_before_page' ); ?>
 <div id="page" class="site">
 	<?php do_action( 'eggnews_before_header' ); ?>
-	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'eggnews' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'eggnews' ); ?></a>
 	<header id="masthead" class="site-header" role="banner">
 		<?php get_template_part( 'template-parts/header/header', 'image' ); ?>
 		<?php do_action( 'eggnews_news_ticker' ); ?>
