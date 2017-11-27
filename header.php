@@ -26,14 +26,14 @@
 <div id="page" class="site">
 	<?php do_action( 'eggnews_before_header' ); ?>
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'eggnews' ); ?></a>
-	<header id="masthead" class="site-header" role="banner">
+	<header id="masthead" class="site-header">
 		<?php get_template_part( 'template-parts/header/header', 'image' ); ?>
 		<?php do_action( 'eggnews_news_ticker' ); ?>
 		<div class="top-header-section">
 			<div class="teg-container">
 				<div class="top-left-header">
 					<?php do_action( 'eggnews_current_date' ); ?>
-					<nav id="top-header-navigation" class="top-navigation" role="navigation">
+					<nav id="top-header-navigation" class="top-navigation" >
 						<?php wp_nav_menu( array( 'theme_location'  => 'top-header',
 						                          'container_class' => 'top-menu',
 						                          'fallback_cb'     => false,
@@ -94,7 +94,7 @@
 				<div class="home-icon"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"> <i
 							class="fa fa-home"> </i> </a></div>
 				<a href="javascript:void(0)" class="menu-toggle"> <i class="fa fa-navicon"> </i> </a>
-				<nav id="site-navigation" class="main-navigation" role="navigation">
+				<nav id="site-navigation" class="main-navigation">
 					<?php wp_nav_menu( array( 'theme_location'  => 'primary',
 					                          'container_class' => 'menu',
 					                          'items_wrap'      => '<ul>%3$s</ul>'

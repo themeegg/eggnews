@@ -28,7 +28,7 @@
 							printf( esc_html__( 'Eggnews by %1$s.', 'eggnews' ), '<a href="'.$eggnews_theme_author.'" rel="designer">Theme Egg</a>' );
 						?>
 					</div><!-- .site-info -->
-					<nav id="footer-navigation" class="sub-footer-navigation" role="navigation">
+					<nav id="footer-navigation" class="sub-footer-navigation" >
 						<?php wp_nav_menu( array( 'theme_location' => 'footer', 'container_class' => 'footer-menu', 'fallback_cb' => false, 'items_wrap' => '<ul>%3$s</ul>' ) ); ?>
 					</nav>
 				</div>
