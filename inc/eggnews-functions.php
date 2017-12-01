@@ -47,7 +47,7 @@ function eggnews_scripts() {
 		'family' => 'Poppins',
 	);
 
-	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/assets/lib/font-awesome/css/font-awesome.min.css', array(), '4.5.0' );
+	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/assets/lib/font-awesome/css/font-awesome.min.css', array(), '4.7.0' );
 
 	wp_enqueue_style( 'eggnews-google-font', add_query_arg( $query_args, "//fonts.googleapis.com/css" ) );
 
@@ -57,7 +57,7 @@ function eggnews_scripts() {
 
 	wp_enqueue_style( 'eggnews-responsive', get_template_directory_uri() . '/assets/css/eggnews-responsive.css', array(), esc_attr( $eggnews_version ) );
 
-	wp_enqueue_script( 'jquery-bxslider', get_template_directory_uri() . '/assets/lib/bxslider/jquery.bxslider.min.js', array( 'jquery' ), '4.1.2', true );
+	wp_enqueue_script( 'jquery-bxslider', get_template_directory_uri() . '/assets/lib/bxslider/jquery.bxslider.min.js', array( 'jquery' ), '4.2.12', true );
 
 	// Start : Owl Carousel
 
