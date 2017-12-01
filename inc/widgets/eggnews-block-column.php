@@ -130,6 +130,7 @@ class Eggnews_Block_Column extends WP_Widget {
 			}
 			wp_reset_postdata();
 			?>
+		</div>
 		</div><!-- .block-column-wrapper -->
 		<?php
 		echo $after_widget;

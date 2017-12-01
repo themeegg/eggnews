@@ -15,7 +15,7 @@
 		</div><!--.teg-container-->
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
+	<footer id="colophon" class="site-footer">
 			<?php get_sidebar( 'footer' ); ?>
 			<div id="bottom-footer" class="sub-footer-wrapper clearfix">
 				<div class="teg-container">
@@ -25,7 +25,7 @@
 						<?php
 							$eggnews_theme_author = esc_url( 'http://themeegg.com/' );
 						/* translators: %s: theme author */
-							printf( esc_html__( 'Eggnews by %1$s.', 'eggnews' ), '<a href="'.$eggnews_theme_author.'" rel="designer">Theme Egg</a>' );
+							printf( esc_html__( 'Eggnews by %1$s.', 'eggnews' ), '<a href="'.$eggnews_theme_author.'" >Theme Egg</a>' );
 						?>
 					</div><!-- .site-info -->
 					<nav id="footer-navigation" class="sub-footer-navigation" >
