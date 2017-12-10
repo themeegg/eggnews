@@ -2,18 +2,19 @@
 9.0 Widgets
 --------------------------------------------------------------*/
 
-.widget .owl-theme .owl-dots .owl-dot span{
-  height: 8px;
-  width: 20px;
-  margin: 0 5px;
-}
-.widget .owl-theme .owl-dots .owl-dot{
-  border:none;
-  outline:none;
+.widget .owl-theme .owl-dots .owl-dot span {
+	height: 8px;
+	width: 20px;
+	margin: 0 5px;
 }
 
-.widget .owl-theme .owl-dots .owl-dot.active span{
-  background: #408c40;
+.widget .owl-theme .owl-dots .owl-dot {
+	border: none;
+	outline: none;
+}
+
+.widget .owl-theme .owl-dots .owl-dot.active span {
+	background: #408c40;
 }
 
 .widget {
@@ -51,8 +52,8 @@
 	.widget .widget-title,
 	.related-articles-wrapper .related-title {
 		position: relative;
-	  	max-width:100%;
-	  	white-space: nowrap;
+		max-width: 100%;
+		white-space: nowrap;
 		&:after {
 			content: "";
 			display: block;
@@ -75,4 +76,14 @@
 		}
 	}
 
+}
+
+.owl-carousel .owl-stage-outer {
+
+	direction: ltr;
+}
+
+.rtl .owl-carousel .owl-item {
+
+	direction: rtl;
 }
