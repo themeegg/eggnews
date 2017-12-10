@@ -104,11 +104,11 @@ td {
 }
 
 .wrap table th {
-	background-color: #24B37E;
+	background-color: #408c40;
 }
 
 .wrap table th:last-child {
-	background-color: #228B9B;
+	background-color: #f25d26;
 }
 
 .wrap table th h3 {
@@ -137,7 +137,7 @@ table tr .btn-wrapper {
 }
 
 table tr .btn-wrapper .button {
-	background-color: #228b9b;
+	background-color: #f25d26;
 	color: #fff;
 	font-size: 14px;
 	line-height: 0;
@@ -146,7 +146,7 @@ table tr .btn-wrapper .button {
 }
 
 table tr .btn-wrapper .button:hover {
-	background: #097282 none repeat scroll 0 0;
+	background: #f25d26 none repeat scroll 0 0;
 	color: #fff;
 }
 
