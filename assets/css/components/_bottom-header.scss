@@ -160,6 +160,9 @@ BOTTOM HEADER CSS
 		padding: 4px 10px;
 		width: 75%;
 		float: left;
+		&:focus {
+			outline: none;
+		}
 	}
 	.search-submit {
 		border: medium none;

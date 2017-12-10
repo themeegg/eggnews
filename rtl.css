@@ -120,7 +120,6 @@ TICKER CSS
 }
 
 .rtl .ticker-content-wrapper {
-	border-left: 1px solid #e1e1e1;
 	border-right: none;
 }
 
