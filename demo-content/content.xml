@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.8.3" created="2017-11-08 14:08" -->
+<!-- generator="WordPress/4.9.1" created="2017-12-10 14:39" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Eggnews</title>
 	<link>https://demo.themeegg.com/themes/eggnews</link>
 	<description>Wordpress news magazine theme</description>
-	<pubDate>Wed, 08 Nov 2017 14:08:10 +0000</pubDate>
+	<pubDate>Sun, 10 Dec 2017 14:39:33 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://demo.themeegg.com/themes/eggnews</wp:base_site_url>
@@ -216,6 +216,13 @@
 		<wp:term_name><![CDATA[Games]]></wp:term_name>
 	</wp:term>
 	<wp:term>
+		<wp:term_id><![CDATA[32]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[nav_menu]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[home-page-top-menu]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Home page top Menu]]></wp:term_name>
+	</wp:term>
+	<wp:term>
 		<wp:term_id><![CDATA[17]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[human]]></wp:term_slug>
@@ -270,6 +277,13 @@
 		<wp:term_slug><![CDATA[man]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[man]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[33]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[nav_menu]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[menuee]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[menuee]]></wp:term_name>
 	</wp:term>
 	<wp:term>
 		<wp:term_id><![CDATA[31]]></wp:term_id>
@@ -392,14 +406,18 @@
 	</wp:term>
 	<wp:term><wp:term_id>29</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[footer-menu]]></wp:term_slug><wp:term_name><![CDATA[Footer Menu]]></wp:term_name>
 </wp:term>
+	<wp:term><wp:term_id>32</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[home-page-top-menu]]></wp:term_slug><wp:term_name><![CDATA[Home page top Menu]]></wp:term_name>
+</wp:term>
 	<wp:term><wp:term_id>27</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[main-menu]]></wp:term_slug><wp:term_name><![CDATA[Main Menu]]></wp:term_name>
+</wp:term>
+	<wp:term><wp:term_id>33</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[menuee]]></wp:term_slug><wp:term_name><![CDATA[menuee]]></wp:term_name>
 </wp:term>
 	<wp:term><wp:term_id>2</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[primary-menu]]></wp:term_slug><wp:term_name><![CDATA[Primary Menu]]></wp:term_name>
 </wp:term>
 	<wp:term><wp:term_id>28</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[top-menu]]></wp:term_slug><wp:term_name><![CDATA[Top Menu]]></wp:term_name>
 </wp:term>
 
-	<generator>https://wordpress.org/?v=4.8.3</generator>
+	<generator>https://wordpress.org/?v=4.9.1</generator>
 
 	<item>
 		<title>taj-mahal-366_1920</title>
@@ -1127,6 +1145,10 @@
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2017/07/cropped-kiwi-2508423_1920.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_oembed_5ec2f5c797ce36319bf082cb9dfd2c04]]></wp:meta_key>
+			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -3067,7 +3089,7 @@ CREDIT: Andrew Spear for TIME]]></excerpt:encoded>
 		<wp:post_name><![CDATA[19]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>9</wp:menu_order>
+		<wp:menu_order>8</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -3342,7 +3364,7 @@ CREDIT: Andrew Spear for TIME]]></excerpt:encoded>
 		<wp:post_name><![CDATA[116]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>4</wp:menu_order>
+		<wp:menu_order>3</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -3397,7 +3419,7 @@ CREDIT: Andrew Spear for TIME]]></excerpt:encoded>
 		<wp:post_name><![CDATA[117]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>5</wp:menu_order>
+		<wp:menu_order>4</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -3452,7 +3474,7 @@ CREDIT: Andrew Spear for TIME]]></excerpt:encoded>
 		<wp:post_name><![CDATA[118]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>6</wp:menu_order>
+		<wp:menu_order>5</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -3507,7 +3529,7 @@ CREDIT: Andrew Spear for TIME]]></excerpt:encoded>
 		<wp:post_name><![CDATA[119]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>7</wp:menu_order>
+		<wp:menu_order>6</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -3527,120 +3549,6 @@ CREDIT: Andrew Spear for TIME]]></excerpt:encoded>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
 			<wp:meta_value><![CDATA[category]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title></title>
-		<link>https://demo.themeegg.com/themes/eggnews/120/</link>
-		<pubDate>Sat, 02 Sep 2017 16:59:59 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?p=120</guid>
-		<description></description>
-		<content:encoded><![CDATA[Everything about music]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>120</wp:post_id>
-		<wp:post_date><![CDATA[2017-09-02 16:59:59]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-09-02 16:59:59]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[120]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>8</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[taxonomy]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[8]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-			<wp:meta_value><![CDATA[category]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title></title>
-		<link>https://demo.themeegg.com/themes/eggnews/124/</link>
-		<pubDate>Sat, 02 Sep 2017 17:01:15 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/2017/09/02/124/</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>124</wp:post_id>
-		<wp:post_date><![CDATA[2017-09-02 17:01:15]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-09-02 17:01:15]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[124]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>10</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[121]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-			<wp:meta_value><![CDATA[page]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
@@ -3846,6 +3754,425 @@ CREDIT: Andrew Spear for TIME]]></excerpt:encoded>
 		</wp:postmeta>
 	</item>
 	<item>
+		<title>cropped-Q.jpg</title>
+		<link>https://demo.themeegg.com/themes/eggnews/cropped-q-jpg/</link>
+		<pubDate>Tue, 21 Nov 2017 12:08:49 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/11/cropped-Q.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/11/cropped-Q.jpg]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>296</wp:post_id>
+		<wp:post_date><![CDATA[2017-11-21 12:08:49]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-11-21 12:08:49]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[cropped-q-jpg]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/11/cropped-Q.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2017/11/cropped-Q.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom-logo]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:231;s:6:"height";i:72;s:4:"file";s:21:"2017/11/cropped-Q.jpg";s:5:"sizes";a:1:{s:9:"thumbnail";a:4:{s:4:"file";s:20:"cropped-Q-150x72.jpg";s:5:"width";i:150;s:6:"height";i:72;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>cropped-stock-624712_1920.jpg</title>
+		<link>https://demo.themeegg.com/themes/eggnews/cropped-stock-624712_1920-jpg/</link>
+		<pubDate>Thu, 23 Nov 2017 12:49:16 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/11/cropped-stock-624712_1920.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>308</wp:post_id>
+		<wp:post_date><![CDATA[2017-11-23 12:49:16]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-11-23 12:49:16]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[cropped-stock-624712_1920-jpg]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/11/cropped-stock-624712_1920.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1000;s:6:"height";i:250;s:4:"file";s:37:"2017/11/cropped-stock-624712_1920.jpg";s:5:"sizes";a:8:{s:9:"thumbnail";a:4:{s:4:"file";s:37:"cropped-stock-624712_1920-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:36:"cropped-stock-624712_1920-300x75.jpg";s:5:"width";i:300;s:6:"height";i:75;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:37:"cropped-stock-624712_1920-768x192.jpg";s:5:"width";i:768;s:6:"height";i:192;s:9:"mime-type";s:10:"image/jpeg";}s:23:"eggnews-featured-medium";a:4:{s:4:"file";s:37:"cropped-stock-624712_1920-420x250.jpg";s:5:"width";i:420;s:6:"height";i:250;s:9:"mime-type";s:10:"image/jpeg";}s:21:"eggnews-featured-long";a:4:{s:4:"file";s:37:"cropped-stock-624712_1920-300x250.jpg";s:5:"width";i:300;s:6:"height";i:250;s:9:"mime-type";s:10:"image/jpeg";}s:20:"eggnews-block-medium";a:4:{s:4:"file";s:37:"cropped-stock-624712_1920-464x250.jpg";s:5:"width";i:464;s:6:"height";i:250;s:9:"mime-type";s:10:"image/jpeg";}s:22:"eggnews-carousel-image";a:4:{s:4:"file";s:37:"cropped-stock-624712_1920-600x250.jpg";s:5:"width";i:600;s:6:"height";i:250;s:9:"mime-type";s:10:"image/jpeg";}s:19:"eggnews-block-thumb";a:4:{s:4:"file";s:37:"cropped-stock-624712_1920-322x230.jpg";s:5:"width";i:322;s:6:"height";i:230;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}s:17:"attachment_parent";i:279;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom-header]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2017/11/cropped-stock-624712_1920.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_custom_header_last_used_eggnews]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1511441357]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_is_custom_header]]></wp:meta_key>
+			<wp:meta_value><![CDATA[eggnews]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>https://demo.themeegg.com/themes/eggnews/?p=330</link>
+		<pubDate>Mon, 30 Nov -0001 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/?p=330</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>330</wp:post_id>
+		<wp:post_date><![CDATA[2017-12-01 13:57:44]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[]]></wp:post_name>
+		<wp:status><![CDATA[draft]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_orphaned]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1512136664]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[9]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>https://demo.themeegg.com/themes/eggnews/?p=335</link>
+		<pubDate>Mon, 30 Nov -0001 00:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/?p=335</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>335</wp:post_id>
+		<wp:post_date><![CDATA[2017-12-01 14:02:33]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[]]></wp:post_name>
+		<wp:status><![CDATA[draft]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[taxonomy]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[9]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[category]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_orphaned]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1512136953]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Blog Page</title>
+		<link>https://demo.themeegg.com/themes/eggnews/blog-page/</link>
+		<pubDate>Sun, 16 Jul 2017 04:11:08 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/enews/?page_id=6</guid>
+		<description></description>
+		<content:encoded><![CDATA[<div>
+<strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+</div>
+<div>
+<h2>Why do we use it?</h2>
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+</div>
+&nbsp;
+<div>
+<h2>Where does it come from?</h2>
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+
+</div>
+<div>
+<h2>Where can I get some?</h2>
+There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+
+</div>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>87</wp:post_id>
+		<wp:post_date><![CDATA[2017-07-16 04:11:08]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-07-16 04:11:08]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[blog-page]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[left_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Truck crashed into the back of another truck</title>
+		<link>https://demo.themeegg.com/themes/eggnews/31-injured-in-dhading-bus-truck-collision/</link>
+		<pubDate>Sun, 16 Jul 2017 05:04:22 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/enews/?page_id=36</guid>
+		<description></description>
+		<content:encoded><![CDATA[According to a top police official, a pick-up truck crashed into the back of another truck on the Emirates Road.
+
+Four people were killed and three others sustained serious injuries in a traffic accident that involved three trucks, the Dubai Police said on Thursday.
+
+According to a top police official, a pick-up truck crashed into the back of another truck on the Emirates Road. "The driver of the pick-up truck failed to leave enough distance between his vehicle and the truck ahead of him, causing him to crash into it," Brigadier Saif Muhair Al Mazroui, director of the general department of traffic, said.
+
+Brigadier Saeed Ahmed, director of the Rashidya police station, said such was the impact of the accident that the truck crashed into another truck ahead of him. The accident was reported at 4pm.
+
+The pick-up truck driver and three others in his vehicle were killed in the accident. Three people in the other trucks sustained serious injuries. They had to be airlifted to the Rashid Hospital. They are recuperating, but are in a critical state.
+
+The official urged motorists to leave enough space between vehicles to avoid accidents.
+
+The Dubai Police had earlier told Khaleej Times that failure to leave enough space between vehicles caused the maximum number of accidents in the first nine months of the current year. Twenty-five people were killed in 446 accidents caused by this violation.
+
+amira@khaleejtimes.com  ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>91</wp:post_id>
+		<wp:post_date><![CDATA[2017-07-16 05:04:22]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-07-16 05:04:22]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[31-injured-in-dhading-bus-truck-collision]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[257]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[enews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>https://demo.themeegg.com/themes/eggnews/120/</link>
+		<pubDate>Sat, 02 Sep 2017 16:59:59 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?p=120</guid>
+		<description></description>
+		<content:encoded><![CDATA[Everything about music]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>120</wp:post_id>
+		<wp:post_date><![CDATA[2017-09-02 16:59:59]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-09-02 16:59:59]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[120]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>7</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[taxonomy]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[8]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[category]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>https://demo.themeegg.com/themes/eggnews/124/</link>
+		<pubDate>Sat, 02 Sep 2017 17:01:15 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/2017/09/02/124/</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>124</wp:post_id>
+		<wp:post_date><![CDATA[2017-09-02 17:01:15]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-09-02 17:01:15]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[124]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>9</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[121]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 		<title></title>
 		<link>https://demo.themeegg.com/themes/eggnews/285/</link>
 		<pubDate>Tue, 07 Nov 2017 14:25:56 +0000</pubDate>
@@ -3953,764 +4280,6 @@ CREDIT: Andrew Spear for TIME]]></excerpt:encoded>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
 			<wp:meta_value><![CDATA[https://docs.themeegg.com/docs/eggnews/]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Sample Page</title>
-		<link>https://demo.themeegg.com/themes/eggnews/sample-page__trashed/</link>
-		<pubDate>Mon, 17 Jul 2017 13:11:08 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews//?page_id=2</guid>
-		<description></description>
-		<content:encoded><![CDATA[This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:
-
-<blockquote>Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin' caught in the rain.)</blockquote>
-
-...or something like this:
-
-<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>
-
-As a new WordPress user, you should go to <a href="https://demo.themeegg.com/themes/eggnews//wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>2</wp:post_id>
-		<wp:post_date><![CDATA[2017-07-17 13:11:08]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-07-17 13:11:08]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[sample-page__trashed]]></wp:post_name>
-		<wp:status><![CDATA[trash]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[templates/magazine-template.php]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1508943154]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
-			<wp:meta_value><![CDATA[sample-page]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Home Page</title>
-		<link>https://demo.themeegg.com/themes/eggnews/home-page__trashed/</link>
-		<pubDate>Sun, 16 Jul 2017 04:10:44 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/enews/?page_id=4</guid>
-		<description></description>
-		<content:encoded><![CDATA[<div>
-<h2>What is Lorem Ipsum?</h2>
-<strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-</div>
-<div>
-<h2>Why do we use it?</h2>
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-</div>
-&nbsp;
-<div>
-<h2>Where does it come from?</h2>
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-
-</div>
-<div>
-<h2>Where can I get some?</h2>
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-
-</div>]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>4</wp:post_id>
-		<wp:post_date><![CDATA[2017-07-16 04:10:44]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-07-16 04:10:44]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[home-page__trashed]]></wp:post_name>
-		<wp:status><![CDATA[trash]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[templates/magazine-template.php]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[enews_sidebar_location]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1508943154]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
-			<wp:meta_value><![CDATA[home-page]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Home</title>
-		<link>https://demo.themeegg.com/themes/eggnews/</link>
-		<pubDate>Mon, 17 Jul 2017 13:21:39 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?page_id=7</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>7</wp:post_id>
-		<wp:post_date><![CDATA[2017-07-17 13:21:39]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-07-17 13:21:39]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[home]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[templates/magazine-template.php]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Blog</title>
-		<link>https://demo.themeegg.com/themes/eggnews/blog/</link>
-		<pubDate>Mon, 17 Jul 2017 13:21:55 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?page_id=9</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>9</wp:post_id>
-		<wp:post_date><![CDATA[2017-07-17 13:21:55]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-07-17 13:21:55]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[blog]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Gallery</title>
-		<link>https://demo.themeegg.com/themes/eggnews/gallery/</link>
-		<pubDate>Mon, 17 Jul 2017 13:22:03 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?page_id=11</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>11</wp:post_id>
-		<wp:post_date><![CDATA[2017-07-17 13:22:03]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-07-17 13:22:03]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[gallery]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>About</title>
-		<link>https://demo.themeegg.com/themes/eggnews/about/</link>
-		<pubDate>Mon, 17 Jul 2017 13:24:04 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?page_id=13</guid>
-		<description></description>
-		<content:encoded><![CDATA[Eggnews is a responsive newsportal style Free WordPress theme. This theme is mainly applicable for online magazines, newspaper, publishing, personal blogs and any kind of news sites. It’s customizable theme. If any support needed then hit the url <a href="htp://support.themeegg.com">htp://support.themeegg.com </a>please check the demo on <a href="https://demo.themeegg.com/themes/eggnews">https://demo.themeegg.com/themes/eggnews</a>]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>13</wp:post_id>
-		<wp:post_date><![CDATA[2017-07-17 13:24:04]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-07-17 13:24:04]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[about]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Flight accident in Dubai</title>
-		<link>https://demo.themeegg.com/themes/eggnews/31-injured-in-dhading-bus-truck-collision/</link>
-		<pubDate>Sun, 16 Jul 2017 05:05:09 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/enews/?p=39</guid>
-		<description></description>
-		<content:encoded><![CDATA[Emirates Flight 521 is a scheduled international passenger flight from Thiruvananthapuram, India, to Dubai, United Arab Emirates,[5] operated by Emirates using a Boeing 777-300.[6] On 3 August 2016, the aircraft carrying 282 passengers[7] and 18 crew[8] crashed while landing at Dubai International Airport, at approximately 12:45 local time.[9][10]
-
-All 300 people on board survived the accident and were evacuated from the aircraft; 24 were injured.[4] An airport firefighter died during the rescue operation and another eight were injured.[4][3] This accident was the first hull loss of an aircraft operated by Emirates.[11]
-
-Contents
-
-    1 Aircraft
-    2 Flight
-    3 Passengers and crew
-    4 Investigation
-    5 Aftermath
-    6 Notes
-    7 References
-    8 External links
-
-Aircraft
-
-The aircraft involved was a Boeing 777-31H[note 1] with the registration A6-EMW, serial number 32700, and line number 434. It was equipped with two Rolls-Royce Trent 892 engines and was thirteen years old, having made its first flight on 7 March 2003.[12] It was delivered new to Emirates on 28 March 2003, and had since logged 58169 flight hours in 13620 cycles.[13]
-Flight
-
-On 3 August 2016, Flight EK521 took off from Trivandrum International Airport (TRV) at 10:34 IST (05:04 UTC), 29 minutes after its scheduled departure time. It was scheduled to land at Dubai International Airport (DXB) at 12:24 GST (08:24 UTC).[14]
-
-The approach and landing were normal from the air traffic control (ATC) point of view, with no emergency declared according to ATC recordings at the time.[15][16] The crew reported that they were going around, after which the tower instructed them to climb to 4,000 feet, which was acknowledged by the crew. Shortly after, the tower instructed the next flight to go around and alerted emergency services.[15] Wind shear and an ambient temperature of 48 °C (118 °F) were reported.[12]
-
-The accident occurred at 12:37 Gulf Standard Time (08:37 UTC). According to the Preliminary Accident Report,[4] significant wind shear was impacting on the aircraft's airspeed through late final approach, and the aircraft touched down onto the 4,000 metres (13,000 ft) long runway 12L at a point approximately 1,100 metres (3,600 ft) beyond the upwind threshold, at a speed of 162 kts. Two seconds later, the cockpit RAAS issued a "LONG LANDING" [note 2][17] warning and the crew initiated a go-around. Six seconds after main-wheel touchdown, and with the nose-wheel still off the runway, the aircraft became airborne again after rotating to climb attitude. Four seconds later the flap setting was reduced to 20°, followed by the undercarriage being selected to retract. Engine throttle settings appear to have remained unchanged during this period. The aircraft attained a maximum height above the runway of 85′ with its indicated airspeed decreasing, before commencing to settle back towards the ground. Twelve seconds after becoming airborne the throttles were advanced to maximum, however the aircraft continued to sink and it impacted the runway with its undercarriage in a partially retracted state three seconds later.
-
-The aircraft first impacted with the underside of its rear fuselage and skidded about 800 metres (2,600 ft) along runway 12L with its landing gear partly retracted as it rotated to the right about 120 degrees.[4] As the aircraft skidded down the runway, the number 2 (starboard) engine detached and slid along the wing's leading edge toward the wingtip.[4] Firefighting appliances were at the aircraft less than 90 seconds after it came to rest (which was 33 seconds after the initial impact) and started to fight fires at several locations as all 300 passengers and crew were safely evacuated.[4][18] Video from inside the aircraft, taken on passengers' cellphone cameras, showed the passengers failing to evacuate, instead giving priority to carry-on luggage, resulting in an overly long evacuation and heavy criticism.[19] Nine minutes after the aircraft came to a stop, with only the aircraft captain and the senior flight attendant still on board (checking for any remaining passengers), there was a large explosion. The explosion, of the aircraft's center fuel tank, resulted in the death of a firefighter, a Ras al-Khaimah resident named Jasim Issa Mohammed Hasan.[4][20] Twenty-four of the aircraft's occupants were injured – including the captain and the senior flight attendant, who evacuated after the explosion; the senior flight attendant was the only person among the passengers and crew seriously injured, suffering from smoke inhalation.[4][15] In addition, eight firefighters and a policeman were injured, several of the firefighters suffering from heat stroke.[4][21] The explosion resulted in the fire spreading to the aircraft's cabin; it took firefighters 16 hours to bring the fire under control.[4] The airport was closed during and following the accident, which resulted in many diverted flights.[22]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>39</wp:post_id>
-		<wp:post_date><![CDATA[2017-07-16 05:05:09]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-07-16 05:05:09]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[31-injured-in-dhading-bus-truck-collision]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="lifestyle"><![CDATA[Lifestyle]]></category>
-		<category domain="category" nicename="national"><![CDATA[National]]></category>
-		<category domain="category" nicename="politics"><![CDATA[Politics]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[263]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[enews_sidebar_location]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Six parties registered with EC</title>
-		<link>https://demo.themeegg.com/themes/eggnews/six-parties-registered-with-ec/</link>
-		<pubDate>Sun, 16 Jul 2017 05:06:35 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/enews/?p=41</guid>
-		<description></description>
-		<content:encoded><![CDATA[The Election Commission (EC) on Saturday registered six parties, including the Rastriya Janata Party-Nepal and Sajha Party. With the registration of six new parties, the total number of political forces registered with the EC has reached 130.
-
-The RJP-N had applied for party registration a week ago. The RJP-N earlier was protesting against the local level elections, saying its demands were yet to be addressed by the government.
-
-Party registration with the EC has now paved the way for the RJP-N to participate in the third phase of local polls scheduled for September 18 as well as two other rounds of elections to be held before January 21 next year.
-
-But with no constitution amendment in sight, it is not clear whether the RJP-N will participate in the second phase of local elections.
-
-Other parties that were registered on Saturday are Nepali Congress (BP), Dalit Muslim Janashakti Party, Nepal Shanti Kshetra Parishad, Shanghiya Khumbuwan Loktantrik Party.
-
-<a href="http://kathmandupost.ekantipur.com/news/2017-07-16/six-parties-registered-with-ec.html">Source : http://kathmandupost.ekantipur.com/news/2017-07-16/six-parties-registered-with-ec.html</a>]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>41</wp:post_id>
-		<wp:post_date><![CDATA[2017-07-16 05:06:35]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-07-16 05:06:35]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[six-parties-registered-with-ec]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="lifestyle"><![CDATA[Lifestyle]]></category>
-		<category domain="category" nicename="politics"><![CDATA[Politics]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_oembed_6699299c4a006f982dc2a88d485d7bb5]]></wp:meta_key>
-			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[254]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[enews_sidebar_location]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:comment>
-			<wp:comment_id>6</wp:comment_id>
-			<wp:comment_author><![CDATA[teste]]></wp:comment_author>
-			<wp:comment_author_email><![CDATA[teste@gmail.com]]></wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
-			<wp:comment_author_IP><![CDATA[131.72.246.9]]></wp:comment_author_IP>
-			<wp:comment_date><![CDATA[2017-10-23 10:42:12]]></wp:comment_date>
-			<wp:comment_date_gmt><![CDATA[2017-10-23 10:42:12]]></wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[teste]]></wp:comment_content>
-			<wp:comment_approved><![CDATA[0]]></wp:comment_approved>
-			<wp:comment_type><![CDATA[]]></wp:comment_type>
-			<wp:comment_parent>0</wp:comment_parent>
-			<wp:comment_user_id>0</wp:comment_user_id>
-		</wp:comment>
-	</item>
-	<item>
-		<title>Gharti Magar shines for Nepal</title>
-		<link>https://demo.themeegg.com/themes/eggnews/gharti-magar-shines-for-nepal/</link>
-		<pubDate>Sun, 16 Jul 2017 05:08:07 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/enews/?p=44</guid>
-		<description></description>
-		<content:encoded><![CDATA[Jul 12, 2017-
-
-Skipper Bimal Gharti Magar scored a lonely goal as hosts Nepal beat Bangladesh 1-0 during their Under-23 friendly football match at the Anfa Complex in Satdobato on Tuesday.
-
-For both the teams, the friendly was a final tune up ahead of their AFC U-23 Championship Qualifiers scheduled this month. While Nepal take on the hosts United Arab Emirates (UAE) on July 15, Uzbekistan on July 17 and Lebanon on July 19 in their Group ‘D’ Qualifiers, Bangladesh are up against hosts Palestine, Jordan and Tajikistan in Group ‘E’ on July 19-23.
-
-The Qualifiers send 10 group winners and five best runners-up to the finals to be held in China next year.
-
-Gharti Magar, who limped off at half an hour mark, made the difference in the 20th minute with a quick low drive at right bottom from zone. He controlled a cross from his senior national teammate Anjan Bista before firing home the winner. He picked up a “minor injury” moments later and was replaced by Biswas Shrestha in the 33rd minute. Gharti Magar shrugged off the injury terming it a minor one during the post match press conference. Nepal coach Raju Kaji Shakya said that only doctors can make a real assessment to the exact nature of the injury.  Nepal are scheduled to leave for the UAE on Thursday.
-
-“Considering that we tinkered with our formation, we played really well. It was the first time we played in 4-5-1 formation. There was a clear lack of coordination between defenders and midfielders,” said Shakya adding that they must come with much improved game in the Qualifiers to have any realistic chance in the UAE.
-
-Shakya left out defender Kamal Shrestha from the starting XI out of the 10 members of the senior national team which was at his disposal. Gharti Magar’s early exit due to injury also did not help the home team despite keeping Bangladeshi custodian Mohammed Nayeem busy throughout the game. His absence meant Nepal lost sharpness in attack.
-
-Bangladesh coach Andrew Ord believed that the only difference between the two sides was strikers. “We controlled the match but their strikers were effective than ours,” said Ord. Ord also saw flaws in Nepal’s midfield saying: “Nepal’s midfield was non-existent.” Ord was however full of praise for Gharti Magar.  “The No 10 (Gharti Magar) was excellent.”
-
-Gharti Magar also had a chance to double their tally in the 25th minute but was denied by goalie Nayeem. Bangladesh missed an opportunity to score an equaliser in the 38th minute. The visitors also came closer to scoring in the 64th but Nepal glovesman Alan Neupane dived full stretch to deny Hemonta Biswas’ low drive from the edge of the area. Nepal squandered a sitter in the dying moments of the game as Biswas Shrestha hit wide from point blank range following a Bivek Basnet cross.
-
-
-<a href="http://kathmandupost.ekantipur.com/news/2017-07-12/gharti-magar-shines-for-nepal.html">Source: http://kathmandupost.ekantipur.com/news/2017-07-12/gharti-magar-shines-for-nepal.html</a>]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>44</wp:post_id>
-		<wp:post_date><![CDATA[2017-07-16 05:08:07]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-07-16 05:08:07]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[gharti-magar-shines-for-nepal]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="post_tag" nicename="football"><![CDATA[football]]></category>
-		<category domain="category" nicename="games"><![CDATA[Games]]></category>
-		<category domain="category" nicename="national"><![CDATA[National]]></category>
-		<category domain="post_tag" nicename="national"><![CDATA[national]]></category>
-		<category domain="post_tag" nicename="news"><![CDATA[news]]></category>
-		<category domain="category" nicename="sports"><![CDATA[Sports]]></category>
-		<category domain="post_tag" nicename="sports"><![CDATA[sports]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_oembed_4273200ff8bee89038291c061e6b1b97]]></wp:meta_key>
-			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[266]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[enews_sidebar_location]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Sample Page</title>
-		<link>https://demo.themeegg.com/themes/eggnews/sample-page-2__trashed/</link>
-		<pubDate>Sun, 16 Jul 2017 04:09:48 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/enews/?page_id=2</guid>
-		<description></description>
-		<content:encoded><![CDATA[This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:
-
-<blockquote>Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin' caught in the rain.)</blockquote>
-
-...or something like this:
-
-<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>
-
-As a new WordPress user, you should go to <a href="https://demo.themeegg.com/themes/enews/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>84</wp:post_id>
-		<wp:post_date><![CDATA[2017-07-16 04:09:48]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-07-16 04:09:48]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[sample-page-2__trashed]]></wp:post_name>
-		<wp:status><![CDATA[trash]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1508943154]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
-			<wp:meta_value><![CDATA[sample-page-2]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Blog Page</title>
-		<link>https://demo.themeegg.com/themes/eggnews/blog-page/</link>
-		<pubDate>Sun, 16 Jul 2017 04:11:08 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/enews/?page_id=6</guid>
-		<description></description>
-		<content:encoded><![CDATA[<div>
-<h2>What is Lorem Ipsum?</h2>
-<strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-</div>
-<div>
-<h2>Why do we use it?</h2>
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-</div>
-&nbsp;
-<div>
-<h2>Where does it come from?</h2>
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-
-</div>
-<div>
-<h2>Where can I get some?</h2>
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-
-</div>]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>87</wp:post_id>
-		<wp:post_date><![CDATA[2017-07-16 04:11:08]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-07-16 04:11:08]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[blog-page]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>New Post</title>
-		<link>https://demo.themeegg.com/themes/eggnews/new-post/</link>
-		<pubDate>Sun, 16 Jul 2017 04:18:46 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/enews/?p=21</guid>
-		<description></description>
-		<content:encoded><![CDATA[<div>
-<h2>What is Lorem Ipsum?</h2>
-<strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-</div>
-<div>
-<h2>Why do we use it?</h2>
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-</div>
-&nbsp;
-<div>
-<h2>Where does it come from?</h2>
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of “de Finibus Bonorum et Malorum” (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, “Lorem ipsum dolor sit amet..”, comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from “de Finibus Bonorum et Malorum” by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-
-</div>
-<div>
-<h2>Where can I get some?</h2>
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-
-</div>]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>89</wp:post_id>
-		<wp:post_date><![CDATA[2017-07-16 04:18:46]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-07-16 04:18:46]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[new-post]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="lifestyle"><![CDATA[Lifestyle]]></category>
-		<category domain="category" nicename="man"><![CDATA[man]]></category>
-		<category domain="category" nicename="politics"><![CDATA[Politics]]></category>
-		<category domain="category" nicename="sports"><![CDATA[Sports]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[enews_sidebar_location]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[37]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>American Life Style</title>
-		<link>https://demo.themeegg.com/themes/eggnews/new-begining-of-life/</link>
-		<pubDate>Sun, 16 Jul 2017 05:01:22 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/enews/?p=32</guid>
-		<description></description>
-		<content:encoded><![CDATA[The American way of life or simply the American way is the unique lifestyle of the people of the United States of America. It refers to a nationalist ethos that adheres to the principle of life, liberty and the pursuit of happiness. At the center of the American way is the American Dream that upward mobility is achievable by any American through hard work. This concept is intertwined with the concept of American exceptionalism, the belief in the unique culture of the nation.
-
-Author William Herberg offers the following definition:[1]
-1937 Louisville, Kentucky. Margaret Bourke-White.[2] There's no way like the American Way
-
-    The American Way of life is individualistic, dynamic, and pragmatic. It affirms the supreme value and dignity of the individual; it stresses incessant activity on his part, for he is never to rest but is always to be striving to "get ahead"; it defines an ethic of self-reliance, merit, and character, and judges by achievement: "deeds, not creeds" are what count. The "American Way of Life" is humanitarian, "forward-looking", optimistic. Americans are easily the most generous and philanthropic people in the world, in terms of their ready and unstinting response to suffering anywhere on the globe. The American believes in progress, in self-improvement, and quite fanatically in education. But above all, the American is idealistic. Americans cannot go on making money or achieving worldly success simply on its own merits; such "materialistic" things must, in the American mind, be justified in "higher" terms, in terms of "service" or "stewardship" or "general welfare"... And because they are so idealistic, Americans tend to be moralistic; they are inclined to see all issues as plain and simple, black and white, issues of morality.
-    — William Herberg, Protestant, Catholic, Jew: an Essay in American religious sociology
-
-Further information: individualism, dignity, humanitarianism, philanthropism, self-improvement, economic materialism, general welfare, moralism, and black and white thinking
-
-One commentator notes, "The first half of Herberg's statement still holds true nearly half a century after he first formulated it", even though "Herberg's latter claims have been severely if not completely undermined... materialism no longer needs to be justified in high-sounding terms".[3]
-
-In the National Archives and Records Administration's 1999 Annual Report, National Archivist John W. Carlin writes, "We are different because our government and our way of life are not based on the divine right of kings, the hereditary privileges of elites, or the enforcement of deference to dictators. They are based on pieces of paper, the Charters of Freedom - the Declaration that asserted our independence, the Constitution that created our government, and the Bill of Rights that established our liberties."[4]]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>90</wp:post_id>
-		<wp:post_date><![CDATA[2017-07-16 05:01:22]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-07-16 05:01:22]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[new-begining-of-life]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="lifestyle"><![CDATA[Lifestyle]]></category>
-		<category domain="category" nicename="national"><![CDATA[National]]></category>
-		<category domain="category" nicename="politics"><![CDATA[Politics]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[enews_sidebar_location]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[260]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Truck crashed into the back of another truck</title>
-		<link>https://demo.themeegg.com/themes/eggnews/31-injured-in-dhading-bus-truck-collision/</link>
-		<pubDate>Sun, 16 Jul 2017 05:04:22 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/enews/?page_id=36</guid>
-		<description></description>
-		<content:encoded><![CDATA[According to a top police official, a pick-up truck crashed into the back of another truck on the Emirates Road.
-
-Four people were killed and three others sustained serious injuries in a traffic accident that involved three trucks, the Dubai Police said on Thursday.
-
-According to a top police official, a pick-up truck crashed into the back of another truck on the Emirates Road. "The driver of the pick-up truck failed to leave enough distance between his vehicle and the truck ahead of him, causing him to crash into it," Brigadier Saif Muhair Al Mazroui, director of the general department of traffic, said.
-
-Brigadier Saeed Ahmed, director of the Rashidya police station, said such was the impact of the accident that the truck crashed into another truck ahead of him. The accident was reported at 4pm.
-
-The pick-up truck driver and three others in his vehicle were killed in the accident. Three people in the other trucks sustained serious injuries. They had to be airlifted to the Rashid Hospital. They are recuperating, but are in a critical state.
-
-The official urged motorists to leave enough space between vehicles to avoid accidents.
-
-The Dubai Police had earlier told Khaleej Times that failure to leave enough space between vehicles caused the maximum number of accidents in the first nine months of the current year. Twenty-five people were killed in 446 accidents caused by this violation.
-
-amira@khaleejtimes.com  ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>91</wp:post_id>
-		<wp:post_date><![CDATA[2017-07-16 05:04:22]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-07-16 05:04:22]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[31-injured-in-dhading-bus-truck-collision]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[257]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[enews_sidebar_location]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Contact us</title>
-		<link>https://demo.themeegg.com/themes/eggnews/contact-us/</link>
-		<pubDate>Sat, 02 Sep 2017 17:01:15 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?page_id=121</guid>
-		<description></description>
-		<content:encoded><![CDATA[[contact-form-7 id="123" title="Contact form 1"]]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>121</wp:post_id>
-		<wp:post_date><![CDATA[2017-09-02 17:01:15]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-09-02 17:01:15]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[contact-us]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -4989,6 +4558,840 @@ amira@khaleejtimes.com  ]]></content:encoded>
 		</wp:postmeta>
 	</item>
 	<item>
+		<title>About us</title>
+		<link>https://demo.themeegg.com/themes/eggnews/300/</link>
+		<pubDate>Thu, 23 Nov 2017 11:49:40 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/?p=300</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>300</wp:post_id>
+		<wp:post_date><![CDATA[2017-11-23 11:49:40]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-11-23 11:49:40]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[300]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>8</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="home-page-top-menu"><![CDATA[Home page top Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[13]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>https://demo.themeegg.com/themes/eggnews/304/</link>
+		<pubDate>Thu, 23 Nov 2017 11:49:40 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/?p=304</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>304</wp:post_id>
+		<wp:post_date><![CDATA[2017-11-23 11:49:40]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-11-23 11:49:40]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[304]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="home-page-top-menu"><![CDATA[Home page top Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[7]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>https://demo.themeegg.com/themes/eggnews/306/</link>
+		<pubDate>Thu, 23 Nov 2017 11:49:40 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/?p=306</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>306</wp:post_id>
+		<wp:post_date><![CDATA[2017-11-23 11:49:40]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-11-23 11:49:40]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[306]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="home-page-top-menu"><![CDATA[Home page top Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[taxonomy]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[6]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[category]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>https://demo.themeegg.com/themes/eggnews/307/</link>
+		<pubDate>Thu, 23 Nov 2017 11:49:40 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/?p=307</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>307</wp:post_id>
+		<wp:post_date><![CDATA[2017-11-23 11:49:40]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-11-23 11:49:40]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[307]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>5</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="home-page-top-menu"><![CDATA[Home page top Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[taxonomy]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[9]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[category]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>https://demo.themeegg.com/themes/eggnews/328/</link>
+		<pubDate>Fri, 01 Dec 2017 13:57:19 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/?p=328</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>328</wp:post_id>
+		<wp:post_date><![CDATA[2017-12-01 13:57:19]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-12-01 13:57:19]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[328]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="home-page-top-menu"><![CDATA[Home page top Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[category]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[10]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[taxonomy]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>https://demo.themeegg.com/themes/eggnews/331/</link>
+		<pubDate>Fri, 01 Dec 2017 13:58:00 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/?p=331</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>331</wp:post_id>
+		<wp:post_date><![CDATA[2017-12-01 13:58:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-12-01 13:58:00]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[331]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>9</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="home-page-top-menu"><![CDATA[Home page top Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[121]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>https://demo.themeegg.com/themes/eggnews/334/</link>
+		<pubDate>Fri, 01 Dec 2017 14:03:43 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/?p=334</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>334</wp:post_id>
+		<wp:post_date><![CDATA[2017-12-01 14:03:43]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-12-01 14:03:43]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[334]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="home-page-top-menu"><![CDATA[Home page top Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[taxonomy]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[11]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[category]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>https://demo.themeegg.com/themes/eggnews/336/</link>
+		<pubDate>Fri, 01 Dec 2017 14:03:43 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/?p=336</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>336</wp:post_id>
+		<wp:post_date><![CDATA[2017-12-01 14:03:43]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-12-01 14:03:43]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[336]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>6</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="home-page-top-menu"><![CDATA[Home page top Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[taxonomy]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[5]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[category]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>https://demo.themeegg.com/themes/eggnews/337/</link>
+		<pubDate>Fri, 01 Dec 2017 14:03:43 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/?p=337</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>337</wp:post_id>
+		<wp:post_date><![CDATA[2017-12-01 14:03:43]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-12-01 14:03:43]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[337]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>7</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="home-page-top-menu"><![CDATA[Home page top Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[taxonomy]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[8]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[category]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Home</title>
+		<link>https://demo.themeegg.com/themes/eggnews/</link>
+		<pubDate>Mon, 17 Jul 2017 13:21:39 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?page_id=7</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>7</wp:post_id>
+		<wp:post_date><![CDATA[2017-07-17 13:21:39]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-07-17 13:21:39]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[templates/magazine-template.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Blog</title>
+		<link>https://demo.themeegg.com/themes/eggnews/blog/</link>
+		<pubDate>Mon, 17 Jul 2017 13:21:55 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?page_id=9</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9</wp:post_id>
+		<wp:post_date><![CDATA[2017-07-17 13:21:55]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-07-17 13:21:55]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[blog]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Gallery</title>
+		<link>https://demo.themeegg.com/themes/eggnews/gallery/</link>
+		<pubDate>Mon, 17 Jul 2017 13:22:03 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?page_id=11</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>11</wp:post_id>
+		<wp:post_date><![CDATA[2017-07-17 13:22:03]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-07-17 13:22:03]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[gallery]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>About</title>
+		<link>https://demo.themeegg.com/themes/eggnews/about/</link>
+		<pubDate>Mon, 17 Jul 2017 13:24:04 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?page_id=13</guid>
+		<description></description>
+		<content:encoded><![CDATA[Eggnews is a responsive newsportal style Free WordPress theme. This theme is mainly applicable for online magazines, newspaper, publishing, personal blogs and any kind of news sites. It’s customizable theme. If any support needed then hit the url <a href="htp://themeegg.com/support-forum">htp://themeegg.com/support-forum </a>please check the demo on <a href="https://demo.themeegg.com/themes/eggnews">https://demo.themeegg.com/themes/eggnews</a>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>13</wp:post_id>
+		<wp:post_date><![CDATA[2017-07-17 13:24:04]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-07-17 13:24:04]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[about]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Flight accident in Dubai</title>
+		<link>https://demo.themeegg.com/themes/eggnews/31-injured-in-dhading-bus-truck-collision/</link>
+		<pubDate>Sun, 16 Jul 2017 05:05:09 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/enews/?p=39</guid>
+		<description></description>
+		<content:encoded><![CDATA[Emirates Flight 521 is a scheduled international passenger flight from Thiruvananthapuram, India, to Dubai, United Arab Emirates,[5] operated by Emirates using a Boeing 777-300.[6] On 3 August 2016, the aircraft carrying 282 passengers[7] and 18 crew[8] crashed while landing at Dubai International Airport, at approximately 12:45 local time.[9][10]
+
+All 300 people on board survived the accident and were evacuated from the aircraft; 24 were injured.[4] An airport firefighter died during the rescue operation and another eight were injured.[4][3] This accident was the first hull loss of an aircraft operated by Emirates.[11]
+
+Contents
+
+    1 Aircraft
+    2 Flight
+    3 Passengers and crew
+    4 Investigation
+    5 Aftermath
+    6 Notes
+    7 References
+    8 External links
+
+Aircraft
+
+The aircraft involved was a Boeing 777-31H[note 1] with the registration A6-EMW, serial number 32700, and line number 434. It was equipped with two Rolls-Royce Trent 892 engines and was thirteen years old, having made its first flight on 7 March 2003.[12] It was delivered new to Emirates on 28 March 2003, and had since logged 58169 flight hours in 13620 cycles.[13]
+Flight
+
+On 3 August 2016, Flight EK521 took off from Trivandrum International Airport (TRV) at 10:34 IST (05:04 UTC), 29 minutes after its scheduled departure time. It was scheduled to land at Dubai International Airport (DXB) at 12:24 GST (08:24 UTC).[14]
+
+The approach and landing were normal from the air traffic control (ATC) point of view, with no emergency declared according to ATC recordings at the time.[15][16] The crew reported that they were going around, after which the tower instructed them to climb to 4,000 feet, which was acknowledged by the crew. Shortly after, the tower instructed the next flight to go around and alerted emergency services.[15] Wind shear and an ambient temperature of 48 °C (118 °F) were reported.[12]
+
+The accident occurred at 12:37 Gulf Standard Time (08:37 UTC). According to the Preliminary Accident Report,[4] significant wind shear was impacting on the aircraft's airspeed through late final approach, and the aircraft touched down onto the 4,000 metres (13,000 ft) long runway 12L at a point approximately 1,100 metres (3,600 ft) beyond the upwind threshold, at a speed of 162 kts. Two seconds later, the cockpit RAAS issued a "LONG LANDING" [note 2][17] warning and the crew initiated a go-around. Six seconds after main-wheel touchdown, and with the nose-wheel still off the runway, the aircraft became airborne again after rotating to climb attitude. Four seconds later the flap setting was reduced to 20°, followed by the undercarriage being selected to retract. Engine throttle settings appear to have remained unchanged during this period. The aircraft attained a maximum height above the runway of 85′ with its indicated airspeed decreasing, before commencing to settle back towards the ground. Twelve seconds after becoming airborne the throttles were advanced to maximum, however the aircraft continued to sink and it impacted the runway with its undercarriage in a partially retracted state three seconds later.
+
+The aircraft first impacted with the underside of its rear fuselage and skidded about 800 metres (2,600 ft) along runway 12L with its landing gear partly retracted as it rotated to the right about 120 degrees.[4] As the aircraft skidded down the runway, the number 2 (starboard) engine detached and slid along the wing's leading edge toward the wingtip.[4] Firefighting appliances were at the aircraft less than 90 seconds after it came to rest (which was 33 seconds after the initial impact) and started to fight fires at several locations as all 300 passengers and crew were safely evacuated.[4][18] Video from inside the aircraft, taken on passengers' cellphone cameras, showed the passengers failing to evacuate, instead giving priority to carry-on luggage, resulting in an overly long evacuation and heavy criticism.[19] Nine minutes after the aircraft came to a stop, with only the aircraft captain and the senior flight attendant still on board (checking for any remaining passengers), there was a large explosion. The explosion, of the aircraft's center fuel tank, resulted in the death of a firefighter, a Ras al-Khaimah resident named Jasim Issa Mohammed Hasan.[4][20] Twenty-four of the aircraft's occupants were injured – including the captain and the senior flight attendant, who evacuated after the explosion; the senior flight attendant was the only person among the passengers and crew seriously injured, suffering from smoke inhalation.[4][15] In addition, eight firefighters and a policeman were injured, several of the firefighters suffering from heat stroke.[4][21] The explosion resulted in the fire spreading to the aircraft's cabin; it took firefighters 16 hours to bring the fire under control.[4] The airport was closed during and following the accident, which resulted in many diverted flights.[22]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>39</wp:post_id>
+		<wp:post_date><![CDATA[2017-07-16 05:05:09]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-07-16 05:05:09]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[31-injured-in-dhading-bus-truck-collision]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="lifestyle"><![CDATA[Lifestyle]]></category>
+		<category domain="category" nicename="national"><![CDATA[National]]></category>
+		<category domain="category" nicename="politics"><![CDATA[Politics]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[263]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[enews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Six parties registered with EC</title>
+		<link>https://demo.themeegg.com/themes/eggnews/six-parties-registered-with-ec/</link>
+		<pubDate>Sun, 16 Jul 2017 05:06:35 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/enews/?p=41</guid>
+		<description></description>
+		<content:encoded><![CDATA[The Election Commission (EC) on Saturday registered six parties, including the Rastriya Janata Party-Nepal and Sajha Party. With the registration of six new parties, the total number of political forces registered with the EC has reached 130.
+
+The RJP-N had applied for party registration a week ago. The RJP-N earlier was protesting against the local level elections, saying its demands were yet to be addressed by the government.
+
+Party registration with the EC has now paved the way for the RJP-N to participate in the third phase of local polls scheduled for September 18 as well as two other rounds of elections to be held before January 21 next year.
+
+But with no constitution amendment in sight, it is not clear whether the RJP-N will participate in the second phase of local elections.
+
+Other parties that were registered on Saturday are Nepali Congress (BP), Dalit Muslim Janashakti Party, Nepal Shanti Kshetra Parishad, Shanghiya Khumbuwan Loktantrik Party.
+
+<a href="http://kathmandupost.ekantipur.com/news/2017-07-16/six-parties-registered-with-ec.html">Source : http://kathmandupost.ekantipur.com/news/2017-07-16/six-parties-registered-with-ec.html</a>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>41</wp:post_id>
+		<wp:post_date><![CDATA[2017-07-16 05:06:35]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-07-16 05:06:35]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[six-parties-registered-with-ec]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="lifestyle"><![CDATA[Lifestyle]]></category>
+		<category domain="category" nicename="politics"><![CDATA[Politics]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_oembed_6699299c4a006f982dc2a88d485d7bb5]]></wp:meta_key>
+			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[254]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[enews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:comment>
+			<wp:comment_id>6</wp:comment_id>
+			<wp:comment_author><![CDATA[teste]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[teste@gmail.com]]></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[131.72.246.9]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2017-10-23 10:42:12]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2017-10-23 10:42:12]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[teste]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[0]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+		</wp:comment>
+	</item>
+	<item>
+		<title>Gharti Magar shines for Nepal</title>
+		<link>https://demo.themeegg.com/themes/eggnews/gharti-magar-shines-for-nepal/</link>
+		<pubDate>Sun, 16 Jul 2017 05:08:07 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/enews/?p=44</guid>
+		<description></description>
+		<content:encoded><![CDATA[Jul 12, 2017-
+
+Skipper Bimal Gharti Magar scored a lonely goal as hosts Nepal beat Bangladesh 1-0 during their Under-23 friendly football match at the Anfa Complex in Satdobato on Tuesday.
+
+For both the teams, the friendly was a final tune up ahead of their AFC U-23 Championship Qualifiers scheduled this month. While Nepal take on the hosts United Arab Emirates (UAE) on July 15, Uzbekistan on July 17 and Lebanon on July 19 in their Group ‘D’ Qualifiers, Bangladesh are up against hosts Palestine, Jordan and Tajikistan in Group ‘E’ on July 19-23.
+
+The Qualifiers send 10 group winners and five best runners-up to the finals to be held in China next year.
+
+Gharti Magar, who limped off at half an hour mark, made the difference in the 20th minute with a quick low drive at right bottom from zone. He controlled a cross from his senior national teammate Anjan Bista before firing home the winner. He picked up a “minor injury” moments later and was replaced by Biswas Shrestha in the 33rd minute. Gharti Magar shrugged off the injury terming it a minor one during the post match press conference. Nepal coach Raju Kaji Shakya said that only doctors can make a real assessment to the exact nature of the injury.  Nepal are scheduled to leave for the UAE on Thursday.
+
+“Considering that we tinkered with our formation, we played really well. It was the first time we played in 4-5-1 formation. There was a clear lack of coordination between defenders and midfielders,” said Shakya adding that they must come with much improved game in the Qualifiers to have any realistic chance in the UAE.
+
+Shakya left out defender Kamal Shrestha from the starting XI out of the 10 members of the senior national team which was at his disposal. Gharti Magar’s early exit due to injury also did not help the home team despite keeping Bangladeshi custodian Mohammed Nayeem busy throughout the game. His absence meant Nepal lost sharpness in attack.
+
+Bangladesh coach Andrew Ord believed that the only difference between the two sides was strikers. “We controlled the match but their strikers were effective than ours,” said Ord. Ord also saw flaws in Nepal’s midfield saying: “Nepal’s midfield was non-existent.” Ord was however full of praise for Gharti Magar.  “The No 10 (Gharti Magar) was excellent.”
+
+Gharti Magar also had a chance to double their tally in the 25th minute but was denied by goalie Nayeem. Bangladesh missed an opportunity to score an equaliser in the 38th minute. The visitors also came closer to scoring in the 64th but Nepal glovesman Alan Neupane dived full stretch to deny Hemonta Biswas’ low drive from the edge of the area. Nepal squandered a sitter in the dying moments of the game as Biswas Shrestha hit wide from point blank range following a Bivek Basnet cross.
+
+
+<a href="http://kathmandupost.ekantipur.com/news/2017-07-12/gharti-magar-shines-for-nepal.html">Source: http://kathmandupost.ekantipur.com/news/2017-07-12/gharti-magar-shines-for-nepal.html</a>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>44</wp:post_id>
+		<wp:post_date><![CDATA[2017-07-16 05:08:07]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-07-16 05:08:07]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[gharti-magar-shines-for-nepal]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="football"><![CDATA[football]]></category>
+		<category domain="category" nicename="games"><![CDATA[Games]]></category>
+		<category domain="category" nicename="national"><![CDATA[National]]></category>
+		<category domain="post_tag" nicename="national"><![CDATA[national]]></category>
+		<category domain="post_tag" nicename="news"><![CDATA[news]]></category>
+		<category domain="category" nicename="sports"><![CDATA[Sports]]></category>
+		<category domain="post_tag" nicename="sports"><![CDATA[sports]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_oembed_4273200ff8bee89038291c061e6b1b97]]></wp:meta_key>
+			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[266]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[enews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 		<title>DPM rejects retaining 240 constituencies</title>
 		<link>https://demo.themeegg.com/themes/eggnews/dpm-rejects-retaining-240-constituencies/</link>
 		<pubDate>Sun, 16 Jul 2017 05:09:52 +0000</pubDate>
@@ -5093,7 +5496,7 @@ Although not mandatory to be signed to a Modeling Agency in order to become a mo
 Modeling Agency Directory – A list of Modeling Agencies, by state
 Do you have any suggestions for topics you would like to see? Any questions you have specifically that you would love a professional model’s advice on?? Let us know in the comments section! We LOVE to hear from you!
 
-One more thing to note- if you enjoyed or benefitted from these articles (or know someone else who will), please like and share! We want ModelMentors to be the gift that keeps on giving 🙂 Thank you!]]></content:encoded>
+One more thing to note- if you enjoyed or benefitted from these articles (or know someone else who will), please like and share! We want ModelMentors to be the gift that keeps on giving ? Thank you!]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>50</wp:post_id>
 		<wp:post_date><![CDATA[2017-07-16 05:11:59]]></wp:post_date>
@@ -5301,6 +5704,7 @@ The chilling video was released as cops revealed the painstaking work they are d
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="natural"><![CDATA[Natural]]></category>
 		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
@@ -5407,120 +5811,164 @@ Powerful lobbyists are fighting to protect favored deductions, while a few well-
 		</wp:comment>
 	</item>
 	<item>
-		<title>Contact form 1</title>
-		<link>https://demo.themeegg.com/themes/eggnews/?post_type=wpcf7_contact_form&#038;p=123</link>
-		<pubDate>Sat, 02 Sep 2017 17:00:51 +0000</pubDate>
+		<title>New Post</title>
+		<link>https://demo.themeegg.com/themes/eggnews/new-post/</link>
+		<pubDate>Sun, 16 Jul 2017 04:18:46 +0000</pubDate>
 		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?post_type=wpcf7_contact_form&#038;p=123</guid>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/enews/?p=21</guid>
 		<description></description>
-		<content:encoded><![CDATA[<label> Your Name (required)
-    [text* your-name] </label>
+		<content:encoded><![CDATA[<div>
+<h2>What is Lorem Ipsum?</h2>
+<strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-<label> Your Email (required)
-    [email* your-email] </label>
+</div>
+<div>
+<h2>Why do we use it?</h2>
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
 
-<label> Subject
-    [text your-subject] </label>
+</div>
+&nbsp;
+<div>
+<h2>Where does it come from?</h2>
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of “de Finibus Bonorum et Malorum” (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, “Lorem ipsum dolor sit amet..”, comes from a line in section 1.10.32.
 
-<label> Your Message
-    [textarea your-message] </label>
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from “de Finibus Bonorum et Malorum” by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
 
-[submit "Send"]
-Eggnews "[your-subject]"
-[your-name] <wordpress@demo.themeegg.com>
-From: [your-name] <[your-email]>
-Subject: [your-subject]
+</div>
+<div>
+<h2>Where can I get some?</h2>
+There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
 
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Eggnews (https://demo.themeegg.com/themes/eggnews)
-themeeggofficial@gmail.com
-Reply-To: [your-email]
-
-0
-0
-
-Eggnews "[your-subject]"
-Eggnews <wordpress@demo.themeegg.com>
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Eggnews (https://demo.themeegg.com/themes/eggnews)
-[your-email]
-Reply-To: themeeggofficial@gmail.com
-
-0
-0
-Thank you for your message. It has been sent.
-There was an error trying to send your message. Please try again later.
-One or more fields have an error. Please check and try again.
-There was an error trying to send your message. Please try again later.
-You must accept the terms and conditions before sending your message.
-The field is required.
-The field is too long.
-The field is too short.]]></content:encoded>
+</div>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>123</wp:post_id>
-		<wp:post_date><![CDATA[2017-09-02 17:00:51]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-09-02 17:00:51]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[contact-form-1]]></wp:post_name>
+		<wp:post_id>89</wp:post_id>
+		<wp:post_date><![CDATA[2017-07-16 04:18:46]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-07-16 04:18:46]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[new-post]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="lifestyle"><![CDATA[Lifestyle]]></category>
+		<category domain="category" nicename="man"><![CDATA[man]]></category>
+		<category domain="category" nicename="politics"><![CDATA[Politics]]></category>
+		<category domain="category" nicename="sports"><![CDATA[Sports]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[enews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[37]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>American Life Style</title>
+		<link>https://demo.themeegg.com/themes/eggnews/new-begining-of-life/</link>
+		<pubDate>Sun, 16 Jul 2017 05:01:22 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/enews/?p=32</guid>
+		<description></description>
+		<content:encoded><![CDATA[The American way of life or simply the American way is the unique lifestyle of the people of the United States of America. It refers to a nationalist ethos that adheres to the principle of life, liberty and the pursuit of happiness. At the center of the American way is the American Dream that upward mobility is achievable by any American through hard work. This concept is intertwined with the concept of American exceptionalism, the belief in the unique culture of the nation.
+
+Author William Herberg offers the following definition:[1]
+1937 Louisville, Kentucky. Margaret Bourke-White.[2] There's no way like the American Way
+
+    The American Way of life is individualistic, dynamic, and pragmatic. It affirms the supreme value and dignity of the individual; it stresses incessant activity on his part, for he is never to rest but is always to be striving to "get ahead"; it defines an ethic of self-reliance, merit, and character, and judges by achievement: "deeds, not creeds" are what count. The "American Way of Life" is humanitarian, "forward-looking", optimistic. Americans are easily the most generous and philanthropic people in the world, in terms of their ready and unstinting response to suffering anywhere on the globe. The American believes in progress, in self-improvement, and quite fanatically in education. But above all, the American is idealistic. Americans cannot go on making money or achieving worldly success simply on its own merits; such "materialistic" things must, in the American mind, be justified in "higher" terms, in terms of "service" or "stewardship" or "general welfare"... And because they are so idealistic, Americans tend to be moralistic; they are inclined to see all issues as plain and simple, black and white, issues of morality.
+    — William Herberg, Protestant, Catholic, Jew: an Essay in American religious sociology
+
+Further information: individualism, dignity, humanitarianism, philanthropism, self-improvement, economic materialism, general welfare, moralism, and black and white thinking
+
+One commentator notes, "The first half of Herberg's statement still holds true nearly half a century after he first formulated it", even though "Herberg's latter claims have been severely if not completely undermined... materialism no longer needs to be justified in high-sounding terms".[3]
+
+In the National Archives and Records Administration's 1999 Annual Report, National Archivist John W. Carlin writes, "We are different because our government and our way of life are not based on the divine right of kings, the hereditary privileges of elites, or the enforcement of deference to dictators. They are based on pieces of paper, the Charters of Freedom - the Declaration that asserted our independence, the Constitution that created our government, and the Bill of Rights that established our liberties."[4]]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>90</wp:post_id>
+		<wp:post_date><![CDATA[2017-07-16 05:01:22]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-07-16 05:01:22]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[new-begining-of-life]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="lifestyle"><![CDATA[Lifestyle]]></category>
+		<category domain="category" nicename="national"><![CDATA[National]]></category>
+		<category domain="category" nicename="politics"><![CDATA[Politics]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[enews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[260]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:comment>
+			<wp:comment_id>10</wp:comment_id>
+			<wp:comment_author><![CDATA[free chat sex]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[LardFann835@yahoomail.com]]></wp:comment_author_email>
+			<wp:comment_author_url>http://www.redzonecams.16mb.com</wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[117.141.18.70]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2017-11-26 02:16:50]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2017-11-26 02:16:50]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[I do not even understand how I ended up here, however I believed this post used to be good. I don't know who you are however definitely you are going to a well-known blogger for those who aren't already. Cheers!]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[0]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+		</wp:comment>
+	</item>
+	<item>
+		<title>Contact us</title>
+		<link>https://demo.themeegg.com/themes/eggnews/contact-us/</link>
+		<pubDate>Sat, 02 Sep 2017 17:01:15 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?page_id=121</guid>
+		<description></description>
+		<content:encoded><![CDATA[[contact-form-7 id="123" title="Contact form 1"]]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>121</wp:post_id>
+		<wp:post_date><![CDATA[2017-09-02 17:01:15]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-09-02 17:01:15]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[contact-us]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:8:{s:7:"subject";s:24:"Eggnews "[your-subject]"";s:6:"sender";s:41:"[your-name] <wordpress@demo.themeegg.com>";s:4:"body";s:186:"From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Eggnews (https://demo.themeegg.com/themes/eggnews)";s:9:"recipient";s:26:"themeeggofficial@gmail.com";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";i:0;s:13:"exclude_blank";i:0;}]]></wp:meta_value>
+			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-			<wp:meta_value><![CDATA[<label> Your Name (required)
-    [text* your-name] </label>
-
-<label> Your Email (required)
-    [email* your-email] </label>
-
-<label> Subject
-    [text your-subject] </label>
-
-<label> Your Message
-    [textarea your-message] </label>
-
-[submit "Send"]]]></wp:meta_value>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:24:"Eggnews "[your-subject]"";s:6:"sender";s:37:"Eggnews <wordpress@demo.themeegg.com>";s:4:"body";s:128:"Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Eggnews (https://demo.themeegg.com/themes/eggnews)";s:9:"recipient";s:12:"[your-email]";s:18:"additional_headers";s:36:"Reply-To: themeeggofficial@gmail.com";s:11:"attachments";s:0:"";s:8:"use_html";i:0;s:13:"exclude_blank";i:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:8:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
-			<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -5960,6 +6408,161 @@ The shell guard to stave off Komura’s feeble right straights ensured that the 
 		</wp:postmeta>
 	</item>
 	<item>
+		<title>Home</title>
+		<link>https://demo.themeegg.com/themes/eggnews/__trashed/</link>
+		<pubDate>Sat, 25 Nov 2017 02:30:39 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/?page_id=310</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>310</wp:post_id>
+		<wp:post_date><![CDATA[2017-11-25 02:30:39]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-11-25 02:30:39]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[__trashed]]></wp:post_name>
+		<wp:status><![CDATA[trash]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[draft]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1511577039]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Contact form 1</title>
+		<link>https://demo.themeegg.com/themes/eggnews/?post_type=wpcf7_contact_form&#038;p=123</link>
+		<pubDate>Sat, 02 Sep 2017 17:00:51 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?post_type=wpcf7_contact_form&#038;p=123</guid>
+		<description></description>
+		<content:encoded><![CDATA[<label> Your Name (required)
+    [text* your-name] </label>
+
+<label> Your Email (required)
+    [email* your-email] </label>
+
+<label> Subject
+    [text your-subject] </label>
+
+<label> Your Message
+    [textarea your-message] </label>
+
+[submit "Send"]
+Eggnews "[your-subject]"
+[your-name] <wordpress@demo.themeegg.com>
+From: [your-name] <[your-email]>
+Subject: [your-subject]
+
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Eggnews (https://demo.themeegg.com/themes/eggnews)
+themeeggofficial@gmail.com
+Reply-To: [your-email]
+
+0
+0
+
+Eggnews "[your-subject]"
+Eggnews <wordpress@demo.themeegg.com>
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Eggnews (https://demo.themeegg.com/themes/eggnews)
+[your-email]
+Reply-To: themeeggofficial@gmail.com
+
+0
+0
+Thank you for your message. It has been sent.
+There was an error trying to send your message. Please try again later.
+One or more fields have an error. Please check and try again.
+There was an error trying to send your message. Please try again later.
+You must accept the terms and conditions before sending your message.
+The field is required.
+The field is too long.
+The field is too short.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>123</wp:post_id>
+		<wp:post_date><![CDATA[2017-09-02 17:00:51]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-09-02 17:00:51]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[contact-form-1]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:8:{s:7:"subject";s:24:"Eggnews "[your-subject]"";s:6:"sender";s:41:"[your-name] <wordpress@demo.themeegg.com>";s:4:"body";s:186:"From: [your-name] <[your-email]>
+Subject: [your-subject]
+
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Eggnews (https://demo.themeegg.com/themes/eggnews)";s:9:"recipient";s:26:"themeeggofficial@gmail.com";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";i:0;s:13:"exclude_blank";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_form]]></wp:meta_key>
+			<wp:meta_value><![CDATA[<label> Your Name (required)
+    [text* your-name] </label>
+
+<label> Your Email (required)
+    [email* your-email] </label>
+
+<label> Subject
+    [text your-subject] </label>
+
+<label> Your Message
+    [textarea your-message] </label>
+
+[submit "Send"]]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:24:"Eggnews "[your-subject]"";s:6:"sender";s:37:"Eggnews <wordpress@demo.themeegg.com>";s:4:"body";s:128:"Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Eggnews (https://demo.themeegg.com/themes/eggnews)";s:9:"recipient";s:12:"[your-email]";s:18:"additional_headers";s:36:"Reply-To: themeeggofficial@gmail.com";s:11:"attachments";s:0:"";s:8:"use_html";i:0;s:13:"exclude_blank";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:8:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 		<title>Goan football’s slow death due to lure</title>
 		<link>https://demo.themeegg.com/themes/eggnews/goan-footballs-slow-death-due-to-lure/</link>
 		<pubDate>Tue, 07 Nov 2017 11:08:54 +0000</pubDate>
@@ -6079,6 +6682,22 @@ Why not? It's not like most of these guys are doing anything worthwhile on their
 			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
 			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:comment>
+			<wp:comment_id>11</wp:comment_id>
+			<wp:comment_author><![CDATA[FirstMauricio]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[franktimmer@gmail.com]]></wp:comment_author_email>
+			<wp:comment_author_url>https://11Duane.blogspot.co.uk</wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[178.33.4.48]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2017-11-30 19:29:32]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2017-11-30 19:29:32]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[I see you don't monetize your page, don't waste your traffic, you can earn extra cash every month 
+because you've got hi quality content. If you want to know how to make extra $$$, search for:
+Boorfe's tips best adsense alternative]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[0]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+		</wp:comment>
 	</item>
 	<item>
 		<title>Ireland to be missing key players in Denmark</title>
@@ -6110,6 +6729,7 @@ Fullback Seamus Coleman is a long-term absentee after breaking his leg on intern
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="natural"><![CDATA[Natural]]></category>
 		<category domain="category" nicename="sports"><![CDATA[Sports]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
@@ -6123,6 +6743,23 @@ Fullback Seamus Coleman is a long-term absentee after breaking his leg on intern
 			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
 			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:comment>
+			<wp:comment_id>8</wp:comment_id>
+			<wp:comment_author><![CDATA[FirstLucille]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[julia_pape@gmail.com]]></wp:comment_author_email>
+			<wp:comment_author_url>https://10Darlene.blogspot.se</wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[179.217.18.13]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2017-11-20 20:58:48]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2017-11-20 20:58:48]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[I have noticed you don't monetize your website, don't waste your traffic, you can earn additional cash every month 
+because you've got hi quality content. If you 
+want to know how to make extra money, search for: Boorfe's tips best adsense 
+alternative]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[0]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+		</wp:comment>
 	</item>
 	<item>
 		<title>These ‘two yahoos from the middle of Ohio’ designed the ultimate drone buster</title>
@@ -6283,33 +6920,23 @@ You don't want neighbors or passers-by stealing your Wi-Fi any more than you wan
 		<dc:creator><![CDATA[eggnews]]></dc:creator>
 		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/?p=240</guid>
 		<description></description>
-		<content:encoded><![CDATA[Google's Files Go App for Android Being Tested, Offers Storage Management and File Transfer Features
-Jagmeet Singh, 07 November 2017
-Share on Facebook Tweet Share Share Email Reddit
-Google's Files Go App for Android Being Tested, Offers Storage Management and File Transfer Features
-Highlights
+		<content:encoded><![CDATA[Google's Files Go app
 
-Files Go app lists what all is available on your Android device
-The app has Bluetooth-enabled wireless file transfer feature
-It also allows you to uninstall your unused apps
-
-Google has silently started testing a new app called "Files Go" to provide Android users with a unified solution for all their storage management and wireless file transfer requirements. The app was briefly listed as an unreleased app on Google Play, with users required to enter an early access programme for testing. The app has since been pulled, but can be sideloaded as an APK file.
-
-As its name suggests, the Files Go app is appeared to be a part of the family that already has YouTube Go and Android Go as the two major solutions for emerging markets. Android Police notes that Google ran an early access programme to pilot the app on specific devices.
-
-Nevertheless, a downloadable APK file of the Files Go app is available through APK Mirror to reveal its features. You can install the app through the available file on any of your devices running Android 5.0 and above.
-
-google files go app Google Files Go Files Go Google
+The Files Go app has a convenient interface that comes with two tabs -- Storage and Files. The originally active Storage tab shows you the free space available on your device alongside sporting feature cards that give you access to clean app cache, remove recorded media, and free up the storage by removing large and downloaded files. The Files tab, on the other hand, works just as a simple file management app and lists sources such as Downloads, Received files, Images, Videos, and Documents.
 
 Google's Files Go app
 
 The Files Go app has a convenient interface that comes with two tabs -- Storage and Files. The originally active Storage tab shows you the free space available on your device alongside sporting feature cards that give you access to clean app cache, remove recorded media, and free up the storage by removing large and downloaded files. The Files tab, on the other hand, works just as a simple file management app and lists sources such as Downloads, Received files, Images, Videos, and Documents.
 
-Alongside the simple two-tab experience, the Files Go app has the integrated file transfer feature that allows you to send or receive files wirelessly. The feature uses Bluetooth connectivity of your device to enable wireless transfer - without requiring an active data connection. Similar to popular file sharing apps such as Shareit and Xender, Google's app creates your profile to help you send large-sized files with your nearby contacts at a fast pace.
+Google's Files Go app
 
-Besides, the Files Go app lists all the apps that are unused on your device from the last four weeks. This makes it easier to free up some space by uninstalling those apps right from the Google solution.
+The Files Go app has a convenient interface that comes with two tabs -- Storage and Files. The originally active Storage tab shows you the free space available on your device alongside sporting feature cards that give you access to clean app cache, remove recorded media, and free up the storage by removing large and downloaded files. The Files tab, on the other hand, works just as a simple file management app and lists sources such as Downloads, Received files, Images, Videos, and Documents.
 
-The APK file of the Files Go app is around 5.41MB in size, lower than the size of the Shareit and Xender installation packages. Google would manage to even shrink the app at the time of its public release. But importantly, the official release is yet to be announced.]]></content:encoded>
+Google's Files Go app
+
+The Files Go app has a convenient interface that comes with two tabs -- Storage and Files. The originally active Storage tab shows you the free space available on your device alongside sporting feature cards that give you access to clean app cache, remove recorded media, and free up the storage by removing large and downloaded files. The Files tab, on the other hand, works just as a simple file management app and lists sources such as Downloads, Received files, Images, Videos, and Documents.
+
+]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>240</wp:post_id>
 		<wp:post_date><![CDATA[2017-11-07 11:48:09]]></wp:post_date>
@@ -6435,6 +7062,20 @@ Several of the island in the Caribbean remain under the control of colonial powe
 			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
 			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:comment>
+			<wp:comment_id>9</wp:comment_id>
+			<wp:comment_author><![CDATA[sathish]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[sathishkuppan@gail.com]]></wp:comment_author_email>
+			<wp:comment_author_url>http://zop%20technologys.com</wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[117.204.31.250]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2017-11-24 06:49:09]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2017-11-24 06:49:09]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[they are supper websites]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[0]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+		</wp:comment>
 	</item>
 </channel>
 </rss>
