@@ -68,6 +68,12 @@ Eggnews bundles the following third-party resources:
 
 
 == Changelog ==
+
+= 1.4.0 - 2017/12/10 =
+	* Fix - RTL design issue fix
+	* Fix - Carousel design issue fix
+	* Fix - Minor design related issue fix
+	
 = 1.3.10 - 2017/12/01 =
 	* Fix - W3C Validation
 	* Update - Font awesome update
