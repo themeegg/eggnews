@@ -70,7 +70,7 @@ if ( ! function_exists( 'eggnews_categories_color' ) ):
 			$teg_dynamic_css .= ".top-menu ul li, .eggnews-ticker-wrapper ~ .top-header-section {border-color: " . $teg_theme_color . "}\n";
 			$teg_dynamic_css .= ".ticker-caption {background-color: " . $teg_theme_color . "}\n";
 			$teg_dynamic_css .= ".ticker-content-wrapper .news-post a:hover, .eggnews-carousel .item .carousel-content-wrapper a:hover{color: " . $teg_theme_color . "}\n";
-			$teg_dynamic_css .= ".eggnews-carousel .item .carousel-content-wrapper h3 a:hover, body .eggnews-carousel h3 a:hover, footer#colophon .eggnews-carousel h3 a:hover, footer#colophon a:hover{color: " . $teg_theme_color . "}\n";
+			$teg_dynamic_css .= ".eggnews-carousel .item .carousel-content-wrapper h3 a:hover, body .eggnews-carousel h3 a:hover, footer#colophon .eggnews-carousel h3 a:hover, footer#colophon a:hover, .widget a:hover{color: " . $teg_theme_color . "}\n";
 			$teg_dynamic_css .= ".widget .owl-theme .owl-dots .owl-dot.active span{background: " . $teg_theme_color . "}\n";
 			$teg_dynamic_css .= ".rtl #content .block-header .block-title::after, .rtl #content .related-articles-wrapper .related-title::after, .rtl #content .widget .widget-title::after{border-right-color: " . $teg_theme_color . "}\n";
 		}
