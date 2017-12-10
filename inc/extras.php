@@ -71,6 +71,7 @@ if ( ! function_exists( 'eggnews_categories_color' ) ):
 			$teg_dynamic_css .= ".ticker-caption {background-color: " . $teg_theme_color . "}\n";
 			$teg_dynamic_css .= ".ticker-content-wrapper .news-post a:hover, .eggnews-carousel .item .carousel-content-wrapper a:hover{color: " . $teg_theme_color . "}\n";
 			$teg_dynamic_css .= ".eggnews-carousel .item .carousel-content-wrapper h3 a:hover, body .eggnews-carousel h3 a:hover, footer#colophon .eggnews-carousel h3 a:hover, footer#colophon a:hover{color: " . $teg_theme_color . "}\n";
+			$teg_dynamic_css .= ".widget .owl-theme .owl-dots .owl-dot.active span{background: " . $teg_theme_color . "}\n";
 		}
 
 		?>
