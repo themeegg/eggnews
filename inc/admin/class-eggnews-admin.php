@@ -72,7 +72,7 @@ if ( ! class_exists( 'EggNews_Admin' ) ) :
 		 */
 		public static function hide_notices() {
 			if ( isset( $_GET['eggnews-hide-notice'] ) && isset( $_GET['_eggnews_notice_nonce'] ) ) {
-				if ( ! wp_verify_nonce( wp_unslash($_GET['_eggnews_notice_nonce']), 'eggnews_hide_notices_nonce' ) ) {
+				if ( ! wp_verify_nonce( wp_unslash( $_GET['_eggnews_notice_nonce'] ), 'eggnews_hide_notices_nonce' ) ) {
 					wp_die( esc_html__( 'Action failed. Please refresh the page and retry.', 'eggnews' ) );
 				}
 
@@ -80,7 +80,7 @@ if ( ! class_exists( 'EggNews_Admin' ) ) :
 					wp_die( esc_html__( 'Cheatin&#8217; huh?', 'eggnews' ) );
 				}
 
-				$hide_notice = sanitize_text_field( wp_unslash($_GET['eggnews-hide-notice']) );
+				$hide_notice = sanitize_text_field( wp_unslash( $_GET['eggnews-hide-notice'] ) );
 				update_option( 'eggnews_admin_notice_' . $hide_notice, 1 );
 			}
 		}
@@ -120,12 +120,12 @@ if ( ! class_exists( 'EggNews_Admin' ) ) :
 			<div class="eggnews-theme-info">
 				<h1>
 					<?php esc_html_e( 'About', 'eggnews' ); ?>
-					<?php echo esc_html($theme->display( 'Name' )); ?>
+					<?php echo esc_html( $theme->display( 'Name' ) ); ?>
 					<?php printf( '%s', $major_version ); ?>
 				</h1>
 
 				<div class="welcome-description-wrap">
-					<div class="about-text"><?php echo esc_html($theme->display( 'Description' )); ?></div>
+					<div class="about-text"><?php echo esc_html( $theme->display( 'Description' ) ); ?></div>
 
 					<div class="eggnews-screenshot">
 						<img src="<?php echo esc_url( get_template_directory_uri() ) . '/screenshot.png'; ?>"/>
@@ -137,13 +137,16 @@ if ( ! class_exists( 'EggNews_Admin' ) ) :
 				<a href="<?php echo esc_url( 'http://themeegg.com/themes/eggnews/' ); ?>"
 				   class="button button-secondary" target="_blank"><?php esc_html_e( 'Theme Info', 'eggnews' ); ?></a>
 
-				<a href="<?php echo esc_url( apply_filters( 'eggnews_pro_theme_url', 'http://demo.themeegg.com/themes/eggnews/' ) ); ?>"
+				<a href="<?php echo esc_url( apply_filters( 'eggnews_theme_url', 'http://demo.themeegg.com/themes/eggnews/' ) ); ?>"
 				   class="button button-secondary docs"
 				   target="_blank"><?php esc_html_e( 'View Demo', 'eggnews' ); ?></a>
 
-				<a href="<?php echo esc_url( apply_filters( 'eggnews_pro_theme_url', 'https://wordpress.org/support/view/theme-reviews/eggnews?filter=5#postform' ) ); ?>"
+				<a href="<?php echo esc_url( apply_filters( 'eggnews_rate_url', 'https://wordpress.org/support/view/theme-reviews/eggnews?filter=5#postform' ) ); ?>"
 				   class="button button-secondary docs"
 				   target="_blank"><?php esc_html_e( 'Rate this theme', 'eggnews' ); ?></a>
+				<a href="<?php echo esc_url( apply_filters( 'eggnews_pro_theme_url', 'https://themeegg.com/downloads/eggnews-pro-wordpress-theme/' ) ); ?>"
+				   class="button button-primary docs"
+				   target="_blank"><?php esc_html_e( 'View Pro Version', 'eggnews' ); ?></a>
 			</p>
 
 			<h2 class="nav-tab-wrapper">
@@ -161,6 +164,14 @@ if ( ! class_exists( 'EggNews_Admin' ) ) :
 				), 'themes.php' ) ) ); ?>">
 					<?php esc_html_e( 'Changelog', 'eggnews' ); ?>
 				</a>
+				<a class="nav-tab <?php if ( isset( $_GET['tab'] ) && $_GET['tab'] == 'freevspro' ) {
+					echo 'nav-tab-active';
+				} ?>" href="<?php echo esc_url( admin_url( add_query_arg( array(
+					'page' => 'eggnews-welcome',
+					'tab'  => 'freevspro'
+				), 'themes.php' ) ) ); ?>">
+					<?php esc_html_e( 'Free Vs Pro', 'eggnews' ); ?>
+				</a>
 			</h2>
 			<?php
 		}
@@ -169,7 +180,7 @@ if ( ! class_exists( 'EggNews_Admin' ) ) :
 		 * Welcome screen page.
 		 */
 		public function welcome_screen() {
-			$current_tab = empty( $_GET['tab'] ) ? 'about' : sanitize_title( wp_unslash($_GET['tab']));
+			$current_tab = empty( $_GET['tab'] ) ? 'about' : sanitize_title( wp_unslash( $_GET['tab'] ) );
 
 			// Look for a {$current_tab}_screen method.
 			if ( is_callable( array( $this, $current_tab . '_screen' ) ) ) {
@@ -287,6 +298,158 @@ if ( ! class_exists( 'EggNews_Admin' ) ) :
 		}
 
 		/**
+		 * Output the changelog screen.
+		 */
+		public function freevspro_screen() {
+			?>
+			<div class="wrap about-wrap">
+
+				<?php $this->intro(); ?>
+
+				<p class="about-description"><?php esc_html_e( 'Upgrade to PRO version for more awesome features.', 'eggnews' ); ?></p>
+
+				<table>
+					<thead>
+					<tr>
+						<th class="table-feature-title"><h3><?php esc_html_e( 'Features', 'eggnews' ); ?></h3></th>
+						<th><h3><?php esc_html_e( 'Egggnews', 'eggnews' ); ?></h3></th>
+						<th><h3><?php esc_html_e( 'Eggnews Pro', 'eggnews' ); ?></h3></th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr>
+						<td><h3><?php esc_html_e( 'Support', 'eggnews' ); ?></h3></td>
+						<td><?php esc_html_e( 'Forum', 'eggnews' ); ?></td>
+						<td><?php esc_html_e( 'Forum + Emails/Support Ticket', 'eggnews' ); ?></td>
+					</tr>
+					<tr>
+						<td><h3><?php esc_html_e( 'Category color options', 'eggnews' ); ?></h3></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+					</tr>
+					<tr>
+						<td><h3><?php esc_html_e( 'Additional color options', 'eggnews' ); ?></h3></td>
+						<td><span class="dashicons dashicons-no"></span></td>
+						<td><?php esc_html_e( '15', 'eggnews' ); ?></td>
+					</tr>
+					<tr>
+						<td><h3><?php esc_html_e( 'Primary color option', 'eggnews' ); ?></h3></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+					</tr>
+					<tr>
+						<td><h3><?php esc_html_e( 'Font size options', 'eggnews' ); ?></h3></td>
+						<td><span class="dashicons dashicons-no"></span></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+					</tr>
+					<tr>
+						<td><h3><?php esc_html_e( 'Google fonts options', 'eggnews' ); ?></h3></td>
+						<td><span class="dashicons dashicons-no"></span></td>
+						<td><?php esc_html_e( '500+', 'eggnews' ); ?></td>
+					</tr>
+					<tr>
+						<td><h3><?php esc_html_e( 'Custom widgets', 'eggnews' ); ?></h3></td>
+						<td><?php esc_html_e( '7', 'eggnews' ); ?></td>
+						<td><?php esc_html_e( '16', 'eggnews' ); ?></td>
+					</tr>
+					<tr>
+						<td><h3><?php esc_html_e( 'Social icons', 'eggnews' ); ?></h3></td>
+						<td><?php esc_html_e( '6', 'eggnews' ); ?></td>
+						<td><?php esc_html_e( '6', 'eggnews' ); ?></td>
+					</tr>
+					<tr>
+						<td><h3><?php esc_html_e( 'Social sharing', 'eggnews' ); ?></h3></td>
+						<td><span class="dashicons dashicons-no"></span></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+					</tr>
+					<tr>
+						<td><h3><?php esc_html_e( 'Site layout option', 'eggnews' ); ?></h3></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+					</tr>
+					<tr>
+						<td><h3><?php esc_html_e( 'Options in breaking news', 'eggnews' ); ?></h3></td>
+						<td><span class="dashicons dashicons-no"></span></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+					</tr>
+					<tr>
+						<td><h3><?php esc_html_e( 'Change read more text', 'eggnews' ); ?></h3></td>
+						<td><span class="dashicons dashicons-no"></span></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+					</tr>
+					<tr>
+						<td><h3><?php esc_html_e( 'Related posts', 'eggnews' ); ?></h3></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+					</tr>
+					<tr>
+						<td><h3><?php esc_html_e( 'Author biography', 'eggnews' ); ?></h3></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+					</tr>
+					<tr>
+						<td><h3><?php esc_html_e( 'Footer copyright editor', 'eggnews' ); ?></h3></td>
+						<td><span class="dashicons dashicons-no"></span></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+					</tr>
+					<tr>
+						<td><h3><?php esc_html_e( '728x90 Advertisement', 'eggnews' ); ?></h3></td>
+						<td><span class="dashicons dashicons-no"></span></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+					</tr>
+					<tr>
+						<td><h3><?php esc_html_e( 'Featured category slider', 'eggnews' ); ?></h3></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+					</tr>
+					<tr>
+						<td><h3><?php esc_html_e( 'Random posts widget', 'eggnews' ); ?></h3></td>
+						<td><span class="dashicons dashicons-no"></span></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+					</tr>
+					<tr>
+						<td><h3><?php esc_html_e( 'Tabbed widget', 'eggnews' ); ?></h3></td>
+						<td><span class="dashicons dashicons-no"></span></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+					</tr>
+					<tr>
+						<td><h3><?php esc_html_e( 'Videos', 'eggnews' ); ?></h3></td>
+						<td><span class="dashicons dashicons-no"></span></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+					</tr>
+
+					<tr>
+						<td><h3><?php esc_html_e( 'WooCommerce compatible', 'eggnews' ); ?></h3></td>
+						<td><span class="dashicons dashicons-no"></span></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+					</tr>
+					<tr>
+						<td><h3><?php esc_html_e( 'Multiple header options', 'eggnews' ); ?></h3></td>
+						<td><span class="dashicons dashicons-no"></span></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+					</tr>
+					<tr>
+						<td><h3><?php esc_html_e( 'Readmore flying card', 'eggnews' ); ?></h3></td>
+						<td><span class="dashicons dashicons-no"></span></td>
+						<td><span class="dashicons dashicons-yes"></span></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td class="btn-wrapper">
+							<a href="<?php echo esc_url( apply_filters( 'eggnews_pro_theme_url', 'https://themeegg.com/downloads/eggnews-pro-wordpress-theme/' ) ); ?>"
+							   class="button button-secondary docs"
+							   target="_blank"><?php esc_html_e( 'View Pro', 'eggnews' ); ?></a>
+						</td>
+					</tr>
+					</tbody>
+				</table>
+
+			</div>
+			<?php
+		}
+
+		/**
 		 * Parse changelog from readme file.
 		 *
 		 * @param  string $content
@@ -355,226 +518,6 @@ if ( ! class_exists( 'EggNews_Admin' ) ) :
 			<?php
 		}
 
-		/**
-		 * Output the free vs pro screen.
-		 */
-		public function free_vs_pro_screen() {
-			?>
-			<div class="wrap about-wrap">
-
-				<?php $this->intro(); ?>
-
-				<p class="about-description"><?php esc_html_e( 'Upgrade to PRO version for more exciting features.', 'eggnews' ); ?></p>
-
-				<table>
-					<thead>
-					<tr>
-						<th class="table-feature-title"><h3><?php esc_html_e( 'Features', 'eggnews' ); ?></h3></th>
-						<th><h3><?php esc_html_e( 'EggNews', 'eggnews' ); ?></h3></th>
-						<th><h3><?php esc_html_e( 'EggNews Pro', 'eggnews' ); ?></h3></th>
-					</tr>
-					</thead>
-					<tbody>
-					<tr>
-						<td><h3><?php esc_html_e( 'Support', 'eggnews' ); ?></h3></td>
-						<td><?php esc_html_e( 'Forum', 'eggnews' ); ?></td>
-						<td><?php esc_html_e( 'Forum + Emails/Support Ticket', 'eggnews' ); ?></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'Color Options', 'eggnews' ); ?></h3></td>
-						<td><?php esc_html_e( '1', 'eggnews' ); ?></td>
-						<td><?php esc_html_e( '22', 'eggnews' ); ?></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'Primary color option', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'Font Size Options', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-no"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'Google Fonts Options', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-no"></span></td>
-						<td><?php esc_html_e( '600+', 'eggnews' ); ?></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'Custom Widgets', 'eggnews' ); ?></h3></td>
-						<td><?php esc_html_e( '7', 'eggnews' ); ?></td>
-						<td><?php esc_html_e( '16', 'eggnews' ); ?></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'Social Icons', 'eggnews' ); ?></h3></td>
-						<td><?php esc_html_e( '6', 'eggnews' ); ?></td>
-						<td><?php esc_html_e( '18 + 6 Custom', 'eggnews' ); ?></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'Social Sharing', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-no"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'Custom Menu', 'eggnews' ); ?></h3></td>
-						<td><?php esc_html_e( '1', 'eggnews' ); ?></td>
-						<td><?php esc_html_e( '2', 'eggnews' ); ?></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'Footer Sidebar', 'eggnews' ); ?></h3></td>
-						<td><?php esc_html_e( '4', 'eggnews' ); ?></td>
-						<td><?php esc_html_e( '7', 'eggnews' ); ?></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'Site Layout Option', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'Options in Breaking News', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-no"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'Unique Post System', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-no"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'Change Read More Text', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-no"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'Related Posts', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'Author Biography', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'Author Biography with Social Icons', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-no"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'Footer Copyright Editor', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-no"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'TG: 125x125 Advertisement', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'TG: 300x250 Advertisement', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'TG: 728x90 Advertisement', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'TG: Featured Category Slider', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'TG: Highlighted Posts', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'TG: Random Posts Widget', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-no"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'TG: Tabbed Widget', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-no"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'TG: Videos', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-no"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'TG: Featured Posts (Style 1)', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'TG: Featured Posts (Style 2)', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'TG: Featured Posts (Style 3)', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-no"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'TG: Featured Posts (Style 4)', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-no"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'TG: Featured Posts (Style 5)', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-no"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'TG: Featured Posts (Style 6)', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-no"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'TG: Featured Posts (Style 7)', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-no"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'Category Color Options', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'WPML Compatible', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-no"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'Polylang Compatible', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-no"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td><h3><?php esc_html_e( 'WooCommerce Compatible', 'eggnews' ); ?></h3></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-						<td><span class="dashicons dashicons-yes"></span></td>
-					</tr>
-					<tr>
-						<td></td>
-						<td></td>
-						<td class="btn-wrapper">
-							<a href="<?php echo esc_url( apply_filters( 'eggnews_pro_theme_url', 'http://themeegg.com/themes/eggnews-pro/' ) ); ?>"
-							   class="button button-secondary docs"
-							   target="_blank"><?php esc_html_e( 'View Pro', 'eggnews' ); ?></a>
-						</td>
-					</tr>
-					</tbody>
-				</table>
-
-			</div>
-			<?php
-		}
 	}
 
 endif;
