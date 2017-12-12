@@ -4,7 +4,7 @@ Footer CSS
 footer#colophon {
     background: $footer_background;
     color: $footer_color;
-    overflow: hidden;
+    clear:both;
     a {
         color: $footer_color;
         text-shadow: none;
