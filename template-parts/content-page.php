@@ -12,6 +12,13 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<?php if( has_post_thumbnail() ) { ?>
+		<div class="post-image">
+			<a href="<?php the_permalink();?>" title="<?php the_title_attribute();?>">
+				<figure><?php the_post_thumbnail( 'eggnews-single-large' ); ?></figure>
+			</a>
+		</div>
+	<?php } ?>
 	<header class="entry-header">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
