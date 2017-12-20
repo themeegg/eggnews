@@ -1,6 +1,6 @@
 /* Large desktop */
 @media (min-width: 1000px) {
-	#site-navigation {
+	.main-navigation {
 		display: block !important;
 	}
 }
@@ -49,7 +49,7 @@
 /* Portrait tablet to landscape and desktop */
 
 @media (min-width: 769px) and (max-width: 1200px) {
-	#site-navigation {
+	.main-navigation {
 		display: block !important;
 	}
 }
@@ -57,7 +57,7 @@
 /* Landscape phone to portrait tablet */
 
 @media (max-width: 768px) {
-	#site-navigation ul li.current-menu-item a {
+	.main-navigation ul li.current-menu-item a {
 		border-bottom: 0;
 	}
 	.related-posts-wrapper {
@@ -90,7 +90,7 @@
 	.menu-toggle {
 		display: block;
 	}
-	#site-navigation {
+	.main-navigation {
 		background: #303440 none repeat scroll 0 0;
 		display: none;
 		left: 0;
@@ -101,13 +101,13 @@
 	  	overflow-y:auto;
 	  	max-height:100vh;
 	}
-  	.is-sticky #site-navigation{
+  	.is-sticky .main-navigation{
 	  max-height: calc( 100vh - 43px );
 	}
 	.bottom-header-wrapper {
 		position: relative;
 	}
-	#site-navigation ul li {
+	.main-navigation ul li {
 		display: block;
 		float: none;
 	}
@@ -124,9 +124,9 @@
 		top: 6px;
 		width: 24px;
 	}
-	#site-navigation ul > li:hover > .sub-toggle,
-	#site-navigation ul > li.current-menu-item .sub-toggle,
-	#site-navigation ul > li.current-menu-ancestor .sub-toggle {
+	.main-navigation ul > li:hover > .sub-toggle,
+	.main-navigation ul > li.current-menu-item .sub-toggle,
+	.main-navigation ul > li.current-menu-ancestor .sub-toggle {
 		background: #408c40;
 	}
 	.main-small-navigation li.current-menu-item > .sub-toggle {
@@ -136,11 +136,11 @@
 		color: #408c40
 	}
 	.menu-primary-container .sub-menu,
-	#site-navigation li.menu-item-has-children > a::after {
+	.main-navigation li.menu-item-has-children > a::after {
 		display: none;
 	}
-	#site-navigation ul.sub-menu,
-	#site-navigation ul.children {
+	.main-navigation ul.sub-menu,
+	.main-navigation ul.children {
 		position: static;
 		min-width: 100%;
 		opacity: 1;
@@ -155,11 +155,11 @@
 		-o-transition: none;
 		transition: none;
 	}
-	#site-navigation ul.sub-menu{
+	.main-navigation ul.sub-menu{
 		padding-left:10px;
 	}
-	#site-navigation ul > li:hover > .sub-menu,
-	#site-navigation ul > li:hover > .children {
+	.main-navigation ul > li:hover > .sub-menu,
+	.main-navigation ul > li:hover > .children {
 		top: 0;
 	}
 	#primary,
@@ -275,7 +275,7 @@
 	}
 }
 @media(min-width:769px){
-	#site-navigation{
+	.main-navigation{
 	  max-width:calc( 100% - 100px );
 	}
 }

@@ -17,7 +17,7 @@ BOTTOM HEADER CSS
 	z-index: 999;
 }
 
-.home-icon, #site-navigation {
+.home-icon, .main-navigation {
 	float: left;
 }
 
@@ -33,7 +33,7 @@ BOTTOM HEADER CSS
 	}
 }
 
-#site-navigation {
+.main-navigation {
 	ul {
 		margin: 0;
 		list-style: none;
