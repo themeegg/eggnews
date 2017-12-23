@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: themeeggofficial@gmail.com\n"
-"POT-Creation-Date: 2017-12-10 08:22:07+00:00\n"
+"POT-Creation-Date: 2017-12-23 13:29:12+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -837,7 +837,7 @@ msgstr ""
 msgid "Tagged %1$s"
 msgstr ""
 
-#: inc/template-tags.php:77 template-parts/content-page.php:35
+#: inc/template-tags.php:77 template-parts/content-page.php:42
 #. translators: %s: Name of current post
 msgid "Edit %s"
 msgstr ""
@@ -1464,7 +1464,7 @@ msgid ""
 "searching can help."
 msgstr ""
 
-#: template-parts/content-page.php:24 template-parts/content-single.php:37
+#: template-parts/content-page.php:31 template-parts/content-single.php:37
 msgid "Pages:"
 msgstr ""
 
