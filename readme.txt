@@ -69,6 +69,8 @@ Eggnews bundles the following third-party resources:
 = 1.4.1 - 2017/12/23 =
 	* Fix - RTL braces issue fixed
 	* Fix - Single page feature image issue fixed
+	* Fix - Footer background color issue fixed
+	* Fix - Footer issue fixed
 	
 = 1.4.0 - 2017/12/10 =
 	* Fix - RTL design issue fix
