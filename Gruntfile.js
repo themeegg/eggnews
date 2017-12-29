@@ -209,7 +209,8 @@ module.exports = function (grunt) {
                         browsers: [
                             '> 0.1%',
                             'ie 8',
-                            'ie 9'
+                            'ie 9',
+                            'opera 32',
                         ]
                     })
                 ]
