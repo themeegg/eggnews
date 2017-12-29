@@ -49,7 +49,7 @@ function eggnews_scripts() {
 
 	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/assets/lib/font-awesome/css/font-awesome.min.css', array(), '4.7.0' );
 
-	wp_enqueue_style( 'eggnews-google-font', add_query_arg( $query_args, "//fonts.googleapis.com/css" ) );
+	wp_enqueue_style( 'eggnews-google-font', add_query_arg( $query_args, "https://fonts.googleapis.com/css" ) );
 
 	wp_enqueue_style( 'eggnews-style-1', get_template_directory_uri() . '/assets/css/eggnews.css', array(), esc_attr( $eggnews_version ) );
 

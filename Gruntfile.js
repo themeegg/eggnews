@@ -207,10 +207,13 @@ module.exports = function (grunt) {
                 processors: [
                     require('autoprefixer')({
                         browsers: [
+                        	'last 4 versions',
                             '> 0.1%',
                             'ie 8',
                             'ie 9',
-                            'opera 32',
+                            'ie 7',
+                            'opera 12',
+                            'ff 15',
                         ]
                     })
                 ]
@@ -282,7 +285,7 @@ module.exports = function (grunt) {
         'sass',
         'rtlcss',
         'postcss',
-        'cssmin',
+       'cssmin',
         'concat'
     ]);
 
