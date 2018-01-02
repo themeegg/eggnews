@@ -1,9 +1,8 @@
 === Eggnews ===
-
 Contributors:       ThemeEgg Team
 Requires at least:  WordPress 4.0
 Tested up to:       WordPress 4.9.1
-Version:            1.4.1
+Version:            1.4.2
 License:            GPLv3 or later
 License URI:        http://www.gnu.org/licenses/gpl-3.0.html
 Tags:               news, grid-layout, custom-colors, one-column, two-columns, three-columns, left-sidebar, right-sidebar, featured-images, footer-widgets, full-width-template, theme-options, translation-ready, rtl-language-support
@@ -18,7 +17,7 @@ Eggnews is a  responsive newsportal style Free WordPress theme. This theme is ma
 3. Click Activate to use your new theme right away. 
 == Copyright ==
 
-Eggnews WordPress Theme, Copyright 2017 Theme Egg
+Eggnews WordPress Theme, Copyright 2017 ThemeEgg
 Eggnews is distributed under the terms of the GNU GPL
 
 This program is free software: you can redistribute it and/or modify
@@ -66,6 +65,9 @@ Eggnews bundles the following third-party resources:
 
 
 == Changelog ==
+= 1.4.2 - 2018/01/02 =
+	* Fix - Navigation issue fixed
+	* Fix - Design improvement
 = 1.4.1 - 2017/12/23 =
 	* Fix - RTL braces issue fixed
 	* Fix - Single page feature image issue fixed
