@@ -32,3 +32,11 @@ body.fullwidth-layout #page {
 	display: none;
 }
 
+body.archive {
+	&.archive-columns {
+		.navigation.pagination {
+			margin-left:3%;
+
+		}
+	}
+}
