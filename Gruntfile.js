@@ -213,7 +213,7 @@ module.exports = function (grunt) {
                             'ie 9',
                             'ie 7',
                             'opera 12',
-                            'ff 15',
+                            'ff 15'
                         ]
                     })
                 ]

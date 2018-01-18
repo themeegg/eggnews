@@ -46,10 +46,16 @@ class Eggnews_Post_Carousel extends WP_Widget {
 				'eggnews_widgets_field_options' => $eggnews_category_dropdown
 			),
 
-			'eggnews_carousel_count' => array(
+			'eggnews_carousel_count'          => array(
 				'eggnews_widgets_name'       => 'eggnews_carousel_count',
 				'eggnews_widgets_title'      => esc_html__( 'No. of slides', 'eggnews' ),
 				'eggnews_widgets_default'    => 5,
+				'eggnews_widgets_field_type' => 'number'
+			),
+			'eggnews_carousel_autoplay_speed' => array(
+				'eggnews_widgets_name'       => 'eggnews_carousel_autoplay_speed',
+				'eggnews_widgets_title'      => esc_html__( 'Carousel Autoplay Speed ( in microsecond )', 'eggnews' ),
+				'eggnews_widgets_default'    => 2200,
 				'eggnews_widgets_field_type' => 'number'
 			),
 
@@ -82,8 +88,9 @@ class Eggnews_Post_Carousel extends WP_Widget {
 
 		$eggnews_carousel_category_id     = intval( empty( $instance['eggnews_carousel_category'] ) ? null : $instance['eggnews_carousel_category'] );
 		$eggnews_carousel_count           = intval( empty( $instance['eggnews_carousel_count'] ) ? 5 : $instance['eggnews_carousel_count'] );
-		$eggnews_featured_category_id     = intval( empty( $instance['eggnews_featured_category'] ) ? null : $instance['eggnews_featured_category'] );
 		$eggnews_carousel_category_random = intval( empty( $instance['eggnews_carousel_category_random'] ) ? null : $instance['eggnews_carousel_category_random'] );
+		$eggnews_carousel_autoplay_speed  = intval( empty( $instance['eggnews_carousel_autoplay_speed'] ) ? null : $instance['eggnews_carousel_autoplay_speed'] );
+
 		echo $before_widget;
 
 		$slider_args = eggnews_query_args( $eggnews_carousel_category_id, $eggnews_carousel_count );
@@ -99,7 +106,8 @@ class Eggnews_Post_Carousel extends WP_Widget {
 			wp_enqueue_script( 'owl-carousel2-script' );
 			?>
 
-			<div class="owl-carousel owl-theme eggnews-carousel">
+			<div class="owl-carousel owl-theme eggnews-carousel"
+			     data-timer="<?php esc_attr_e( $eggnews_carousel_autoplay_speed ); ?>">
 
 				<?php
 

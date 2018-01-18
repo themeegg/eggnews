@@ -38,9 +38,11 @@ $(document).ready(function () {
 		navText: ['<i class="fa fa-arrow-left"> </i>', '<i class="fa fa-arrow-right"> </i>']
 	};
 	if (eggnews_carousel.length > 0) {
-		eggnews_carousel.each(function(){
-			var items = $(this).parent().width()/300;
-			eggnews_carousel_args.items = (items>3) ? 3 : (items<1) ? 1 : Math.floor(items);
+		eggnews_carousel.each(function () {
+			var items = $(this).parent().width() / 300;
+			eggnews_carousel_args.items = (items > 3) ? 3 : (items < 1) ? 1 : Math.floor(items);
+			var data_timer = undefined !== $(this).attr('data-timer') ? $(this).attr('data-timer') : 2200;
+			eggnews_carousel_args.autoplayTimeout = data_timer;
 			$(this).owlCarousel(eggnews_carousel_args);
 		});
 	}
