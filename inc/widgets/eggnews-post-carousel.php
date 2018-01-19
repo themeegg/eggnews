@@ -37,7 +37,11 @@ class Eggnews_Post_Carousel extends WP_Widget {
 		$eggnews_category_dropdown = eggnews_category_dropdown();
 
 		$fields = array(
-
+			'eggnews_carousel_title'    => array(
+				'eggnews_widgets_name'       => 'eggnews_carousel_title',
+				'eggnews_widgets_title'      => esc_html__( 'Title', 'eggnews' ),
+				'eggnews_widgets_field_type' => 'text'
+			),
 			'eggnews_carousel_category' => array(
 				'eggnews_widgets_name'          => 'eggnews_carousel_category',
 				'eggnews_widgets_title'         => esc_html__( 'Category for Slider', 'eggnews' ),
@@ -90,6 +94,7 @@ class Eggnews_Post_Carousel extends WP_Widget {
 		$eggnews_carousel_count           = intval( empty( $instance['eggnews_carousel_count'] ) ? 5 : $instance['eggnews_carousel_count'] );
 		$eggnews_carousel_category_random = intval( empty( $instance['eggnews_carousel_category_random'] ) ? null : $instance['eggnews_carousel_category_random'] );
 		$eggnews_carousel_autoplay_speed  = intval( empty( $instance['eggnews_carousel_autoplay_speed'] ) ? null : $instance['eggnews_carousel_autoplay_speed'] );
+		$eggnews_carousel_title           = empty( $instance['eggnews_carousel_title'] ) ? '' : $instance['eggnews_carousel_title'];
 
 		echo $before_widget;
 
@@ -104,36 +109,44 @@ class Eggnews_Post_Carousel extends WP_Widget {
 			wp_enqueue_style( 'owl-carousel2-style' );
 			wp_enqueue_style( 'owl-carousel2-theme' );
 			wp_enqueue_script( 'owl-carousel2-script' );
+
 			?>
-
-			<div class="owl-carousel owl-theme eggnews-carousel"
-			     data-timer="<?php esc_attr_e( $eggnews_carousel_autoplay_speed ); ?>">
-
+			<div class="widget-block-wrapper">
 				<?php
-
-
-				while ( $carousel_query->have_posts() ) {
-					$carousel_query->the_post();
-					?>
-					<div class="item">
-						<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-							<figure
-								class="carousel-image-wrap"><?php the_post_thumbnail( 'eggnews-carousel-image' ); ?></figure>
-						</a>
-						<div class="carousel-content-wrapper">
-							<?php do_action( 'eggnews_post_categories' ); ?>
-
-							<h3 class="carousel-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-							</h3>
-
-						</div>
-					</div>
-					<?php
+				if ( ! empty( $eggnews_carousel_title ) ) {
+					eggnews_block_title( $eggnews_carousel_title, '' );
 				}
-				wp_reset_postdata();
 				?>
+				<div class="owl-carousel owl-theme eggnews-carousel"
+				     data-timer="<?php esc_attr_e( $eggnews_carousel_autoplay_speed ); ?>">
+
+					<?php
 
 
+					while ( $carousel_query->have_posts() ) {
+						$carousel_query->the_post();
+						?>
+						<div class="item">
+							<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+								<figure
+									class="carousel-image-wrap"><?php the_post_thumbnail( 'eggnews-carousel-image' ); ?></figure>
+							</a>
+							<div class="carousel-content-wrapper">
+								<?php do_action( 'eggnews_post_categories' ); ?>
+
+								<h3 class="carousel-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+								</h3>
+
+							</div>
+						</div>
+						<?php
+					}
+					wp_reset_postdata();
+					?>
+
+
+				</div>
+				<div style="clear:both"></div>
 			</div>
 		<?php } ?>
 		<div style="clear:both"></div>
