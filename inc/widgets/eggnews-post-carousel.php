@@ -1,8 +1,8 @@
 <?php
 /**
- * Eggnews: Homepage Featured Slider
+ * Eggnews: Homepage Carousel Widget
  *
- * Homepage slider section with featured section
+ * Eggnews Carousel section
  *
  * @package Theme Egg
  * @subpackage Eggnews
