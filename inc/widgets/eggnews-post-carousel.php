@@ -93,7 +93,7 @@ class Eggnews_Post_Carousel extends WP_Widget {
 		$eggnews_carousel_category_id     = intval( empty( $instance['eggnews_carousel_category'] ) ? null : $instance['eggnews_carousel_category'] );
 		$eggnews_carousel_count           = intval( empty( $instance['eggnews_carousel_count'] ) ? 5 : $instance['eggnews_carousel_count'] );
 		$eggnews_carousel_category_random = intval( empty( $instance['eggnews_carousel_category_random'] ) ? null : $instance['eggnews_carousel_category_random'] );
-		$eggnews_carousel_autoplay_speed  = intval( empty( $instance['eggnews_carousel_autoplay_speed'] ) ? null : $instance['eggnews_carousel_autoplay_speed'] );
+		$eggnews_carousel_autoplay_speed  = intval( empty( $instance['eggnews_carousel_autoplay_speed'] ) ? 2200 : $instance['eggnews_carousel_autoplay_speed'] );
 		$eggnews_carousel_title           = empty( $instance['eggnews_carousel_title'] ) ? '' : $instance['eggnews_carousel_title'];
 
 		echo $before_widget;
