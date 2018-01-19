@@ -118,7 +118,7 @@ class Eggnews_Post_Carousel extends WP_Widget {
 				}
 				?>
 				<div class="owl-carousel owl-theme eggnews-carousel"
-				     data-timer="<?php esc_attr_e( $eggnews_carousel_autoplay_speed ); ?>">
+				     data-timer="<?php echo esc_attr( $eggnews_carousel_autoplay_speed ); ?>">
 
 					<?php
 

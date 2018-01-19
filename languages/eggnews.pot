@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: themeeggofficial@gmail.com\n"
-"POT-Creation-Date: 2018-01-02 12:30:12+00:00\n"
+"POT-Creation-Date: 2018-01-19 12:49:47+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1277,12 +1277,12 @@ msgid "Featured Slider"
 msgstr ""
 
 #: inc/widgets/eggnews-featured-slider.php:43
-#: inc/widgets/eggnews-post-carousel.php:43
+#: inc/widgets/eggnews-post-carousel.php:47
 msgid "Category for Slider"
 msgstr ""
 
 #: inc/widgets/eggnews-featured-slider.php:51
-#: inc/widgets/eggnews-post-carousel.php:51
+#: inc/widgets/eggnews-post-carousel.php:55
 msgid "No. of slides"
 msgstr ""
 
@@ -1302,7 +1302,15 @@ msgstr ""
 msgid "Carousel Posts"
 msgstr ""
 
-#: inc/widgets/eggnews-post-carousel.php:58
+#: inc/widgets/eggnews-post-carousel.php:42
+msgid "Title"
+msgstr ""
+
+#: inc/widgets/eggnews-post-carousel.php:61
+msgid "Carousel Autoplay Speed ( in microsecond )"
+msgstr ""
+
+#: inc/widgets/eggnews-post-carousel.php:68
 msgid "Show Random"
 msgstr ""
 
