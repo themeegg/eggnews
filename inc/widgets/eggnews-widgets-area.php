@@ -125,3 +125,4 @@ require get_template_directory() . '/inc/widgets/eggnews-block-column.php';
 require get_template_directory() . '/inc/widgets/eggnews-block-layout.php';
 require get_template_directory() . '/inc/widgets/eggnews-posts-list.php';
 require get_template_directory() . '/inc/widgets/eggnews-block-list.php';
+require get_template_directory() . '/inc/widgets/eggnews-breaking-news.php';

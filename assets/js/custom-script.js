@@ -13,6 +13,25 @@ $(document).ready(function () {
 			pager: false
 		});
 	}
+
+	var breaking_news_args = {
+        auto: true,
+        pager: false,
+        minSlides: 3,
+        maxSlides: 3,
+        speed: 3000,
+        moveSlides:1,
+        controls: true,
+    };
+    $('.breaking-news-slider').each(function () {
+        var duration, direction;
+        direction = $(this).data('direction')
+        duration = $(this).data('duration');
+        breaking_news_args.speed = duration;
+        breaking_news_args.mode = direction;
+        $(this).bxSlider(breaking_news_args);
+    });
+    
 	// Slider
 	if ($('.eggnewsSlider').length > 0) {
 		$('.eggnewsSlider').bxSlider({

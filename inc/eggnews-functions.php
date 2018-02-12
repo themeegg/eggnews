@@ -235,6 +235,9 @@ if ( ! function_exists( 'eggnews_block_title' ) ):
 		} else {
 			$teg_widget_title = '';
 		}
+		if(empty($teg_widget_title)){
+			return;
+		}
 		?>
 		<div class="block-header <?php echo esc_attr( $cat_id_class ); ?>">
 			<h3 class="block-title">

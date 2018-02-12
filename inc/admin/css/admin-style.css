@@ -130,6 +130,7 @@
 	float: right;
 }
 
+div[id*="eggnews_breaking_news"].widget h3,
 div[id*="eggnews_ads_banner"].widget h3,
 div[id*="eggnews_block_column"].widget h3,
 div[id*="eggnews_block_grid"].widget h3,

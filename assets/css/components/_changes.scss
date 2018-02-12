@@ -85,3 +85,125 @@ Block Layout
 	border-width: 33px 35px 0 0;
 	border-right-color:#408c40;
 }
+
+
+
+/*=====================================================================
+Breaking News Slider
+=====================================================================*/
+
+.breaking-news-slider{
+
+    .post-title{
+        margin: 15px 0 5px;
+    }
+    .hentry{
+        margin:0;
+        padding:10px 0;
+        border-bottom:1px solid #cecece;
+        &:after{
+            content:"";
+            display:block;
+            clear:both;
+        }
+    }
+    .tabbed-images{
+        width:35%;
+        float:left;
+    }
+    .feature_image{
+        float:left;
+        width:65%;
+        padding:0 0 0 15px;
+        .post-title{
+            margin-top:0px;
+        }
+    }
+
+
+}
+.breaking_news_wrap{
+    position:relative;
+
+    .breaking-news-slider{
+        padding:0;
+        margin:0;
+        list-style:none;
+        &:after{
+            content:"";
+            display:block;
+            clear:both;
+        }
+    }
+
+    .bx-controls-direction{
+        text-align: center;
+        a{
+            height:30px;
+            width:30px;
+            font-size:0px;
+            display:inline-block;
+            background-color:$primary_color;
+            &:before{
+                color: #fff;
+                display: block;
+                text-align: center;               
+                font: normal normal normal 14px/1 FontAwesome;
+                line-height: 30px;
+                text-rendering: auto;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+        }
+    }
+    &.vertical{
+        margin-top: 35px;
+        padding-bottom: 30px;
+        .bx-controls-direction{
+            top:0;
+            left:0;
+            right:0;
+            bottom:0;
+            position:absolute;
+            a{
+                margin:0 auto;
+                left:0;
+                right:0;
+                position:absolute;
+                &.bx-prev{
+                    top:-30px;
+                    &:before{
+                        content:"\f077";
+                    }
+                }
+                &.bx-next{
+                    bottom:0;
+                    &:before{
+                        content: "\f078";
+                    }
+                }
+            }
+        }
+    }
+    &.fade{
+        .hentry{
+            border:none;
+        }
+        .bx-controls-direction{
+            padding-top:10px;
+            a{
+                margin:0 4px;
+                &.bx-prev{
+                    &:before{
+                        content:"\f053";
+                    }
+                }
+                &.bx-next{
+                    &:before{
+                        content: "\f054";
+                    }
+                }
+            }
+        }
+    }
+}
