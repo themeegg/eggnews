@@ -25,13 +25,13 @@ $(document).ready(function () {
     };
     $('.breaking-news-slider').each(function () {
         var duration, direction;
-        direction = $(this).data('direction')
+        direction = $(this).data('direction');
         duration = $(this).data('duration');
         breaking_news_args.speed = duration;
         breaking_news_args.mode = direction;
         $(this).bxSlider(breaking_news_args);
     });
-    
+
 	// Slider
 	if ($('.eggnewsSlider').length > 0) {
 		$('.eggnewsSlider').bxSlider({

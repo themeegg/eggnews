@@ -45,10 +45,10 @@ if ( ! function_exists( 'eggnews_categories_color' ) ):
 
 		$teg_dynamic_css = '';
 
-		if ( !empty( $teg_theme_color ) ) {
+		if ( ! empty( $teg_theme_color ) ) {
 
 
-			$teg_dynamic_css .= ".navigation .nav-links a,.bttn,button,input[type='button'],input[type='reset'],input[type='submit'],.navigation .nav-links a:hover,.bttn:hover,button,input[type='button']:hover,input[type='reset']:hover,input[type='submit']:hover,.edit-link .post-edit-link, .breaking_news_wrap .bx-controls-direction a, .reply .comment-reply-link,.home-icon,.search-main,.header-search-wrapper .search-form-main .search-submit,.teg-slider-section .bx-controls a:hover,.widget_search .search-submit,.error404 .page-title,.archive.archive-classic .entry-title a:after,#teg-scrollup,.widget_tag_cloud .tagcloud a:hover,.sub-toggle,#site-navigation ul > li:hover > .sub-toggle, #site-navigation ul > li.current-menu-item .sub-toggle, #site-navigation ul > li.current-menu-ancestor .sub-toggle{ background:" . $teg_theme_color . "} .breaking_news_wrap .bx-controls-direction a, .breaking_news_wrap .bx-controls-direction a:hover:before{color:#fff;}\n";
+			$teg_dynamic_css .= ".navigation .nav-links a,.bttn,button,input[type='button'],input[type='reset'],input[type='submit'],.navigation .nav-links a:hover,.bttn:hover,button,input[type='button']:hover,input[type='reset']:hover,input[type='submit']:hover,.edit-link .post-edit-link, .reply .comment-reply-link,.home-icon,.search-main,.header-search-wrapper .search-form-main .search-submit,.teg-slider-section .bx-controls a:hover,.widget_search .search-submit,.error404 .page-title,.archive.archive-classic .entry-title a:after,#teg-scrollup,.widget_tag_cloud .tagcloud a:hover,.sub-toggle,#site-navigation ul > li:hover > .sub-toggle, #site-navigation ul > li.current-menu-item .sub-toggle, #site-navigation ul > li.current-menu-ancestor .sub-toggle{ background:" . $teg_theme_color . "} .breaking_news_wrap .bx-controls-direction a, .breaking_news_wrap .bx-controls-direction a:hover:before{color:#fff;}\n";
 
 			$teg_dynamic_css .= ".navigation .nav-links a,.bttn,button,input[type='button'],input[type='reset'],input[type='submit'],.widget_search .search-submit,.widget_tag_cloud .tagcloud a:hover{ border-color:" . $teg_theme_color . "}\n";
 
@@ -68,9 +68,9 @@ if ( ! function_exists( 'eggnews_categories_color' ) ):
 			$teg_dynamic_css .= "#site-navigation ul li.current-menu-item a,.bx-default-pager .bx-pager-item a.active {border-color: " . $teg_theme_color . "}\n";
 			$teg_dynamic_css .= ".bottom-header-wrapper {border-color: " . $teg_theme_color . "}\n";
 			$teg_dynamic_css .= ".top-menu ul li, .eggnews-ticker-wrapper ~ .top-header-section {border-color: " . $teg_theme_color . "}\n";
-			$teg_dynamic_css .= ".ticker-caption {background-color: " . $teg_theme_color . "}\n";
+			$teg_dynamic_css .= ".ticker-caption, .breaking_news_wrap.fade .bx-controls-direction a.bx-next:hover, .breaking_news_wrap.fade .bx-controls-direction a.bx-prev:hover {background-color: " . $teg_theme_color . "}\n";
 			$teg_dynamic_css .= ".ticker-content-wrapper .news-post a:hover, .eggnews-carousel .item .carousel-content-wrapper a:hover{color: " . $teg_theme_color . "}\n";
-			$teg_dynamic_css .= ".eggnews-carousel .item .carousel-content-wrapper h3 a:hover, body .eggnews-carousel h3 a:hover, footer#colophon .eggnews-carousel h3 a:hover, footer#colophon a:hover, .widget a:hover{color: " . $teg_theme_color . "}\n";
+			$teg_dynamic_css .= ".eggnews-carousel .item .carousel-content-wrapper h3 a:hover, body .eggnews-carousel h3 a:hover, footer#colophon .eggnews-carousel h3 a:hover, footer#colophon a:hover, .widget a:hover, .breaking_news_wrap .article-content.feature_image .post-title a:hover{color: " . $teg_theme_color . "}\n";
 			$teg_dynamic_css .= ".widget .owl-theme .owl-dots .owl-dot.active span{background: " . $teg_theme_color . "}\n";
 			$teg_dynamic_css .= ".rtl #content .block-header .block-title::after, .rtl #content .related-articles-wrapper .related-title::after, .rtl #content .widget .widget-title::after{border-right-color: " . $teg_theme_color . "}\n";
 		}
