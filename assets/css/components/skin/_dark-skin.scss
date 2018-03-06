@@ -18,7 +18,9 @@ body.dark_skin {
 	.list-posts-block .single-post-wrapper .post-content-wrapper .post-title a, .column-posts-block .single-post-wrapper.secondary-post .post-content-wrapper .post-title a,
 	.grid-posts-block .post-title a, .column-posts-block .post-title a, button, input, select, textarea, h1.entry-title,
 	.widget_archive a, .widget_categories a, .widget_recent_entries a, .widget_meta a, .widget_recent_comments li, .widget_rss li, .widget_pages li a, .widget_nav_menu li a, .post-content-wrapper .post-content,
-	.related-posts-wrapper .post-title a, #comments h2.comments-title, .author-title, .author-description, .eggnews-author-wrapper .author-desc-wrapper .author-title {
+	.related-posts-wrapper .post-title a, #comments h2.comments-title, .author-title, .author-description, .eggnews-author-wrapper .author-desc-wrapper .author-title,
+	.breaking_news_wrap .article-content.feature_image .post-title a
+	{
 		color: #fff;
 	}
 	.news-bar {
@@ -183,101 +185,16 @@ body.dark_skin {
 	.view-all-link {
 		background: $dark-page-background;
 	}
-
-	/*--------------------------------------------------------------
-	Header Clean layout CSS
-	--------------------------------------------------------------*/
-	#masthead {
-		&.colormag-header-clean {
-			.main-navigation {
-				.sub-menu,
-				.children {
-					background-color: $news-background;
-				}
-			}
-			.main-small-navigation {
-				li {
-					background-color: $news-background;
-				}
-			}
-		}
-
-		&.colormag-header-clean,
-		&.colormag-header-classic {
-			.breaking-news .newsticker a,
-			.social-links i.fa {
-				color: $color_gray_seven;
-			}
-		}
-
-		&.colormag-header-classic {
-			.is-sticky {
-				#site-navigation {
-					background-color: $news-background;
-				}
-
-				.main-small-navigation li {
-					background-color: $news-background;
-				}
-			}
-
-			#site-navigation {
-				.menu-toggle {
-					border-color: $color_gray_seven;
-					&::before {
-						color: $color_gray_seven;
-					}
-				}
-
-				&.main-navigation {
-					ul#menu-primary {
-						ul.sub-menu,
-						.children {
-							background-color: $news-background;
-							border-color: $color_gray_three;
-
-							li {
-								border-color: $color_gray_three;
-							}
-						}
-					}
-					a,
-					.random-post a .fa-random {
-						color: $white;
-					}
-				}
-				&.main-small-navigation .random-post a .fa-random,
-				.fa.search-top {
-					color: $white;
-				}
-			}
+	.widget_categories, .widget_archive {
+		select {
+			color: $dark-page-background;
 		}
 	}
-	.colormag-footer--classic {
-		.footer-widgets-wrapper {
-			background-color: $medium-footer-socket;
-		}
-		.footer-socket-wrapper {
-			background-color: $dark-footer-socket;
-		}
+	footer#colophon {
+		background: $dark-page-background;
 	}
-	.elementor {
-		.tg-module-wrapper {
-			color: $color_gray_seven;
+	.widget_calendar {
+		color: #fff;
+	}
 
-			.tg-module-title {
-				color: $white;
-			}
-			.tg-module-meta {
-				.tg-post-auther-name,
-				.tg-post-date,
-				.tg-module-comments {
-					a,
-					span {
-						color: $light-content;
-					}
-				}
-			}
-		}
-	}
 }
