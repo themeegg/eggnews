@@ -325,6 +325,38 @@ function eggnews_design_settings_register( $wp_customize ) {
 			'priority' => 5
 		)
 	);
-	
+
+	//Website Skin
+	$wp_customize->add_section(
+		'eggnews_website_skin_section',
+		array(
+			'title'    => esc_html__( 'Website Skin', 'eggnews' ),
+			'priority' => 26,
+			'panel'    => 'eggnews_design_settings_panel'
+		)
+	);
+	// Website Skin Setting
+	$wp_customize->add_setting(
+		'website_skin_option',
+		array(
+			'default'           => 'default_skin',
+			'sanitize_callback' => 'eggnews_website_skin_sanitize',
+		)
+	);
+	$wp_customize->add_control(
+		'website_skin_option',
+		array(
+			'type'        => 'radio',
+			'priority'    => 4,
+			'label'       => esc_html__( 'Choose Website Skin', 'eggnews' ),
+			'description' => esc_html__( 'Choose the  skin color for your site.', 'eggnews' ),
+			'section'     => 'eggnews_website_skin_section',
+			'choices'     => array(
+				'default_skin'   => esc_html__( 'Default', 'eggnews' ),
+				'dark_skin' => esc_html__( 'Dark Skin', 'eggnews' ),
+			),
+		)
+	);
+
 
 }

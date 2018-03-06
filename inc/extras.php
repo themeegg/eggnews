@@ -107,6 +107,8 @@ function eggnews_body_classes( $classes ) {
 		$classes[] = 'group-blog';
 	}
 
+	$classes[] = get_theme_mod( 'website_skin_option', 'default_skin' );
+
 	// Adds a class of hfeed to non-singular pages.
 	if ( ! is_singular() ) {
 		$classes[] = 'hfeed';
