@@ -151,12 +151,17 @@ function eggnews_sanitize_related_type( $input ) {
 //Website Skin Sanatize
 function eggnews_website_skin_sanitize( $input ) {
 	$valid_keys = array(
-		'default_skin'   => esc_html__( 'Default', 'eggnews' ),
-		'dark_skin' => esc_html__( 'Dark Skin', 'eggnews' ),
+		'default_skin' => esc_html__( 'Default', 'eggnews' ),
+		'dark_skin'    => esc_html__( 'Dark Skin', 'eggnews' ),
 	);
 	if ( array_key_exists( $input, $valid_keys ) ) {
 		return $input;
 	} else {
 		return '';
 	}
+}
+
+// sanitization of links
+function eggnews_links_sanitize() {
+	return false;
 }

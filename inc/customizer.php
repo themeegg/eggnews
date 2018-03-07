@@ -42,6 +42,7 @@ function eggnews_related_articles_option_callback( $control ) {
 /**
  * Load customizer panels
  */
+require get_template_directory() . '/inc/admin/assets/panels/important-link-panel.php'; //Important Link panel
 require get_template_directory() . '/inc/admin/assets/panels/general-panel.php'; //General settings panel
 require get_template_directory() . '/inc/admin/assets/panels/header-panel.php'; //header settings panel
 require get_template_directory() . '/inc/admin/assets/panels/design-panel.php'; //Design Settings panel

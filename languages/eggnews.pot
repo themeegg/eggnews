@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: themeeggofficial@gmail.com\n"
-"POT-Creation-Date: 2018-03-07 06:32:55+00:00\n"
+"POT-Creation-Date: 2018-03-07 07:36:39+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -486,6 +486,44 @@ msgstr ""
 msgid "Enable/disable option for Menu Sticky"
 msgstr ""
 
+#: inc/admin/assets/panels/important-link-panel.php:24
+#: inc/admin/class-eggnews-admin.php:477
+msgid "View Pro"
+msgstr ""
+
+#: inc/admin/assets/panels/important-link-panel.php:28
+#: inc/admin/class-eggnews-admin.php:138
+msgid "Theme Info"
+msgstr ""
+
+#: inc/admin/assets/panels/important-link-panel.php:32
+#: inc/admin/class-eggnews-admin.php:227 inc/admin/class-eggnews-admin.php:321
+msgid "Support"
+msgstr ""
+
+#: inc/admin/assets/panels/important-link-panel.php:36
+#: inc/admin/class-eggnews-admin.php:216 inc/admin/class-eggnews-admin.php:219
+msgid "Documentation"
+msgstr ""
+
+#: inc/admin/assets/panels/important-link-panel.php:40
+#: inc/admin/class-eggnews-admin.php:142
+msgid "View Demo"
+msgstr ""
+
+#: inc/admin/assets/panels/important-link-panel.php:44
+#: inc/admin/class-eggnews-admin.php:146
+msgid "Rate this theme"
+msgstr ""
+
+#: inc/admin/assets/panels/important-link-panel.php:56
+msgid "Eggnews Important Links"
+msgstr ""
+
+#: inc/admin/assets/panels/important-link-panel.php:68
+msgid "Important Links"
+msgstr ""
+
 #: inc/admin/class-eggnews-admin.php:36 inc/admin/class-eggnews-admin.php:122
 msgid "About"
 msgstr ""
@@ -514,18 +552,6 @@ msgstr ""
 msgid "Get started with EggNews"
 msgstr ""
 
-#: inc/admin/class-eggnews-admin.php:138
-msgid "Theme Info"
-msgstr ""
-
-#: inc/admin/class-eggnews-admin.php:142
-msgid "View Demo"
-msgstr ""
-
-#: inc/admin/class-eggnews-admin.php:146
-msgid "Rate this theme"
-msgstr ""
-
 #: inc/admin/class-eggnews-admin.php:149
 msgid "View Pro Version"
 msgstr ""
@@ -550,10 +576,6 @@ msgstr ""
 msgid "Customize"
 msgstr ""
 
-#: inc/admin/class-eggnews-admin.php:216 inc/admin/class-eggnews-admin.php:219
-msgid "Documentation"
-msgstr ""
-
 #: inc/admin/class-eggnews-admin.php:217
 msgid "Please view our documentation page to setup the theme."
 msgstr ""
@@ -564,10 +586,6 @@ msgstr ""
 
 #: inc/admin/class-eggnews-admin.php:225
 msgid "Please put it in our dedicated support forum."
-msgstr ""
-
-#: inc/admin/class-eggnews-admin.php:227 inc/admin/class-eggnews-admin.php:321
-msgid "Support"
 msgstr ""
 
 #: inc/admin/class-eggnews-admin.php:231
@@ -752,10 +770,6 @@ msgstr ""
 
 #: inc/admin/class-eggnews-admin.php:467
 msgid "Contact us template"
-msgstr ""
-
-#: inc/admin/class-eggnews-admin.php:477
-msgid "View Pro"
 msgstr ""
 
 #: inc/admin/class-eggnews-admin.php:524

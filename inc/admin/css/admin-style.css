@@ -141,3 +141,21 @@ div[id*="eggnews_posts_list"].widget h3,
 div[id*="eggnews_post_carousel"].widget h3 {
 	border-left: 3px solid #408c40;
 }
+
+#customize-controls #accordion-section-eggnews_important_links h3.accordion-section-title {
+	background: #1e73be;
+	color: #fff;
+}
+
+#customize-controls #accordion-section-eggnews_important_links h3.accordion-section-title:after {
+	color: #fff;
+}
+
+#sub-accordion-section-eggnews_important_links li.customize-control-eggnews-important-links p a {
+	width: 100%;
+	display: inline-block;
+	background: #1e73be;
+	padding: 10px;
+	color: #ffff;
+
+}
