@@ -20,7 +20,7 @@ function eggnews_important_link_panel_register( $wp_customize ) {
 			//Add Theme instruction, Support Forum, Demo Link, Rating Link
 			$important_links = array(
 				'view-pro'      => array(
-					'link' => esc_url( 'https://themeegg.com/downloads/eggnews-pro-wordpress-theme/' ),
+					'link' => esc_url( 'https://goo.gl/bNY8LR' ),
 					'text' => esc_html__( 'View Pro', 'eggnews' ),
 				),
 				'theme-info'    => array(
