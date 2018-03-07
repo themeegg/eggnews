@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: themeeggofficial@gmail.com\n"
-"POT-Creation-Date: 2018-02-14 11:02:29+00:00\n"
+"POT-Creation-Date: 2018-03-07 06:32:55+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -181,6 +181,16 @@ msgstr ""
 #: inc/admin/assets/eggnews-sanitize.php:142
 #: inc/admin/assets/panels/design-panel.php:224
 msgid "by Tags"
+msgstr ""
+
+#: inc/admin/assets/eggnews-sanitize.php:154
+#: inc/admin/assets/panels/design-panel.php:355
+msgid "Default"
+msgstr ""
+
+#: inc/admin/assets/eggnews-sanitize.php:155
+#: inc/admin/assets/panels/design-panel.php:356
+msgid "Dark Skin"
 msgstr ""
 
 #: inc/admin/assets/metaboxes/eggnews-post-metabox.php:14
@@ -378,6 +388,18 @@ msgstr ""
 
 #: inc/admin/assets/panels/design-panel.php:323
 msgid "Copyright Info"
+msgstr ""
+
+#: inc/admin/assets/panels/design-panel.php:333
+msgid "Website Skin"
+msgstr ""
+
+#: inc/admin/assets/panels/design-panel.php:351
+msgid "Choose Website Skin"
+msgstr ""
+
+#: inc/admin/assets/panels/design-panel.php:352
+msgid "Choose the  skin color for your site."
 msgstr ""
 
 #: inc/admin/assets/panels/general-panel.php:32
