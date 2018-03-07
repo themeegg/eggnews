@@ -68,6 +68,7 @@ Eggnews bundles the following third-party resources:
 = 1.4.6 - 2018/03/07 =
 	* Added - Website Skin feature added   
 	* Fix - Carousel swaping issue on mobile fixed   
+	* Change - screenshot changed   
 = 1.4.5 - 2018/02/14 =
 	* Added - Breaking news widget added   
 	* Fix - Design related issue fixed   
