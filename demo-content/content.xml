@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.9.1" created="2017-12-10 14:39" -->
+<!-- generator="WordPress/4.9.4" created="2018-03-07 02:58" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Eggnews</title>
 	<link>https://demo.themeegg.com/themes/eggnews</link>
 	<description>Wordpress news magazine theme</description>
-	<pubDate>Sun, 10 Dec 2017 14:39:33 +0000</pubDate>
+	<pubDate>Wed, 07 Mar 2018 02:58:05 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>https://demo.themeegg.com/themes/eggnews</wp:base_site_url>
@@ -417,7 +417,7 @@
 	<wp:term><wp:term_id>28</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[top-menu]]></wp:term_slug><wp:term_name><![CDATA[Top Menu]]></wp:term_name>
 </wp:term>
 
-	<generator>https://wordpress.org/?v=4.9.1</generator>
+	<generator>https://wordpress.org/?v=4.9.4</generator>
 
 	<item>
 		<title>taj-mahal-366_1920</title>
@@ -3568,6 +3568,61 @@ CREDIT: Andrew Spear for TIME]]></excerpt:encoded>
 		</wp:postmeta>
 	</item>
 	<item>
+		<title></title>
+		<link>https://demo.themeegg.com/themes/eggnews/120/</link>
+		<pubDate>Sat, 02 Sep 2017 16:59:59 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?p=120</guid>
+		<description></description>
+		<content:encoded><![CDATA[Everything about music]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>120</wp:post_id>
+		<wp:post_date><![CDATA[2017-09-02 16:59:59]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-09-02 16:59:59]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[120]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>7</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[taxonomy]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[8]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[category]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 		<title>young-girl-531252</title>
 		<link>https://demo.themeegg.com/themes/eggnews/modelmentors-offers-free-modeling-advice/young-girl-531252/</link>
 		<pubDate>Tue, 07 Nov 2017 13:58:21 +0000</pubDate>
@@ -3787,6 +3842,10 @@ CREDIT: Andrew Spear for TIME]]></excerpt:encoded>
 			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
 			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:231;s:6:"height";i:72;s:4:"file";s:21:"2017/11/cropped-Q.jpg";s:5:"sizes";a:1:{s:9:"thumbnail";a:4:{s:4:"file";s:20:"cropped-Q-150x72.jpg";s:5:"width";i:150;s:6:"height";i:72;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_oembed_493729433b0d16010b46c6fa8a94907a]]></wp:meta_key>
+			<wp:meta_value><![CDATA[{{unknown}}]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>cropped-stock-624712_1920.jpg</title>
@@ -3832,285 +3891,34 @@ CREDIT: Andrew Spear for TIME]]></excerpt:encoded>
 		</wp:postmeta>
 	</item>
 	<item>
-		<title></title>
-		<link>https://demo.themeegg.com/themes/eggnews/?p=330</link>
-		<pubDate>Mon, 30 Nov -0001 00:00:00 +0000</pubDate>
+		<title>banner-large</title>
+		<link>https://demo.themeegg.com/themes/eggnews/banner-large/</link>
+		<pubDate>Sun, 24 Dec 2017 11:43:45 +0000</pubDate>
 		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/?p=330</guid>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/12/banner-large.jpg</guid>
 		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>330</wp:post_id>
-		<wp:post_date><![CDATA[2017-12-01 13:57:44]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:post_id>340</wp:post_id>
+		<wp:post_date><![CDATA[2017-12-24 11:43:45]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-12-24 11:43:45]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[]]></wp:post_name>
-		<wp:status><![CDATA[draft]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>1</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_orphaned]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1512136664]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-			<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[9]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title></title>
-		<link>https://demo.themeegg.com/themes/eggnews/?p=335</link>
-		<pubDate>Mon, 30 Nov -0001 00:00:00 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/?p=335</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>335</wp:post_id>
-		<wp:post_date><![CDATA[2017-12-01 14:02:33]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[]]></wp:post_name>
-		<wp:status><![CDATA[draft]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>1</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[taxonomy]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[9]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-			<wp:meta_value><![CDATA[category]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_orphaned]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1512136953]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Blog Page</title>
-		<link>https://demo.themeegg.com/themes/eggnews/blog-page/</link>
-		<pubDate>Sun, 16 Jul 2017 04:11:08 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/enews/?page_id=6</guid>
-		<description></description>
-		<content:encoded><![CDATA[<div>
-<strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-</div>
-<div>
-<h2>Why do we use it?</h2>
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-</div>
-&nbsp;
-<div>
-<h2>Where does it come from?</h2>
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-
-</div>
-<div>
-<h2>Where can I get some?</h2>
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-
-</div>]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>87</wp:post_id>
-		<wp:post_date><![CDATA[2017-07-16 04:11:08]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-07-16 04:11:08]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[blog-page]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_name><![CDATA[banner-large]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[https://demo.themeegg.com/themes/eggnews/wp-content/uploads/2017/12/banner-large.jpg]]></wp:attachment_url>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:300;s:6:"height";i:250;s:4:"file";s:24:"2017/12/banner-large.jpg";s:5:"sizes";a:4:{s:9:"thumbnail";a:4:{s:4:"file";s:24:"banner-large-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:24:"banner-large-300x250.jpg";s:5:"width";i:300;s:6:"height";i:250;s:9:"mime-type";s:10:"image/jpeg";}s:21:"eggnews-featured-long";a:4:{s:4:"file";s:24:"banner-large-300x250.jpg";s:5:"width";i:300;s:6:"height";i:250;s:9:"mime-type";s:10:"image/jpeg";}s:19:"eggnews-block-thumb";a:4:{s:4:"file";s:24:"banner-large-300x230.jpg";s:5:"width";i:300;s:6:"height";i:230;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"1";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
-			<wp:meta_value><![CDATA[left_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Truck crashed into the back of another truck</title>
-		<link>https://demo.themeegg.com/themes/eggnews/31-injured-in-dhading-bus-truck-collision/</link>
-		<pubDate>Sun, 16 Jul 2017 05:04:22 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/enews/?page_id=36</guid>
-		<description></description>
-		<content:encoded><![CDATA[According to a top police official, a pick-up truck crashed into the back of another truck on the Emirates Road.
-
-Four people were killed and three others sustained serious injuries in a traffic accident that involved three trucks, the Dubai Police said on Thursday.
-
-According to a top police official, a pick-up truck crashed into the back of another truck on the Emirates Road. "The driver of the pick-up truck failed to leave enough distance between his vehicle and the truck ahead of him, causing him to crash into it," Brigadier Saif Muhair Al Mazroui, director of the general department of traffic, said.
-
-Brigadier Saeed Ahmed, director of the Rashidya police station, said such was the impact of the accident that the truck crashed into another truck ahead of him. The accident was reported at 4pm.
-
-The pick-up truck driver and three others in his vehicle were killed in the accident. Three people in the other trucks sustained serious injuries. They had to be airlifted to the Rashid Hospital. They are recuperating, but are in a critical state.
-
-The official urged motorists to leave enough space between vehicles to avoid accidents.
-
-The Dubai Police had earlier told Khaleej Times that failure to leave enough space between vehicles caused the maximum number of accidents in the first nine months of the current year. Twenty-five people were killed in 446 accidents caused by this violation.
-
-amira@khaleejtimes.com  ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>91</wp:post_id>
-		<wp:post_date><![CDATA[2017-07-16 05:04:22]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-07-16 05:04:22]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[31-injured-in-dhading-bus-truck-collision]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[257]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[enews_sidebar_location]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title></title>
-		<link>https://demo.themeegg.com/themes/eggnews/120/</link>
-		<pubDate>Sat, 02 Sep 2017 16:59:59 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?p=120</guid>
-		<description></description>
-		<content:encoded><![CDATA[Everything about music]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>120</wp:post_id>
-		<wp:post_date><![CDATA[2017-09-02 16:59:59]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-09-02 16:59:59]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[120]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>7</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="primary-menu"><![CDATA[Primary Menu]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[taxonomy]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[8]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-			<wp:meta_value><![CDATA[category]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2017/12/banner-large.jpg]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -4574,7 +4382,7 @@ amira@khaleejtimes.com  ]]></content:encoded>
 		<wp:post_name><![CDATA[300]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>8</wp:menu_order>
+		<wp:menu_order>14</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -4585,7 +4393,7 @@ amira@khaleejtimes.com  ]]></content:encoded>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+			<wp:meta_value><![CDATA[353]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
@@ -4739,7 +4547,7 @@ amira@khaleejtimes.com  ]]></content:encoded>
 		<wp:post_name><![CDATA[307]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>5</wp:menu_order>
+		<wp:menu_order>7</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -4849,7 +4657,7 @@ amira@khaleejtimes.com  ]]></content:encoded>
 		<wp:post_name><![CDATA[331]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>9</wp:menu_order>
+		<wp:menu_order>15</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -4880,7 +4688,7 @@ amira@khaleejtimes.com  ]]></content:encoded>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+			<wp:meta_value><![CDATA[353]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
@@ -4959,7 +4767,7 @@ amira@khaleejtimes.com  ]]></content:encoded>
 		<wp:post_name><![CDATA[336]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>6</wp:menu_order>
+		<wp:menu_order>8</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -4970,7 +4778,7 @@ amira@khaleejtimes.com  ]]></content:encoded>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+			<wp:meta_value><![CDATA[307]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
@@ -5014,7 +4822,7 @@ amira@khaleejtimes.com  ]]></content:encoded>
 		<wp:post_name><![CDATA[337]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>7</wp:menu_order>
+		<wp:menu_order>9</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -5025,7 +4833,7 @@ amira@khaleejtimes.com  ]]></content:encoded>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+			<wp:meta_value><![CDATA[307]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
@@ -5050,6 +4858,171 @@ amira@khaleejtimes.com  ]]></content:encoded>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
 			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Premium Themes</title>
+		<link>https://demo.themeegg.com/themes/eggnews/premium-themes/</link>
+		<pubDate>Sat, 27 Jan 2018 04:22:46 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/?p=350</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>350</wp:post_id>
+		<wp:post_date><![CDATA[2018-01-27 04:22:46]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-01-27 04:22:46]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[premium-themes]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>10</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="home-page-top-menu"><![CDATA[Home page top Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[#]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[350]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Eggnews Pro</title>
+		<link>https://demo.themeegg.com/themes/eggnews/eggnews-pro/</link>
+		<pubDate>Sat, 27 Jan 2018 04:22:46 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/?p=351</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>351</wp:post_id>
+		<wp:post_date><![CDATA[2018-01-27 04:22:46]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-01-27 04:22:46]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[eggnews-pro]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>11</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="home-page-top-menu"><![CDATA[Home page top Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[351]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[350]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://themeegg.com/downloads/eggnews-pro-wordpress-theme/]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Miteri Pro</title>
+		<link>https://demo.themeegg.com/themes/eggnews/miteri-pro/</link>
+		<pubDate>Sat, 27 Jan 2018 04:22:46 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/?p=352</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>352</wp:post_id>
+		<wp:post_date><![CDATA[2018-01-27 04:22:46]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-01-27 04:22:46]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[miteri-pro]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>12</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="home-page-top-menu"><![CDATA[Home page top Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[352]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[350]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://themeegg.com/downloads/miteri-pro-wordpress-theme/]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -5187,6 +5160,10 @@ amira@khaleejtimes.com  ]]></content:encoded>
 			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
 			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[282]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>Flight accident in Dubai</title>
@@ -5309,14 +5286,14 @@ Other parties that were registered on Saturday are Nepali Congress (BP), Dalit M
 			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:comment>
-			<wp:comment_id>6</wp:comment_id>
-			<wp:comment_author><![CDATA[teste]]></wp:comment_author>
-			<wp:comment_author_email><![CDATA[teste@gmail.com]]></wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
-			<wp:comment_author_IP><![CDATA[131.72.246.9]]></wp:comment_author_IP>
-			<wp:comment_date><![CDATA[2017-10-23 10:42:12]]></wp:comment_date>
-			<wp:comment_date_gmt><![CDATA[2017-10-23 10:42:12]]></wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[teste]]></wp:comment_content>
+			<wp:comment_id>19</wp:comment_id>
+			<wp:comment_author><![CDATA[xbraj.com]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[nagarajan_3331@yahoo.com]]></wp:comment_author_email>
+			<wp:comment_author_url>https://netho.me/xbraj.com</wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[193.201.225.139]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2018-03-02 20:30:53]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2018-03-02 20:30:53]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[___123___Six parties registered with EC – Eggnews___123___]]></wp:comment_content>
 			<wp:comment_approved><![CDATA[0]]></wp:comment_approved>
 			<wp:comment_type><![CDATA[]]></wp:comment_type>
 			<wp:comment_parent>0</wp:comment_parent>
@@ -5448,20 +5425,6 @@ Mahara was in Ghorahi to lay the foundation stone of a building for the Rapti Su
 			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
 			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:comment>
-			<wp:comment_id>7</wp:comment_id>
-			<wp:comment_author><![CDATA[teste]]></wp:comment_author>
-			<wp:comment_author_email><![CDATA[teste@teste.com]]></wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
-			<wp:comment_author_IP><![CDATA[189.103.166.240]]></wp:comment_author_IP>
-			<wp:comment_date><![CDATA[2017-11-06 01:13:45]]></wp:comment_date>
-			<wp:comment_date_gmt><![CDATA[2017-11-06 01:13:45]]></wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[teste]]></wp:comment_content>
-			<wp:comment_approved><![CDATA[0]]></wp:comment_approved>
-			<wp:comment_type><![CDATA[]]></wp:comment_type>
-			<wp:comment_parent>0</wp:comment_parent>
-			<wp:comment_user_id>0</wp:comment_user_id>
-		</wp:comment>
 	</item>
 	<item>
 		<title>Model mentors offers free modeling advice</title>
@@ -5602,20 +5565,6 @@ Read more at http://www.nme.com/news/music/stagehand-dies-in-accident-after-aven
 			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
 			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:comment>
-			<wp:comment_id>4</wp:comment_id>
-			<wp:comment_author><![CDATA[dinesh]]></wp:comment_author>
-			<wp:comment_author_email><![CDATA[developer.dinesh1@gmail.com]]></wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
-			<wp:comment_author_IP><![CDATA[27.34.105.224]]></wp:comment_author_IP>
-			<wp:comment_date><![CDATA[2017-09-21 03:01:41]]></wp:comment_date>
-			<wp:comment_date_gmt><![CDATA[2017-09-21 03:01:41]]></wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[Leave a reply]]></wp:comment_content>
-			<wp:comment_approved><![CDATA[0]]></wp:comment_approved>
-			<wp:comment_type><![CDATA[]]></wp:comment_type>
-			<wp:comment_parent>0</wp:comment_parent>
-			<wp:comment_user_id>0</wp:comment_user_id>
-		</wp:comment>
 	</item>
 	<item>
 		<title>London tower block fire: Death toll climbs to 30</title>
@@ -5795,20 +5744,61 @@ Powerful lobbyists are fighting to protect favored deductions, while a few well-
 			<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
 			<wp:meta_value><![CDATA[the-border-disputes]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:comment>
-			<wp:comment_id>5</wp:comment_id>
-			<wp:comment_author><![CDATA[fcsdfv]]></wp:comment_author>
-			<wp:comment_author_email><![CDATA[raffael.improta@gmail.com]]></wp:comment_author_email>
-			<wp:comment_author_url></wp:comment_author_url>
-			<wp:comment_author_IP><![CDATA[95.231.91.16]]></wp:comment_author_IP>
-			<wp:comment_date><![CDATA[2017-10-18 22:33:06]]></wp:comment_date>
-			<wp:comment_date_gmt><![CDATA[2017-10-18 22:33:06]]></wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[fsd]]></wp:comment_content>
-			<wp:comment_approved><![CDATA[0]]></wp:comment_approved>
-			<wp:comment_type><![CDATA[]]></wp:comment_type>
-			<wp:comment_parent>0</wp:comment_parent>
-			<wp:comment_user_id>0</wp:comment_user_id>
-		</wp:comment>
+	</item>
+	<item>
+		<title>Blog Page</title>
+		<link>https://demo.themeegg.com/themes/eggnews/blog-page/</link>
+		<pubDate>Sun, 16 Jul 2017 04:11:08 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/enews/?page_id=6</guid>
+		<description></description>
+		<content:encoded><![CDATA[<div>
+<strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+</div>
+<div>
+<h2>Why do we use it?</h2>
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+</div>
+&nbsp;
+<div>
+<h2>Where does it come from?</h2>
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+
+</div>
+<div>
+<h2>Where can I get some?</h2>
+There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+
+</div>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>87</wp:post_id>
+		<wp:post_date><![CDATA[2017-07-16 04:11:08]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-07-16 04:11:08]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[blog-page]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[left_sidebar]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>New Post</title>
@@ -5869,6 +5859,20 @@ There are many variations of passages of Lorem Ipsum available, but the majority
 			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
 			<wp:meta_value><![CDATA[37]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:comment>
+			<wp:comment_id>17</wp:comment_id>
+			<wp:comment_author><![CDATA[qweqe]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[alexz76@inbox.ru]]></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[85.93.60.133]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2018-01-19 04:02:24]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2018-01-19 04:02:24]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[234]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[0]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+		</wp:comment>
 	</item>
 	<item>
 		<title>American Life Style</title>
@@ -5922,20 +5926,62 @@ In the National Archives and Records Administration's 1999 Annual Report, Nation
 			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
 			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
 		</wp:postmeta>
-		<wp:comment>
-			<wp:comment_id>10</wp:comment_id>
-			<wp:comment_author><![CDATA[free chat sex]]></wp:comment_author>
-			<wp:comment_author_email><![CDATA[LardFann835@yahoomail.com]]></wp:comment_author_email>
-			<wp:comment_author_url>http://www.redzonecams.16mb.com</wp:comment_author_url>
-			<wp:comment_author_IP><![CDATA[117.141.18.70]]></wp:comment_author_IP>
-			<wp:comment_date><![CDATA[2017-11-26 02:16:50]]></wp:comment_date>
-			<wp:comment_date_gmt><![CDATA[2017-11-26 02:16:50]]></wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[I do not even understand how I ended up here, however I believed this post used to be good. I don't know who you are however definitely you are going to a well-known blogger for those who aren't already. Cheers!]]></wp:comment_content>
-			<wp:comment_approved><![CDATA[0]]></wp:comment_approved>
-			<wp:comment_type><![CDATA[]]></wp:comment_type>
-			<wp:comment_parent>0</wp:comment_parent>
-			<wp:comment_user_id>0</wp:comment_user_id>
-		</wp:comment>
+	</item>
+	<item>
+		<title>Truck crashed into the back of another truck</title>
+		<link>https://demo.themeegg.com/themes/eggnews/31-injured-in-dhading-bus-truck-collision/</link>
+		<pubDate>Sun, 16 Jul 2017 05:04:22 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/enews/?page_id=36</guid>
+		<description></description>
+		<content:encoded><![CDATA[According to a top police official, a pick-up truck crashed into the back of another truck on the Emirates Road.
+
+Four people were killed and three others sustained serious injuries in a traffic accident that involved three trucks, the Dubai Police said on Thursday.
+
+According to a top police official, a pick-up truck crashed into the back of another truck on the Emirates Road. "The driver of the pick-up truck failed to leave enough distance between his vehicle and the truck ahead of him, causing him to crash into it," Brigadier Saif Muhair Al Mazroui, director of the general department of traffic, said.
+
+Brigadier Saeed Ahmed, director of the Rashidya police station, said such was the impact of the accident that the truck crashed into another truck ahead of him. The accident was reported at 4pm.
+
+The pick-up truck driver and three others in his vehicle were killed in the accident. Three people in the other trucks sustained serious injuries. They had to be airlifted to the Rashid Hospital. They are recuperating, but are in a critical state.
+
+The official urged motorists to leave enough space between vehicles to avoid accidents.
+
+The Dubai Police had earlier told Khaleej Times that failure to leave enough space between vehicles caused the maximum number of accidents in the first nine months of the current year. Twenty-five people were killed in 446 accidents caused by this violation.
+
+amira@khaleejtimes.com  ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>91</wp:post_id>
+		<wp:post_date><![CDATA[2017-07-16 05:04:22]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-07-16 05:04:22]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[31-injured-in-dhading-bus-truck-collision]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[257]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[enews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>Contact us</title>
@@ -5969,6 +6015,288 @@ In the National Archives and Records Administration's 1999 Annual Report, Nation
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>About</title>
+		<link>https://demo.themeegg.com/themes/eggnews/about/</link>
+		<pubDate>Sat, 27 Jan 2018 04:24:42 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/?p=353</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>353</wp:post_id>
+		<wp:post_date><![CDATA[2018-01-27 04:24:42]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-01-27 04:24:42]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[about]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>13</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="home-page-top-menu"><![CDATA[Home page top Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[353]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[https://themeegg.com/contact-us]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>https://demo.themeegg.com/themes/eggnews/361/</link>
+		<pubDate>Wed, 07 Mar 2018 02:31:53 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/?p=361</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>361</wp:post_id>
+		<wp:post_date><![CDATA[2018-03-07 02:31:53]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-03-07 02:31:53]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[361]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>5</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="home-page-top-menu"><![CDATA[Home page top Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[taxonomy]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[12]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[category]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>https://demo.themeegg.com/themes/eggnews/362/</link>
+		<pubDate>Wed, 07 Mar 2018 02:31:53 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/?p=362</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>362</wp:post_id>
+		<wp:post_date><![CDATA[2018-03-07 02:31:53]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-03-07 02:31:53]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[362]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>6</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="home-page-top-menu"><![CDATA[Home page top Menu]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[taxonomy]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[8]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[category]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Contact form 1</title>
+		<link>https://demo.themeegg.com/themes/eggnews/?post_type=wpcf7_contact_form&#038;p=123</link>
+		<pubDate>Sat, 02 Sep 2017 17:00:51 +0000</pubDate>
+		<dc:creator><![CDATA[eggnews]]></dc:creator>
+		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?post_type=wpcf7_contact_form&#038;p=123</guid>
+		<description></description>
+		<content:encoded><![CDATA[<label> Your Name (required)
+    [text* your-name] </label>
+
+<label> Your Email (required)
+    [email* your-email] </label>
+
+<label> Subject
+    [text your-subject] </label>
+
+<label> Your Message
+    [textarea your-message] </label>
+
+[submit "Send"]
+Eggnews "[your-subject]"
+[your-name] <wordpress@demo.themeegg.com>
+From: [your-name] <[your-email]>
+Subject: [your-subject]
+
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Eggnews (https://demo.themeegg.com/themes/eggnews)
+themeeggofficial@gmail.com
+Reply-To: [your-email]
+
+0
+0
+
+Eggnews "[your-subject]"
+Eggnews <wordpress@demo.themeegg.com>
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Eggnews (https://demo.themeegg.com/themes/eggnews)
+[your-email]
+Reply-To: themeeggofficial@gmail.com
+
+0
+0
+Thank you for your message. It has been sent.
+There was an error trying to send your message. Please try again later.
+One or more fields have an error. Please check and try again.
+There was an error trying to send your message. Please try again later.
+You must accept the terms and conditions before sending your message.
+The field is required.
+The field is too long.
+The field is too short.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>123</wp:post_id>
+		<wp:post_date><![CDATA[2017-09-02 17:00:51]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2017-09-02 17:00:51]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[contact-form-1]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:8:{s:7:"subject";s:24:"Eggnews "[your-subject]"";s:6:"sender";s:41:"[your-name] <wordpress@demo.themeegg.com>";s:4:"body";s:186:"From: [your-name] <[your-email]>
+Subject: [your-subject]
+
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Eggnews (https://demo.themeegg.com/themes/eggnews)";s:9:"recipient";s:26:"themeeggofficial@gmail.com";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";i:0;s:13:"exclude_blank";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_form]]></wp:meta_key>
+			<wp:meta_value><![CDATA[<label> Your Name (required)
+    [text* your-name] </label>
+
+<label> Your Email (required)
+    [email* your-email] </label>
+
+<label> Subject
+    [text your-subject] </label>
+
+<label> Your Message
+    [textarea your-message] </label>
+
+[submit "Send"]]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:24:"Eggnews "[your-subject]"";s:6:"sender";s:37:"Eggnews <wordpress@demo.themeegg.com>";s:4:"body";s:128:"Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Eggnews (https://demo.themeegg.com/themes/eggnews)";s:9:"recipient";s:12:"[your-email]";s:18:"additional_headers";s:36:"Reply-To: themeeggofficial@gmail.com";s:11:"attachments";s:0:"";s:8:"use_html";i:0;s:13:"exclude_blank";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:8:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
+			<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -6039,6 +6367,20 @@ Meanwhile, in the Philippines, dozens of protesters burned a portrait of Trump i
 			<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
 			<wp:meta_value><![CDATA[south-korean-police-on-alert-over-trump-protests]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:comment>
+			<wp:comment_id>18</wp:comment_id>
+			<wp:comment_author><![CDATA[david]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[d33shin@gmail.com]]></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[144.138.83.253]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2018-02-08 10:39:10]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2018-02-08 10:39:10]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[kljasdf]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[0]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+		</wp:comment>
 	</item>
 	<item>
 		<title>Webster&#039;s Dictionary defines a model</title>
@@ -6408,161 +6750,6 @@ The shell guard to stave off Komura’s feeble right straights ensured that the 
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Home</title>
-		<link>https://demo.themeegg.com/themes/eggnews/__trashed/</link>
-		<pubDate>Sat, 25 Nov 2017 02:30:39 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">https://demo.themeegg.com/themes/eggnews/?page_id=310</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>310</wp:post_id>
-		<wp:post_date><![CDATA[2017-11-25 02:30:39]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-11-25 02:30:39]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[__trashed]]></wp:post_name>
-		<wp:status><![CDATA[trash]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[draft]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1511577039]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Contact form 1</title>
-		<link>https://demo.themeegg.com/themes/eggnews/?post_type=wpcf7_contact_form&#038;p=123</link>
-		<pubDate>Sat, 02 Sep 2017 17:00:51 +0000</pubDate>
-		<dc:creator><![CDATA[eggnews]]></dc:creator>
-		<guid isPermaLink="false">http://demo.themeegg.com/themes/eggnews/?post_type=wpcf7_contact_form&#038;p=123</guid>
-		<description></description>
-		<content:encoded><![CDATA[<label> Your Name (required)
-    [text* your-name] </label>
-
-<label> Your Email (required)
-    [email* your-email] </label>
-
-<label> Subject
-    [text your-subject] </label>
-
-<label> Your Message
-    [textarea your-message] </label>
-
-[submit "Send"]
-Eggnews "[your-subject]"
-[your-name] <wordpress@demo.themeegg.com>
-From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Eggnews (https://demo.themeegg.com/themes/eggnews)
-themeeggofficial@gmail.com
-Reply-To: [your-email]
-
-0
-0
-
-Eggnews "[your-subject]"
-Eggnews <wordpress@demo.themeegg.com>
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Eggnews (https://demo.themeegg.com/themes/eggnews)
-[your-email]
-Reply-To: themeeggofficial@gmail.com
-
-0
-0
-Thank you for your message. It has been sent.
-There was an error trying to send your message. Please try again later.
-One or more fields have an error. Please check and try again.
-There was an error trying to send your message. Please try again later.
-You must accept the terms and conditions before sending your message.
-The field is required.
-The field is too long.
-The field is too short.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>123</wp:post_id>
-		<wp:post_date><![CDATA[2017-09-02 17:00:51]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2017-09-02 17:00:51]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[contact-form-1]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:8:{s:7:"subject";s:24:"Eggnews "[your-subject]"";s:6:"sender";s:41:"[your-name] <wordpress@demo.themeegg.com>";s:4:"body";s:186:"From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Eggnews (https://demo.themeegg.com/themes/eggnews)";s:9:"recipient";s:26:"themeeggofficial@gmail.com";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";i:0;s:13:"exclude_blank";i:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-			<wp:meta_value><![CDATA[<label> Your Name (required)
-    [text* your-name] </label>
-
-<label> Your Email (required)
-    [email* your-email] </label>
-
-<label> Subject
-    [text your-subject] </label>
-
-<label> Your Message
-    [textarea your-message] </label>
-
-[submit "Send"]]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:24:"Eggnews "[your-subject]"";s:6:"sender";s:37:"Eggnews <wordpress@demo.themeegg.com>";s:4:"body";s:128:"Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Eggnews (https://demo.themeegg.com/themes/eggnews)";s:9:"recipient";s:12:"[your-email]";s:18:"additional_headers";s:36:"Reply-To: themeeggofficial@gmail.com";s:11:"attachments";s:0:"";s:8:"use_html";i:0;s:13:"exclude_blank";i:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:8:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
-			<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>Goan football’s slow death due to lure</title>
 		<link>https://demo.themeegg.com/themes/eggnews/goan-footballs-slow-death-due-to-lure/</link>
 		<pubDate>Tue, 07 Nov 2017 11:08:54 +0000</pubDate>
@@ -6693,7 +6880,7 @@ Why not? It's not like most of these guys are doing anything worthwhile on their
 			<wp:comment_content><![CDATA[I see you don't monetize your page, don't waste your traffic, you can earn extra cash every month 
 because you've got hi quality content. If you want to know how to make extra $$$, search for:
 Boorfe's tips best adsense alternative]]></wp:comment_content>
-			<wp:comment_approved><![CDATA[0]]></wp:comment_approved>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
 			<wp:comment_type><![CDATA[]]></wp:comment_type>
 			<wp:comment_parent>0</wp:comment_parent>
 			<wp:comment_user_id>0</wp:comment_user_id>
@@ -6755,7 +6942,7 @@ Fullback Seamus Coleman is a long-term absentee after breaking his leg on intern
 because you've got hi quality content. If you 
 want to know how to make extra money, search for: Boorfe's tips best adsense 
 alternative]]></wp:comment_content>
-			<wp:comment_approved><![CDATA[0]]></wp:comment_approved>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
 			<wp:comment_type><![CDATA[]]></wp:comment_type>
 			<wp:comment_parent>0</wp:comment_parent>
 			<wp:comment_user_id>0</wp:comment_user_id>
@@ -7015,6 +7202,20 @@ For the latest tech news and reviews, follow Gadgets 360 on Twitter, Facebook, a
 			<wp:meta_key><![CDATA[eggnews_sidebar_location]]></wp:meta_key>
 			<wp:meta_value><![CDATA[default_sidebar]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:comment>
+			<wp:comment_id>16</wp:comment_id>
+			<wp:comment_author><![CDATA[авпа]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[ad@efs.rt]]></wp:comment_author_email>
+			<wp:comment_author_url>http://вапва</wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[5.79.233.137]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2018-01-16 17:04:15]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2018-01-16 17:04:15]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[павп]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[0]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+		</wp:comment>
 	</item>
 	<item>
 		<title>Politics of the Caribbean</title>
@@ -7071,7 +7272,23 @@ Several of the island in the Caribbean remain under the control of colonial powe
 			<wp:comment_date><![CDATA[2017-11-24 06:49:09]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2017-11-24 06:49:09]]></wp:comment_date_gmt>
 			<wp:comment_content><![CDATA[they are supper websites]]></wp:comment_content>
-			<wp:comment_approved><![CDATA[0]]></wp:comment_approved>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+		</wp:comment>
+		<wp:comment>
+			<wp:comment_id>12</wp:comment_id>
+			<wp:comment_author><![CDATA[FirstSuzanne]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[marcowarman@web.de]]></wp:comment_author_email>
+			<wp:comment_author_url>https://10Valeria.blogspot.se</wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[179.153.212.49]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2017-12-10 21:14:20]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2017-12-10 21:14:20]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[I have noticed you don't monetize your blog, don't waste your traffic, you can earn extra bucks every month 
+because you've got high quality content. If you want to know how 
+to make extra bucks, search for: Boorfe's tips best adsense alternative]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
 			<wp:comment_type><![CDATA[]]></wp:comment_type>
 			<wp:comment_parent>0</wp:comment_parent>
 			<wp:comment_user_id>0</wp:comment_user_id>
