@@ -105,7 +105,6 @@ class Eggnews_Block_Layout extends WP_widget {
 		if ( empty( $instance ) ) {
 			return;
 		}
-
 		$eggnews_block_title              = empty( $instance['eggnews_block_title'] ) ? '' : $instance['eggnews_block_title'];
 		$eggnews_block_posts_count        = intval( empty( $instance['eggnews_block_posts_count'] ) ? 5 : $instance['eggnews_block_posts_count'] );
 		$eggnews_block_cat_id             = isset( $instance['eggnews_block_cat_id'] ) ? is_array( $instance['eggnews_block_cat_id'] ) ? array_map( 'absint', wp_unslash( $instance['eggnews_block_cat_id'] ) ) : absint( $instance['eggnews_block_cat_id'] ) : 0;
@@ -115,8 +114,12 @@ class Eggnews_Block_Layout extends WP_widget {
 		echo $before_widget;
 		?>
 		<div class="block-layout-wrapper">
-
-			<?php eggnews_block_title( $eggnews_block_title, $eggnews_block_cat_id ); ?>
+			<?php
+			$eggnews_block_cat_id_for_title = is_array( $eggnews_block_cat_id ) ? count( $eggnews_block_cat_id ) === 1 ? $eggnews_block_cat_id[0] : null : $eggnews_block_cat_id;
+			if ( $eggnews_block_category_parameter === 3 ) {
+				$eggnews_block_cat_id_for_title = null;
+			}
+			eggnews_block_title( $eggnews_block_title, $eggnews_block_cat_id_for_title ); ?>
 
 			<div class="block-posts-wrapper clearfix teg-column-wrapper">
 				<?php
