@@ -111,6 +111,7 @@ class Eggnews_Block_Layout extends WP_widget {
 		$eggnews_block_category_parameter = intval( ! isset( $instance['eggnews_block_category_parameter'] ) ? 1 : $instance['eggnews_block_category_parameter'] );
 		$eggnews_block_tags               = isset( $instance['eggnews_block_tags'] ) ? is_array( $instance['eggnews_block_tags'] ) ? array_map( 'absint', wp_unslash( $instance['eggnews_block_tags'] ) ) : absint( $instance['eggnews_block_tags'] ) : 0;
 		$eggnews_block_tags_parameter     = intval( ! isset( $instance['eggnews_block_tags_parameter'] ) ? 1 : $instance['eggnews_block_tags_parameter'] );
+
 		echo $before_widget;
 		?>
 		<div class="block-layout-wrapper">
