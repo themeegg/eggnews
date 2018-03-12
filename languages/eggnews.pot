@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: themeeggofficial@gmail.com\n"
-"POT-Creation-Date: 2018-03-07 07:36:39+00:00\n"
+"POT-Creation-Date: 2018-03-12 08:15:14+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -350,7 +350,7 @@ msgstr ""
 msgid "Enable/disable related articles section at single post page."
 msgstr ""
 
-#: inc/admin/assets/panels/design-panel.php:190 inc/eggnews-functions.php:522
+#: inc/admin/assets/panels/design-panel.php:190 inc/eggnews-functions.php:601
 msgid "Related Articles"
 msgstr ""
 
@@ -812,12 +812,12 @@ msgstr ""
 msgid "WPML"
 msgstr ""
 
-#: inc/eggnews-functions.php:28 inc/widgets/eggnews-widget-fields.php:201
+#: inc/eggnews-functions.php:28 inc/widgets/eggnews-widget-fields.php:207
 msgid "Upload"
 msgstr ""
 
-#: inc/eggnews-functions.php:29 inc/widgets/eggnews-widget-fields.php:203
-#: inc/widgets/eggnews-widget-fields.php:212
+#: inc/eggnews-functions.php:29 inc/widgets/eggnews-widget-fields.php:209
+#: inc/widgets/eggnews-widget-fields.php:218
 msgid "Remove"
 msgstr ""
 
@@ -826,18 +826,46 @@ msgid "Select Category"
 msgstr ""
 
 #: inc/eggnews-functions.php:189
+msgid "Select Tags"
+msgstr ""
+
+#: inc/eggnews-functions.php:200
+msgid "Category in - All post from either or selected category"
+msgstr ""
+
+#: inc/eggnews-functions.php:201
+msgid "Category and - All post that must have all selected category"
+msgstr ""
+
+#: inc/eggnews-functions.php:202
+msgid "Category not in - All posts except selected category"
+msgstr ""
+
+#: inc/eggnews-functions.php:211
+msgid "Tag in - All post from either or selected tag"
+msgstr ""
+
+#: inc/eggnews-functions.php:212
+msgid "Tag and - All post that must have all selected tag"
+msgstr ""
+
+#: inc/eggnews-functions.php:213
+msgid "Tag not in - All posts except selected tag"
+msgstr ""
+
+#: inc/eggnews-functions.php:223
 msgid "Select No. of Columns"
 msgstr ""
 
-#: inc/eggnews-functions.php:190
+#: inc/eggnews-functions.php:224
 msgid "2 Columns"
 msgstr ""
 
-#: inc/eggnews-functions.php:191
+#: inc/eggnews-functions.php:225
 msgid "3 Columns"
 msgstr ""
 
-#: inc/eggnews-functions.php:192
+#: inc/eggnews-functions.php:226
 msgid "4 Columns"
 msgstr ""
 
@@ -1254,7 +1282,7 @@ msgstr ""
 
 #: inc/widgets/eggnews-block-column.php:43
 #: inc/widgets/eggnews-block-grid.php:44
-#: inc/widgets/eggnews-block-layout.php:42
+#: inc/widgets/eggnews-block-layout.php:46
 #: inc/widgets/eggnews-block-list.php:42
 msgid "Block Title"
 msgstr ""
@@ -1266,7 +1294,7 @@ msgstr ""
 
 #: inc/widgets/eggnews-block-column.php:57
 #: inc/widgets/eggnews-block-grid.php:66
-#: inc/widgets/eggnews-block-layout.php:57
+#: inc/widgets/eggnews-block-layout.php:85
 #: inc/widgets/eggnews-block-list.php:56
 #: inc/widgets/eggnews-breaking-news.php:45
 #: inc/widgets/eggnews-posts-list.php:52
@@ -1293,9 +1321,21 @@ msgstr ""
 msgid "Block Layout"
 msgstr ""
 
-#: inc/widgets/eggnews-block-layout.php:48
+#: inc/widgets/eggnews-block-layout.php:52
 #: inc/widgets/eggnews-block-list.php:48
 msgid "Category for Block Layout"
+msgstr ""
+
+#: inc/widgets/eggnews-block-layout.php:61
+msgid "Category Parameters for Block Layout"
+msgstr ""
+
+#: inc/widgets/eggnews-block-layout.php:68
+msgid "Tags for Block Layout"
+msgstr ""
+
+#: inc/widgets/eggnews-block-layout.php:77
+msgid "Tags Parameters for Block Layout"
 msgstr ""
 
 #: inc/widgets/eggnews-block-list.php:26
@@ -1349,22 +1389,46 @@ msgstr ""
 msgid "Featured Slider"
 msgstr ""
 
-#: inc/widgets/eggnews-featured-slider.php:43
+#: inc/widgets/eggnews-featured-slider.php:45
 #: inc/widgets/eggnews-post-carousel.php:47
 msgid "Category for Slider"
 msgstr ""
 
-#: inc/widgets/eggnews-featured-slider.php:51
+#: inc/widgets/eggnews-featured-slider.php:54
+msgid "Category Parameters for Slider Option"
+msgstr ""
+
+#: inc/widgets/eggnews-featured-slider.php:61
+msgid "Tags for Slider"
+msgstr ""
+
+#: inc/widgets/eggnews-featured-slider.php:70
+msgid "Tags Parameters for Slider Option"
+msgstr ""
+
+#: inc/widgets/eggnews-featured-slider.php:78
 #: inc/widgets/eggnews-post-carousel.php:55
 msgid "No. of slides"
 msgstr ""
 
-#: inc/widgets/eggnews-featured-slider.php:58
+#: inc/widgets/eggnews-featured-slider.php:86
 msgid "Featured Posts Section"
 msgstr ""
 
-#: inc/widgets/eggnews-featured-slider.php:64
+#: inc/widgets/eggnews-featured-slider.php:92
 msgid "Category for Featured Posts"
+msgstr ""
+
+#: inc/widgets/eggnews-featured-slider.php:101
+msgid "Category Parameters for Featured Posts"
+msgstr ""
+
+#: inc/widgets/eggnews-featured-slider.php:108
+msgid "Tags for Featured Posts"
+msgstr ""
+
+#: inc/widgets/eggnews-featured-slider.php:117
+msgid "Tags Parameters for Featured Posts"
 msgstr ""
 
 #: inc/widgets/eggnews-post-carousel.php:26
@@ -1407,23 +1471,23 @@ msgstr ""
 msgid "Posts Type"
 msgstr ""
 
-#: inc/widgets/eggnews-widget-fields.php:177
+#: inc/widgets/eggnews-widget-fields.php:183
 msgid "Widget Layout"
 msgstr ""
 
-#: inc/widgets/eggnews-widget-fields.php:198
+#: inc/widgets/eggnews-widget-fields.php:204
 msgid "No file chosen"
 msgstr ""
 
-#: inc/widgets/eggnews-widget-fields.php:206
+#: inc/widgets/eggnews-widget-fields.php:212
 msgid "Upgrade your version of WordPress for full media support."
 msgstr ""
 
-#: inc/widgets/eggnews-widget-fields.php:215
+#: inc/widgets/eggnews-widget-fields.php:221
 msgid "Upload image"
 msgstr ""
 
-#: inc/widgets/eggnews-widget-fields.php:226
+#: inc/widgets/eggnews-widget-fields.php:232
 msgid "View File"
 msgstr ""
 

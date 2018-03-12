@@ -183,10 +183,44 @@ if ( ! function_exists( 'eggnews_category_dropdown' ) ) :
 	}
 endif;
 
+if ( ! function_exists( 'eggnews_tags_dropdown' ) ) :
+	function eggnews_tags_dropdown() {
+		$eggnews_tags               = get_tags( array( 'hide_empty' => 0 ) );
+		$eggnews_tags_dropdown['0'] = esc_html__( 'Select Tags', 'eggnews' );
+		foreach ( $eggnews_tags as $eggnews_tag ) {
+			$eggnews_tags_dropdown[ $eggnews_tag->term_id ] = $eggnews_tag->name;
+		}
+
+		return $eggnews_tags_dropdown;
+	}
+endif;
+if ( ! function_exists( 'eggnews_category_dropdown_parameter' ) ) :
+	function eggnews_category_dropdown_parameter() {
+		$eggnews_category_dropdown_parameter = array(
+			'1' => __( 'Category in - All post from either or selected category', 'eggnews' ),
+			'2' => __( 'Category and - All post that must have all selected category', 'eggnews' ),
+			'3' => __( 'Category not in - All posts except selected category', 'eggnews' ),
+		);
+
+		return $eggnews_category_dropdown_parameter;
+	}
+endif;
+if ( ! function_exists( 'eggnews_tags_dropdown_parameter' ) ) :
+	function eggnews_tags_dropdown_parameter() {
+		$eggnews_tag_dropdown_parameter = array(
+			'1' => __( 'Tag in - All post from either or selected tag', 'eggnews' ),
+			'2' => __( 'Tag and - All post that must have all selected tag', 'eggnews' ),
+			'3' => __( 'Tag not in - All posts except selected tag', 'eggnews' ),
+		);
+
+		return $eggnews_tag_dropdown_parameter;
+	}
+endif;
+
 
 //no of columns
 $eggnews_grid_columns = array(
-	'1'  => esc_html__( 'Select No. of Columns', 'eggnews' ),
+	'1' => esc_html__( 'Select No. of Columns', 'eggnews' ),
 	'2' => esc_html__( '2 Columns', 'eggnews' ),
 	'3' => esc_html__( '3 Columns', 'eggnews' ),
 	'4' => esc_html__( '4 Columns', 'eggnews' )
@@ -197,8 +231,32 @@ $eggnews_grid_columns = array(
  * Custom function for wp_query args
  */
 if ( ! function_exists( 'eggnews_query_args' ) ):
-	function eggnews_query_args( $cat_id, $post_count = null ) {
-		if ( ! empty( $cat_id ) ) {
+	function eggnews_query_args( $cat_id, $post_count = null, $category_parameter = 1, $eggnews_tag_id = 0, $tag_parameter = 1 ) {
+
+		$parameter_query = 'category__in';
+
+		if ( $category_parameter === 1 ) {
+			$parameter_query = 'category__in';
+		} else if ( $category_parameter === 2 ) {
+			$parameter_query = 'category__and';
+		} else if ( $category_parameter === 3 ) {
+			$parameter_query = 'category__not_in';
+		}
+		if ( is_array( $cat_id ) ) {
+			if ( count( $cat_id ) == 1 && $cat_id[0] === 0 ) {
+				$eggnews_args = array(
+					'post_type'           => 'post',
+					'posts_per_page'      => $post_count,
+					'ignore_sticky_posts' => 1
+				);
+			} else {
+				$eggnews_args = array(
+					'post_type'      => 'post',
+					$parameter_query => $cat_id,
+					'posts_per_page' => $post_count
+				);
+			}
+		} else if ( ! empty( $cat_id ) ) {
 			$eggnews_args = array(
 				'post_type'      => 'post',
 				'cat'            => $cat_id,
@@ -210,6 +268,27 @@ if ( ! function_exists( 'eggnews_query_args' ) ):
 				'posts_per_page'      => $post_count,
 				'ignore_sticky_posts' => 1
 			);
+		}
+
+		$tag_parameter_query = 'tag__in';
+
+		if ( $tag_parameter === 1 ) {
+			$tag_parameter_query = 'tag__in';
+		} else if ( $tag_parameter === 2 ) {
+			$tag_parameter_query = 'tag__and';
+		} else if ( $tag_parameter === 3 ) {
+			$tag_parameter_query = 'tag__not_in';
+		}
+		if ( is_array( $eggnews_tag_id ) ) {
+			if ( count( $eggnews_tag_id ) == 1 && $eggnews_tag_id[0] === 0 ) {
+
+			} else {
+				$eggnews_args[ $tag_parameter_query ] = $eggnews_tag_id;
+
+			}
+		} else if ( $eggnews_tag_id !== 0 ) {
+			$eggnews_args['tag_id'] = $eggnews_tag_id;
+
 		}
 
 		return $eggnews_args;
@@ -235,7 +314,7 @@ if ( ! function_exists( 'eggnews_block_title' ) ):
 		} else {
 			$teg_widget_title = '';
 		}
-		if(empty($teg_widget_title)){
+		if ( empty( $teg_widget_title ) ) {
 			return;
 		}
 		?>

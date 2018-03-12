@@ -119,17 +119,23 @@ function eggnews_widgets_show_widget_field( $instance = '', $widget_field = '', 
 			if ( empty( $athm_field_value ) ) {
 				$athm_field_value = $eggnews_widgets_default;
 			}
+			$is_multiple = isset( $eggnews_widgets_field_multiple ) && $eggnews_widgets_field_multiple ? true : false;
 			?>
 			<p>
 				<label
 					for="<?php echo esc_attr( $instance->get_field_id( $eggnews_widgets_name ) ); ?>"><?php echo esc_html( $eggnews_widgets_title ); ?>
 					:</label>
-				<select name="<?php echo esc_attr( $instance->get_field_name( $eggnews_widgets_name ) ); ?>"
+				<select name="<?php echo esc_attr( $instance->get_field_name( $eggnews_widgets_name ) );
+				if ( $is_multiple ) {
+					echo '[]';
+				} ?>"
 				        id="<?php echo esc_attr( $instance->get_field_id( $eggnews_widgets_name ) ); ?>"
-				        class="widefat">
-					<?php foreach ( $eggnews_widgets_field_options as $athm_option_name => $athm_option_title ) { ?>
+				        class="widefat" <?php echo $is_multiple ? 'multiple="multiple"' : ''; ?>>
+					<?php foreach ( $eggnews_widgets_field_options as $athm_option_name => $athm_option_title ) {
+						$athm_field_value_selected = is_array($athm_field_value) ? in_array($athm_option_name, $athm_field_value) ? $athm_option_name : -1 : $athm_field_value;
+						?>
 						<option value="<?php echo esc_attr( $athm_option_name ); ?>"
-						        id="<?php echo esc_attr( $instance->get_field_id( $athm_option_name ) ); ?>" <?php selected( $athm_option_name, $athm_field_value ); ?>><?php echo esc_html( $athm_option_title ); ?></option>
+						        id="<?php echo esc_attr( $instance->get_field_id( $athm_option_name ) ); ?>" <?php selected( $athm_option_name, $athm_field_value_selected); ?>><?php echo esc_html( $athm_option_title ); ?></option>
 					<?php } ?>
 				</select>
 
@@ -212,7 +218,7 @@ function eggnews_widgets_show_widget_field( $instance = '', $widget_field = '', 
 				$remove = '<a class="remove-image">' . esc_html__( 'Remove', 'eggnews' ) . '</a>';
 				$image  = preg_match( '/(^.*\.jpg|jpeg|png|gif|ico*)/i', $value );
 				if ( $image ) {
-					$output .= '<img src="' . esc_url($value) . '" alt="' . esc_attr__( 'Upload image', 'eggnews' ) . '" />';
+					$output .= '<img src="' . esc_url( $value ) . '" alt="' . esc_attr__( 'Upload image', 'eggnews' ) . '" />';
 				} else {
 					$parts = explode( "/", $value );
 					for ( $i = 0; $i < sizeof( $parts ); ++ $i ) {
@@ -248,18 +254,28 @@ function eggnews_widgets_updated_field_value( $widget_field, $new_field_value ) 
 		// Allow some tags in textareas
 		case 'textarea':
 			$eggnews_widgets_allowed_tags = array(
-				'p' => array(),
-				'em' => array(),
+				'p'      => array(),
+				'em'     => array(),
 				'strong' => array(),
-				'a' => array(
+				'a'      => array(
 					'href' => array(),
 				),
 			);
+
 			return wp_kses( $new_field_value, $eggnews_widgets_allowed_tags );
 			break;
 		// No allowed tags for all other fields
 		case 'url':
 			return esc_url_raw( $new_field_value );
+			break;
+		case 'select':
+			$is_multiple = isset( $eggnews_widgets_field_multiple ) && $eggnews_widgets_field_multiple ? true : false;
+			if ( $is_multiple ) {
+				$array = array_map( 'sanitize_text_field', wp_unslash( $new_field_value ) );
+				return array_map( 'wp_kses_post', $array );
+			} else {
+				return wp_kses_post( sanitize_text_field( $new_field_value ) );
+			}
 			break;
 		default:
 			return wp_kses_post( sanitize_text_field( $new_field_value ) );
