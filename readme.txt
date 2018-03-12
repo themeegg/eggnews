@@ -2,7 +2,7 @@
 Contributors:       ThemeEgg Team
 Requires at least:  WordPress 4.0
 Tested up to:       WordPress 4.9.4
-Version:            1.4.6
+Version:            1.4.7
 License:            GPLv3 or later
 License URI:        http://www.gnu.org/licenses/gpl-3.0.html
 Tags:               news, grid-layout, custom-colors, one-column, two-columns, three-columns, left-sidebar, right-sidebar, featured-images, footer-widgets, full-width-template, theme-options, translation-ready, rtl-language-support
@@ -65,6 +65,9 @@ Eggnews bundles the following third-party resources:
 
 
 == Changelog ==
+= 1.4.7 - 2018/03/12 =
+	* Added - Feature slider and block layout widgets multiple tag and multiple category filter added   
+	* Fix - Minor design issue fix   
 = 1.4.6 - 2018/03/07 =
 	* Added - Website Skin feature added   
 	* Fix - Carousel swaping issue on mobile fixed   
