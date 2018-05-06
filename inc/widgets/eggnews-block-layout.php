@@ -86,6 +86,18 @@ class Eggnews_Block_Layout extends WP_widget {
 				'eggnews_widgets_default'    => 5,
 				'eggnews_widgets_field_type' => 'number'
 			),
+			'eggnews_block_layout' => array(
+				'eggnews_widgets_name'          => 'eggnews_block_layout',
+				'eggnews_widgets_title'         => __( 'Block Layouts', 'eggnews' ),
+				'eggnews_widgets_default'       => 'layout1',
+				'eggnews_widgets_field_type'    => 'selector',
+				'eggnews_widgets_field_options' => array(
+					'layout1' => esc_url( get_template_directory_uri() . '/assets/images/block-layout1.png' ),
+					'layout2' => esc_url( get_template_directory_uri() . '/assets/images/block-layout2.png' ),
+					'layout3' => esc_url( get_template_directory_uri() . '/assets/images/block-layout3.png' ),
+					'layout4' => esc_url( get_template_directory_uri() . '/assets/images/alternate-block.png' )
+				)
+			),
 
 		);
 
