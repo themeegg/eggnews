@@ -88,7 +88,7 @@ class Eggnews_Block_Layout extends WP_widget {
 			),
 			'eggnews_block_layout' => array(
 				'eggnews_widgets_name'          => 'eggnews_block_layout',
-				'eggnews_widgets_title'         => __( 'Block Layouts', 'eggnews' ),
+				'eggnews_widgets_title'         => __( 'Layout Style', 'eggnews' ),
 				'eggnews_widgets_default'       => 'layout1',
 				'eggnews_widgets_field_type'    => 'selector',
 				'eggnews_widgets_field_options' => array(

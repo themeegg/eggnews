@@ -185,6 +185,26 @@ function eggnews_widgets_show_widget_field( $instance = '', $widget_field = '', 
 			<?php
 			break;
 
+		/**
+		 * Selector field
+		 */
+		case 'selector':
+			if( empty( $eggnews_widget_field_value ) ) {
+				$eggnews_widget_field_value = $eggnews_widgets_default;
+			}
+			?>
+			<p><span class="field-label"><label class="field-title"><?php echo esc_html( $eggnews_widgets_title ); ?></label></span></p>
+			<?php
+			echo '<div class="selector-labels">';
+			foreach ( $eggnews_widgets_field_options as $option => $val ){
+				$class = ( $eggnews_widget_field_value == $option ) ? 'selector-selected': '';
+				echo '<label class="'. esc_attr( $class ).'" data-val="'.esc_attr( $option ).'">';
+				echo '<img src="'.esc_url( $val ).'"/>';
+				echo '</label>';
+			}
+			echo '</div>';
+			echo '<input data-default="'.esc_attr( $eggnews_widget_field_value ).'" type="hidden" value="'.esc_attr( $eggnews_widget_field_value ).'" name="'.esc_attr( $instance->get_field_name( $eggnews_widgets_name ) ).'"/>';
+			break;
 		case 'upload' :
 
 			$output = '';
