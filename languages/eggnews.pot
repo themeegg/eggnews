@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: themeeggofficial@gmail.com\n"
-"POT-Creation-Date: 2018-03-12 13:27:21+00:00\n"
+"POT-Creation-Date: 2018-05-06 10:33:38+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -812,12 +812,12 @@ msgstr ""
 msgid "WPML"
 msgstr ""
 
-#: inc/eggnews-functions.php:28 inc/widgets/eggnews-widget-fields.php:207
+#: inc/eggnews-functions.php:28 inc/widgets/eggnews-widget-fields.php:228
 msgid "Upload"
 msgstr ""
 
-#: inc/eggnews-functions.php:29 inc/widgets/eggnews-widget-fields.php:209
-#: inc/widgets/eggnews-widget-fields.php:218
+#: inc/eggnews-functions.php:29 inc/widgets/eggnews-widget-fields.php:230
+#: inc/widgets/eggnews-widget-fields.php:239
 msgid "Remove"
 msgstr ""
 
@@ -1338,6 +1338,10 @@ msgstr ""
 msgid "Tags Parameters for Block Layout"
 msgstr ""
 
+#: inc/widgets/eggnews-block-layout.php:91
+msgid "Layout Style"
+msgstr ""
+
 #: inc/widgets/eggnews-block-list.php:26
 msgid "Display posts in block list layout"
 msgstr ""
@@ -1475,19 +1479,19 @@ msgstr ""
 msgid "Widget Layout"
 msgstr ""
 
-#: inc/widgets/eggnews-widget-fields.php:204
+#: inc/widgets/eggnews-widget-fields.php:225
 msgid "No file chosen"
 msgstr ""
 
-#: inc/widgets/eggnews-widget-fields.php:212
+#: inc/widgets/eggnews-widget-fields.php:233
 msgid "Upgrade your version of WordPress for full media support."
 msgstr ""
 
-#: inc/widgets/eggnews-widget-fields.php:221
+#: inc/widgets/eggnews-widget-fields.php:242
 msgid "Upload image"
 msgstr ""
 
-#: inc/widgets/eggnews-widget-fields.php:232
+#: inc/widgets/eggnews-widget-fields.php:253
 msgid "View File"
 msgstr ""
 
