@@ -7,7 +7,7 @@
  * @since 1.0.0
  */
 
-function eggnews_widgets_show_widget_field( $instance = '', $widget_field = '', $athm_field_value = '' ) {
+function eggnews_widgets_show_widget_field( $instance = '', $widget_field = '', $teg_field_value = '' ) {
 
 	extract( $widget_field );
 
@@ -22,7 +22,7 @@ function eggnews_widgets_show_widget_field( $instance = '', $widget_field = '', 
 					:</label>
 				<input class="widefat" id="<?php echo esc_attr( $instance->get_field_id( $eggnews_widgets_name ) ); ?>"
 				       name="<?php echo esc_attr( $instance->get_field_name( $eggnews_widgets_name ) ); ?>" type="text"
-				       value="<?php echo esc_html( $athm_field_value ); ?>"/>
+				       value="<?php echo esc_html( $teg_field_value ); ?>"/>
 
 				<?php if ( isset( $eggnews_widgets_description ) ) { ?>
 					<br/>
@@ -41,7 +41,7 @@ function eggnews_widgets_show_widget_field( $instance = '', $widget_field = '', 
 					:</label>
 				<input class="widefat" id="<?php echo esc_attr( $instance->get_field_id( $eggnews_widgets_name ) ); ?>"
 				       name="<?php echo esc_attr( $instance->get_field_name( $eggnews_widgets_name ) ); ?>" type="text"
-				       value="<?php echo esc_html( $athm_field_value ); ?>"/>
+				       value="<?php echo esc_html( $teg_field_value ); ?>"/>
 
 				<?php if ( isset( $eggnews_widgets_description ) ) { ?>
 					<br/>
@@ -57,7 +57,7 @@ function eggnews_widgets_show_widget_field( $instance = '', $widget_field = '', 
 			<p>
 				<input id="<?php echo esc_attr( $instance->get_field_id( $eggnews_widgets_name ) ); ?>"
 				       name="<?php echo esc_attr( $instance->get_field_name( $eggnews_widgets_name ) ); ?>"
-				       type="checkbox" value="1" <?php checked( '1', $athm_field_value ); ?>/>
+				       type="checkbox" value="1" <?php checked( '1', $teg_field_value ); ?>/>
 				<label
 					for="<?php echo esc_attr( $instance->get_field_id( $eggnews_widgets_name ) ); ?>"><?php echo esc_html( $eggnews_widgets_title ); ?></label>
 
@@ -78,15 +78,15 @@ function eggnews_widgets_show_widget_field( $instance = '', $widget_field = '', 
 					:</label>
 				<textarea class="widefat" rows="<?php echo intval( $eggnews_widgets_row ); ?>"
 				          id="<?php echo esc_attr( $instance->get_field_id( $eggnews_widgets_name ) ); ?>"
-				          name="<?php echo esc_attr( $instance->get_field_name( $eggnews_widgets_name ) ); ?>"><?php echo esc_html( $athm_field_value ); ?></textarea>
+				          name="<?php echo esc_attr( $instance->get_field_name( $eggnews_widgets_name ) ); ?>"><?php echo esc_html( $teg_field_value ); ?></textarea>
 			</p>
 			<?php
 			break;
 
 		// Radio fields
 		case 'radio' :
-			if ( empty( $athm_field_value ) ) {
-				$athm_field_value = $eggnews_widgets_default;
+			if ( empty( $teg_field_value ) ) {
+				$teg_field_value = $eggnews_widgets_default;
 			}
 			?>
 			<p>
@@ -100,7 +100,7 @@ function eggnews_widgets_show_widget_field( $instance = '', $widget_field = '', 
 					<input id="<?php echo esc_attr( $instance->get_field_id( $athm_option_name ) ); ?>"
 					       name="<?php echo esc_attr( $instance->get_field_name( $eggnews_widgets_name ) ); ?>"
 					       type="radio"
-					       value="<?php echo esc_html( $athm_option_name ); ?>" <?php checked( $athm_option_name, $athm_field_value ); ?> />
+					       value="<?php echo esc_html( $athm_option_name ); ?>" <?php checked( $athm_option_name, $teg_field_value ); ?> />
 					<label
 						for="<?php echo esc_attr( $instance->get_field_id( $athm_option_name ) ); ?>"><?php echo esc_html( $athm_option_title ); ?>
 						:</label>
@@ -116,8 +116,8 @@ function eggnews_widgets_show_widget_field( $instance = '', $widget_field = '', 
 
 		// Select field
 		case 'select' :
-			if ( empty( $athm_field_value ) ) {
-				$athm_field_value = $eggnews_widgets_default;
+			if ( empty( $teg_field_value ) ) {
+				$teg_field_value = $eggnews_widgets_default;
 			}
 			$is_multiple = isset( $eggnews_widgets_field_multiple ) && $eggnews_widgets_field_multiple ? true : false;
 			?>
@@ -132,10 +132,10 @@ function eggnews_widgets_show_widget_field( $instance = '', $widget_field = '', 
 				        id="<?php echo esc_attr( $instance->get_field_id( $eggnews_widgets_name ) ); ?>"
 				        class="widefat" <?php echo $is_multiple ? 'multiple="multiple"' : ''; ?>>
 					<?php foreach ( $eggnews_widgets_field_options as $athm_option_name => $athm_option_title ) {
-						$athm_field_value_selected = is_array($athm_field_value) ? in_array($athm_option_name, $athm_field_value) ? $athm_option_name : -1 : $athm_field_value;
+						$teg_field_value_selected = is_array($teg_field_value) ? in_array($athm_option_name, $teg_field_value) ? $athm_option_name : -1 : $teg_field_value;
 						?>
 						<option value="<?php echo esc_attr( $athm_option_name ); ?>"
-						        id="<?php echo esc_attr( $instance->get_field_id( $athm_option_name ) ); ?>" <?php selected( $athm_option_name, $athm_field_value_selected); ?>><?php echo esc_html( $athm_option_title ); ?></option>
+						        id="<?php echo esc_attr( $instance->get_field_id( $athm_option_name ) ); ?>" <?php selected( $athm_option_name, $teg_field_value_selected); ?>><?php echo esc_html( $athm_option_title ); ?></option>
 					<?php } ?>
 				</select>
 
@@ -148,8 +148,8 @@ function eggnews_widgets_show_widget_field( $instance = '', $widget_field = '', 
 			break;
 
 		case 'number' :
-			if ( empty( $athm_field_value ) ) {
-				$athm_field_value = $eggnews_widgets_default;
+			if ( empty( $teg_field_value ) ) {
+				$teg_field_value = $eggnews_widgets_default;
 			}
 			?>
 			<p>
@@ -159,7 +159,7 @@ function eggnews_widgets_show_widget_field( $instance = '', $widget_field = '', 
 				<input name="<?php echo esc_attr( $instance->get_field_name( $eggnews_widgets_name ) ); ?>"
 				       type="number" step="1" min="1"
 				       id="<?php echo esc_attr( $instance->get_field_id( $eggnews_widgets_name ) ); ?>"
-				       value="<?php echo esc_html( $athm_field_value ); ?>"/>
+				       value="<?php echo esc_html( $teg_field_value ); ?>"/>
 
 				<?php if ( isset( $eggnews_widgets_description ) ) { ?>
 					<br/>
@@ -189,21 +189,22 @@ function eggnews_widgets_show_widget_field( $instance = '', $widget_field = '', 
 		 * Selector field
 		 */
 		case 'selector':
-			if( empty( $eggnews_widget_field_value ) ) {
-				$eggnews_widget_field_value = $eggnews_widgets_default;
+
+			if( empty( $teg_field_value ) ) {
+				$teg_field_value = $eggnews_widgets_default;
 			}
 			?>
 			<p><span class="field-label"><label class="field-title"><?php echo esc_html( $eggnews_widgets_title ); ?></label></span></p>
 			<?php
 			echo '<div class="selector-labels">';
 			foreach ( $eggnews_widgets_field_options as $option => $val ){
-				$class = ( $eggnews_widget_field_value == $option ) ? 'selector-selected': '';
+				$class = ( $teg_field_value == $option ) ? 'selector-selected': '';
 				echo '<label class="'. esc_attr( $class ).'" data-val="'.esc_attr( $option ).'">';
 				echo '<img src="'.esc_url( $val ).'"/>';
 				echo '</label>';
 			}
 			echo '</div>';
-			echo '<input data-default="'.esc_attr( $eggnews_widget_field_value ).'" type="hidden" value="'.esc_attr( $eggnews_widget_field_value ).'" name="'.esc_attr( $instance->get_field_name( $eggnews_widgets_name ) ).'"/>';
+			echo '<input id="'.esc_attr( $instance->get_field_id( $eggnews_widgets_name ) ).'" data-default="'.esc_attr( $teg_field_value ).'" type="hidden" value="'.esc_attr( $teg_field_value ).'" name="'.esc_attr( $instance->get_field_name( $eggnews_widgets_name ) ).'"/>';
 			break;
 		case 'upload' :
 
@@ -211,7 +212,7 @@ function eggnews_widgets_show_widget_field( $instance = '', $widget_field = '', 
 			$id     = esc_attr( $instance->get_field_id( $eggnews_widgets_name ) );
 			$class  = '';
 			$int    = '';
-			$value  = $athm_field_value;
+			$value  = $teg_field_value;
 			$name   = esc_attr( $instance->get_field_name( $eggnews_widgets_name ) );
 
 			if ( $value ) {

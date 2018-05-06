@@ -21,10 +21,18 @@ jQuery(document).ready(function ($) {
 			var switchVal = $(this).attr('data-switch');
 			obj.children('.switch_part').removeClass('selected');
 			$(this).addClass('selected');
-			
+
 			$(input).val(switchVal).change(); //Finally change the value to 1
 		});
 
+	});
+	$('body').on('click','.selector-labels label', function(){
+		var $this = $(this);
+		var value = $this.attr('data-val');
+		$this.siblings().removeClass('selector-selected');
+		$this.addClass('selector-selected');
+		$this.closest('.selector-labels').next('input').val(value);
+		$this.closest('.selector-labels').next('input').trigger('change');
 	});
 
 	/**
