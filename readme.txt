@@ -68,6 +68,7 @@ Eggnews bundles the following third-party resources:
 = 1.4.8 - 2018/05/06 =
 	* Added - Template for block layout   
 	* Fix - Minor design issue fix   
+	* Update - Bxslider lib updated
 = 1.4.7 - 2018/03/12 =
 	* Added - Feature slider and block layout widgets multiple tag and multiple category filter added   
 	* Fix - Minor design issue fix   
