@@ -308,6 +308,7 @@ class Eggnews_Featured_Slider extends WP_Widget
                             $right_thumbnail_size = 'eggnews-featured-long';
                         }
                         $featured_right_args = eggnews_query_args($eggnews_featured_category_id, $number_of_right_posts, $eggnews_feature_slider_category_parameter, $eggnews_feature_slider_tag_id, $eggnews_feature_slider_tags_parameter);
+                        $featured_right_args['offset'] = $number_of_left_posts;
                         $featured_right_query = new WP_Query($featured_right_args);
                         if ($featured_right_query->have_posts()) {
                             while ($featured_right_query->have_posts()) {
