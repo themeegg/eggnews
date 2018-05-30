@@ -223,7 +223,7 @@ if ( ! class_exists( 'EggNews_Admin' ) ) :
 						<div class="col">
 							<h3><?php esc_html_e( 'Got theme support question?', 'eggnews' ); ?></h3>
 							<p><?php esc_html_e( 'Please put it in our dedicated support forum.', 'eggnews' ) ?></p>
-							<p><a href="<?php echo esc_url( 'http://support.themeegg.com' ); ?>"
+							<p><a href="<?php echo esc_url( 'https://themeegg.com/support-forum' ); ?>"
 							      class="button button-secondary"><?php esc_html_e( 'Support', 'eggnews' ); ?></a></p>
 						</div>
 
