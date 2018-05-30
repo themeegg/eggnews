@@ -1587,6 +1587,62 @@ footer#colophon .eggnews-carousel h3 a {
 .header-ads-wrapper {
   max-width: 100%; }
 
+.te-slider-layout.right .teg-featured-slider-wrapper {
+  float: right;
+  margin-right: 0;
+  margin-left: 0; }
+
+.te-slider-layout.right .featured-post-wrapper {
+  float: left; }
+
+.te-slider-layout.center .featured-post-wrapper {
+  float: none;
+  margin: 0;
+  width: 100%;
+  max-width: 100%; }
+  .te-slider-layout.center .featured-post-wrapper .teg-featured-slider-wrapper {
+    float: left;
+    margin: 0 0.8%;
+    width: 50.2%; }
+    @media (max-width: 797px) {
+      .te-slider-layout.center .featured-post-wrapper .teg-featured-slider-wrapper {
+        width: 100%;
+        margin: 0 0 10px; } }
+  .te-slider-layout.center .featured-post-wrapper .featured-left-section {
+    float: left; }
+  .te-slider-layout.center .featured-post-wrapper .featured-right-section {
+    float: right; }
+  .te-slider-layout.center .featured-post-wrapper .featured-left-section,
+  .te-slider-layout.center .featured-post-wrapper .featured-right-section {
+    width: 24.1%;
+    margin: 0; }
+    @media (max-width: 797px) and (min-width: 480px) {
+      .te-slider-layout.center .featured-post-wrapper .featured-left-section,
+      .te-slider-layout.center .featured-post-wrapper .featured-right-section {
+        width: auto;
+        margin: 0 -5px; }
+        .te-slider-layout.center .featured-post-wrapper .featured-left-section .single-featured-wrap,
+        .te-slider-layout.center .featured-post-wrapper .featured-right-section .single-featured-wrap {
+          width: 48%;
+          width: calc( 50% - 10px);
+          float: left;
+          margin: 0 5px 10px; } }
+    @media (max-width: 480px) {
+      .te-slider-layout.center .featured-post-wrapper .featured-left-section,
+      .te-slider-layout.center .featured-post-wrapper .featured-right-section {
+        width: 100%; }
+        .te-slider-layout.center .featured-post-wrapper .featured-left-section .single-featured-wrap,
+        .te-slider-layout.center .featured-post-wrapper .featured-right-section .single-featured-wrap {
+          width: 100%;
+          margin-bottom: 10px; } }
+
+.te-slider-layout.slider_only .featured-post-wrapper {
+  display: none; }
+
+.te-slider-layout.slider_only .teg-featured-slider-wrapper {
+  width: 100%;
+  max-width: 100%; }
+
 /*
 
 !*carousel*!

@@ -321,7 +321,78 @@ footer#colophon .eggnews-carousel h3 a {
 
 	max-width:100%;
 }
+.te-slider-layout {
 
+	&.right {
+
+		.teg-featured-slider-wrapper {
+			float: right;
+			margin-right: 0;
+			margin-left: 0;
+		}
+		.featured-post-wrapper {
+			float: left;
+		}
+
+	}
+	&.center {
+		.featured-post-wrapper {
+			float: none;
+			margin: 0;
+			width: 100%;
+			max-width: 100%;
+			.teg-featured-slider-wrapper {
+				float: left;
+				margin:0 0.8%;
+				width: 50.2%;
+				@media(max-width:797px){
+					width:100%;
+					margin:0 0 10px;
+				}
+			}
+			.featured-left-section {
+				float: left;
+			}
+			.featured-right-section {
+				float: right;
+			}
+			.featured-left-section,
+			.featured-right-section{
+				width: 24.1%;
+				margin:0;
+				@media(max-width:797px) and (min-width:480px){
+					width:auto;
+					margin:0 -5px;
+					.single-featured-wrap{
+						width:48%;
+						width:calc( 50% - 10px );
+						float:left;
+						margin:0 5px 10px;
+					}
+				}
+				@media(max-width:480px){
+					width:100%;
+					.single-featured-wrap{
+						width:100%;
+						margin-bottom:10px;
+					}
+				}
+			}
+		}
+
+	}
+	&.slider_only {
+
+		.featured-post-wrapper {
+			display: none;
+		}
+		.teg-featured-slider-wrapper {
+			width: 100%;
+			max-width: 100%;
+		}
+
+	}
+}
 /*
 
 !*carousel*!

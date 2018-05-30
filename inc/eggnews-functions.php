@@ -218,6 +218,21 @@ if ( ! function_exists( 'eggnews_tags_dropdown_parameter' ) ) :
 endif;
 
 
+/*
+ * Feature slider layout
+ */
+if ( ! function_exists( 'eggnews_feature_slider_layout' ) ) :
+
+    function eggnews_feature_slider_layout() {
+        return apply_filters( 'eggnews_feature_slider_layout', array(
+            'left'        => __( 'Left Slider', 'eggnews' ),
+            'right'       => __( 'Right Slider', 'eggnews' ),
+            'center'      => __( 'Center Slider', 'eggnews' ),
+            'slider_only' => __( 'Slider Only', 'eggnews' ),
+        ) );
+    }
+
+endif;
 //no of columns
 $eggnews_grid_columns = array(
 	'1' => esc_html__( 'Select No. of Columns', 'eggnews' ),
