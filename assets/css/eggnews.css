@@ -1150,13 +1150,13 @@ MIDDLE HEADER CSS
 
 .header-ads-wrapper {
   float: right; }
-  .header-ads-wrapper .eggnews-header-google-ads {
+  .header-ads-wrapper.google-adsence {
     max-width: 728px;
     width: 100%;
     min-height: 0px;
     height: auto; }
   @media screen and (max-width: 728px) {
-    .header-ads-wrapper .eggnews-header-google-ads {
+    .header-ads-wrapper.google-adsence {
       text-align: center;
       max-width: 100%; } }
 

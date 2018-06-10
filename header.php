@@ -78,22 +78,17 @@
                     }
                     ?>
                 </div><!-- .site-branding -->
-                <div class="header-ads-wrapper">
-                    <?php
-                    $eggnews_google_ad_option = get_theme_mod('eggnews_google_ad_option', 'disable');
-                    if ($eggnews_google_ad_option === 'enable') {
-                        echo '<div class="eggnews-header-google-ads">';
-                    }
-                    ?>
+                <?php
+                $eggnews_google_ad_option = get_theme_mod('eggnews_google_ad_option', 'disable');
+                ?>
+                <div class="header-ads-wrapper <?php if ($eggnews_google_ad_option === 'enable') {
+                    echo 'google-adsence';
+                } ?>">
                     <?php
                     if (is_active_sidebar('eggnews_header_ads_area')) {
                         if (!dynamic_sidebar('eggnews_header_ads_area')):
                         endif;
-                    }
-                    if ($eggnews_google_ad_option === 'enable') {
-                        echo '</div>';
-                    }
-                    ?>
+                    } ?>
                 </div><!-- .header-ads-wrapper -->
             </div>
         </div><!-- .logo-ads-wrapper -->
