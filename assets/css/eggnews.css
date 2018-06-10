@@ -1150,6 +1150,15 @@ MIDDLE HEADER CSS
 
 .header-ads-wrapper {
   float: right; }
+  .header-ads-wrapper .eggnews-header-google-ads {
+    max-width: 728px;
+    width: 100%;
+    min-height: 0px;
+    height: auto; }
+  @media screen and (max-width: 728px) {
+    .header-ads-wrapper .eggnews-header-google-ads {
+      text-align: center;
+      max-width: 100%; } }
 
 .home .header-ads-wrapper .widget.eggnews_ads_banner {
   margin: 0;
