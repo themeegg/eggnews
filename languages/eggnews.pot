@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: themeeggofficial@gmail.com\n"
-"POT-Creation-Date: 2018-06-10 13:07:00+00:00\n"
+"POT-Creation-Date: 2018-06-10 14:07:20+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -499,7 +499,7 @@ msgstr ""
 #: inc/admin/assets/panels/header-panel.php:233
 msgid ""
 "Enable/disable responsive google ad (adsence) on banner. Please enable only "
-"if you want to show responsive google ad on banner ads section. "
+"if you want to show responsive google ad on banner ads section."
 msgstr ""
 
 #: inc/admin/assets/panels/important-link-panel.php:24
