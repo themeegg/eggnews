@@ -230,7 +230,7 @@ function eggnews_header_settings_register($wp_customize)
             array(
                 'type' => 'switch',
                 'label' => esc_html__('Google Ads', 'eggnews'),
-                'description' => esc_html__('Enable/disable responsive google ad (adsence) on banner. Please enable only if you want to show responsive google ad on banner ads section. ', 'eggnews'),
+                'description' => esc_html__('Enable/disable responsive google ad (adsence) on banner. Please enable only if you want to show responsive google ad on banner ads section.', 'eggnews'),
                 'priority' => 4,
                 'section' => 'eggnews_banner_ads_section',
                 'choices' => array(
