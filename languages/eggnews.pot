@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: themeeggofficial@gmail.com\n"
-"POT-Creation-Date: 2018-06-10 14:07:20+00:00\n"
+"POT-Creation-Date: 2018-07-04 03:19:25+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -186,7 +186,7 @@ msgid "by Tags"
 msgstr ""
 
 #: inc/admin/assets/eggnews-sanitize.php:154
-#: inc/admin/assets/panels/design-panel.php:355
+#: inc/admin/assets/panels/design-panel.php:355 inc/eggnews-functions.php:745
 msgid "Default"
 msgstr ""
 
@@ -352,7 +352,7 @@ msgstr ""
 msgid "Enable/disable related articles section at single post page."
 msgstr ""
 
-#: inc/admin/assets/panels/design-panel.php:190 inc/eggnews-functions.php:616
+#: inc/admin/assets/panels/design-panel.php:190 inc/eggnews-functions.php:637
 msgid "Related Articles"
 msgstr ""
 
@@ -404,6 +404,18 @@ msgstr ""
 msgid "Choose the  skin color for your site."
 msgstr ""
 
+#: inc/admin/assets/panels/design-panel.php:366
+msgid "Title Style"
+msgstr ""
+
+#: inc/admin/assets/panels/design-panel.php:367
+msgid "Design option of title style"
+msgstr ""
+
+#: inc/admin/assets/panels/design-panel.php:383
+msgid "Title design styles"
+msgstr ""
+
 #: inc/admin/assets/panels/general-panel.php:32
 msgid "General Settings"
 msgstr ""
@@ -444,7 +456,7 @@ msgstr ""
 msgid "Enable/disable news ticker at header."
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:71 inc/eggnews-functions.php:120
+#: inc/admin/assets/panels/header-panel.php:71 inc/eggnews-functions.php:124
 msgid "Latest"
 msgstr ""
 
@@ -828,77 +840,85 @@ msgstr ""
 msgid "WPML"
 msgstr ""
 
-#: inc/eggnews-functions.php:28 inc/widgets/eggnews-widget-fields.php:228
+#: inc/eggnews-functions.php:29 inc/widgets/eggnews-widget-fields.php:228
 msgid "Upload"
 msgstr ""
 
-#: inc/eggnews-functions.php:29 inc/widgets/eggnews-widget-fields.php:230
+#: inc/eggnews-functions.php:30 inc/widgets/eggnews-widget-fields.php:230
 #: inc/widgets/eggnews-widget-fields.php:239
 msgid "Remove"
 msgstr ""
 
-#: inc/eggnews-functions.php:177 inc/widgets/eggnews-breaking-news.php:55
+#: inc/eggnews-functions.php:183 inc/widgets/eggnews-breaking-news.php:55
 msgid "Select Category"
 msgstr ""
 
-#: inc/eggnews-functions.php:189
+#: inc/eggnews-functions.php:196
 msgid "Select Tags"
 msgstr ""
 
-#: inc/eggnews-functions.php:200
+#: inc/eggnews-functions.php:208
 msgid "Category in - All post from either or selected category"
 msgstr ""
 
-#: inc/eggnews-functions.php:201
+#: inc/eggnews-functions.php:209
 msgid "Category and - All post that must have all selected category"
 msgstr ""
 
-#: inc/eggnews-functions.php:202
+#: inc/eggnews-functions.php:210
 msgid "Category not in - All posts except selected category"
 msgstr ""
 
-#: inc/eggnews-functions.php:211
+#: inc/eggnews-functions.php:220
 msgid "Tag in - All post from either or selected tag"
 msgstr ""
 
-#: inc/eggnews-functions.php:212
+#: inc/eggnews-functions.php:221
 msgid "Tag and - All post that must have all selected tag"
 msgstr ""
 
-#: inc/eggnews-functions.php:213
+#: inc/eggnews-functions.php:222
 msgid "Tag not in - All posts except selected tag"
 msgstr ""
 
-#: inc/eggnews-functions.php:228
+#: inc/eggnews-functions.php:238
 msgid "Left Slider"
 msgstr ""
 
-#: inc/eggnews-functions.php:229
+#: inc/eggnews-functions.php:239
 msgid "Right Slider"
 msgstr ""
 
-#: inc/eggnews-functions.php:230
+#: inc/eggnews-functions.php:240
 msgid "Center Slider"
 msgstr ""
 
-#: inc/eggnews-functions.php:231
+#: inc/eggnews-functions.php:241
 msgid "Slider Only"
 msgstr ""
 
-#: inc/eggnews-functions.php:238
+#: inc/eggnews-functions.php:248
 msgid "Select No. of Columns"
 msgstr ""
 
-#: inc/eggnews-functions.php:239
+#: inc/eggnews-functions.php:249
 msgid "2 Columns"
 msgstr ""
 
-#: inc/eggnews-functions.php:240
+#: inc/eggnews-functions.php:250
 msgid "3 Columns"
 msgstr ""
 
-#: inc/eggnews-functions.php:241
+#: inc/eggnews-functions.php:251
 msgid "4 Columns"
+msgstr ""
+
+#: inc/eggnews-functions.php:746
+msgid "Line Style"
+msgstr ""
+
+#: inc/eggnews-functions.php:747
+msgid "Plain Style"
 msgstr ""
 
 #: inc/template-tags.php:31

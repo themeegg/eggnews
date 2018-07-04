@@ -357,6 +357,34 @@ function eggnews_design_settings_register( $wp_customize ) {
 			),
 		)
 	);
+    /* --------------------------------------------------------------------------------------------------------------- */
+    /**
+     * Title Style
+     */
+    $wp_customize->add_section(
+        'eggnews_site_title_design', array(
+            'title'       => __( 'Title Style', 'eggnews' ),
+            'description' => __( 'Design option of title style', 'eggnews'),
+            'priority'    => 26,
+            'panel'       => 'eggnews_design_settings_panel',
+        )
+    );
+
+    $wp_customize->add_setting(
+        'site_title_design_options', array(
+            'default'           => 'default',
+            'sanitize_callback' => 'eggnews_sanitize_title_design',
+        )
+    );
+    $wp_customize->add_control(
+        'site_title_design_options', array(
+            'type'     => 'radio',
+            'priority' => 10,
+            'label'    => __( 'Title design styles', 'eggnews' ),
+            'section'  => 'eggnews_site_title_design',
+            'choices'  => eggnews_site_title_design(),
+        )
+    );
 
 
 }

@@ -2,7 +2,7 @@
 Contributors:       ThemeEgg Team
 Requires at least:  WordPress 4.0
 Tested up to:       WordPress 4.9.6
-Version:            1.4.10
+Version:            1.4.11
 License:            GPLv3 or later
 License URI:        http://www.gnu.org/licenses/gpl-3.0.html
 Tags:               news, grid-layout, custom-colors, one-column, two-columns, three-columns, left-sidebar, right-sidebar, featured-images, footer-widgets, full-width-template, theme-options, translation-ready, rtl-language-support
@@ -65,6 +65,8 @@ Eggnews bundles the following third-party resources:
 
 
 == Changelog ==
+= 1.4.11 - 2018/07/04 =
+	* Added - Widget title and title design style added
 = 1.4.10 - 2018/06/10 =
 	* Fix - Google adsence issue fix for banner add
 	* Added - Google adsence option added in customizer

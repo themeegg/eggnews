@@ -75,6 +75,16 @@ if ( ! function_exists( 'eggnews_categories_color' ) ):
 			$teg_dynamic_css .= ".rtl #content .block-header .block-title::after, .rtl #content .related-articles-wrapper .related-title::after, .rtl #content .widget .widget-title::after{border-right-color: " . $teg_theme_color . "}\n";
 		}
 
+        $site_title_design_options = get_theme_mod( 'site_title_design_options', 'default' );
+        if ( $site_title_design_options === 'line' ) {
+            $teg_dynamic_css .= "#content .block-header, #content .related-articles-wrapper .widget-title-wrapper, #content .widget .widget-title-wrapper,
+			 #secondary .block-header, #secondary .widget .widget-title-wrapper, #secondary .related-articles-wrapper .widget-title-wrapper{background:none; background-color:transparent!important}\n";
+        } else if ( $site_title_design_options === 'plain' ) {
+            $teg_dynamic_css .= "#content .block-header, #content .related-articles-wrapper .widget-title-wrapper, #content .widget .widget-title-wrapper,
+			 #secondary .block-header, #secondary .widget .widget-title-wrapper, #secondary .related-articles-wrapper .widget-title-wrapper{background:none; background-color:transparent!important}\n";
+
+            $teg_dynamic_css .= "#content .block-header .block-title:after, #content .related-articles-wrapper .related-title:after, #content .widget .widget-title:after{border:none}\n";
+        }
 		?>
 		<style type="text/css">
 			<?php

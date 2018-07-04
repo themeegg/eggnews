@@ -165,3 +165,13 @@ function eggnews_website_skin_sanitize( $input ) {
 function eggnews_links_sanitize() {
 	return false;
 }
+
+// site title design
+function eggnews_sanitize_title_design( $input ) {
+    $valid_keys = eggnews_site_title_design();
+    if ( array_key_exists( $input, $valid_keys ) ) {
+        return $input;
+    } else {
+        return '';
+    }
+}
