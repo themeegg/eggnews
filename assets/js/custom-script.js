@@ -101,3 +101,12 @@ $(document).ready(function () {
 		i += divs.eq(i).nextUntil(':not(.eggnews_block_column').andSelf().wrapAll('<div class="eggnews_block_column-wrap"> </div>').length;
 	}
 });
+
+   /**                 
+* Preloader Feature                 
+* @package Theme Egg                 
+* @subpackage eggnews               
+* @since  1.4.12 **/
+$(window).load(function(){
+	$('.preloader').fadeOut();
+});

@@ -241,5 +241,39 @@ function eggnews_additional_settings_register( $wp_customize ) {
             'section' => 'eggnews_social_media_section'
         )
     );
+    /**                 
+        * Preload image                
+        * @package Theme Egg                 
+        * @subpackage eggnews               
+        * @since 1.4.12
+        */ 
+        $wp_customize->add_section(
+            'eggnews_preload_section',
+            array(
+                'title'         => esc_html__( 'Website Preloader', 'eggnews' ),
+                'priority'      => 10,
+                'panel'         => 'eggnews_additional_settings_panel',
+            )
+        );
+
+        $wp_customize->add_setting('preloader-section-eggnews', 
+            array(
+                'default' => esc_html__(' ', 'eggnews'),    
+                'sanitize_callback' => 'eggnews_sanitize_text',
+            ));
+
+
+        $wp_customize->add_control(  
+           new WP_Customize_Image_Control(
+            $wp_customize,
+            'preload_section_eggnews', array(
+                'label'      => esc_html__('Upload preload image', 'eggnews' ), 
+                'description' => esc_html__( 'Upload preload image/.gif files.', 'eggnews' ),           
+                'section'    => 'eggnews_preload_section',               
+                'settings'   => 'preloader-section-eggnews',
+                'panel'      => 'eggnews_additional_settings_panel'
+            )       
+        )
+    );
 
 }

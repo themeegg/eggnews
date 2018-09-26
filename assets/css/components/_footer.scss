@@ -75,3 +75,23 @@ footer#colophon {
         border: none;
     }
 }
+
+ /**                 
+* Parallax Feature                 
+* @package Theme Egg                 
+* @subpackage eggnews               
+* @since  1.4.12 **/
+
+.parallax {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0.5px; }
+
+.parallax-content {
+  width: 97%;
+  margin: 0 auto;
+  color: #FFF;
+  padding-top: 5px; }

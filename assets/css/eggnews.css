@@ -1084,6 +1084,30 @@ TOP HEADER CSS
 #wp-custom-header img {
   width: 100%; }
 
+/**                 
+* Preloader Feature                 
+* @package Theme Egg                 
+* @subpackage eggnews               
+* @since  1.4.12 **/
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffffff;
+  z-index: 999999;
+  overflow: hidden; }
+
+.preloader-gif {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -40px 0 0 -40px;
+  background: url("preloader.gif") no-repeat; }
+
 /*--------------------------------------------------------------
 # Social Links CSS
 --------------------------------------------------------------*/
@@ -2236,6 +2260,25 @@ footer#colophon {
   float: right; }
   #footer-navigation ul li:first-child {
     border: none; }
+
+/**                 
+* Parallax Feature                 
+* @package Theme Egg                 
+* @subpackage eggnews               
+* @since  1.4.12 **/
+.parallax {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0.5px; }
+
+.parallax-content {
+  width: 97%;
+  margin: 0 auto;
+  color: #FFF;
+  padding-top: 5px; }
 
 /*--------------------------------------------------------------
 Error 404 css

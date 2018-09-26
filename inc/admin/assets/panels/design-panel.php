@@ -386,5 +386,32 @@ function eggnews_design_settings_register( $wp_customize ) {
         )
     );
 
+    /**                 
+        * Parallax feature               
+        * @package Theme Egg                 
+        * @subpackage eggnews               
+        * @since 1.4.12
+        */ 
 
+		$wp_customize->add_setting(
+			'parallax_footer_eggnews', 
+			array(
+				'default' => esc_html__('Upload Parallax Image ', 'eggnews'),    
+				'sanitize_callback' => 'eggnews_sanitize_text',
+			)
+		);
+
+		$wp_customize->add_control(  
+			new WP_Customize_Image_Control(
+				$wp_customize,
+				'parallax_footer_eggnews', 
+				array(
+					'label'      => esc_html__('Upload Parallax Image', 'eggnews' ),
+					'description' => esc_html__( 'Upload parallax background image.', 'eggnews' ),               
+					'section'    => 'eggnews_footer_widget_section',               
+					'settings'   => 'parallax_footer_eggnews',
+					'panel'      => 'eggnews_design_settings_panel'
+				)       
+			)
+		);
 }

@@ -16,7 +16,24 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
-			<?php get_sidebar( 'footer' ); ?>
+		<?php $parallax_footer = get_theme_mod('parallax_footer_eggnews') ?>
+		<?php if($parallax_footer) { ?>
+			<?php       
+         /**                 
+            * Preload Feature                 
+            * @package Theme Egg                 
+            * @subpackage eggnews                 
+            * @since 1.4.12  
+        */?>
+        <div class="parallax" style='background-image: url("<?php echo esc_url($parallax_footer); ?>");'>
+        	<div class="parallax-content">
+        	<?php } ?>
+        	<?php get_sidebar( 'footer' ); ?>
+        	<?php if($parallax_footer) { ?>
+        	</div>
+        </div>
+    <?php } ?>
+
 			<div id="bottom-footer" class="sub-footer-wrapper clearfix">
 				<div class="teg-container">
 					<div class="site-info">
@@ -36,8 +53,6 @@
 	</footer><!-- #colophon -->
 	<div id="teg-scrollup" class="animated arrow-hide"><i class="fa fa-chevron-up"></i></div>
 </div><!-- #page -->
-
 <?php wp_footer(); ?>
-
 </body>
 </html>

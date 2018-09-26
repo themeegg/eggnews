@@ -65,6 +65,9 @@ Eggnews bundles the following third-party resources:
 
 
 == Changelog ==
+=1.4.12 - 2018/9/24 =
+ 	*Added - Parallax footer feature added
+ 	*Added - Website Preloader added
 = 1.4.11 - 2018/07/04 =
 	* Added - Widget title and title design style added
 = 1.4.10 - 2018/06/10 =
