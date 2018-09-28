@@ -14,7 +14,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   font-weight: inherit;
   margin: 0;
   outline: 0;
-  padding: 0;
   vertical-align: baseline; }
 
 html {
@@ -236,11 +235,11 @@ table {
 th {
   font-weight: bold;
   border: 1px solid #CCC;
-  padding: 5px 10px; }
+  padding: 5px 5px; }
 
 td {
   border: 1px solid #CCC;
-  padding: 5px 10px; }
+  padding: 4px 4px; }
 
 /*--------------------------------------------------------------
 Forms
@@ -2226,12 +2225,19 @@ footer#colophon {
   margin-top: 20px;
   padding: 20px 0 30px; }
 
+.footer-widgets-area .widget {
+  margin-top: 10px;
+  padding: 10px; }
+  .footer-widgets-area .widget .widget {
+    margin: 0 0 25px; }
+
 .teg-footer-widget-wrapper {
   margin-left: -2%; }
 
 #top-footer.column1 .teg-footer-widget, #top-footer.column2 .teg-footer-widget, #top-footer.column3 .teg-footer-widget, #top-footer.column4 .teg-footer-widget {
   float: left;
-  margin-left: 2%; }
+  margin-left: 2%;
+  background: #2c2e34; }
 
 #top-footer.column1 .teg-footer-widget {
   width: 98%; }
@@ -2240,7 +2246,8 @@ footer#colophon {
   width: 48%; }
 
 #top-footer.column3 .teg-footer-widget {
-  width: 31.33%; }
+  width: 31.33%;
+  padding: 10px; }
 
 #top-footer.column4 .teg-footer-widget {
   width: 23%; }

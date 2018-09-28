@@ -32,7 +32,7 @@ $eggnews_footer_layout = get_theme_mod( 'footer_widget_option', 'column3' );
                 			endif;
             			?>
             		</div>
-        		<?php if( $eggnews_footer_layout != 'column1' ){ ?>
+        		    <?php if( $eggnews_footer_layout != 'column1' ){ ?>
                     <div class="teg-second-footer-widget teg-footer-widget">
             			<?php
                 			if ( !dynamic_sidebar( 'eggnews_footer_two' ) ):
