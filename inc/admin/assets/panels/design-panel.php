@@ -395,8 +395,7 @@ function eggnews_design_settings_register( $wp_customize ) {
 
 		$wp_customize->add_setting(
 			'parallax_footer_eggnews', 
-			array(
-				'default' => esc_html__('Upload Parallax Image ', 'eggnews'),    
+			array( 
 				'sanitize_callback' => 'eggnews_sanitize_text',
 			)
 		);
