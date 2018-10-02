@@ -1,7 +1,7 @@
 === Eggnews ===
 Contributors:       ThemeEgg Team
 Requires at least:  WordPress 4.0
-Tested up to:       WordPress 4.9.6
+Tested up to:       WordPress 4.9.8
 Version:            1.4.12
 License:            GPLv3 or later
 License URI:        http://www.gnu.org/licenses/gpl-3.0.html
@@ -65,7 +65,7 @@ Eggnews bundles the following third-party resources:
 
 
 == Changelog ==
-=Version-1.4.12 - 2018/9/24 =
+=Version-1.4.12 - 2018/10/02 =
  	*Added - Parallax footer feature added
  	*Added - Website Preloader added
  	*Fix   - Calender widget design issue fixed  
