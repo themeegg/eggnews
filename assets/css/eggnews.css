@@ -13,6 +13,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   font-style: inherit;
   font-weight: inherit;
   margin: 0;
+  padding: 0;
   outline: 0;
   vertical-align: baseline; }
 
@@ -1104,8 +1105,7 @@ TOP HEADER CSS
   position: absolute;
   top: 50%;
   left: 50%;
-  margin: -40px 0 0 -40px;
-  background: url("preloader.gif") no-repeat; }
+  margin: -40px 0 0 -40px; }
 
 /*--------------------------------------------------------------
 # Social Links CSS

@@ -22,25 +22,22 @@
 </head>
 
 <body <?php body_class(); ?>>
-<?php do_action('eggnews_before_page'); ?>
-<?php $preload_section = get_theme_mod('preloader-section-eggnews') ?> 
-    <?php if($preload_section) { ?>
-        <?php       
-         /**                 
-            * Preload Feature                 
-            * @package Theme Egg                 
-            * @subpackage eggnews                 
-            * @since 1.4.12  
-        */?>
-          
-        <div class="preloader">
-            <div class="preloader-gif"> 
-                <img src="<?php echo esc_url($preload_section); ?>" >
-            </div>
+<?php do_action('eggnews_before_page');
+$preload_section = get_theme_mod('eggnews_preloader_section_option', '');
+if (!empty($preload_section)) {
+    /**
+     * Preload Feature
+     * @package Theme Egg
+     * @subpackage eggnews
+     * @since 1.4.12
+     */ ?>
+    <div class="preloader">
+        <div class="preloader-gif">
+            <img src="<?php echo esc_url($preload_section); ?>">
         </div>
-        <?php } ?>
-
-    <div id="page" class="site">
+    </div>
+<?php } ?>
+<div id="page" class="site">
     <?php do_action('eggnews_before_header'); ?>
     <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e('Skip to content', 'eggnews'); ?></a>
     <header id="masthead" class="site-header">

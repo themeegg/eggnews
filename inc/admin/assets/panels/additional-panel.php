@@ -241,12 +241,12 @@ function eggnews_additional_settings_register( $wp_customize ) {
             'section' => 'eggnews_social_media_section'
         )
     );
-    /**                 
-        * Preload image                
-        * @package Theme Egg                 
-        * @subpackage eggnews               
+    /**
+        * Preload image
+        * @package Theme Egg
+        * @subpackage eggnews
         * @since 1.4.12
-        */ 
+        */
         $wp_customize->add_section(
             'eggnews_preload_section',
             array(
@@ -256,23 +256,20 @@ function eggnews_additional_settings_register( $wp_customize ) {
             )
         );
 
-        $wp_customize->add_setting('preloader-section-eggnews', 
+        $wp_customize->add_setting('eggnews_preloader_section_option',
             array(
-                'default' => esc_html__(' ', 'eggnews'),    
-                'sanitize_callback' => 'eggnews_sanitize_text',
+                'sanitize_callback' => 'esc_url',
             ));
 
 
-        $wp_customize->add_control(  
+        $wp_customize->add_control(
            new WP_Customize_Image_Control(
             $wp_customize,
-            'preload_section_eggnews', array(
-                'label'      => esc_html__('Upload preload image', 'eggnews' ), 
-                'description' => esc_html__( 'Upload preload image/.gif files.', 'eggnews' ),           
-                'section'    => 'eggnews_preload_section',               
-                'settings'   => 'preloader-section-eggnews',
-                'panel'      => 'eggnews_additional_settings_panel'
-            )       
+            'eggnews_preloader_section_option', array(
+                'label'      => esc_html__('Upload preload image', 'eggnews' ),
+                'description' => esc_html__( 'Upload preload image/.gif files.', 'eggnews' ),
+                'section'    => 'eggnews_preload_section',
+            )
         )
     );
 
