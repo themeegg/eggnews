@@ -2,95 +2,102 @@
 Footer CSS
 --------------------------------------------------------------*/
 footer#colophon {
-    background: $footer_background;
+  background: $footer_background;
+  color: $footer_color;
+  clear: both;
+  a {
     color: $footer_color;
-    clear:both;
-    a {
-        color: $footer_color;
-        text-shadow: none;
-        font-weight: normal;
-        &:hover {
+    text-shadow: none;
+    font-weight: normal;
+    &:hover {
 
-            color: $primary_color;
-        }
+      color: $primary_color;
     }
-    h1, h2, h3, h4, h5, h6 {
-        color: inherit;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: inherit;
 
-    }
-    .widget_archive a, .widget_categories a, .widget_meta a, .widget_nav_menu li a, .widget_pages li a, .widget_recent_comments li, .widget_recent_entries a, .widget_rss li {
+  }
+  .widget_archive a, .widget_categories a, .widget_meta a, .widget_nav_menu li a, .widget_pages li a, .widget_recent_comments li, .widget_recent_entries a, .widget_rss li {
 
-        color: inherit;
-    }
+    color: inherit;
+  }
 
-    .tagcloud a:hover {
-        color: $white_color;
-    }
+  .tagcloud a:hover {
+    color: $white_color;
+  }
 }
 
 #top-footer {
-    margin-top: 20px;
-    padding: 20px 0 30px;
-    
-}
-.footer-widgets-area .widget{
-    margin-top:10px;
-    padding:10px;
-.widget{
-    margin:0 0 25px;
-}
+  margin-top: 20px;
+  padding: 20px 0 30px;
 
 }
+
+.footer-widgets-area .widget {
+  margin-top: 10px;
+  padding: 10px;
+  .widget {
+    margin: 0 0 25px;
+  }
+
+}
+
 .teg-footer-widget-wrapper {
-    margin-left: -2%;
+  margin-left: -2%;
 }
 
 #top-footer {
-    &.column1 .teg-footer-widget, &.column2 .teg-footer-widget, &.column3 .teg-footer-widget, &.column4 .teg-footer-widget {
-        float: left;
-        margin-left: 2%;
-       background: #2c2e34; 
-    }
-    &.column1 .teg-footer-widget {
-        width: 98%;
-        
+  &.column1 .teg-footer-widget, &.column2 .teg-footer-widget, &.column3 .teg-footer-widget, &.column4 .teg-footer-widget {
+    float: left;
+    margin-left: 2%;
+  }
+  &.column1 .teg-footer-widget {
+    width: 98%;
 
+  }
+  &.column2 .teg-footer-widget {
+    width: 48%;
+
+  }
+  &.column3 .teg-footer-widget {
+    width: 31.33%;
+  }
+  &.column4 .teg-footer-widget {
+    width: 23%;
+
+  }
+  .block-header, .widget .widget-title-wrapper, .block-header .block-title, .widget .widget-title {
+    background: none;
+    border-bottom: none;
+  }
+}
+.parallax {
+  #top-footer {
+    &.column1 .teg-footer-widget, &.column2 .teg-footer-widget, &.column3 .teg-footer-widget, &.column4 .teg-footer-widget {
+      background: #2c2e34;
+      padding: 10px;
     }
-    &.column2 .teg-footer-widget { 
-        width: 48%;
-        
-    }
-    &.column3 .teg-footer-widget {
-        width: 31.33%;
-        padding: 10px;
-    }
-    &.column4 .teg-footer-widget {
-        width: 23%;
-        
-    }
-    .block-header, .widget .widget-title-wrapper, .block-header .block-title, .widget .widget-title {
-        background: none;
-        border-bottom: none;
-    }
+  }
 }
 
 #bottom-footer {
-    background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
-    font-size: 13px;
-    padding: 8px 0;
-    .site-info {
-        float: left;
-    }
+  background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+  font-size: 13px;
+  padding: 8px 0;
+  .site-info {
+    float: left;
+  }
 }
 
 #footer-navigation {
-    float: right;
-    ul li:first-child {
-        border: none;
-    }
+  float: right;
+  ul li:first-child {
+    border: none;
+  }
 }
 
- /**                 
+/**
 * Parallax Feature                 
 * @package Theme Egg                 
 * @subpackage eggnews               
@@ -102,11 +109,13 @@ footer#colophon {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 0.5px; }
+  margin-top: 0.5px;
+}
 
 .parallax-content {
   width: 97%;
   margin: 0 auto;
   color: #FFF;
-  padding-top: 5px; }
+  padding-top: 5px;
+}
 
