@@ -16,8 +16,8 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
-		<?php $parallax_footer = get_theme_mod('parallax_footer_eggnews') ?>
-		<?php if($parallax_footer) { ?>
+		<?php $parallax_footer = get_theme_mod('parallax_footer_eggnews', '') ?>
+		<?php if(!empty($parallax_footer)) { ?>
 			<?php       
          /**                 
             * Preload Feature                 
