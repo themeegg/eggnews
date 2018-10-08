@@ -1417,7 +1417,7 @@ SLIDER CSS
   background: rgba(0, 0, 0, 0.6);
   bottom: 0;
   left: 0;
-  padding: 4px;
+  padding: 10px;
   position: absolute;
   width: 100%; }
   .teg-slider-section .slider-content-wrapper .byline:hover, .teg-slider-section .slider-content-wrapper .posted-on:hover, .teg-slider-section .slider-content-wrapper .comments-link:hover, .featured-post-wrapper .single-featured-wrap .featured-content-wrapper .byline:hover, .featured-post-wrapper .single-featured-wrap .featured-content-wrapper .posted-on:hover, .featured-post-wrapper .single-featured-wrap .featured-content-wrapper .comments-link:hover, .eggnews_block_grid .post-content-wrapper .byline:hover, .eggnews_block_grid .post-content-wrapper .posted-on:hover, .eggnews_block_grid .post-content-wrapper .comments-link:hover {
