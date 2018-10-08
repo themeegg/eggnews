@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: themeeggofficial@gmail.com\n"
-"POT-Creation-Date: 2018-07-04 03:19:25+00:00\n"
+"POT-Creation-Date: 2018-10-08 09:05:57+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -63,11 +63,11 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
-#: footer.php:23 inc/admin/assets/panels/design-panel.php:313
+#: footer.php:40 inc/admin/assets/panels/design-panel.php:313
 msgid "2017 eggnews"
 msgstr ""
 
-#: footer.php:28
+#: footer.php:45
 #. translators: %s: theme author
 msgid "Eggnews by %1$s."
 msgstr ""
@@ -84,7 +84,7 @@ msgstr ""
 msgid "Footer Menu"
 msgstr ""
 
-#: header.php:28
+#: header.php:42
 msgid "Skip to content"
 msgstr ""
 
@@ -302,6 +302,18 @@ msgstr ""
 msgid "Your Instagram Account URL"
 msgstr ""
 
+#: inc/admin/assets/panels/additional-panel.php:253
+msgid "Website Preloader"
+msgstr ""
+
+#: inc/admin/assets/panels/additional-panel.php:269
+msgid "Upload preload image"
+msgstr ""
+
+#: inc/admin/assets/panels/additional-panel.php:270
+msgid "Upload preload image/.gif files."
+msgstr ""
+
 #: inc/admin/assets/panels/design-panel.php:23
 msgid "Design Settings"
 msgstr ""
@@ -414,6 +426,14 @@ msgstr ""
 
 #: inc/admin/assets/panels/design-panel.php:383
 msgid "Title design styles"
+msgstr ""
+
+#: inc/admin/assets/panels/design-panel.php:408
+msgid "Upload Parallax Image"
+msgstr ""
+
+#: inc/admin/assets/panels/design-panel.php:409
+msgid "Upload parallax background image."
 msgstr ""
 
 #: inc/admin/assets/panels/general-panel.php:32
