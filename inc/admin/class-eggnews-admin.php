@@ -112,7 +112,7 @@ if ( ! class_exists( 'EggNews_Admin' ) ) :
 		 */
 		private function intro() {
 			global $eggnews_version;
-			$theme = wp_get_theme( get_template() );
+			$theme = wp_get_theme( get_stylesheet() );
 
 			// Drop minor version if 0
 			$major_version = substr( $eggnews_version, 0, 3 );
