@@ -161,6 +161,21 @@ function eggnews_website_skin_sanitize( $input ) {
 	}
 }
 
+//site date format design 
+function eggnews_sanitize_date_format( $input){
+	$valid_keys = array(
+		'l, F d, Y' => esc_html__( 'Format 1 (default)', 'eggnews' ),
+		'l, Y, F d' => esc_html__( 'Format 2', 'eggnews' ),
+		'Y, F d, l' => esc_html__( 'Format 3', 'eggnews' ),
+	);
+	if ( array_key_exists( $input, $valid_keys ) ) {
+		return $input;
+	} else {
+		return '';
+	}
+}
+
+
 // sanitization of links
 function eggnews_links_sanitize() {
 	return false;

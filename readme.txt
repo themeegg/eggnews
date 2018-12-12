@@ -1,8 +1,8 @@
 === Eggnews ===
 Contributors:       ThemeEgg Team
 Requires at least:  WordPress 4.0
-Tested up to:       WordPress 4.9.8
-Version:            1.4.13
+Tested up to:       WordPress 5.0
+Version:            1.4.14
 License:            GPLv3 or later
 License URI:        http://www.gnu.org/licenses/gpl-3.0.html
 Tags:               news, grid-layout, custom-colors, one-column, two-columns, three-columns, left-sidebar, right-sidebar, featured-images, footer-widgets, full-width-template, theme-options, translation-ready, rtl-language-support
@@ -65,6 +65,9 @@ Eggnews bundles the following third-party resources:
 
 
 == Changelog ==
+=1.4.14 - 2018/12/11 =
+   * Added -  Date format change option added on top header section in customizer
+   * Fix   -  Post design layout issue fixed 	
 =1.4.13 - 2018/10/08 =
  	*Fix   - Footer background and padding issue fix
 =1.4.12 - 2018/10/08 =

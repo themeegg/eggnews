@@ -90,21 +90,44 @@ add_action('wp_enqueue_scripts', 'eggnews_scripts');
 
 /*------------------------------------------------------------------------------------------------*/
 /**
- * Current date at top header
+ * Current date at top header with date format option
+    * @package Theme Egg                 
+    * @subpackage eggnews                
+    * @since 1.4.14
  */
 add_action('eggnews_current_date', 'eggnews_current_date_hook');
 if (!function_exists('eggnews_current_date_hook')):
     function eggnews_current_date_hook()
     {
-        $date_option = get_theme_mod('eggnews_header_date', 'enable');
-        if ($date_option != 'disable') {
-            ?>
-            <div class="date-section">
-                <?php echo esc_html(date_i18n('l, F d, Y')); ?>
-            </div>
-            <?php
+       $hide_date = get_theme_mod( 'eggnews_hide_top_header_date', '0' );
+        if ( $hide_date ) {
+            return;
         }
-    }
+
+        $date_option = get_theme_mod( 'eggnews_header_date', 'enable' );
+        if ( $date_option != 'disable' ) {
+            ?>
+            
+            <?php 
+        }
+            
+        if ($date_option != 'disable'){ ?>
+            <div class="date-section"> <?php
+            $date_format_option = get_theme_mod( 'eggnews_date_format_option', 'l, F d, Y');
+            switch($date_format_option) {
+                case 'l, F d, Y':
+                echo esc_html( date_i18n( 'l, F d, Y' ) );
+                break;
+
+                case 'l, Y, F d':
+                echo esc_html( date_i18n( 'l, Y, F d' ) );
+                break;
+
+                default:
+                echo esc_html( date_i18n( 'Y, F d, l' ) );
+            } ?></div>  <?php
+        }   
+}   
 endif;
 
 /*------------------------------------------------------------------------------------------------*/

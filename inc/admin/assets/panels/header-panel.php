@@ -137,6 +137,33 @@ function eggnews_header_settings_register($wp_customize)
         )
     );
 
+    /**                 
+        * Date format option
+        * @package Theme Egg                 
+        * @subpackage eggnews                
+        * @since 1.4.14
+    */ 
+    $wp_customize->add_setting(
+        'eggnews_date_format_option', array(
+        'sanitize_callback' => 'eggnews_sanitize_date_format',
+        )
+    );
+    $wp_customize->add_control(
+        'eggnews_date_format_option', array(
+            'type'        => 'radio',
+            'label'       =>esc_html__( 'Current Date Format Style Options', 'eggnews' ),
+            'description' => esc_html__( 'Choose available format for date format style.', 'eggnews' ),
+            'section'     => 'eggnews_top_header_section',
+            'choices'     => array(
+                'l, F d, Y' => esc_html__( 'Format 1 (dd,mm,yy)', 'eggnews' ),
+                'l, Y, F d' => esc_html__( 'Format 2 (dd,yy,mm)', 'eggnews' ),
+                'Y, F d, l' => esc_html__( 'Format 3 (yy,mm,dd)', 'eggnews' ),
+            ),
+            'priority'    => 4
+        )
+    );
+
+
     // Option about top header social icons
     $wp_customize->add_setting(
         'eggnews_header_social_option',
