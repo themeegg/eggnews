@@ -66,8 +66,8 @@ Eggnews bundles the following third-party resources:
 
 == Changelog ==
 =1.4.14 - 2018/12/11 =
-    * Added -  Date format change option added on top header section in customizer
-    * Fix   -  Post design layout issue fixed 	
+     * Added -  Date format change option added on top header section in customizer
+     * Fix   -  Post design layout issue fixed 	
 =1.4.13 - 2018/10/08 =
  	*Fix   - Footer background and padding issue fix
 =1.4.12 - 2018/10/08 =

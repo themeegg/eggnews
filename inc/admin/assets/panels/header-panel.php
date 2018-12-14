@@ -152,7 +152,7 @@ function eggnews_header_settings_register($wp_customize)
         'eggnews_date_format_option', array(
             'type'        => 'radio',
             'label'       =>esc_html__( 'Current Date Format Style Options', 'eggnews' ),
-            'description' => esc_html__( 'Choose available format for date format style.', 'eggnews' ),
+            'description' => esc_html__( 'Choose available format for date format style. (functions only if current date option is enabled)', 'eggnews' ),
             'section'     => 'eggnews_top_header_section',
             'choices'     => array(
                 'l, F d, Y' => esc_html__( 'Format 1 (dd,mm,yy)', 'eggnews' ),
