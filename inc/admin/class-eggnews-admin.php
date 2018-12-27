@@ -31,7 +31,7 @@ if ( ! class_exists( 'EggNews_Admin' ) ) :
 		 * Add admin menu.
 		 */
 		public function admin_menu() {
-			$theme = wp_get_theme( get_template() );
+			$theme = wp_get_theme( get_stylesheet() );
 
 			$page = add_theme_page( esc_html__( 'About', 'eggnews' ) . ' ' . $theme->display( 'Name' ), esc_html__( 'About', 'eggnews' ) . ' ' . $theme->display( 'Name' ), 'activate_plugins', 'eggnews-welcome', array(
 				$this,
