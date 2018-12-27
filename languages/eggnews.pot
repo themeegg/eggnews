@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: themeeggofficial@gmail.com\n"
-"POT-Creation-Date: 2018-10-08 09:05:57+00:00\n"
+"POT-Creation-Date: 2018-12-27 12:05:23+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -109,9 +109,9 @@ msgstr ""
 #: inc/admin/assets/panels/design-panel.php:179
 #: inc/admin/assets/panels/header-panel.php:59
 #: inc/admin/assets/panels/header-panel.php:133
-#: inc/admin/assets/panels/header-panel.php:160
-#: inc/admin/assets/panels/header-panel.php:198
-#: inc/admin/assets/panels/header-panel.php:237
+#: inc/admin/assets/panels/header-panel.php:187
+#: inc/admin/assets/panels/header-panel.php:225
+#: inc/admin/assets/panels/header-panel.php:264
 msgid "Enable"
 msgstr ""
 
@@ -119,9 +119,9 @@ msgstr ""
 #: inc/admin/assets/panels/design-panel.php:180
 #: inc/admin/assets/panels/header-panel.php:60
 #: inc/admin/assets/panels/header-panel.php:134
-#: inc/admin/assets/panels/header-panel.php:161
-#: inc/admin/assets/panels/header-panel.php:199
-#: inc/admin/assets/panels/header-panel.php:238
+#: inc/admin/assets/panels/header-panel.php:188
+#: inc/admin/assets/panels/header-panel.php:226
+#: inc/admin/assets/panels/header-panel.php:265
 msgid "Disable"
 msgstr ""
 
@@ -186,13 +186,25 @@ msgid "by Tags"
 msgstr ""
 
 #: inc/admin/assets/eggnews-sanitize.php:154
-#: inc/admin/assets/panels/design-panel.php:355 inc/eggnews-functions.php:745
+#: inc/admin/assets/panels/design-panel.php:355 inc/eggnews-functions.php:768
 msgid "Default"
 msgstr ""
 
 #: inc/admin/assets/eggnews-sanitize.php:155
 #: inc/admin/assets/panels/design-panel.php:356
 msgid "Dark Skin"
+msgstr ""
+
+#: inc/admin/assets/eggnews-sanitize.php:167
+msgid "Format 1 (default)"
+msgstr ""
+
+#: inc/admin/assets/eggnews-sanitize.php:168
+msgid "Format 2"
+msgstr ""
+
+#: inc/admin/assets/eggnews-sanitize.php:169
+msgid "Format 3"
 msgstr ""
 
 #: inc/admin/assets/metaboxes/eggnews-post-metabox.php:14
@@ -364,7 +376,7 @@ msgstr ""
 msgid "Enable/disable related articles section at single post page."
 msgstr ""
 
-#: inc/admin/assets/panels/design-panel.php:190 inc/eggnews-functions.php:637
+#: inc/admin/assets/panels/design-panel.php:190 inc/eggnews-functions.php:660
 msgid "Related Articles"
 msgstr ""
 
@@ -476,7 +488,7 @@ msgstr ""
 msgid "Enable/disable news ticker at header."
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:71 inc/eggnews-functions.php:124
+#: inc/admin/assets/panels/header-panel.php:71 inc/eggnews-functions.php:147
 msgid "Latest"
 msgstr ""
 
@@ -500,35 +512,57 @@ msgstr ""
 msgid "Enable/disable current date from top header."
 msgstr ""
 
+#: inc/admin/assets/panels/header-panel.php:154
+msgid "Current Date Format Style Options"
+msgstr ""
+
 #: inc/admin/assets/panels/header-panel.php:155
+msgid ""
+"Choose available format for date format style. (functions only if current "
+"date option is enabled)"
+msgstr ""
+
+#: inc/admin/assets/panels/header-panel.php:158
+msgid "Format 1 (dd,mm,yy)"
+msgstr ""
+
+#: inc/admin/assets/panels/header-panel.php:159
+msgid "Format 2 (dd,yy,mm)"
+msgstr ""
+
+#: inc/admin/assets/panels/header-panel.php:160
+msgid "Format 3 (yy,mm,dd)"
+msgstr ""
+
+#: inc/admin/assets/panels/header-panel.php:182
 msgid "Social Icon Option"
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:156
+#: inc/admin/assets/panels/header-panel.php:183
 msgid "Enable/disable social icons from top header (right)."
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:173
+#: inc/admin/assets/panels/header-panel.php:200
 msgid "Sticky Menu"
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:193
+#: inc/admin/assets/panels/header-panel.php:220
 msgid "Menu Sticky"
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:194
+#: inc/admin/assets/panels/header-panel.php:221
 msgid "Enable/disable option for Menu Sticky"
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:212
+#: inc/admin/assets/panels/header-panel.php:239
 msgid "Banner Ads Section"
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:232
+#: inc/admin/assets/panels/header-panel.php:259
 msgid "Google Ads"
 msgstr ""
 
-#: inc/admin/assets/panels/header-panel.php:233
+#: inc/admin/assets/panels/header-panel.php:260
 msgid ""
 "Enable/disable responsive google ad (adsence) on banner. Please enable only "
 "if you want to show responsive google ad on banner ads section."
@@ -869,75 +903,75 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
-#: inc/eggnews-functions.php:183 inc/widgets/eggnews-breaking-news.php:55
+#: inc/eggnews-functions.php:206 inc/widgets/eggnews-breaking-news.php:55
 msgid "Select Category"
 msgstr ""
 
-#: inc/eggnews-functions.php:196
+#: inc/eggnews-functions.php:219
 msgid "Select Tags"
 msgstr ""
 
-#: inc/eggnews-functions.php:208
+#: inc/eggnews-functions.php:231
 msgid "Category in - All post from either or selected category"
 msgstr ""
 
-#: inc/eggnews-functions.php:209
+#: inc/eggnews-functions.php:232
 msgid "Category and - All post that must have all selected category"
 msgstr ""
 
-#: inc/eggnews-functions.php:210
+#: inc/eggnews-functions.php:233
 msgid "Category not in - All posts except selected category"
 msgstr ""
 
-#: inc/eggnews-functions.php:220
+#: inc/eggnews-functions.php:243
 msgid "Tag in - All post from either or selected tag"
 msgstr ""
 
-#: inc/eggnews-functions.php:221
+#: inc/eggnews-functions.php:244
 msgid "Tag and - All post that must have all selected tag"
 msgstr ""
 
-#: inc/eggnews-functions.php:222
+#: inc/eggnews-functions.php:245
 msgid "Tag not in - All posts except selected tag"
 msgstr ""
 
-#: inc/eggnews-functions.php:238
+#: inc/eggnews-functions.php:261
 msgid "Left Slider"
 msgstr ""
 
-#: inc/eggnews-functions.php:239
+#: inc/eggnews-functions.php:262
 msgid "Right Slider"
 msgstr ""
 
-#: inc/eggnews-functions.php:240
+#: inc/eggnews-functions.php:263
 msgid "Center Slider"
 msgstr ""
 
-#: inc/eggnews-functions.php:241
+#: inc/eggnews-functions.php:264
 msgid "Slider Only"
 msgstr ""
 
-#: inc/eggnews-functions.php:248
+#: inc/eggnews-functions.php:271
 msgid "Select No. of Columns"
 msgstr ""
 
-#: inc/eggnews-functions.php:249
+#: inc/eggnews-functions.php:272
 msgid "2 Columns"
 msgstr ""
 
-#: inc/eggnews-functions.php:250
+#: inc/eggnews-functions.php:273
 msgid "3 Columns"
 msgstr ""
 
-#: inc/eggnews-functions.php:251
+#: inc/eggnews-functions.php:274
 msgid "4 Columns"
 msgstr ""
 
-#: inc/eggnews-functions.php:746
+#: inc/eggnews-functions.php:769
 msgid "Line Style"
 msgstr ""
 
-#: inc/eggnews-functions.php:747
+#: inc/eggnews-functions.php:770
 msgid "Plain Style"
 msgstr ""
 
